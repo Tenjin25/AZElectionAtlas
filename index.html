@@ -12,7 +12,7 @@
       right: 8px !important;
       z-index: 10002 !important;
       font-size: 20px !important;
-      background: #2563eb !important;
+      background: var(--az-control-active) !important;
       color: #fff !important;
       border-radius: 8px !important;
       min-width: 44px !important;
@@ -1275,8 +1275,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 }
 .main-controls input[type="search"]:focus,
 .main-controls input[type="text"]:focus {
-  border-color: #2563eb;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+  border-color: var(--az-copper);
+  box-shadow: 0 0 0 3px rgba(198, 91, 61, 0.18);
 }
 /* Mobile: Full-width controls at top */
 @media (max-width: 768px) {
@@ -9252,6 +9252,322 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     }
   }
     
+
+  /* Arizona UI theme override
+     Replaces inherited Carolina-blue interface accents only.
+     Election result colors (Dem/Rep, margins, shifts, flips) remain unchanged. */
+  :root {
+    --az-copper: #c65b3d;
+    --az-copper-deep: #913829;
+    --az-sunset: #d88950;
+    --az-sand: #e7c79d;
+    --az-cream: #fff8ed;
+    --az-cream-2: #f7eddf;
+    --az-turquoise: #2f6f78;
+    --az-turquoise-deep: #174a57;
+    --az-night: #182c37;
+    --state-blue: var(--az-turquoise);
+    --state-blue-strong: var(--az-turquoise-deep);
+    --state-red: var(--az-copper);
+    --state-red-strong: var(--az-copper-deep);
+    --state-ribbon: linear-gradient(92deg, #913829 0%, #c65b3d 24%, #e7c79d 49%, #f7eddf 53%, #4f8a91 77%, #174a57 100%);
+    --state-accent-gradient: linear-gradient(135deg, #a84431 0%, #c86b42 48%, #2f6f78 100%);
+    --az-control-active: linear-gradient(135deg, #a84431 0%, #c86b42 48%, #2f6f78 100%);
+    --az-control-active-strong: linear-gradient(135deg, #7f2f24 0%, #a84b34 46%, #174a57 100%);
+    --az-control-idle: linear-gradient(180deg, rgba(36, 67, 77, 0.98) 0%, rgba(24, 44, 55, 0.99) 100%);
+    --az-control-muted: linear-gradient(180deg, rgba(79, 91, 88, 0.98) 0%, rgba(42, 58, 61, 0.99) 100%);
+    --az-control-ring: rgba(198, 91, 61, 0.34);
+    --az-control-shadow: 0 10px 22px rgba(70, 44, 32, 0.20), 0 0 0 1px rgba(255,255,255,0.05) inset;
+    --ui-bg: rgba(255, 250, 242, 0.95);
+    --ui-border: rgba(104, 75, 54, 0.20);
+    --ui-shadow: 0 18px 42px rgba(76, 50, 35, 0.20);
+    --ui-text: #302720;
+    --ui-muted: #6f5d4e;
+    --ui-accent: var(--az-copper);
+    --ui-accent-2: var(--az-turquoise-deep);
+  }
+
+  body {
+    background:
+      radial-gradient(circle at 14% 10%, rgba(47, 111, 120, 0.18) 0%, rgba(47, 111, 120, 0) 44%),
+      radial-gradient(circle at 87% 9%, rgba(198, 91, 61, 0.20) 0%, rgba(198, 91, 61, 0) 41%),
+      linear-gradient(180deg, #fbf4e9 0%, #f5eadb 100%);
+  }
+
+  #map {
+    background: linear-gradient(180deg, #e8e1d5 0%, #eee5d9 46%, #eadbc9 100%);
+  }
+
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  summary:focus-visible,
+  a:focus-visible {
+    outline-color: rgba(198, 91, 61, 0.84);
+  }
+
+  .main-controls,
+  .legend,
+  .vote-counter,
+  .viz-modes,
+  #status-panel {
+    background: linear-gradient(180deg, rgba(255, 252, 247, 0.98) 0%, rgba(247, 237, 223, 0.96) 100%) !important;
+    border-color: rgba(111, 79, 56, 0.22) !important;
+    box-shadow: 0 18px 40px rgba(75, 50, 35, 0.19) !important;
+  }
+
+  .main-controls .control-group,
+  .desktop-statewide-panel,
+  .control-summary,
+  .analytics-card,
+  .model-summary-card,
+  .model-inputs-inline {
+    background: linear-gradient(180deg, rgba(255, 253, 249, 0.96) 0%, rgba(249, 240, 227, 0.92) 100%) !important;
+    border-color: rgba(125, 91, 65, 0.18) !important;
+  }
+
+  .legend-header,
+  #main-controls .controls-header {
+    background: linear-gradient(180deg, rgba(255, 252, 247, 0.98) 0%, rgba(247, 237, 223, 0.96) 100%) !important;
+  }
+
+  .map-topbar {
+    background:
+      radial-gradient(circle at 13% 10%, rgba(231, 199, 157, 0.18) 0%, rgba(231, 199, 157, 0) 48%),
+      linear-gradient(145deg, rgba(24, 44, 55, 0.98) 0%, rgba(47, 111, 120, 0.94) 55%, rgba(145, 56, 41, 0.92) 100%) !important;
+    border-color: rgba(231, 199, 157, 0.34) !important;
+    box-shadow: 0 20px 52px rgba(45, 32, 24, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.16) !important;
+  }
+
+  .map-topbar-badge {
+    background: linear-gradient(130deg, rgba(198, 91, 61, 0.40) 0%, rgba(47, 111, 120, 0.42) 100%) !important;
+    border-color: rgba(231, 199, 157, 0.42) !important;
+  }
+
+  .map-topbar-badge .badge-state-name { color: #f0c892 !important; }
+  .map-topbar-badge .badge-atlas-name { color: #f6e7d3 !important; }
+  .map-topbar-mode-hint,
+  .context-banner-label { color: rgba(240, 200, 146, 0.94) !important; }
+
+  .fly-search-field:focus-within,
+  .desktop-fly-search-field:focus-within {
+    border-color: rgba(198, 91, 61, 0.78) !important;
+    box-shadow: 0 0 0 4px rgba(198, 91, 61, 0.18), 0 0 0 7px rgba(47, 111, 120, 0.10) !important;
+  }
+
+  .fly-search-submit,
+  .desktop-fly-submit,
+  .minimize-btn,
+  #main-controls .controls-header #controls-minimize-btn,
+  #legend-minimize-btn {
+    background: var(--az-control-active) !important;
+    border-color: rgba(231, 199, 157, 0.48) !important;
+    box-shadow: 0 9px 20px rgba(95, 51, 34, 0.24) !important;
+    color: #fffaf3 !important;
+  }
+
+  .fly-search-submit:hover,
+  .desktop-fly-submit:hover,
+  .minimize-btn:hover,
+  #main-controls .controls-header #controls-minimize-btn:hover,
+  #legend-minimize-btn:hover {
+    background: var(--az-control-active-strong) !important;
+  }
+
+  .fly-search-chip,
+  .desktop-fly-chip,
+  .mobile-topbar-toggle {
+    border-color: rgba(231, 199, 157, 0.34) !important;
+  }
+
+  .fly-search-chip:hover,
+  .desktop-fly-chip:hover,
+  .mobile-topbar-toggle:hover {
+    background: rgba(198, 91, 61, 0.22) !important;
+    border-color: rgba(231, 199, 157, 0.56) !important;
+  }
+
+  .fly-search-option:hover,
+  .fly-search-option:focus-visible {
+    background: rgba(231, 199, 157, 0.28) !important;
+  }
+
+  .panel-eyebrow,
+  .controls-title-pill,
+  .legend-badge,
+  .control-summary-mode,
+  .desktop-statewide-tag {
+    background: var(--state-accent-gradient) !important;
+    color: #fffaf3 !important;
+    border-color: rgba(231, 199, 157, 0.52) !important;
+  }
+
+  .view-toggle-btn.active,
+  .viz-mode-btn.active,
+  .mode-toggle.active,
+  .mobile-dock-btn[aria-pressed="true"] {
+    background: var(--az-control-active) !important;
+    border-color: rgba(231, 199, 157, 0.72) !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 22px rgba(91, 50, 35, 0.26) !important;
+  }
+
+  .view-toggle-btn:not(.active),
+  .viz-mode-btn:not(.active),
+  .region-jump-btn,
+  .desktop-fly-chip,
+  .mobile-dock-btn:not([aria-pressed="true"]) {
+    border-color: rgba(133, 96, 68, 0.30) !important;
+    background: rgba(255, 250, 242, 0.92) !important;
+    color: #4f3d31 !important;
+  }
+
+  .view-toggle-btn:not(.active):hover,
+  .viz-mode-btn:not(.active):hover,
+  .region-jump-btn:hover,
+  .desktop-fly-chip:hover,
+  .mobile-dock-btn:not([aria-pressed="true"]):hover {
+    background: rgba(231, 199, 157, 0.30) !important;
+    border-color: rgba(198, 91, 61, 0.42) !important;
+  }
+
+  .tool-chip-btn,
+  #help-btn,
+  #accessibility-toggle,
+  #label-toggle,
+  #precinct-toggle {
+    background: var(--az-control-idle) !important;
+    border-color: rgba(231, 199, 157, 0.24) !important;
+    box-shadow: var(--az-control-shadow) !important;
+    color: #fffaf3 !important;
+  }
+
+  .tool-chip-btn.tool-chip-btn-ghost {
+    background: linear-gradient(180deg, rgba(167, 71, 48, 0.98) 0%, rgba(101, 47, 37, 0.99) 100%) !important;
+  }
+
+  .tool-chip-btn.tool-chip-btn-muted {
+    background: var(--az-control-muted) !important;
+  }
+
+  .tool-chip-btn:hover,
+  #help-btn:hover,
+  #accessibility-toggle:hover,
+  #label-toggle:hover,
+  #precinct-toggle:hover {
+    background: var(--az-control-active-strong) !important;
+  }
+
+  .tool-chip-btn[aria-pressed="true"],
+  #accessibility-toggle[aria-pressed="true"],
+  #label-toggle[aria-pressed="true"],
+  #precinct-toggle[aria-pressed="true"],
+  #smart-insights-toggle[aria-pressed="true"],
+  #follow-hover-toggle[aria-pressed="true"] {
+    background: var(--az-control-active) !important;
+    border-color: rgba(231, 199, 157, 0.50) !important;
+    box-shadow: 0 0 0 2px var(--az-control-ring), 0 12px 24px rgba(75, 45, 31, 0.22) !important;
+  }
+
+  .tool-chip-select {
+    background-color: var(--az-turquoise-deep) !important;
+    border-color: rgba(231, 199, 157, 0.34) !important;
+  }
+
+  .tool-chip-select:hover,
+  .tool-chip-select:focus {
+    background-color: #123d48 !important;
+  }
+
+  #snapshot-variant,
+  #snapshot-variant:focus {
+    background-color: #e7c79d !important;
+    border-color: rgba(111, 79, 56, 0.34) !important;
+    color: #302720 !important;
+    -webkit-text-fill-color: #302720 !important;
+  }
+
+  #snapshot-variant:hover { background-color: #ddb887 !important; }
+
+  #contestSearch,
+  #contestSelect,
+  #scenario-scope,
+  #overlay-opacity-preset,
+  #model-preset,
+  .main-controls input[type="search"],
+  .main-controls input[type="text"],
+  .main-controls select {
+    border-color: rgba(133, 96, 68, 0.38) !important;
+    background: linear-gradient(180deg, rgba(255, 253, 249, 0.99) 0%, rgba(249, 240, 227, 0.98) 100%) !important;
+    color: #3a2d24 !important;
+  }
+
+  #contestSearch:focus,
+  #contestSelect:focus,
+  #scenario-scope:focus,
+  #overlay-opacity-preset:focus,
+  #model-preset:focus,
+  .main-controls input[type="search"]:focus,
+  .main-controls input[type="text"]:focus,
+  .main-controls select:focus {
+    border-color: rgba(198, 91, 61, 0.78) !important;
+    box-shadow: 0 0 0 3px rgba(198, 91, 61, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
+    outline: none !important;
+  }
+
+  .control-group-primary {
+    border-color: rgba(198, 91, 61, 0.30) !important;
+    box-shadow: 0 18px 40px rgba(76, 50, 35, 0.11), inset 0 1px 0 rgba(255, 255, 255, 0.78) !important;
+  }
+
+  .contest-select-wrap-primary #contestSelect {
+    border-color: rgba(198, 91, 61, 0.32) !important;
+    box-shadow: 0 14px 30px rgba(198, 91, 61, 0.10), inset 0 1px 0 rgba(255, 255, 255, 0.80) !important;
+  }
+
+  .contest-onboard-hint {
+    border-color: rgba(198, 91, 61, 0.24) !important;
+    background: rgba(231, 199, 157, 0.20) !important;
+  }
+
+  .contest-onboard-kicker { color: var(--az-copper-deep) !important; }
+
+  @keyframes onboardGlow {
+    0%, 100% { box-shadow: 0 14px 30px rgba(198, 91, 61, 0.10), inset 0 1px 0 rgba(255, 255, 255, 0.80); }
+    50% { box-shadow: 0 0 0 3px rgba(198, 91, 61, 0.22), 0 18px 34px rgba(47, 111, 120, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.80); }
+  }
+
+  .metric,
+  .statewide-results {
+    background: rgba(231, 199, 157, 0.22) !important;
+    border-color: rgba(198, 91, 61, 0.36) !important;
+  }
+
+  .metric { color: var(--az-copper-deep) !important; }
+
+  .vote-counter {
+    border-color: rgba(198, 91, 61, 0.28) !important;
+  }
+
+  .mobile-dock {
+    background: rgba(255, 249, 240, 0.96) !important;
+    border-color: rgba(111, 79, 56, 0.22) !important;
+    box-shadow: 0 10px 24px rgba(75, 50, 35, 0.20) !important;
+  }
+
+  .mobile-dock-btn:focus-visible,
+  .tool-chip-btn:focus-visible,
+  .view-toggle-btn:focus-visible,
+  .viz-mode-btn:focus-visible,
+  .region-jump-btn:focus-visible,
+  .desktop-fly-chip:focus-visible,
+  .mode-toggle:focus-visible,
+  .minimize-btn:focus-visible {
+    outline: 2px solid rgba(198, 91, 61, 0.90) !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 3px rgba(231, 199, 157, 0.26) !important;
+  }
+
 </style>
 </head>
 <body>
@@ -10299,7 +10615,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v13"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v14"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10339,8 +10655,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v13';
-    const APP_BUILD_ID = '2026-08-05-az-district-results-v13';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v14';
+    const APP_BUILD_ID = '2026-08-05-az-district-results-v14';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -15113,7 +15429,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const year = Number(e?.year);
         const entryType = String(e?.contest_type || contestType).trim() || contestType;
         if (!Number.isFinite(year)) return null;
-        const rows = await loadContestSlice(entryType, year);
+        // Statewide presidential trends must use the complete county totals.
+        // Historical precinct files can be incomplete (especially 2020),
+        // which otherwise inflates the displayed statewide margin.
+        const rows = entryType === 'president'
+          ? await loadContestSlice(entryType, year, { preferCounty: true })
+          : await loadContestSlice(entryType, year);
         return { year, rows, contestType: entryType };
       });
       for (const bundle of loaded) {
