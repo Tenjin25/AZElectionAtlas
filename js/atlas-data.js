@@ -91,9 +91,14 @@
   }
 
   function mapContestPayloadRows(payload, contestType, year) {
-    return (payload?.rows || []).map(row => ({
+    const sourceRows = Array.isArray(payload?.rows)
+      ? payload.rows.map(row => ({ key: '', value: row }))
+      : (payload?.precinct_results && typeof payload.precinct_results === 'object')
+        ? Object.entries(payload.precinct_results).map(([key, value]) => ({ key, value }))
+        : [];
+    return sourceRows.map(({ key, value: row }) => ({
       year: Number(year),
-      county: row.county,
+      county: row.county || row.county_name || key,
       [`${contestType}_dem`]: Number(row.dem_votes) || 0,
       [`${contestType}_rep`]: Number(row.rep_votes) || 0,
       [`${contestType}_other`]: Number(row.other_votes) || 0,

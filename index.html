@@ -10299,7 +10299,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-county-aggregation-v1"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10339,8 +10339,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-ui-theme-v2';
-    const APP_BUILD_ID = '2026-08-05-az-ui-theme-v2';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-county-aggregation-v1';
+    const APP_BUILD_ID = '2026-08-05-az-county-aggregation-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -19507,9 +19507,54 @@ document.addEventListener('DOMContentLoaded', function() {
         return window.AtlasData.mapContestPayloadRows(payload, contestType, year);
       }
 
+      function aggregateContestRowsToCountyRows(rows, contestType, year) {
+        const ct = String(contestType || '').trim();
+        const y = Number(year);
+        if (!ct || !Array.isArray(rows) || !rows.length) return [];
+        const byCounty = new Map();
+        rows.forEach(row => {
+          const rawCounty = String(row?.county || row?.county_name || '').trim();
+          if (!rawCounty) return;
+          const county = rawCounty.includes(' - ') ? rawCounty.split(' - ')[0].trim() : rawCounty;
+          if (!county) return;
+          const node = byCounty.get(county) || {
+            year: y,
+            county,
+            [`${ct}_dem`]: 0,
+            [`${ct}_rep`]: 0,
+            [`${ct}_other`]: 0,
+            [`${ct}_total`]: 0,
+            [`${ct}_dem_candidate`]: '',
+            [`${ct}_rep_candidate`]: '',
+            [`${ct}_color`]: ''
+          };
+          node[`${ct}_dem`] += Number(row?.[`${ct}_dem`] || 0);
+          node[`${ct}_rep`] += Number(row?.[`${ct}_rep`] || 0);
+          node[`${ct}_other`] += Number(row?.[`${ct}_other`] || 0);
+          node[`${ct}_total`] += Number(row?.[`${ct}_total`] || 0);
+          if (!node[`${ct}_dem_candidate`]) node[`${ct}_dem_candidate`] = row?.[`${ct}_dem_candidate`] || '';
+          if (!node[`${ct}_rep_candidate`]) node[`${ct}_rep_candidate`] = row?.[`${ct}_rep_candidate`] || '';
+          if (!node[`${ct}_color`]) node[`${ct}_color`] = row?.[`${ct}_color`] || '';
+          byCounty.set(county, node);
+        });
+        return Array.from(byCounty.values()).map(row => {
+          const dem = Number(row[`${ct}_dem`] || 0);
+          const rep = Number(row[`${ct}_rep`] || 0);
+          const total = Math.max(0, Number(row[`${ct}_total`] || dem + rep + Number(row[`${ct}_other`] || 0)));
+          return {
+            ...row,
+            [`${ct}_total`]: total,
+            [`${ct}_margin`]: rep - dem,
+            [`${ct}_margin_pct`]: total ? ((rep - dem) / total) * 100 : 0,
+            [`${ct}_winner`]: rep > dem ? 'REP' : dem > rep ? 'DEM' : 'TIE',
+            scope: 'county'
+          };
+        });
+      }
+
       async function loadCountyContestSlice(contestType, year) {
-        // Pre-county_contests path: county mode uses full contest slices
-        // (plus county_totals when present). Compact data/county_contests/ is unused.
+        // County mode deliberately aggregates the full contest slice. This keeps
+        // the county map usable when the precinct geometry/data is incomplete.
         const modeledDef = getModeledContestDefinition(contestType, year);
         if (modeledDef) {
           const modeledSignature = getModeledDefSignature(modeledDef);
@@ -19529,7 +19574,22 @@ document.addEventListener('DOMContentLoaded', function() {
             countyContestSliceInflight.delete(key);
           }
         }
-        return loadContestSlice(contestType, year);
+        const key = `${contestType}_${year}`;
+        if (countyContestSliceCache.has(key)) return countyContestSliceCache.get(key);
+        if (countyContestSliceInflight.has(key)) return countyContestSliceInflight.get(key);
+        const p = atlasPerf(`slice.county:${key}`, async () => {
+          const rows = await loadContestSlice(contestType, year, { raw: true });
+          const countyRows = aggregateContestRowsToCountyRows(rows, contestType, year);
+          if (!countyRows.length && rows.length) return rows;
+          countyContestSliceCache.set(key, countyRows);
+          return countyRows;
+        });
+        countyContestSliceInflight.set(key, p);
+        try {
+          return await p;
+        } finally {
+          countyContestSliceInflight.delete(key);
+        }
       }
 
 	    async function loadContestSlice(contestType, year, opts = null) {
@@ -19559,9 +19619,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const p = atlasPerf(`slice.contest:${key}`, async () => {
 
           const manifestHasEntries = Array.isArray(contestManifest) && contestManifest.length > 0;
-          const manifestEntry = manifestHasEntries
-            ? (contestManifest.find(e => e && e.contest_type === contestType && Number(e.year) === Number(year) && !e.scope) || null)
-            : null;
+          const matchingManifestEntries = manifestHasEntries
+            ? contestManifest.filter(e => e && e.contest_type === contestType && Number(e.year) === Number(year))
+            : [];
+          const manifestEntry = matchingManifestEntries.find(e => String(e.scope || '').toLowerCase() === 'county')
+            || matchingManifestEntries[0]
+            || null;
           const manifestFile = (manifestEntry?.file || '').toString().trim();
 
 	        try {
