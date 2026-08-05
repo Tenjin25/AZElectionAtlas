@@ -1,0 +1,20 @@
+{
+  "name": "azprecinctmap",
+  "version": "1.0.0",
+  "description": "Interactive Arizona Election Atlas for precinct, county, and district results.",
+  "main": "index.html",
+  "scripts": {
+    "test": "playwright test",
+    "test:core": "node --test core-tests/*.test.js",
+    "audit": "python scripts/audit_arizona_outputs.py",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "author": "Shamar Davis",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
