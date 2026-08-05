@@ -10615,7 +10615,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v16"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v17"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10655,8 +10655,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v16';
-    const APP_BUILD_ID = '2026-08-05-az-district-results-v16';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v17';
+    const APP_BUILD_ID = '2026-08-05-az-district-results-v17';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -36489,9 +36489,12 @@ document.addEventListener('DOMContentLoaded', function() {
               refreshStatewideSummaryFromCountyRows(contestData, ` - ${getReadableViewLabel(currentView)} demographic profile (${linesLabel})`);
             }
           } else {
-            const statewideSummary = isLegislativeContest
-              ? refreshStatewideSummaryFromDistrictTotals(totalDem, totalRep, totalOther, totalVotes, ` - ${getReadableViewLabel(currentView)} Result (${linesLabel})`)
-              : refreshStatewideSummaryFromCountyRows(contestData, ' - Statewide Result');
+            const statewideSummary = refreshStatewideSummaryFromCountyRows(
+              contestData,
+              isLegislativeContest
+                ? ` - ${getReadableViewLabel(currentView)} Result (${linesLabel})`
+                : ' - Statewide Result'
+            );
             const statewideDemPct = statewideSummary?.total ? (statewideSummary.dem / statewideSummary.total) * 100 : 0;
             const statewideRepPct = statewideSummary?.total ? (statewideSummary.rep / statewideSummary.total) * 100 : 0;
             if (preserveDistrictViewSummary) {
