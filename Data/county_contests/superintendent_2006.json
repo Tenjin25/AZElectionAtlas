@@ -1,0 +1,117 @@
+{
+  "year": 2006,
+  "contest_type": "superintendent",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 12494,
+      "rep_votes": 5770,
+      "other_votes": 0,
+      "total_votes": 18264,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": -6724,
+      "margin_pct": -36.8156,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 15411,
+      "rep_votes": 19555,
+      "other_votes": 0,
+      "total_votes": 34966,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": 4144,
+      "margin_pct": 11.8515,
+      "winner": "REP"
+    },
+    "Gila": {
+      "dem_votes": 7484,
+      "rep_votes": 8435,
+      "other_votes": 0,
+      "total_votes": 15919,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": 951,
+      "margin_pct": 5.974,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3073,
+      "rep_votes": 4370,
+      "other_votes": 0,
+      "total_votes": 7443,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": 1297,
+      "margin_pct": 17.4258,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1173,
+      "rep_votes": 851,
+      "other_votes": 0,
+      "total_votes": 2024,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": -322,
+      "margin_pct": -15.9091,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 17560,
+      "rep_votes": 25834,
+      "other_votes": 0,
+      "total_votes": 43394,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": 8274,
+      "margin_pct": 19.0672,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 13658,
+      "rep_votes": 12181,
+      "other_votes": 0,
+      "total_votes": 25839,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": -1477,
+      "margin_pct": -5.7162,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 25647,
+      "rep_votes": 28828,
+      "other_votes": 0,
+      "total_votes": 54475,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": 3181,
+      "margin_pct": 5.8394,
+      "winner": "REP"
+    },
+    "SantaCruz": {
+      "dem_votes": 4958,
+      "rep_votes": 2842,
+      "other_votes": 0,
+      "total_votes": 7800,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": -2116,
+      "margin_pct": -27.1282,
+      "winner": "DEM"
+    },
+    "Yuma": {
+      "dem_votes": 13283,
+      "rep_votes": 14105,
+      "other_votes": 0,
+      "total_votes": 27388,
+      "dem_candidate": "Jason Williams",
+      "rep_candidate": "Tom Horne",
+      "margin": 822,
+      "margin_pct": 3.0013,
+      "winner": "REP"
+    }
+  }
+}

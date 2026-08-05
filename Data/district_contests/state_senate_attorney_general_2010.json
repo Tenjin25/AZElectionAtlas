@@ -1,0 +1,317 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 30815,
+        "rep_votes": 48787,
+        "other_votes": 0,
+        "total_votes": 79602,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 17972,
+        "margin_pct": 22.5773,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 7995,
+        "rep_votes": 9167,
+        "other_votes": 56,
+        "total_votes": 17218,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 1172,
+        "margin_pct": 6.8068,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 10328,
+        "rep_votes": 17133,
+        "other_votes": 56,
+        "total_votes": 27517,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 6805,
+        "margin_pct": 24.7302,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 11885,
+        "rep_votes": 13914,
+        "other_votes": 50,
+        "total_votes": 25849,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 2029,
+        "margin_pct": 7.8494,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 11773,
+        "rep_votes": 6659,
+        "other_votes": 47,
+        "total_votes": 18479,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -5114,
+        "margin_pct": -27.6747,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 29855,
+        "rep_votes": 16113,
+        "other_votes": 0,
+        "total_votes": 45968,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -13742,
+        "margin_pct": -29.8947,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 26255,
+        "rep_votes": 34275,
+        "other_votes": 0,
+        "total_votes": 60530,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 8020,
+        "margin_pct": 13.2496,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 3370,
+        "rep_votes": 2733,
+        "other_votes": 12,
+        "total_votes": 6115,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -637,
+        "margin_pct": -10.417,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 403,
+        "rep_votes": 409,
+        "other_votes": 1,
+        "total_votes": 813,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 6,
+        "margin_pct": 0.738,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 4050,
+        "rep_votes": 5253,
+        "other_votes": 20,
+        "total_votes": 9323,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 1203,
+        "margin_pct": 12.9036,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 7666,
+        "rep_votes": 3133,
+        "other_votes": 34,
+        "total_votes": 10833,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -4533,
+        "margin_pct": -41.8444,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 13258,
+        "rep_votes": 13084,
+        "other_votes": 69,
+        "total_votes": 26411,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -174,
+        "margin_pct": -0.6588,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 6531,
+        "rep_votes": 6826,
+        "other_votes": 37,
+        "total_votes": 13394,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 295,
+        "margin_pct": 2.2025,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 1692,
+        "rep_votes": 3225,
+        "other_votes": 13,
+        "total_votes": 4930,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 1533,
+        "margin_pct": 31.0953,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 4906,
+        "rep_votes": 8072,
+        "other_votes": 0,
+        "total_votes": 12978,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 3166,
+        "margin_pct": 24.3951,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 14612,
+        "rep_votes": 16943,
+        "other_votes": 0,
+        "total_votes": 31555,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 2331,
+        "margin_pct": 7.3871,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 2885,
+        "rep_votes": 4469,
+        "other_votes": 0,
+        "total_votes": 7354,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 1584,
+        "margin_pct": 21.5393,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 16172,
+        "rep_votes": 25160,
+        "other_votes": 0,
+        "total_votes": 41332,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 8988,
+        "margin_pct": 21.7459,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 6961,
+        "rep_votes": 3466,
+        "other_votes": 0,
+        "total_votes": 10427,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -3495,
+        "margin_pct": -33.5187,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 4044,
+        "rep_votes": 2648,
+        "other_votes": 17,
+        "total_votes": 6709,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -1396,
+        "margin_pct": -20.8079,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 10384,
+        "rep_votes": 9805,
+        "other_votes": 7,
+        "total_votes": 20196,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -579,
+        "margin_pct": -2.8669,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 3124,
+        "rep_votes": 1972,
+        "other_votes": 18,
+        "total_votes": 5114,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -1152,
+        "margin_pct": -22.5264,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 7178,
+        "rep_votes": 12887,
+        "other_votes": 25,
+        "total_votes": 20090,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 5709,
+        "margin_pct": 28.4171,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 5096,
+        "rep_votes": 3020,
+        "other_votes": 21,
+        "total_votes": 8137,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -2076,
+        "margin_pct": -25.5131,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 8607,
+        "rep_votes": 11061,
+        "other_votes": 43,
+        "total_votes": 19711,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 2454,
+        "margin_pct": 12.4499,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 11602,
+        "rep_votes": 15493,
+        "other_votes": 47,
+        "total_votes": 27142,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 3891,
+        "margin_pct": 14.3357,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 1723,
+        "rep_votes": 1631,
+        "other_votes": 12,
+        "total_votes": 3366,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": -92,
+        "margin_pct": -2.7332,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 126,
+        "rep_votes": 362,
+        "other_votes": 0,
+        "total_votes": 488,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Tom Horne",
+        "margin": 236,
+        "margin_pct": 48.3607,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2004,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 9588,
+      "rep_votes": 12923,
+      "other_votes": 905,
+      "total_votes": 23416,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 3335,
+      "margin_pct": 14.2424,
+      "winner": "REP"
+    },
+    "Cochise": {
+      "dem_votes": 9555,
+      "rep_votes": 32879,
+      "other_votes": 1394,
+      "total_votes": 43828,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 23324,
+      "margin_pct": 53.2171,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 13520,
+      "rep_votes": 35849,
+      "other_votes": 1504,
+      "total_votes": 50873,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 22329,
+      "margin_pct": 43.8917,
+      "winner": "REP"
+    },
+    "Gila": {
+      "dem_votes": 4291,
+      "rep_votes": 15551,
+      "other_votes": 632,
+      "total_votes": 20474,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 11260,
+      "margin_pct": 54.9966,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 2000,
+      "rep_votes": 8171,
+      "other_votes": 322,
+      "total_votes": 10493,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 6171,
+      "margin_pct": 58.8106,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 746,
+      "rep_votes": 2166,
+      "other_votes": 68,
+      "total_votes": 2980,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 1420,
+      "margin_pct": 47.651,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 965,
+      "rep_votes": 3826,
+      "other_votes": 156,
+      "total_votes": 4947,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 2861,
+      "margin_pct": 57.833,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 216124,
+      "rep_votes": 917527,
+      "other_votes": 29769,
+      "total_votes": 1163420,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 701403,
+      "margin_pct": 60.288,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 10423,
+      "rep_votes": 44402,
+      "other_votes": 1686,
+      "total_votes": 56511,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 33979,
+      "margin_pct": 60.1281,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 7434,
+      "rep_votes": 23091,
+      "other_votes": 1222,
+      "total_votes": 31747,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 15657,
+      "margin_pct": 49.318,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 89483,
+      "rep_votes": 258010,
+      "other_votes": 7980,
+      "total_votes": 355473,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 168527,
+      "margin_pct": 47.4092,
+      "winner": "REP"
+    },
+    "Pinal": {
+      "dem_votes": 13595,
+      "rep_votes": 48094,
+      "other_votes": 1692,
+      "total_votes": 63381,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 34499,
+      "margin_pct": 54.4311,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 3583,
+      "rep_votes": 7502,
+      "other_votes": 252,
+      "total_votes": 11337,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 3919,
+      "margin_pct": 34.5682,
+      "winner": "REP"
+    },
+    "Yavapai": {
+      "dem_votes": 14852,
+      "rep_votes": 67312,
+      "other_votes": 3160,
+      "total_votes": 85324,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 52460,
+      "margin_pct": 61.4833,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 8348,
+      "rep_votes": 28069,
+      "other_votes": 1056,
+      "total_votes": 37473,
+      "dem_candidate": "Stuart Starky",
+      "rep_candidate": "John McCain",
+      "margin": 19721,
+      "margin_pct": 52.6272,
+      "winner": "REP"
+    }
+  }
+}

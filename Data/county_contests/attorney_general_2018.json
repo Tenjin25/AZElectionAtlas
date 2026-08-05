@@ -1,0 +1,172 @@
+{
+  "year": 2018,
+  "contest_type": "attorney_general",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 16309,
+      "rep_votes": 8401,
+      "other_votes": 72,
+      "total_votes": 24782,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": -7908,
+      "margin_pct": -31.9103,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 18024,
+      "rep_votes": 26722,
+      "other_votes": 71,
+      "total_votes": 44817,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 8698,
+      "margin_pct": 19.4078,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 32889,
+      "rep_votes": 20715,
+      "other_votes": 57694,
+      "total_votes": 111298,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": -12174,
+      "margin_pct": -10.9382,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6891,
+      "rep_votes": 13226,
+      "other_votes": 44,
+      "total_votes": 20161,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 6335,
+      "margin_pct": 31.4221,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3129,
+      "rep_votes": 7275,
+      "other_votes": 21,
+      "total_votes": 10425,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 4146,
+      "margin_pct": 39.7698,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 999,
+      "rep_votes": 1493,
+      "other_votes": 6,
+      "total_votes": 2498,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 494,
+      "margin_pct": 19.7758,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1430,
+      "rep_votes": 3524,
+      "other_votes": 13,
+      "total_votes": 4967,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 2094,
+      "margin_pct": 42.1582,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 672560,
+      "rep_votes": 727133,
+      "other_votes": 2451,
+      "total_votes": 1402144,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 54573,
+      "margin_pct": 3.8921,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 17229,
+      "rep_votes": 52936,
+      "other_votes": 147,
+      "total_votes": 70312,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 35707,
+      "margin_pct": 50.7837,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 16015,
+      "rep_votes": 19854,
+      "other_votes": 86,
+      "total_votes": 35955,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 3839,
+      "margin_pct": 10.6772,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 222055,
+      "rep_votes": 157997,
+      "other_votes": 732,
+      "total_votes": 380784,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": -64058,
+      "margin_pct": -16.8227,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 46792,
+      "rep_votes": 68428,
+      "other_votes": 298,
+      "total_votes": 115518,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 21636,
+      "margin_pct": 18.7295,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 9310,
+      "rep_votes": 3768,
+      "other_votes": 13,
+      "total_votes": 13091,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": -5542,
+      "margin_pct": -42.3344,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 36483,
+      "rep_votes": 67693,
+      "other_votes": 161,
+      "total_votes": 104337,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 31210,
+      "margin_pct": 29.9127,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 20611,
+      "rep_votes": 22233,
+      "other_votes": 48,
+      "total_votes": 42892,
+      "dem_candidate": "January Contreras",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 1622,
+      "margin_pct": 3.7816,
+      "winner": "REP"
+    }
+  }
+}

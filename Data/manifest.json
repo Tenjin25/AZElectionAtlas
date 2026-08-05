@@ -1,0 +1,34 @@
+{
+  "state": "AZ",
+  "election_aggregates": "elections_aggregated.json",
+  "geometry": {
+    "counties": "geometry/counties.geojson",
+    "precincts": "geometry/precincts.geojson",
+    "congressional": "geometry/congressional_districts.geojson",
+    "legislative": "geometry/legislative_districts.geojson"
+  },
+  "crosswalks": {
+    "official_block_to_district": "crosswalks/block_to_districts.csv",
+    "block20_to_vtd20": "crosswalks/block20_to_vtd20.csv",
+    "block20_to_congressional": "crosswalks/block20_to_congressional.csv",
+    "block20_to_state_legislative": "crosswalks/block20_to_state_legislative.csv",
+    "vtd20_to_congressional": "crosswalks/vtd20_to_congressional.csv",
+    "vtd20_to_legislative": "crosswalks/vtd20_to_legislative.csv",
+    "election_precinct_to_districts": "crosswalks/election_precinct_to_districts.csv",
+    "block2010_to_block2020": "crosswalks/block2010_to_block2020.csv",
+    "block2020_to_block2010": "crosswalks/block2020_to_block2010.csv",
+    "block2000_to_block2010": "crosswalks/block2000_to_block2010.csv"
+  },
+  "counts": {
+    "county_rows": 144,
+    "precinct_rows": 15034,
+    "district_rows": 731,
+    "official_block_rows": 310888,
+    "block20_to_vtd20_rows": 155444,
+    "election_precinct_rows": 24988,
+    "election_precinct_matched": 13267,
+    "block2010_to_block2020_rows": 270804,
+    "block2020_to_block2010_rows": 270858,
+    "block2000_to_block2010_rows": 278592
+  }
+}

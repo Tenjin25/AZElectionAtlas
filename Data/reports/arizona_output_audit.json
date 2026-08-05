@@ -1,0 +1,904 @@
+{
+  "source": {
+    "csv_files": 174,
+    "years": [
+      2000,
+      2002,
+      2004,
+      2006,
+      2008,
+      2010,
+      2011,
+      2012,
+      2014,
+      2016,
+      2018,
+      2020,
+      2022,
+      2024
+    ]
+  },
+  "outputs": {
+    "manifest_counts": {
+      "county_rows": 144,
+      "precinct_rows": 15034,
+      "district_rows": 731,
+      "official_block_rows": 310888,
+      "block20_to_vtd20_rows": 155444,
+      "election_precinct_rows": 24988,
+      "election_precinct_matched": 13267,
+      "block2010_to_block2020_rows": 270804,
+      "block2020_to_block2010_rows": 270858,
+      "block2000_to_block2010_rows": 278592
+    },
+    "aggregate_years": [
+      2004,
+      2006,
+      2010,
+      2012,
+      2014,
+      2016,
+      2018,
+      2020,
+      2022,
+      2024
+    ],
+    "rdh_total_controls": {
+      "2016_president": 2604657,
+      "2016_us_senate": 2547063,
+      "2018_attorney_general": 2326359,
+      "2018_governor": 2379367,
+      "2018_secretary_of_state": 2335465,
+      "2018_treasurer": 2303824,
+      "2018_us_senate": 2387532,
+      "2020_president": 3385289,
+      "2020_us_senate": 3354134,
+      "2024_president": 3389319,
+      "2024_us_senate": 3352137
+    },
+    "file_counts": {
+      "county_contests": 47,
+      "contests": 62,
+      "district_contests": 102
+    }
+  },
+  "crosswalk": {
+    "rows": 24988,
+    "matched": 13267,
+    "unmatched": 11721,
+    "conflicting_assignments": {}
+  },
+  "checks": [
+    {
+      "name": "statewide_district_rollups",
+      "results": [
+        {
+          "file": "congressional_attorney_general_2006",
+          "county_total": 776645,
+          "control_total": 776645,
+          "control_type": "county_precincts",
+          "district_total": 605278,
+          "coverage": 0.77935
+        },
+        {
+          "file": "state_house_attorney_general_2006",
+          "county_total": 776645,
+          "control_total": 776645,
+          "control_type": "county_precincts",
+          "district_total": 605278,
+          "coverage": 0.77935
+        },
+        {
+          "file": "state_senate_attorney_general_2006",
+          "county_total": 776645,
+          "control_total": 776645,
+          "control_type": "county_precincts",
+          "district_total": 605278,
+          "coverage": 0.77935
+        },
+        {
+          "file": "congressional_attorney_general_2010",
+          "county_total": 598681,
+          "control_total": 598681,
+          "control_type": "county_precincts",
+          "district_total": 561581,
+          "coverage": 0.93803
+        },
+        {
+          "file": "state_house_attorney_general_2010",
+          "county_total": 598681,
+          "control_total": 598681,
+          "control_type": "county_precincts",
+          "district_total": 561581,
+          "coverage": 0.93803
+        },
+        {
+          "file": "state_senate_attorney_general_2010",
+          "county_total": 598681,
+          "control_total": 598681,
+          "control_type": "county_precincts",
+          "district_total": 561581,
+          "coverage": 0.93803
+        },
+        {
+          "file": "congressional_attorney_general_2014",
+          "county_total": 1446711,
+          "control_total": 1446711,
+          "control_type": "county_precincts",
+          "district_total": 1434685,
+          "coverage": 0.991687
+        },
+        {
+          "file": "state_house_attorney_general_2014",
+          "county_total": 1446711,
+          "control_total": 1446711,
+          "control_type": "county_precincts",
+          "district_total": 1434685,
+          "coverage": 0.991687
+        },
+        {
+          "file": "state_senate_attorney_general_2014",
+          "county_total": 1446711,
+          "control_total": 1446711,
+          "control_type": "county_precincts",
+          "district_total": 1434685,
+          "coverage": 0.991687
+        },
+        {
+          "file": "congressional_attorney_general_2018",
+          "county_total": 2383981,
+          "control_total": 2326359,
+          "control_type": "rdh_blocks",
+          "district_total": 2326362,
+          "coverage": 1.000001
+        },
+        {
+          "file": "state_house_attorney_general_2018",
+          "county_total": 2383981,
+          "control_total": 2326359,
+          "control_type": "rdh_blocks",
+          "district_total": 2326363,
+          "coverage": 1.000002
+        },
+        {
+          "file": "state_senate_attorney_general_2018",
+          "county_total": 2383981,
+          "control_total": 2326359,
+          "control_type": "rdh_blocks",
+          "district_total": 2326363,
+          "coverage": 1.000002
+        },
+        {
+          "file": "congressional_attorney_general_2022",
+          "county_total": 2512007,
+          "control_total": 2512007,
+          "control_type": "county_precincts",
+          "district_total": 2512007,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_attorney_general_2022",
+          "county_total": 2512007,
+          "control_total": 2512007,
+          "control_type": "county_precincts",
+          "district_total": 2512007,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_attorney_general_2022",
+          "county_total": 2512007,
+          "control_total": 2512007,
+          "control_type": "county_precincts",
+          "district_total": 2512007,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_governor_2006",
+          "county_total": 797334,
+          "control_total": 797334,
+          "control_type": "county_precincts",
+          "district_total": 621383,
+          "coverage": 0.779326
+        },
+        {
+          "file": "state_house_governor_2006",
+          "county_total": 797334,
+          "control_total": 797334,
+          "control_type": "county_precincts",
+          "district_total": 621383,
+          "coverage": 0.779326
+        },
+        {
+          "file": "state_senate_governor_2006",
+          "county_total": 797334,
+          "control_total": 797334,
+          "control_type": "county_precincts",
+          "district_total": 621383,
+          "coverage": 0.779326
+        },
+        {
+          "file": "congressional_governor_2010",
+          "county_total": 617168,
+          "control_total": 617168,
+          "control_type": "county_precincts",
+          "district_total": 578887,
+          "coverage": 0.937973
+        },
+        {
+          "file": "state_house_governor_2010",
+          "county_total": 617168,
+          "control_total": 617168,
+          "control_type": "county_precincts",
+          "district_total": 578887,
+          "coverage": 0.937973
+        },
+        {
+          "file": "state_senate_governor_2010",
+          "county_total": 617168,
+          "control_total": 617168,
+          "control_type": "county_precincts",
+          "district_total": 578887,
+          "coverage": 0.937973
+        },
+        {
+          "file": "congressional_governor_2014",
+          "county_total": 1473496,
+          "control_total": 1473496,
+          "control_type": "county_precincts",
+          "district_total": 1461212,
+          "coverage": 0.991663
+        },
+        {
+          "file": "state_house_governor_2014",
+          "county_total": 1473496,
+          "control_total": 1473496,
+          "control_type": "county_precincts",
+          "district_total": 1461212,
+          "coverage": 0.991663
+        },
+        {
+          "file": "state_senate_governor_2014",
+          "county_total": 1473496,
+          "control_total": 1473496,
+          "control_type": "county_precincts",
+          "district_total": 1461212,
+          "coverage": 0.991663
+        },
+        {
+          "file": "congressional_governor_2018",
+          "county_total": 2435653,
+          "control_total": 2379367,
+          "control_type": "rdh_blocks",
+          "district_total": 2379371,
+          "coverage": 1.000002
+        },
+        {
+          "file": "state_house_governor_2018",
+          "county_total": 2435653,
+          "control_total": 2379367,
+          "control_type": "rdh_blocks",
+          "district_total": 2379367,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_governor_2018",
+          "county_total": 2435653,
+          "control_total": 2379367,
+          "control_type": "rdh_blocks",
+          "district_total": 2379367,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_governor_2022",
+          "county_total": 2566667,
+          "control_total": 2566667,
+          "control_type": "county_precincts",
+          "district_total": 2566667,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_governor_2022",
+          "county_total": 2566667,
+          "control_total": 2566667,
+          "control_type": "county_precincts",
+          "district_total": 2566667,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_governor_2022",
+          "county_total": 2566667,
+          "control_total": 2566667,
+          "control_type": "county_precincts",
+          "district_total": 2566667,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_president_2004",
+          "county_total": 1998997,
+          "control_total": 1998997,
+          "control_type": "county_precincts",
+          "district_total": 1616107,
+          "coverage": 0.808459
+        },
+        {
+          "file": "state_house_president_2004",
+          "county_total": 1998997,
+          "control_total": 1998997,
+          "control_type": "county_precincts",
+          "district_total": 1616107,
+          "coverage": 0.808459
+        },
+        {
+          "file": "state_senate_president_2004",
+          "county_total": 1998997,
+          "control_total": 1998997,
+          "control_type": "county_precincts",
+          "district_total": 1616107,
+          "coverage": 0.808459
+        },
+        {
+          "file": "congressional_president_2012",
+          "county_total": 2287168,
+          "control_total": 2287168,
+          "control_type": "county_precincts",
+          "district_total": 2279891,
+          "coverage": 0.996818
+        },
+        {
+          "file": "state_house_president_2012",
+          "county_total": 2287168,
+          "control_total": 2287168,
+          "control_type": "county_precincts",
+          "district_total": 2279891,
+          "coverage": 0.996818
+        },
+        {
+          "file": "state_senate_president_2012",
+          "county_total": 2287168,
+          "control_total": 2287168,
+          "control_type": "county_precincts",
+          "district_total": 2279891,
+          "coverage": 0.996818
+        },
+        {
+          "file": "congressional_president_2016",
+          "county_total": 2733982,
+          "control_total": 2604657,
+          "control_type": "rdh_blocks",
+          "district_total": 2604656,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_president_2016",
+          "county_total": 2733982,
+          "control_total": 2604657,
+          "control_type": "rdh_blocks",
+          "district_total": 2604658,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_president_2016",
+          "county_total": 2733982,
+          "control_total": 2604657,
+          "control_type": "rdh_blocks",
+          "district_total": 2604658,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_president_2020",
+          "county_total": 3142776,
+          "control_total": 3385289,
+          "control_type": "rdh_blocks",
+          "district_total": 3385290,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_president_2020",
+          "county_total": 3142776,
+          "control_total": 3385289,
+          "control_type": "rdh_blocks",
+          "district_total": 3385289,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_president_2020",
+          "county_total": 3142776,
+          "control_total": 3385289,
+          "control_type": "rdh_blocks",
+          "district_total": 3385289,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_president_2024",
+          "county_total": 3400631,
+          "control_total": 3389319,
+          "control_type": "rdh_blocks",
+          "district_total": 3389319,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_president_2024",
+          "county_total": 3400631,
+          "control_total": 3389319,
+          "control_type": "rdh_blocks",
+          "district_total": 3389319,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_president_2024",
+          "county_total": 3400631,
+          "control_total": 3389319,
+          "control_type": "rdh_blocks",
+          "district_total": 3389319,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_secretary_of_state_2014",
+          "county_total": 1459954,
+          "control_total": 1459954,
+          "control_type": "county_precincts",
+          "district_total": 1447777,
+          "coverage": 0.991659
+        },
+        {
+          "file": "state_house_secretary_of_state_2014",
+          "county_total": 1459954,
+          "control_total": 1459954,
+          "control_type": "county_precincts",
+          "district_total": 1447777,
+          "coverage": 0.991659
+        },
+        {
+          "file": "state_senate_secretary_of_state_2014",
+          "county_total": 1459954,
+          "control_total": 1459954,
+          "control_type": "county_precincts",
+          "district_total": 1447777,
+          "coverage": 0.991659
+        },
+        {
+          "file": "congressional_secretary_of_state_2018",
+          "county_total": 2392749,
+          "control_total": 2335465,
+          "control_type": "rdh_blocks",
+          "district_total": 2335464,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_secretary_of_state_2018",
+          "county_total": 2392749,
+          "control_total": 2335465,
+          "control_type": "rdh_blocks",
+          "district_total": 2335468,
+          "coverage": 1.000001
+        },
+        {
+          "file": "state_senate_secretary_of_state_2018",
+          "county_total": 2392749,
+          "control_total": 2335465,
+          "control_type": "rdh_blocks",
+          "district_total": 2335468,
+          "coverage": 1.000001
+        },
+        {
+          "file": "congressional_secretary_of_state_2022",
+          "county_total": 2523385,
+          "control_total": 2523385,
+          "control_type": "county_precincts",
+          "district_total": 2523385,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_secretary_of_state_2022",
+          "county_total": 2523385,
+          "control_total": 2523385,
+          "control_type": "county_precincts",
+          "district_total": 2523385,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_secretary_of_state_2022",
+          "county_total": 2523385,
+          "control_total": 2523385,
+          "control_type": "county_precincts",
+          "district_total": 2523385,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_treasurer_2006",
+          "county_total": 754881,
+          "control_total": 754881,
+          "control_type": "county_precincts",
+          "district_total": 588058,
+          "coverage": 0.779008
+        },
+        {
+          "file": "state_house_treasurer_2006",
+          "county_total": 754881,
+          "control_total": 754881,
+          "control_type": "county_precincts",
+          "district_total": 588058,
+          "coverage": 0.779008
+        },
+        {
+          "file": "state_senate_treasurer_2006",
+          "county_total": 754881,
+          "control_total": 754881,
+          "control_type": "county_precincts",
+          "district_total": 588058,
+          "coverage": 0.779008
+        },
+        {
+          "file": "congressional_treasurer_2010",
+          "county_total": 593073,
+          "control_total": 593073,
+          "control_type": "county_precincts",
+          "district_total": 556269,
+          "coverage": 0.937944
+        },
+        {
+          "file": "state_house_treasurer_2010",
+          "county_total": 593073,
+          "control_total": 593073,
+          "control_type": "county_precincts",
+          "district_total": 556269,
+          "coverage": 0.937944
+        },
+        {
+          "file": "state_senate_treasurer_2010",
+          "county_total": 593073,
+          "control_total": 593073,
+          "control_type": "county_precincts",
+          "district_total": 556269,
+          "coverage": 0.937944
+        },
+        {
+          "file": "congressional_treasurer_2014",
+          "county_total": 1050863,
+          "control_total": 1050863,
+          "control_type": "county_precincts",
+          "district_total": 1041662,
+          "coverage": 0.991244
+        },
+        {
+          "file": "state_house_treasurer_2014",
+          "county_total": 1050863,
+          "control_total": 1050863,
+          "control_type": "county_precincts",
+          "district_total": 1041662,
+          "coverage": 0.991244
+        },
+        {
+          "file": "state_senate_treasurer_2014",
+          "county_total": 1050863,
+          "control_total": 1050863,
+          "control_type": "county_precincts",
+          "district_total": 1041662,
+          "coverage": 0.991244
+        },
+        {
+          "file": "congressional_treasurer_2018",
+          "county_total": 2362007,
+          "control_total": 2303824,
+          "control_type": "rdh_blocks",
+          "district_total": 2303824,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_treasurer_2018",
+          "county_total": 2362007,
+          "control_total": 2303824,
+          "control_type": "rdh_blocks",
+          "district_total": 2303821,
+          "coverage": 0.999999
+        },
+        {
+          "file": "state_senate_treasurer_2018",
+          "county_total": 2362007,
+          "control_total": 2303824,
+          "control_type": "rdh_blocks",
+          "district_total": 2303821,
+          "coverage": 0.999999
+        },
+        {
+          "file": "congressional_treasurer_2022",
+          "county_total": 2498431,
+          "control_total": 2498431,
+          "control_type": "county_precincts",
+          "district_total": 2498431,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_treasurer_2022",
+          "county_total": 2498431,
+          "control_total": 2498431,
+          "control_type": "county_precincts",
+          "district_total": 2498431,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_treasurer_2022",
+          "county_total": 2498431,
+          "control_total": 2498431,
+          "control_type": "county_precincts",
+          "district_total": 2498431,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_us_senate_2004",
+          "county_total": 1961677,
+          "control_total": 1961677,
+          "control_type": "county_precincts",
+          "district_total": 1587237,
+          "coverage": 0.809123
+        },
+        {
+          "file": "state_house_us_senate_2004",
+          "county_total": 1961677,
+          "control_total": 1961677,
+          "control_type": "county_precincts",
+          "district_total": 1587237,
+          "coverage": 0.809123
+        },
+        {
+          "file": "state_senate_us_senate_2004",
+          "county_total": 1961677,
+          "control_total": 1961677,
+          "control_type": "county_precincts",
+          "district_total": 1587237,
+          "coverage": 0.809123
+        },
+        {
+          "file": "congressional_us_senate_2006",
+          "county_total": 609175,
+          "control_total": 609175,
+          "control_type": "county_precincts",
+          "district_total": 546996,
+          "coverage": 0.897929
+        },
+        {
+          "file": "congressional_us_senate_2010",
+          "county_total": 467686,
+          "control_total": 467686,
+          "control_type": "county_precincts",
+          "district_total": 430875,
+          "coverage": 0.921291
+        },
+        {
+          "file": "congressional_us_senate_2012",
+          "county_total": 1599739,
+          "control_total": 1599739,
+          "control_type": "county_precincts",
+          "district_total": 1597255,
+          "coverage": 0.998447
+        },
+        {
+          "file": "congressional_us_senate_2016",
+          "county_total": 2683273,
+          "control_total": 2547063,
+          "control_type": "rdh_blocks",
+          "district_total": 2547060,
+          "coverage": 0.999999
+        },
+        {
+          "file": "state_house_us_senate_2016",
+          "county_total": 2683273,
+          "control_total": 2547063,
+          "control_type": "rdh_blocks",
+          "district_total": 2547061,
+          "coverage": 0.999999
+        },
+        {
+          "file": "state_senate_us_senate_2016",
+          "county_total": 2683273,
+          "control_total": 2547063,
+          "control_type": "rdh_blocks",
+          "district_total": 2547061,
+          "coverage": 0.999999
+        },
+        {
+          "file": "congressional_us_senate_2018",
+          "county_total": 2444099,
+          "control_total": 2387532,
+          "control_type": "rdh_blocks",
+          "district_total": 2387534,
+          "coverage": 1.000001
+        },
+        {
+          "file": "state_house_us_senate_2018",
+          "county_total": 2444099,
+          "control_total": 2387532,
+          "control_type": "rdh_blocks",
+          "district_total": 2387532,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_us_senate_2018",
+          "county_total": 2444099,
+          "control_total": 2387532,
+          "control_type": "rdh_blocks",
+          "district_total": 2387532,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_us_senate_2020",
+          "county_total": 3109719,
+          "control_total": 3354134,
+          "control_type": "rdh_blocks",
+          "district_total": 3354136,
+          "coverage": 1.000001
+        },
+        {
+          "file": "state_house_us_senate_2020",
+          "county_total": 3109719,
+          "control_total": 3354134,
+          "control_type": "rdh_blocks",
+          "district_total": 3354132,
+          "coverage": 0.999999
+        },
+        {
+          "file": "state_senate_us_senate_2020",
+          "county_total": 3109719,
+          "control_total": 3354134,
+          "control_type": "rdh_blocks",
+          "district_total": 3354132,
+          "coverage": 0.999999
+        },
+        {
+          "file": "congressional_us_senate_2022",
+          "county_total": 2574703,
+          "control_total": 2574703,
+          "control_type": "county_precincts",
+          "district_total": 2574703,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_us_senate_2022",
+          "county_total": 2574703,
+          "control_total": 2574703,
+          "control_type": "county_precincts",
+          "district_total": 2574703,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_us_senate_2022",
+          "county_total": 2574703,
+          "control_total": 2574703,
+          "control_type": "county_precincts",
+          "district_total": 2574703,
+          "coverage": 1.0
+        },
+        {
+          "file": "congressional_us_senate_2024",
+          "county_total": 3354441,
+          "control_total": 3352137,
+          "control_type": "rdh_blocks",
+          "district_total": 3352137,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_house_us_senate_2024",
+          "county_total": 3354441,
+          "control_total": 3352137,
+          "control_type": "rdh_blocks",
+          "district_total": 3352137,
+          "coverage": 1.0
+        },
+        {
+          "file": "state_senate_us_senate_2024",
+          "county_total": 3354441,
+          "control_total": 3352137,
+          "control_type": "rdh_blocks",
+          "district_total": 3352137,
+          "coverage": 1.0
+        }
+      ]
+    },
+    {
+      "name": "state_house_seat_designation",
+      "district_values": [
+        "1",
+        "10",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "23",
+        "25",
+        "30",
+        "6",
+        "7",
+        "Dist-10",
+        "Dist-11",
+        "Dist-12",
+        "Dist-13",
+        "Dist-14",
+        "Dist-15",
+        "Dist-16",
+        "Dist-2",
+        "Dist-22",
+        "Dist-23",
+        "Dist-24",
+        "Dist-25",
+        "Dist-26",
+        "Dist-27",
+        "Dist-28",
+        "Dist-29",
+        "Dist-3",
+        "Dist-30",
+        "Dist-4",
+        "Dist-5",
+        "Dist-8",
+        "Dist-9"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Incomplete precinct-to-district coverage in congressional_attorney_general_2006: 77.94%.",
+    "Incomplete precinct-to-district coverage in state_house_attorney_general_2006: 77.94%.",
+    "Incomplete precinct-to-district coverage in state_senate_attorney_general_2006: 77.94%.",
+    "Incomplete precinct-to-district coverage in congressional_attorney_general_2010: 93.80%.",
+    "Incomplete precinct-to-district coverage in state_house_attorney_general_2010: 93.80%.",
+    "Incomplete precinct-to-district coverage in state_senate_attorney_general_2010: 93.80%.",
+    "Incomplete precinct-to-district coverage in congressional_attorney_general_2014: 99.17%.",
+    "Incomplete precinct-to-district coverage in state_house_attorney_general_2014: 99.17%.",
+    "Incomplete precinct-to-district coverage in state_senate_attorney_general_2014: 99.17%.",
+    "Incomplete precinct-to-district coverage in congressional_governor_2006: 77.93%.",
+    "Incomplete precinct-to-district coverage in state_house_governor_2006: 77.93%.",
+    "Incomplete precinct-to-district coverage in state_senate_governor_2006: 77.93%.",
+    "Incomplete precinct-to-district coverage in congressional_governor_2010: 93.80%.",
+    "Incomplete precinct-to-district coverage in state_house_governor_2010: 93.80%.",
+    "Incomplete precinct-to-district coverage in state_senate_governor_2010: 93.80%.",
+    "Incomplete precinct-to-district coverage in congressional_governor_2014: 99.17%.",
+    "Incomplete precinct-to-district coverage in state_house_governor_2014: 99.17%.",
+    "Incomplete precinct-to-district coverage in state_senate_governor_2014: 99.17%.",
+    "Incomplete precinct-to-district coverage in congressional_president_2004: 80.85%.",
+    "Incomplete precinct-to-district coverage in state_house_president_2004: 80.85%.",
+    "Incomplete precinct-to-district coverage in state_senate_president_2004: 80.85%.",
+    "Incomplete precinct-to-district coverage in congressional_president_2012: 99.68%.",
+    "Incomplete precinct-to-district coverage in state_house_president_2012: 99.68%.",
+    "Incomplete precinct-to-district coverage in state_senate_president_2012: 99.68%.",
+    "Missing district rollup for congressional_secretary_of_state_2006.",
+    "Missing district rollup for state_house_secretary_of_state_2006.",
+    "Missing district rollup for state_senate_secretary_of_state_2006.",
+    "Missing district rollup for congressional_secretary_of_state_2010.",
+    "Missing district rollup for state_house_secretary_of_state_2010.",
+    "Missing district rollup for state_senate_secretary_of_state_2010.",
+    "Incomplete precinct-to-district coverage in congressional_secretary_of_state_2014: 99.17%.",
+    "Incomplete precinct-to-district coverage in state_house_secretary_of_state_2014: 99.17%.",
+    "Incomplete precinct-to-district coverage in state_senate_secretary_of_state_2014: 99.17%.",
+    "Missing district rollup for congressional_treasurer_2004.",
+    "Missing district rollup for state_house_treasurer_2004.",
+    "Missing district rollup for state_senate_treasurer_2004.",
+    "Incomplete precinct-to-district coverage in congressional_treasurer_2006: 77.90%.",
+    "Incomplete precinct-to-district coverage in state_house_treasurer_2006: 77.90%.",
+    "Incomplete precinct-to-district coverage in state_senate_treasurer_2006: 77.90%.",
+    "Incomplete precinct-to-district coverage in congressional_treasurer_2010: 93.79%.",
+    "Incomplete precinct-to-district coverage in state_house_treasurer_2010: 93.79%.",
+    "Incomplete precinct-to-district coverage in state_senate_treasurer_2010: 93.79%.",
+    "Missing district rollup for congressional_treasurer_2012.",
+    "Missing district rollup for state_house_treasurer_2012.",
+    "Missing district rollup for state_senate_treasurer_2012.",
+    "Incomplete precinct-to-district coverage in congressional_treasurer_2014: 99.12%.",
+    "Incomplete precinct-to-district coverage in state_house_treasurer_2014: 99.12%.",
+    "Incomplete precinct-to-district coverage in state_senate_treasurer_2014: 99.12%.",
+    "Incomplete precinct-to-district coverage in congressional_us_senate_2004: 80.91%.",
+    "Incomplete precinct-to-district coverage in state_house_us_senate_2004: 80.91%.",
+    "Incomplete precinct-to-district coverage in state_senate_us_senate_2004: 80.91%.",
+    "Incomplete precinct-to-district coverage in congressional_us_senate_2006: 89.79%.",
+    "Missing district rollup for state_house_us_senate_2006.",
+    "Missing district rollup for state_senate_us_senate_2006.",
+    "Incomplete precinct-to-district coverage in congressional_us_senate_2010: 92.13%.",
+    "Missing district rollup for state_house_us_senate_2010.",
+    "Missing district rollup for state_senate_us_senate_2010.",
+    "Incomplete precinct-to-district coverage in congressional_us_senate_2012: 99.84%.",
+    "Missing district rollup for state_house_us_senate_2012.",
+    "Missing district rollup for state_senate_us_senate_2012.",
+    "11721 precincts are not matched to Census VTDs.",
+    "Source State House records contain district numbers but no A/B seat designation; House seats cannot be separated reliably."
+  ]
+}

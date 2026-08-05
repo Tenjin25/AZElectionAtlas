@@ -1,0 +1,339 @@
+{
+  "year": 2016,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 35375,
+        "rep_votes": 68620,
+        "other_votes": 8870,
+        "total_votes": 112865,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 33245,
+        "margin_pct": 29.4555,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 31546,
+        "rep_votes": 48740,
+        "other_votes": 6226,
+        "total_votes": 86512,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 17194,
+        "margin_pct": 19.8747,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 34934,
+        "rep_votes": 81162,
+        "other_votes": 5519,
+        "total_votes": 121615,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 46228,
+        "margin_pct": 38.0118,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 45950,
+        "rep_votes": 74546,
+        "other_votes": 5207,
+        "total_votes": 125703,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 28596,
+        "margin_pct": 22.7489,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 46225,
+        "rep_votes": 32601,
+        "other_votes": 4258,
+        "total_votes": 83084,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -13624,
+        "margin_pct": -16.3979,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 54435,
+        "rep_votes": 28157,
+        "other_votes": 4860,
+        "total_votes": 87452,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -26278,
+        "margin_pct": -30.0485,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 31028,
+        "rep_votes": 53334,
+        "other_votes": 7334,
+        "total_votes": 91696,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 22306,
+        "margin_pct": 24.326,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 38307,
+        "rep_votes": 34586,
+        "other_votes": 4596,
+        "total_votes": 77489,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -3721,
+        "margin_pct": -4.802,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 28188,
+        "rep_votes": 38418,
+        "other_votes": 5115,
+        "total_votes": 71721,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 10230,
+        "margin_pct": 14.2636,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 27768,
+        "rep_votes": 56364,
+        "other_votes": 6550,
+        "total_votes": 90682,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 28596,
+        "margin_pct": 31.5344,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 35830,
+        "rep_votes": 16290,
+        "other_votes": 2737,
+        "total_votes": 54857,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -19540,
+        "margin_pct": -35.6199,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 47649,
+        "rep_votes": 54729,
+        "other_votes": 5501,
+        "total_votes": 107879,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 7080,
+        "margin_pct": 6.5629,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 34971,
+        "rep_votes": 54020,
+        "other_votes": 4674,
+        "total_votes": 93665,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 19049,
+        "margin_pct": 20.3374,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 27681,
+        "rep_votes": 60271,
+        "other_votes": 4767,
+        "total_votes": 92719,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 32590,
+        "margin_pct": 35.1492,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 20017,
+        "rep_votes": 46347,
+        "other_votes": 4777,
+        "total_votes": 71141,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 26330,
+        "margin_pct": 37.011,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 29350,
+        "rep_votes": 36783,
+        "other_votes": 5040,
+        "total_votes": 71173,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 7433,
+        "margin_pct": 10.4436,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 45287,
+        "rep_votes": 66505,
+        "other_votes": 5911,
+        "total_votes": 117703,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 21218,
+        "margin_pct": 18.0267,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 57137,
+        "rep_votes": 51703,
+        "other_votes": 5418,
+        "total_votes": 114258,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -5434,
+        "margin_pct": -4.7559,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 32097,
+        "rep_votes": 54139,
+        "other_votes": 6480,
+        "total_votes": 92716,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 22042,
+        "margin_pct": 23.7737,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 46567,
+        "rep_votes": 21553,
+        "other_votes": 3960,
+        "total_votes": 72080,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -25014,
+        "margin_pct": -34.7031,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 40415,
+        "rep_votes": 29580,
+        "other_votes": 4119,
+        "total_votes": 74114,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -10835,
+        "margin_pct": -14.6194,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 29824,
+        "rep_votes": 21106,
+        "other_votes": 3121,
+        "total_votes": 54051,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -8718,
+        "margin_pct": -16.1292,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 27933,
+        "rep_votes": 27577,
+        "other_votes": 3411,
+        "total_votes": 58921,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -356,
+        "margin_pct": -0.6042,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 25136,
+        "rep_votes": 18913,
+        "other_votes": 3140,
+        "total_votes": 47189,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -6223,
+        "margin_pct": -13.1874,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 19985,
+        "rep_votes": 41408,
+        "other_votes": 4871,
+        "total_votes": 66264,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 21423,
+        "margin_pct": 32.3298,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 24162,
+        "rep_votes": 16665,
+        "other_votes": 2823,
+        "total_votes": 43650,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": -7497,
+        "margin_pct": -17.1753,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 30879,
+        "rep_votes": 52081,
+        "other_votes": 6576,
+        "total_votes": 89536,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 21202,
+        "margin_pct": 23.6799,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 32572,
+        "rep_votes": 68207,
+        "other_votes": 6533,
+        "total_votes": 107312,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 35635,
+        "margin_pct": 33.2069,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 28612,
+        "rep_votes": 48057,
+        "other_votes": 5442,
+        "total_votes": 82111,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 19445,
+        "margin_pct": 23.6814,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 21388,
+        "rep_votes": 56805,
+        "other_votes": 8710,
+        "total_votes": 86903,
+        "dem_candidate": "Ann Kirkpatrick",
+        "rep_candidate": "John McCain",
+        "margin": 35417,
+        "margin_pct": 40.7546,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "year": 2014,
+  "contest_type": "treasurer",
+  "scope": "county",
+  "county_totals": {
+    "apache": {
+      "dem_votes": 0,
+      "rep_votes": 13083,
+      "other_votes": 0,
+      "total_votes": 13083,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 13083,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    },
+    "coconino": {
+      "dem_votes": 0,
+      "rep_votes": 23831,
+      "other_votes": 0,
+      "total_votes": 23831,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 23831,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    },
+    "gila": {
+      "dem_votes": 0,
+      "rep_votes": 11846,
+      "other_votes": 0,
+      "total_votes": 11846,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 11846,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    },
+    "greenlee": {
+      "dem_votes": 0,
+      "rep_votes": 1281,
+      "other_votes": 0,
+      "total_votes": 1281,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 1281,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    },
+    "la_paz": {
+      "dem_votes": 0,
+      "rep_votes": 2769,
+      "other_votes": 0,
+      "total_votes": 2769,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 2769,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    },
+    "maricopa": {
+      "dem_votes": 0,
+      "rep_votes": 608158,
+      "other_votes": 12687,
+      "total_votes": 620845,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 608158,
+      "margin_pct": 97.9565,
+      "winner": "REP"
+    },
+    "mohave": {
+      "dem_votes": 0,
+      "rep_votes": 36603,
+      "other_votes": 0,
+      "total_votes": 36603,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 36603,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    },
+    "navajo": {
+      "dem_votes": 0,
+      "rep_votes": 19914,
+      "other_votes": 0,
+      "total_votes": 19914,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 19914,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    },
+    "pima": {
+      "dem_votes": 0,
+      "rep_votes": 180654,
+      "other_votes": 0,
+      "total_votes": 180654,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 180654,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    },
+    "pinal": {
+      "dem_votes": 0,
+      "rep_votes": 53619,
+      "other_votes": 860,
+      "total_votes": 54479,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 53619,
+      "margin_pct": 98.4214,
+      "winner": "REP"
+    },
+    "santa_cruz": {
+      "dem_votes": 0,
+      "rep_votes": 11784,
+      "other_votes": 272,
+      "total_votes": 12056,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 11784,
+      "margin_pct": 97.7439,
+      "winner": "REP"
+    },
+    "yavapai": {
+      "dem_votes": 0,
+      "rep_votes": 53453,
+      "other_votes": 561,
+      "total_votes": 54014,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 53453,
+      "margin_pct": 98.9614,
+      "winner": "REP"
+    },
+    "yuma": {
+      "dem_votes": 0,
+      "rep_votes": 19488,
+      "other_votes": 0,
+      "total_votes": 19488,
+      "dem_candidate": "",
+      "rep_candidate": "Jeff Dewit",
+      "margin": 19488,
+      "margin_pct": 100.0,
+      "winner": "REP"
+    }
+  }
+}

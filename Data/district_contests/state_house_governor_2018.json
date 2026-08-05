@@ -1,0 +1,339 @@
+{
+  "year": 2018,
+  "scope": "state_house",
+  "contest_type": "governor",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 32968,
+        "rep_votes": 74591,
+        "other_votes": 2193,
+        "total_votes": 109752,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 41623,
+        "margin_pct": 37.9246,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 31234,
+        "rep_votes": 44577,
+        "other_votes": 1922,
+        "total_votes": 77733,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 13343,
+        "margin_pct": 17.1652,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 35454,
+        "rep_votes": 81741,
+        "other_votes": 1340,
+        "total_votes": 118535,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 46287,
+        "margin_pct": 39.0492,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 48314,
+        "rep_votes": 69631,
+        "other_votes": 1697,
+        "total_votes": 119642,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 21317,
+        "margin_pct": 17.8173,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 48534,
+        "rep_votes": 28871,
+        "other_votes": 1881,
+        "total_votes": 79286,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -19663,
+        "margin_pct": -24.8001,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 46054,
+        "rep_votes": 30475,
+        "other_votes": 2788,
+        "total_votes": 79317,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -15579,
+        "margin_pct": -19.6414,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 27893,
+        "rep_votes": 56657,
+        "other_votes": 2054,
+        "total_votes": 86604,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 28764,
+        "margin_pct": 33.2132,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 39995,
+        "rep_votes": 29628,
+        "other_votes": 1702,
+        "total_votes": 71325,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -10367,
+        "margin_pct": -14.5349,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 27563,
+        "rep_votes": 34476,
+        "other_votes": 1828,
+        "total_votes": 63867,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 6913,
+        "margin_pct": 10.8241,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 25681,
+        "rep_votes": 57468,
+        "other_votes": 1953,
+        "total_votes": 85102,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 31787,
+        "margin_pct": 37.3516,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 33388,
+        "rep_votes": 13952,
+        "other_votes": 1572,
+        "total_votes": 48912,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -19436,
+        "margin_pct": -39.7367,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 49944,
+        "rep_votes": 48882,
+        "other_votes": 2008,
+        "total_votes": 100834,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -1062,
+        "margin_pct": -1.0532,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 36753,
+        "rep_votes": 50853,
+        "other_votes": 1661,
+        "total_votes": 89267,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 14100,
+        "margin_pct": 15.7953,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 30529,
+        "rep_votes": 55719,
+        "other_votes": 1541,
+        "total_votes": 87789,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 25190,
+        "margin_pct": 28.6938,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 21030,
+        "rep_votes": 47250,
+        "other_votes": 1489,
+        "total_votes": 69769,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 26220,
+        "margin_pct": 37.5812,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 24849,
+        "rep_votes": 37756,
+        "other_votes": 1805,
+        "total_votes": 64410,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 12907,
+        "margin_pct": 20.0388,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 44293,
+        "rep_votes": 68577,
+        "other_votes": 2106,
+        "total_votes": 114976,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 24284,
+        "margin_pct": 21.1209,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 56786,
+        "rep_votes": 49489,
+        "other_votes": 2227,
+        "total_votes": 108502,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -7297,
+        "margin_pct": -6.7252,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 27191,
+        "rep_votes": 58832,
+        "other_votes": 2085,
+        "total_votes": 88108,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 31641,
+        "margin_pct": 35.9116,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 45305,
+        "rep_votes": 18532,
+        "other_votes": 2066,
+        "total_votes": 65903,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -26773,
+        "margin_pct": -40.6249,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 36793,
+        "rep_votes": 26503,
+        "other_votes": 1908,
+        "total_votes": 65204,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -10290,
+        "margin_pct": -15.7812,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 27879,
+        "rep_votes": 16647,
+        "other_votes": 1354,
+        "total_votes": 45880,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -11232,
+        "margin_pct": -24.4813,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 27114,
+        "rep_votes": 23715,
+        "other_votes": 1400,
+        "total_votes": 52229,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -3399,
+        "margin_pct": -6.5079,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 22996,
+        "rep_votes": 15600,
+        "other_votes": 1381,
+        "total_votes": 39977,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -7396,
+        "margin_pct": -18.5006,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 19574,
+        "rep_votes": 42797,
+        "other_votes": 1272,
+        "total_votes": 63643,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 23223,
+        "margin_pct": 36.4895,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 22942,
+        "rep_votes": 13590,
+        "other_votes": 1334,
+        "total_votes": 37866,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": -9352,
+        "margin_pct": -24.6976,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 30183,
+        "rep_votes": 47936,
+        "other_votes": 2199,
+        "total_votes": 80318,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 17753,
+        "margin_pct": 22.1034,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 30575,
+        "rep_votes": 73929,
+        "other_votes": 2079,
+        "total_votes": 106583,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 43354,
+        "margin_pct": 40.6763,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 27208,
+        "rep_votes": 48571,
+        "other_votes": 1721,
+        "total_votes": 77500,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 21363,
+        "margin_pct": 27.5652,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 15323,
+        "rep_votes": 63620,
+        "other_votes": 1591,
+        "total_votes": 80534,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Doug Ducey",
+        "margin": 48297,
+        "margin_pct": 59.9709,
+        "winner": "REP"
+      }
+    }
+  }
+}

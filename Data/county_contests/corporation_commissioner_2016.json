@@ -1,0 +1,139 @@
+{
+  "year": 2016,
+  "contest_type": "corporation_commissioner",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 26754,
+      "rep_votes": 21562,
+      "other_votes": 149,
+      "total_votes": 48465,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": -5192,
+      "margin_pct": -10.7129,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 35800,
+      "rep_votes": 82025,
+      "other_votes": 405,
+      "total_votes": 118230,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": 46225,
+      "margin_pct": 39.0975,
+      "winner": "REP"
+    },
+    "Gila": {
+      "dem_votes": 15562,
+      "rep_votes": 34193,
+      "other_votes": 97,
+      "total_votes": 49852,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": 18631,
+      "margin_pct": 37.3726,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 6659,
+      "rep_votes": 20008,
+      "other_votes": 42,
+      "total_votes": 26709,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": 13349,
+      "margin_pct": 49.9794,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 2488,
+      "rep_votes": 4919,
+      "other_votes": 15,
+      "total_votes": 7422,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": 2431,
+      "margin_pct": 32.754,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 36074,
+      "rep_votes": 127889,
+      "other_votes": 388,
+      "total_votes": 164351,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": 91815,
+      "margin_pct": 55.8652,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 2998,
+      "rep_votes": 5383,
+      "other_votes": 20,
+      "total_votes": 8401,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": 2385,
+      "margin_pct": 28.3895,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 376523,
+      "rep_votes": 487913,
+      "other_votes": 2245,
+      "total_votes": 866681,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": 111390,
+      "margin_pct": 12.8525,
+      "winner": "REP"
+    },
+    "Pinal": {
+      "dem_votes": 8925,
+      "rep_votes": 18632,
+      "other_votes": 43,
+      "total_votes": 27600,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": 9707,
+      "margin_pct": 35.1703,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 1736,
+      "rep_votes": 1249,
+      "other_votes": 1,
+      "total_votes": 2986,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \"Bob\" Burns",
+      "margin": -487,
+      "margin_pct": -16.3094,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 72353,
+      "rep_votes": 176783,
+      "other_votes": 436,
+      "total_votes": 249572,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert Bob\"\" Burns",
+      "margin": 104430,
+      "margin_pct": 41.8436,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 38905,
+      "rep_votes": 60971,
+      "other_votes": 185949,
+      "total_votes": 285825,
+      "dem_candidate": "Tom Chabin",
+      "rep_candidate": "Robert \\Bob\\\"\" Burns",
+      "margin": 22066,
+      "margin_pct": 7.7201,
+      "winner": "REP"
+    }
+  }
+}

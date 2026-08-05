@@ -1,0 +1,172 @@
+{
+  "year": 2022,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 18005,
+      "rep_votes": 8163,
+      "other_votes": 591,
+      "total_votes": 26759,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": -9842,
+      "margin_pct": -36.7801,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 20002,
+      "rep_votes": 25539,
+      "other_votes": 1450,
+      "total_votes": 46991,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 5537,
+      "margin_pct": 11.7831,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 35149,
+      "rep_votes": 18697,
+      "other_votes": 1255,
+      "total_votes": 55101,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": -16452,
+      "margin_pct": -29.8579,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7984,
+      "rep_votes": 13958,
+      "other_votes": 631,
+      "total_votes": 22573,
+      "dem_candidate": "Marky Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 5974,
+      "margin_pct": 26.4652,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3243,
+      "rep_votes": 7388,
+      "other_votes": 267,
+      "total_votes": 10898,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 4145,
+      "margin_pct": 38.0345,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 970,
+      "rep_votes": 1392,
+      "other_votes": 102,
+      "total_votes": 2464,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 422,
+      "margin_pct": 17.1266,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1711,
+      "rep_votes": 3656,
+      "other_votes": 166,
+      "total_votes": 5533,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 1945,
+      "margin_pct": 35.1527,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 809573,
+      "rep_votes": 710491,
+      "other_votes": 32626,
+      "total_votes": 1552690,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": -99082,
+      "margin_pct": -6.3813,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 21040,
+      "rep_votes": 58737,
+      "other_votes": 2222,
+      "total_votes": 81999,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 37697,
+      "margin_pct": 45.9725,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 18724,
+      "rep_votes": 20970,
+      "other_votes": 967,
+      "total_votes": 40661,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 2246,
+      "margin_pct": 5.5237,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 248230,
+      "rep_votes": 144936,
+      "other_votes": 7923,
+      "total_votes": 401089,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": -103294,
+      "margin_pct": -25.7534,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 62009,
+      "rep_votes": 78820,
+      "other_votes": 3798,
+      "total_votes": 144627,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 16811,
+      "margin_pct": 11.6237,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 8993,
+      "rep_votes": 3896,
+      "other_votes": 318,
+      "total_votes": 13207,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": -5097,
+      "margin_pct": -38.5932,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 45258,
+      "rep_votes": 75752,
+      "other_votes": 2762,
+      "total_votes": 123772,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 30494,
+      "margin_pct": 24.6372,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 21141,
+      "rep_votes": 23917,
+      "other_votes": 1281,
+      "total_votes": 46339,
+      "dem_candidate": "Mark Kelly",
+      "rep_candidate": "Blake Masters",
+      "margin": 2776,
+      "margin_pct": 5.9906,
+      "winner": "REP"
+    }
+  }
+}

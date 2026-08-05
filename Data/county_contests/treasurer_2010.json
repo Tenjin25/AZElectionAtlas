@@ -1,0 +1,139 @@
+{
+  "year": 2010,
+  "contest_type": "treasurer",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 13212,
+      "rep_votes": 5696,
+      "other_votes": 1364,
+      "total_votes": 20272,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": -7516,
+      "margin_pct": -37.0758,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 15022,
+      "rep_votes": 20777,
+      "other_votes": 2884,
+      "total_votes": 38683,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 5755,
+      "margin_pct": 14.8773,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 19456,
+      "rep_votes": 14678,
+      "other_votes": 2961,
+      "total_votes": 37095,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": -4778,
+      "margin_pct": -12.8804,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6072,
+      "rep_votes": 9803,
+      "other_votes": 1338,
+      "total_votes": 17213,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 3731,
+      "margin_pct": 21.6755,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 2846,
+      "rep_votes": 5410,
+      "other_votes": 572,
+      "total_votes": 8828,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 2564,
+      "margin_pct": 29.044,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1183,
+      "rep_votes": 1011,
+      "other_votes": 164,
+      "total_votes": 2358,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": -172,
+      "margin_pct": -7.2943,
+      "winner": "DEM"
+    },
+    "Maricopa": {
+      "dem_votes": 98173,
+      "rep_votes": 127785,
+      "other_votes": 17150,
+      "total_votes": 243108,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 29612,
+      "margin_pct": 12.1806,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 12674,
+      "rep_votes": 14134,
+      "other_votes": 1983,
+      "total_votes": 28791,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 1460,
+      "margin_pct": 5.071,
+      "winner": "REP"
+    },
+    "Pinal": {
+      "dem_votes": 29604,
+      "rep_votes": 41195,
+      "other_votes": 5256,
+      "total_votes": 76055,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 11591,
+      "margin_pct": 15.2403,
+      "winner": "REP"
+    },
+    "SantaCruz": {
+      "dem_votes": 6169,
+      "rep_votes": 2911,
+      "other_votes": 539,
+      "total_votes": 9619,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": -3258,
+      "margin_pct": -33.8705,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 24885,
+      "rep_votes": 47696,
+      "other_votes": 5549,
+      "total_votes": 78130,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 22811,
+      "margin_pct": 29.1962,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 13692,
+      "rep_votes": 17509,
+      "other_votes": 1720,
+      "total_votes": 32921,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 3817,
+      "margin_pct": 11.5944,
+      "winner": "REP"
+    }
+  }
+}

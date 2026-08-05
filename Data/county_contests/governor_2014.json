@@ -1,0 +1,150 @@
+{
+  "year": 2014,
+  "contest_type": "governor",
+  "scope": "county",
+  "county_totals": {
+    "apache": {
+      "dem_votes": 13562,
+      "rep_votes": 5871,
+      "other_votes": 1142,
+      "total_votes": 20575,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": -7691,
+      "margin_pct": -37.3803,
+      "winner": "DEM"
+    },
+    "coconino": {
+      "dem_votes": 20212,
+      "rep_votes": 14528,
+      "other_votes": 2146,
+      "total_votes": 36886,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": -5684,
+      "margin_pct": -15.4096,
+      "winner": "DEM"
+    },
+    "gila": {
+      "dem_votes": 5253,
+      "rep_votes": 9610,
+      "other_votes": 971,
+      "total_votes": 15834,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 4357,
+      "margin_pct": 27.5167,
+      "winner": "REP"
+    },
+    "greenlee": {
+      "dem_votes": 792,
+      "rep_votes": 995,
+      "other_votes": 133,
+      "total_votes": 1920,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 203,
+      "margin_pct": 10.5729,
+      "winner": "REP"
+    },
+    "la_paz": {
+      "dem_votes": 846,
+      "rep_votes": 2388,
+      "other_votes": 248,
+      "total_votes": 3482,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 1542,
+      "margin_pct": 44.2849,
+      "winner": "REP"
+    },
+    "maricopa": {
+      "dem_votes": 346879,
+      "rep_votes": 469200,
+      "other_votes": 43226,
+      "total_votes": 859305,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 122321,
+      "margin_pct": 14.2349,
+      "winner": "REP"
+    },
+    "mohave": {
+      "dem_votes": 10662,
+      "rep_votes": 33150,
+      "other_votes": 2846,
+      "total_votes": 46658,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 22488,
+      "margin_pct": 48.1975,
+      "winner": "REP"
+    },
+    "navajo": {
+      "dem_votes": 12128,
+      "rep_votes": 13569,
+      "other_votes": 1633,
+      "total_votes": 27330,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 1441,
+      "margin_pct": 5.2726,
+      "winner": "REP"
+    },
+    "pima": {
+      "dem_votes": 136302,
+      "rep_votes": 122966,
+      "other_votes": 11211,
+      "total_votes": 270479,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": -13336,
+      "margin_pct": -4.9305,
+      "winner": "DEM"
+    },
+    "pinal": {
+      "dem_votes": 26131,
+      "rep_votes": 41313,
+      "other_votes": 4131,
+      "total_votes": 71575,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 15182,
+      "margin_pct": 21.2113,
+      "winner": "REP"
+    },
+    "santa_cruz": {
+      "dem_votes": 11638,
+      "rep_votes": 6350,
+      "other_votes": 682,
+      "total_votes": 18670,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": -5288,
+      "margin_pct": -28.3235,
+      "winner": "DEM"
+    },
+    "yavapai": {
+      "dem_votes": 23210,
+      "rep_votes": 46806,
+      "other_votes": 4280,
+      "total_votes": 74296,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 23596,
+      "margin_pct": 31.7594,
+      "winner": "REP"
+    },
+    "yuma": {
+      "dem_votes": 10497,
+      "rep_votes": 14844,
+      "other_votes": 1145,
+      "total_votes": 26486,
+      "dem_candidate": "Fred Duval",
+      "rep_candidate": "Doug Ducey",
+      "margin": 4347,
+      "margin_pct": 16.4124,
+      "winner": "REP"
+    }
+  }
+}

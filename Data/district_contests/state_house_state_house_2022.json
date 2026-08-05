@@ -1,0 +1,570 @@
+{
+  "year": 2022,
+  "scope": "state_house",
+  "contest_type": "state_house",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 76532,
+        "rep_votes": 149837,
+        "other_votes": 176,
+        "total_votes": 226545,
+        "dem_candidate": "Cathy Ransom",
+        "rep_candidate": "Selina Bliss",
+        "margin": 73305,
+        "margin_pct": 32.3578,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Cathy Ransom",
+          "Neil Sinclair"
+        ],
+        "rep_candidates": [
+          "Selina Bliss",
+          "Quang Nguyen"
+        ]
+      },
+      "2": {
+        "dem_votes": 40130,
+        "rep_votes": 73964,
+        "other_votes": 469,
+        "total_votes": 114563,
+        "dem_candidate": "Judy Schwiebert",
+        "rep_candidate": "Christian Lamar",
+        "margin": 33834,
+        "margin_pct": 29.5331,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Judy Schwiebert"
+        ],
+        "rep_candidates": [
+          "Christian Lamar",
+          "Justin Wilmeth"
+        ]
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 150555,
+        "other_votes": 4173,
+        "total_votes": 154728,
+        "dem_candidate": "",
+        "rep_candidate": "Joseph Chaplik",
+        "margin": 150555,
+        "margin_pct": 97.303,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [],
+        "rep_candidates": [
+          "Joseph Chaplik",
+          "Alexander Kolodin"
+        ]
+      },
+      "4": {
+        "dem_votes": 59292,
+        "rep_votes": 117910,
+        "other_votes": 465,
+        "total_votes": 177667,
+        "dem_candidate": "Laura Terech",
+        "rep_candidate": "Matt Gress",
+        "margin": 58618,
+        "margin_pct": 32.9932,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Laura Terech"
+        ],
+        "rep_candidates": [
+          "Matt Gress",
+          "Maria Syms"
+        ]
+      },
+      "5": {
+        "dem_votes": 97442,
+        "rep_votes": 24262,
+        "other_votes": 302,
+        "total_votes": 122006,
+        "dem_candidate": "Jennifer Longdon",
+        "rep_candidate": "Jennifer \"Jenn\" Treadwell",
+        "margin": -73180,
+        "margin_pct": -59.9807,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Jennifer Longdon",
+          "Amish Shah"
+        ],
+        "rep_candidates": [
+          "Jennifer \"Jenn\" Treadwell"
+        ]
+      },
+      "6": {
+        "dem_votes": 89246,
+        "rep_votes": 128,
+        "other_votes": 2924,
+        "total_votes": 92298,
+        "dem_candidate": "Mae Peshlakai",
+        "rep_candidate": "Myron Tsosie",
+        "margin": -89118,
+        "margin_pct": -96.5546,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Mae Peshlakai",
+          "Myron Tsosie"
+        ],
+        "rep_candidates": [
+          "Myron Tsosie"
+        ]
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 112822,
+        "other_votes": 3353,
+        "total_votes": 116175,
+        "dem_candidate": "",
+        "rep_candidate": "David Cook",
+        "margin": 112822,
+        "margin_pct": 97.1138,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [],
+        "rep_candidates": [
+          "David Cook",
+          "David Marshall Sr."
+        ]
+      },
+      "8": {
+        "dem_votes": 79764,
+        "rep_votes": 47573,
+        "other_votes": 146,
+        "total_votes": 127483,
+        "dem_candidate": "Melody Hernandez",
+        "rep_candidate": "Caden Darrow",
+        "margin": -32191,
+        "margin_pct": -25.2512,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Melody Hernandez",
+          "Athena Salman"
+        ],
+        "rep_candidates": [
+          "Caden Darrow",
+          "Bill Loughrige"
+        ]
+      },
+      "9": {
+        "dem_votes": 60383,
+        "rep_votes": 56434,
+        "other_votes": 117,
+        "total_votes": 116934,
+        "dem_candidate": "Lorena Austin",
+        "rep_candidate": "Mary Ann Mendoza",
+        "margin": -3949,
+        "margin_pct": -3.3771,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Lorena Austin",
+          "Seth Blattman"
+        ],
+        "rep_candidates": [
+          "Mary Ann Mendoza",
+          "Kathy Pearce"
+        ]
+      },
+      "10": {
+        "dem_votes": 36182,
+        "rep_votes": 99214,
+        "other_votes": 379,
+        "total_votes": 135775,
+        "dem_candidate": "Helen Hunter",
+        "rep_candidate": "Justin Heap",
+        "margin": 63032,
+        "margin_pct": 46.4239,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Helen Hunter"
+        ],
+        "rep_candidates": [
+          "Justin Heap",
+          "Barbara Rowley Parker"
+        ]
+      },
+      "11": {
+        "dem_votes": 60533,
+        "rep_votes": 13744,
+        "other_votes": 255,
+        "total_votes": 74532,
+        "dem_candidate": "Oscar De Los Santos",
+        "rep_candidate": "Tatiana Pe\u00f1a M.",
+        "margin": -46789,
+        "margin_pct": -62.7771,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Oscar De Los Santos",
+          "Marcelino Quinonez"
+        ],
+        "rep_candidates": [
+          "Tatiana Pe\u00f1a M."
+        ]
+      },
+      "12": {
+        "dem_votes": 109938,
+        "rep_votes": 79322,
+        "other_votes": 88,
+        "total_votes": 189348,
+        "dem_candidate": "Patricia \"Patty\" Contreras",
+        "rep_candidate": "James \"Jim\" Chaston",
+        "margin": -30616,
+        "margin_pct": -16.1692,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Patricia \"Patty\" Contreras",
+          "Anastasia \"Stacey\" Travers"
+        ],
+        "rep_candidates": [
+          "James \"Jim\" Chaston",
+          "Terry Roe"
+        ]
+      },
+      "13": {
+        "dem_votes": 47166,
+        "rep_votes": 87388,
+        "other_votes": 469,
+        "total_votes": 135023,
+        "dem_candidate": "Jennifer Pawlik",
+        "rep_candidate": "Liz Harris",
+        "margin": 40222,
+        "margin_pct": 29.789,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Jennifer Pawlik"
+        ],
+        "rep_candidates": [
+          "Liz Harris",
+          "Julie Willoughby"
+        ]
+      },
+      "14": {
+        "dem_votes": 40349,
+        "rep_votes": 104939,
+        "other_votes": 634,
+        "total_votes": 145922,
+        "dem_candidate": "Brandy Reese",
+        "rep_candidate": "Travis Grantham",
+        "margin": 64590,
+        "margin_pct": 44.2634,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Brandy Reese"
+        ],
+        "rep_candidates": [
+          "Travis Grantham",
+          "Laurin Hendrix"
+        ]
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 112143,
+        "other_votes": 2212,
+        "total_votes": 114355,
+        "dem_candidate": "",
+        "rep_candidate": "Neal Carter",
+        "margin": 112143,
+        "margin_pct": 98.0657,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [],
+        "rep_candidates": [
+          "Neal Carter",
+          "Jacueline Parker",
+          "Jacqueline Parker"
+        ]
+      },
+      "16": {
+        "dem_votes": 32831,
+        "rep_votes": 69495,
+        "other_votes": 316,
+        "total_votes": 102642,
+        "dem_candidate": "Keith Seaman",
+        "rep_candidate": "Rob Hudelson",
+        "margin": 36664,
+        "margin_pct": 35.7203,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Keith Seaman"
+        ],
+        "rep_candidates": [
+          "Rob Hudelson",
+          "Teresa Martinez"
+        ]
+      },
+      "17": {
+        "dem_votes": 111516,
+        "rep_votes": 119926,
+        "other_votes": 232,
+        "total_votes": 231674,
+        "dem_candidate": "Dana Allmond",
+        "rep_candidate": "Rachel Jones",
+        "margin": 8410,
+        "margin_pct": 3.6301,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Dana Allmond",
+          "Brian Radford"
+        ],
+        "rep_candidates": [
+          "Rachel Jones",
+          "Cory McGarr"
+        ]
+      },
+      "18": {
+        "dem_votes": 121023,
+        "rep_votes": 41217,
+        "other_votes": 722,
+        "total_votes": 162962,
+        "dem_candidate": "Nancy Gutierrez",
+        "rep_candidate": "Linda Evans",
+        "margin": -79806,
+        "margin_pct": -48.9722,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Nancy Gutierrez",
+          "Chris Mathis"
+        ],
+        "rep_candidates": [
+          "Linda Evans"
+        ]
+      },
+      "19": {
+        "dem_votes": 36243,
+        "rep_votes": 103452,
+        "other_votes": 736,
+        "total_votes": 140431,
+        "dem_candidate": "Sanda Clark",
+        "rep_candidate": "Lupe Diaz",
+        "margin": 67209,
+        "margin_pct": 47.8591,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Sanda Clark"
+        ],
+        "rep_candidates": [
+          "Lupe Diaz",
+          "Gail Griffin"
+        ]
+      },
+      "20": {
+        "dem_votes": 79181,
+        "rep_votes": 0,
+        "other_votes": 2178,
+        "total_votes": 81359,
+        "dem_candidate": "Andres Cano",
+        "rep_candidate": "",
+        "margin": -79181,
+        "margin_pct": -97.323,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Andres Cano",
+          "Alma Hernandez"
+        ],
+        "rep_candidates": []
+      },
+      "21": {
+        "dem_votes": 69722,
+        "rep_votes": 40578,
+        "other_votes": 192,
+        "total_votes": 110492,
+        "dem_candidate": "Consuelo Hernandez",
+        "rep_candidate": "Damien Kennedy",
+        "margin": -29144,
+        "margin_pct": -26.3766,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Consuelo Hernandez",
+          "Stephanie Stahl Hamilton"
+        ],
+        "rep_candidates": [
+          "Damien Kennedy",
+          "Deborah McEwen"
+        ]
+      },
+      "22": {
+        "dem_votes": 48601,
+        "rep_votes": 0,
+        "other_votes": 5996,
+        "total_votes": 54597,
+        "dem_candidate": "Lupe Chavira Contreras",
+        "rep_candidate": "",
+        "margin": -48601,
+        "margin_pct": -89.0177,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Lupe Chavira Contreras",
+          "Leezah Elsa Sun"
+        ],
+        "rep_candidates": []
+      },
+      "23": {
+        "dem_votes": 49177,
+        "rep_votes": 25268,
+        "other_votes": 412,
+        "total_votes": 74857,
+        "dem_candidate": "Jesus Lugo Jr.",
+        "rep_candidate": "Michele Pena",
+        "margin": -23909,
+        "margin_pct": -31.9396,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Jesus Lugo Jr.",
+          "Mariana Sandoval",
+          "Jesus Jr. Lugo"
+        ],
+        "rep_candidates": [
+          "Michele Pena"
+        ]
+      },
+      "24": {
+        "dem_votes": 40402,
+        "rep_votes": 0,
+        "other_votes": 1436,
+        "total_votes": 41838,
+        "dem_candidate": "Lydia Hernandez",
+        "rep_candidate": "",
+        "margin": -40402,
+        "margin_pct": -96.5677,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Lydia Hernandez",
+          "Analise Ortiz"
+        ],
+        "rep_candidates": []
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 96440,
+        "other_votes": 2604,
+        "total_votes": 99044,
+        "dem_candidate": "",
+        "rep_candidate": "Michael Carbone",
+        "margin": 96440,
+        "margin_pct": 97.3709,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [],
+        "rep_candidates": [
+          "Michael Carbone",
+          "Timothy \"Tim\" Dunn"
+        ]
+      },
+      "26": {
+        "dem_votes": 40349,
+        "rep_votes": 0,
+        "other_votes": 1350,
+        "total_votes": 41699,
+        "dem_candidate": "Cesar Aguilar",
+        "rep_candidate": "",
+        "margin": -40349,
+        "margin_pct": -96.7625,
+        "winner": "DEM",
+        "seats": 2,
+        "dem_candidates": [
+          "Cesar Aguilar",
+          "Flavio Bravo"
+        ],
+        "rep_candidates": []
+      },
+      "27": {
+        "dem_votes": 35839,
+        "rep_votes": 80489,
+        "other_votes": 551,
+        "total_votes": 116879,
+        "dem_candidate": "Don Kissinger",
+        "rep_candidate": "Kevin Payne",
+        "margin": 44650,
+        "margin_pct": 38.2019,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Don Kissinger"
+        ],
+        "rep_candidates": [
+          "Kevin Payne",
+          "Ben Toma"
+        ]
+      },
+      "28": {
+        "dem_votes": 45180,
+        "rep_votes": 135948,
+        "other_votes": 616,
+        "total_votes": 181744,
+        "dem_candidate": "Stephanie Blair Holbrook",
+        "rep_candidate": "David Livingston",
+        "margin": 90768,
+        "margin_pct": 49.9428,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Stephanie Blair Holbrook"
+        ],
+        "rep_candidates": [
+          "David Livingston",
+          "Beverly Pingerelli"
+        ]
+      },
+      "29": {
+        "dem_votes": 36162,
+        "rep_votes": 92467,
+        "other_votes": 621,
+        "total_votes": 129250,
+        "dem_candidate": "Scott Podeyn",
+        "rep_candidate": "Steve Montenegro",
+        "margin": 56305,
+        "margin_pct": 43.5629,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [
+          "Scott Podeyn"
+        ],
+        "rep_candidates": [
+          "Steve Montenegro",
+          "Austin Smith"
+        ]
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 110905,
+        "other_votes": 1705,
+        "total_votes": 112610,
+        "dem_candidate": "",
+        "rep_candidate": "Leo Biasiucci",
+        "margin": 110905,
+        "margin_pct": 98.4859,
+        "winner": "REP",
+        "seats": 2,
+        "dem_candidates": [],
+        "rep_candidates": [
+          "Leo Biasiucci",
+          "John Gillette",
+          "Leo Bisiucci"
+        ]
+      }
+    }
+  }
+}

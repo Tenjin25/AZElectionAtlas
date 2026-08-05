@@ -1,0 +1,172 @@
+{
+  "year": 2018,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 16298,
+      "rep_votes": 7810,
+      "other_votes": 1015,
+      "total_votes": 25123,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": -8488,
+      "margin_pct": -33.7858,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 17383,
+      "rep_votes": 26929,
+      "other_votes": 1306,
+      "total_votes": 45618,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 9546,
+      "margin_pct": 20.926,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 34240,
+      "rep_votes": 19249,
+      "other_votes": 58407,
+      "total_votes": 111896,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": -14991,
+      "margin_pct": -13.3973,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7643,
+      "rep_votes": 12180,
+      "other_votes": 706,
+      "total_votes": 20529,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 4537,
+      "margin_pct": 22.1004,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3368,
+      "rep_votes": 6870,
+      "other_votes": 386,
+      "total_votes": 10624,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 3502,
+      "margin_pct": 32.9631,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1042,
+      "rep_votes": 1416,
+      "other_votes": 113,
+      "total_votes": 2571,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 374,
+      "margin_pct": 14.5469,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1609,
+      "rep_votes": 3265,
+      "other_votes": 207,
+      "total_votes": 5081,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 1656,
+      "margin_pct": 32.592,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 732761,
+      "rep_votes": 672505,
+      "other_votes": 34651,
+      "total_votes": 1439917,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": -60256,
+      "margin_pct": -4.1847,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 19214,
+      "rep_votes": 50209,
+      "other_votes": 2186,
+      "total_votes": 71609,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 30995,
+      "margin_pct": 43.2837,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 16624,
+      "rep_votes": 18767,
+      "other_votes": 1296,
+      "total_votes": 36687,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 2143,
+      "margin_pct": 5.8413,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 221242,
+      "rep_votes": 160550,
+      "other_votes": 9266,
+      "total_votes": 391058,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": -60692,
+      "margin_pct": -15.5199,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 50395,
+      "rep_votes": 63782,
+      "other_votes": 3383,
+      "total_votes": 117560,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 13387,
+      "margin_pct": 11.3874,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 9241,
+      "rep_votes": 3828,
+      "other_votes": 426,
+      "total_votes": 13495,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": -5413,
+      "margin_pct": -40.1112,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 40160,
+      "rep_votes": 65308,
+      "other_votes": 3039,
+      "total_votes": 108507,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 25148,
+      "margin_pct": 23.1764,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 19880,
+      "rep_votes": 22532,
+      "other_votes": 1412,
+      "total_votes": 43824,
+      "dem_candidate": "Kyrsten Sinema",
+      "rep_candidate": "Martha McSally",
+      "margin": 2652,
+      "margin_pct": 6.0515,
+      "winner": "REP"
+    }
+  }
+}

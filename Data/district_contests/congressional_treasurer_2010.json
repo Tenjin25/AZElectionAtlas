@@ -1,0 +1,108 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 27786,
+        "rep_votes": 42731,
+        "other_votes": 4774,
+        "total_votes": 75291,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": 14945,
+        "margin_pct": 19.8497,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 78469,
+        "rep_votes": 101055,
+        "other_votes": 14054,
+        "total_votes": 193578,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": 22586,
+        "margin_pct": 11.6676,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 17312,
+        "rep_votes": 7784,
+        "other_votes": 2093,
+        "total_votes": 27189,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": -9528,
+        "margin_pct": -35.0436,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 13802,
+        "rep_votes": 16648,
+        "other_votes": 2392,
+        "total_votes": 32842,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": 2846,
+        "margin_pct": 8.6657,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 14648,
+        "rep_votes": 24985,
+        "other_votes": 3475,
+        "total_votes": 43108,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": 10337,
+        "margin_pct": 23.9793,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 20920,
+        "rep_votes": 32758,
+        "other_votes": 3797,
+        "total_votes": 57475,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": 11838,
+        "margin_pct": 20.5968,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 21504,
+        "rep_votes": 15563,
+        "other_votes": 2281,
+        "total_votes": 39348,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": -5941,
+        "margin_pct": -15.0986,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 21782,
+        "rep_votes": 36865,
+        "other_votes": 4326,
+        "total_votes": 62973,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": 15083,
+        "margin_pct": 23.9515,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 8519,
+        "rep_votes": 14334,
+        "other_votes": 1612,
+        "total_votes": 24465,
+        "dem_candidate": "Andrei Cherny",
+        "rep_candidate": "Doug Ducey",
+        "margin": 5815,
+        "margin_pct": 23.7686,
+        "winner": "REP"
+      }
+    }
+  }
+}

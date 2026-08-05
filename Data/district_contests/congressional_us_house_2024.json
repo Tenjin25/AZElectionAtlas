@@ -1,0 +1,108 @@
+{
+  "year": 2024,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 208961,
+        "rep_votes": 225513,
+        "other_votes": 786,
+        "total_votes": 435260,
+        "dem_candidate": "Amish Shah",
+        "rep_candidate": "David Schweikert",
+        "margin": 16552,
+        "margin_pct": 3.8028,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 184779,
+        "rep_votes": 221413,
+        "other_votes": 573,
+        "total_votes": 406765,
+        "dem_candidate": "Jonathan Nez",
+        "rep_candidate": "Eli Crane",
+        "margin": 36634,
+        "margin_pct": 9.0062,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 143332,
+        "rep_votes": 53704,
+        "other_votes": 5342,
+        "total_votes": 202378,
+        "dem_candidate": "Yassamin Ansari",
+        "rep_candidate": "Jeff Zink",
+        "margin": -89628,
+        "margin_pct": -44.2874,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 176428,
+        "rep_votes": 152052,
+        "other_votes": 6325,
+        "total_votes": 334805,
+        "dem_candidate": "Gregg Stanton",
+        "rep_candidate": "Kelly Cooper",
+        "margin": -24376,
+        "margin_pct": -7.2807,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 167680,
+        "rep_votes": 255628,
+        "other_votes": 574,
+        "total_votes": 423882,
+        "dem_candidate": "Katrina Schaffner",
+        "rep_candidate": "Andy Biggs",
+        "margin": 87948,
+        "margin_pct": 20.7482,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 203833,
+        "rep_votes": 213982,
+        "other_votes": 11262,
+        "total_votes": 429077,
+        "dem_candidate": "Kirsten Engel",
+        "rep_candidate": "Juan Ciscomani",
+        "margin": 10149,
+        "margin_pct": 2.3653,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 171942,
+        "rep_votes": 99054,
+        "other_votes": 600,
+        "total_votes": 271596,
+        "dem_candidate": "Raul Grijalva",
+        "rep_candidate": "Daniel Francis Butierez Sr.",
+        "margin": -72888,
+        "margin_pct": -26.8369,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 160344,
+        "rep_votes": 208269,
+        "other_votes": 751,
+        "total_votes": 369364,
+        "dem_candidate": "Gregory Whitten",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 47925,
+        "margin_pct": 12.975,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 132640,
+        "rep_votes": 249583,
+        "other_votes": 464,
+        "total_votes": 382687,
+        "dem_candidate": "Quacy Smith",
+        "rep_candidate": "Paul Gosar",
+        "margin": 116943,
+        "margin_pct": 30.5584,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2024,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 19901,
+      "rep_votes": 11283,
+      "other_votes": 752,
+      "total_votes": 31936,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": -8618,
+      "margin_pct": -26.9852,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 23347,
+      "rep_votes": 33184,
+      "other_votes": 1664,
+      "total_votes": 58195,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 9837,
+      "margin_pct": 16.9035,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 42924,
+      "rep_votes": 24825,
+      "other_votes": 1814,
+      "total_votes": 69563,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": -18099,
+      "margin_pct": -26.0181,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 9330,
+      "rep_votes": 17433,
+      "other_votes": 609,
+      "total_votes": 27372,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 8103,
+      "margin_pct": 29.6032,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 4235,
+      "rep_votes": 10385,
+      "other_votes": 387,
+      "total_votes": 15007,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 6150,
+      "margin_pct": 40.9809,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1102,
+      "rep_votes": 2078,
+      "other_votes": 109,
+      "total_votes": 3289,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 976,
+      "margin_pct": 29.6747,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 2292,
+      "rep_votes": 4998,
+      "other_votes": 232,
+      "total_votes": 7522,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 2706,
+      "margin_pct": 35.9745,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 1045758,
+      "rep_votes": 940438,
+      "other_votes": 48022,
+      "total_votes": 2034218,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": -105320,
+      "margin_pct": -5.1774,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 26578,
+      "rep_votes": 79494,
+      "other_votes": 2584,
+      "total_votes": 108656,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 52916,
+      "margin_pct": 48.7005,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 22173,
+      "rep_votes": 27218,
+      "other_votes": 1138,
+      "total_votes": 50529,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 5045,
+      "margin_pct": 9.9844,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 298751,
+      "rep_votes": 193021,
+      "other_votes": 14702,
+      "total_votes": 506474,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": -105730,
+      "margin_pct": -20.8757,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 86674,
+      "rep_votes": 115595,
+      "other_votes": 5385,
+      "total_votes": 207654,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 28921,
+      "margin_pct": 13.9275,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 11974,
+      "rep_votes": 6367,
+      "other_votes": 610,
+      "total_votes": 18951,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": -5607,
+      "margin_pct": -29.5868,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 52077,
+      "rep_votes": 93200,
+      "other_votes": 2592,
+      "total_votes": 147869,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 41123,
+      "margin_pct": 27.8104,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 29199,
+      "rep_votes": 36212,
+      "other_votes": 1795,
+      "total_votes": 67206,
+      "dem_candidate": "Ruben Gallego",
+      "rep_candidate": "Kari Lake",
+      "margin": 7013,
+      "margin_pct": 10.4351,
+      "winner": "REP"
+    }
+  }
+}

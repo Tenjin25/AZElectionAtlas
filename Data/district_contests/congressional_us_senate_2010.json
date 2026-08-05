@@ -1,0 +1,108 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 23925,
+        "rep_votes": 49335,
+        "other_votes": 4773,
+        "total_votes": 78033,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": 25410,
+        "margin_pct": 32.5631,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 53412,
+        "rep_votes": 86358,
+        "other_votes": 10398,
+        "total_votes": 150168,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": 32946,
+        "margin_pct": 21.9394,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 15731,
+        "rep_votes": 10512,
+        "other_votes": 1705,
+        "total_votes": 27948,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": -5219,
+        "margin_pct": -18.674,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 11540,
+        "rep_votes": 20570,
+        "other_votes": 2272,
+        "total_votes": 34382,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": 9030,
+        "margin_pct": 26.2637,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 5136,
+        "rep_votes": 12751,
+        "other_votes": 1409,
+        "total_votes": 19296,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": 7615,
+        "margin_pct": 39.4641,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 9244,
+        "rep_votes": 23487,
+        "other_votes": 2742,
+        "total_votes": 35473,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": 14243,
+        "margin_pct": 40.1517,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 5000,
+        "rep_votes": 4172,
+        "other_votes": 593,
+        "total_votes": 9765,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": -828,
+        "margin_pct": -8.4793,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 18220,
+        "rep_votes": 42451,
+        "other_votes": 4246,
+        "total_votes": 64917,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": 24231,
+        "margin_pct": 37.3261,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 3529,
+        "rep_votes": 6625,
+        "other_votes": 739,
+        "total_votes": 10893,
+        "dem_candidate": "Rodney Glassman",
+        "rep_candidate": "John McCain",
+        "margin": 3096,
+        "margin_pct": 28.4219,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "year": 2012,
+  "contest_type": "corporation_commissioner",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 37078,
+      "rep_votes": 17350,
+      "other_votes": 2601,
+      "total_votes": 57029,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bittersmith",
+      "margin": -19728,
+      "margin_pct": -34.5929,
+      "winner": "DEM"
+    },
+    "Coconino": {
+      "dem_votes": 70482,
+      "rep_votes": 47930,
+      "other_votes": 7907,
+      "total_votes": 126319,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": -22552,
+      "margin_pct": -17.8532,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 22060,
+      "rep_votes": 30403,
+      "other_votes": 2245,
+      "total_votes": 54708,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": 8343,
+      "margin_pct": 15.2501,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 3508,
+      "rep_votes": 3260,
+      "other_votes": 238,
+      "total_votes": 7006,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": -248,
+      "margin_pct": -3.5398,
+      "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 4905,
+      "rep_votes": 7819,
+      "other_votes": 586,
+      "total_votes": 13310,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": 2914,
+      "margin_pct": 21.8933,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 854688,
+      "rep_votes": 1034694,
+      "other_votes": 84947,
+      "total_votes": 1974329,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": 180006,
+      "margin_pct": 9.1173,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 51534,
+      "rep_votes": 107298,
+      "other_votes": 7175,
+      "total_votes": 166007,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": 55764,
+      "margin_pct": 33.5914,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 42495,
+      "rep_votes": 45434,
+      "other_votes": 3597,
+      "total_votes": 91526,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": 2939,
+      "margin_pct": 3.2111,
+      "winner": "REP"
+    },
+    "Pinal": {
+      "dem_votes": 116709,
+      "rep_votes": 139082,
+      "other_votes": 11038,
+      "total_votes": 266829,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": 22373,
+      "margin_pct": 8.3848,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 21294,
+      "rep_votes": 9011,
+      "other_votes": 1124,
+      "total_votes": 31429,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": -12283,
+      "margin_pct": -39.0817,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 91067,
+      "rep_votes": 148219,
+      "other_votes": 11448,
+      "total_votes": 250734,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": 57152,
+      "margin_pct": 22.7939,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 44153,
+      "rep_votes": 50878,
+      "other_votes": 3479,
+      "total_votes": 98510,
+      "dem_candidate": "Marcia Busching",
+      "rep_candidate": "Susan Bitter Smith",
+      "margin": 6725,
+      "margin_pct": 6.8267,
+      "winner": "REP"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2018,
+  "contest_type": "governor",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 14955,
+      "rep_votes": 9175,
+      "other_votes": 958,
+      "total_votes": 25088,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": -5780,
+      "margin_pct": -23.0389,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 14576,
+      "rep_votes": 29638,
+      "other_votes": 1269,
+      "total_votes": 45483,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 15062,
+      "margin_pct": 33.1157,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 30712,
+      "rep_votes": 22778,
+      "other_votes": 57808,
+      "total_votes": 111298,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": -7934,
+      "margin_pct": -7.1286,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 5623,
+      "rep_votes": 14444,
+      "other_votes": 491,
+      "total_votes": 20558,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 8821,
+      "margin_pct": 42.9079,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 2569,
+      "rep_votes": 7776,
+      "other_votes": 293,
+      "total_votes": 10638,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 5207,
+      "margin_pct": 48.9472,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 832,
+      "rep_votes": 1637,
+      "other_votes": 91,
+      "total_votes": 2560,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 805,
+      "margin_pct": 31.4453,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1122,
+      "rep_votes": 3852,
+      "other_votes": 133,
+      "total_votes": 5107,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 2730,
+      "margin_pct": 53.456,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 603055,
+      "rep_votes": 800210,
+      "other_votes": 31430,
+      "total_votes": 1434695,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 197155,
+      "margin_pct": 13.7419,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 13580,
+      "rep_votes": 56682,
+      "other_votes": 1398,
+      "total_votes": 71660,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 43102,
+      "margin_pct": 60.1479,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 13646,
+      "rep_votes": 21880,
+      "other_votes": 1110,
+      "total_votes": 36636,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 8234,
+      "margin_pct": 22.4752,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 195227,
+      "rep_votes": 184621,
+      "other_votes": 9205,
+      "total_votes": 389053,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": -10606,
+      "margin_pct": -2.7261,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 38801,
+      "rep_votes": 75272,
+      "other_votes": 2947,
+      "total_votes": 117020,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 36471,
+      "margin_pct": 31.1665,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 8407,
+      "rep_votes": 4792,
+      "other_votes": 274,
+      "total_votes": 13473,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": -3615,
+      "margin_pct": -26.8314,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 32159,
+      "rep_votes": 74148,
+      "other_votes": 2168,
+      "total_votes": 108475,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 41989,
+      "margin_pct": 38.7085,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 19077,
+      "rep_votes": 23958,
+      "other_votes": 874,
+      "total_votes": 43909,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Doug Ducey",
+      "margin": 4881,
+      "margin_pct": 11.1162,
+      "winner": "REP"
+    }
+  }
+}

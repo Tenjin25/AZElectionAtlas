@@ -1,0 +1,108 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "superintendent",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 109464,
+        "rep_votes": 110154,
+        "other_votes": 230,
+        "total_votes": 219848,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": 690,
+        "margin_pct": 0.3139,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 96141,
+        "rep_votes": 57461,
+        "other_votes": 37207,
+        "total_votes": 190809,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": -38680,
+        "margin_pct": -20.2716,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 56174,
+        "rep_votes": 19879,
+        "other_votes": 172,
+        "total_votes": 76225,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": -36295,
+        "margin_pct": -47.6156,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 81551,
+        "rep_votes": 74711,
+        "other_votes": 211,
+        "total_votes": 156473,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": -6840,
+        "margin_pct": -4.3714,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 61267,
+        "rep_votes": 82307,
+        "other_votes": 167,
+        "total_votes": 143741,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": 21040,
+        "margin_pct": 14.6374,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 88120,
+        "rep_votes": 9816,
+        "other_votes": 74871,
+        "total_votes": 172807,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": -78304,
+        "margin_pct": -45.313,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 87417,
+        "rep_votes": 11351,
+        "other_votes": 56225,
+        "total_votes": 154993,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": -76066,
+        "margin_pct": -49.0771,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 78952,
+        "rep_votes": 98019,
+        "other_votes": 239,
+        "total_votes": 177210,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": 19067,
+        "margin_pct": 10.7596,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 48689,
+        "rep_votes": 37922,
+        "other_votes": 41479,
+        "total_votes": 128090,
+        "dem_candidate": "David Garcia",
+        "rep_candidate": "Diane M. Douglas",
+        "margin": -10767,
+        "margin_pct": -8.4058,
+        "winner": "DEM"
+      }
+    }
+  }
+}

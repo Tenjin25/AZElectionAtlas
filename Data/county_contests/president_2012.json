@@ -1,0 +1,161 @@
+{
+  "year": 2012,
+  "contest_type": "president",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 17147,
+      "rep_votes": 8250,
+      "other_votes": 442,
+      "total_votes": 25839,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": -8897,
+      "margin_pct": -34.4324,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 18546,
+      "rep_votes": 29497,
+      "other_votes": 943,
+      "total_votes": 48986,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 10951,
+      "margin_pct": 22.3554,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 29257,
+      "rep_votes": 21220,
+      "other_votes": 1242,
+      "total_votes": 51719,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": -8037,
+      "margin_pct": -15.5397,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7697,
+      "rep_votes": 13455,
+      "other_votes": 374,
+      "total_votes": 21526,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 5758,
+      "margin_pct": 26.749,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1310,
+      "rep_votes": 1592,
+      "other_votes": 72,
+      "total_votes": 2974,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 282,
+      "margin_pct": 9.4822,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1880,
+      "rep_votes": 3714,
+      "other_votes": 123,
+      "total_votes": 5717,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 1834,
+      "margin_pct": 32.0798,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 602288,
+      "rep_votes": 749885,
+      "other_votes": 24383,
+      "total_votes": 1376556,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 147597,
+      "margin_pct": 10.7222,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 19533,
+      "rep_votes": 49168,
+      "other_votes": 1294,
+      "total_votes": 69995,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 29635,
+      "margin_pct": 42.3387,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 16945,
+      "rep_votes": 19884,
+      "other_votes": 498,
+      "total_votes": 37327,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 2939,
+      "margin_pct": 7.8737,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 201251,
+      "rep_votes": 174779,
+      "other_votes": 6124,
+      "total_votes": 382154,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": -26472,
+      "margin_pct": -6.9271,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 44306,
+      "rep_votes": 62079,
+      "other_votes": 1893,
+      "total_votes": 108278,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 17773,
+      "margin_pct": 16.4142,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 9486,
+      "rep_votes": 4235,
+      "other_votes": 173,
+      "total_votes": 13894,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": -5251,
+      "margin_pct": -37.7933,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 33918,
+      "rep_votes": 64468,
+      "other_votes": 1867,
+      "total_votes": 100253,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 30550,
+      "margin_pct": 30.4729,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 18059,
+      "rep_votes": 23352,
+      "other_votes": 539,
+      "total_votes": 41950,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 5293,
+      "margin_pct": 12.6174,
+      "winner": "REP"
+    }
+  }
+}

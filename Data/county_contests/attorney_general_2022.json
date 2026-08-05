@@ -1,0 +1,172 @@
+{
+  "year": 2022,
+  "contest_type": "attorney_general",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 17871,
+      "rep_votes": 8481,
+      "other_votes": 62,
+      "total_votes": 26414,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": -9390,
+      "margin_pct": -35.5493,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 18480,
+      "rep_votes": 27664,
+      "other_votes": 80,
+      "total_votes": 46224,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": 9184,
+      "margin_pct": 19.8685,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 34043,
+      "rep_votes": 19700,
+      "other_votes": 88,
+      "total_votes": 53831,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": -14343,
+      "margin_pct": -26.6445,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7727,
+      "rep_votes": 14538,
+      "other_votes": 28,
+      "total_votes": 22293,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": 6811,
+      "margin_pct": 30.5522,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3084,
+      "rep_votes": 7640,
+      "other_votes": 17,
+      "total_votes": 10741,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": 4556,
+      "margin_pct": 42.4169,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 938,
+      "rep_votes": 1462,
+      "other_votes": 7,
+      "total_votes": 2407,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": 524,
+      "margin_pct": 21.7698,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1648,
+      "rep_votes": 3775,
+      "other_votes": 9,
+      "total_votes": 5432,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham Hamadeh",
+      "margin": 2127,
+      "margin_pct": 39.1568,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 766869,
+      "rep_votes": 740960,
+      "other_votes": 1943,
+      "total_votes": 1509772,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": -25909,
+      "margin_pct": -1.7161,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 19583,
+      "rep_votes": 60592,
+      "other_votes": 134,
+      "total_votes": 80309,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": 41009,
+      "margin_pct": 51.064,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 18119,
+      "rep_votes": 21748,
+      "other_votes": 89,
+      "total_votes": 39956,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": 3629,
+      "margin_pct": 9.0825,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 236264,
+      "rep_votes": 157350,
+      "other_votes": 452,
+      "total_votes": 394066,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham Hamadeh",
+      "margin": -78914,
+      "margin_pct": -20.0256,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 58953,
+      "rep_votes": 82724,
+      "other_votes": 188,
+      "total_votes": 141865,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": 23771,
+      "margin_pct": 16.7561,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 8723,
+      "rep_votes": 4282,
+      "other_votes": 15,
+      "total_votes": 13020,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": -4441,
+      "margin_pct": -34.1091,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 42810,
+      "rep_votes": 77481,
+      "other_votes": 123,
+      "total_votes": 120414,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham Hamadeh",
+      "margin": 34671,
+      "margin_pct": 28.7932,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 19500,
+      "rep_votes": 25705,
+      "other_votes": 58,
+      "total_votes": 45263,
+      "dem_candidate": "Kris Mayes",
+      "rep_candidate": "Abraham \"Abe\" Hamadeh",
+      "margin": 6205,
+      "margin_pct": 13.7088,
+      "winner": "REP"
+    }
+  }
+}

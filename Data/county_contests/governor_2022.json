@@ -1,0 +1,172 @@
+{
+  "year": 2022,
+  "contest_type": "governor",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 17739,
+      "rep_votes": 8870,
+      "other_votes": 84,
+      "total_votes": 26693,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": -8869,
+      "margin_pct": -33.2259,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 19137,
+      "rep_votes": 27481,
+      "other_votes": 187,
+      "total_votes": 46805,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 8344,
+      "margin_pct": 17.8272,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 34389,
+      "rep_votes": 20298,
+      "other_votes": 169,
+      "total_votes": 54856,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": -14091,
+      "margin_pct": -25.6873,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7674,
+      "rep_votes": 14763,
+      "other_votes": 62,
+      "total_votes": 22499,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 7089,
+      "margin_pct": 31.5081,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3087,
+      "rep_votes": 7760,
+      "other_votes": 25,
+      "total_votes": 10872,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 4673,
+      "margin_pct": 42.982,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 920,
+      "rep_votes": 1526,
+      "other_votes": 6,
+      "total_votes": 2452,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 606,
+      "margin_pct": 24.7145,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1646,
+      "rep_votes": 3847,
+      "other_votes": 25,
+      "total_votes": 5518,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 2201,
+      "margin_pct": 39.8876,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 790352,
+      "rep_votes": 752714,
+      "other_votes": 5372,
+      "total_votes": 1548438,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": -37638,
+      "margin_pct": -2.4307,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 20369,
+      "rep_votes": 61125,
+      "other_votes": 251,
+      "total_votes": 81745,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 40756,
+      "margin_pct": 49.8575,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 18058,
+      "rep_votes": 22340,
+      "other_votes": 110,
+      "total_votes": 40508,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 4282,
+      "margin_pct": 10.5708,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 241398,
+      "rep_votes": 157034,
+      "other_votes": 1093,
+      "total_votes": 399525,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": -84364,
+      "margin_pct": -21.1161,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 60019,
+      "rep_votes": 83773,
+      "other_votes": 455,
+      "total_votes": 144247,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 23754,
+      "margin_pct": 16.4676,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 8724,
+      "rep_votes": 4371,
+      "other_votes": 38,
+      "total_votes": 13133,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": -4353,
+      "margin_pct": -33.1455,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 44316,
+      "rep_votes": 78832,
+      "other_votes": 30,
+      "total_votes": 123178,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 34516,
+      "margin_pct": 28.0212,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 20063,
+      "rep_votes": 26040,
+      "other_votes": 95,
+      "total_votes": 46198,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Kari Lake",
+      "margin": 5977,
+      "margin_pct": 12.9378,
+      "winner": "REP"
+    }
+  }
+}

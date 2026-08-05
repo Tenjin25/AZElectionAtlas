@@ -1,0 +1,150 @@
+{
+  "year": 2018,
+  "contest_type": "corporation_commissioner",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 24815,
+      "rep_votes": 12908,
+      "other_votes": 65,
+      "total_votes": 37788,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": -11907,
+      "margin_pct": -31.51,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 33158,
+      "rep_votes": 49256,
+      "other_votes": 87,
+      "total_votes": 82501,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 16098,
+      "margin_pct": 19.5125,
+      "winner": "REP"
+    },
+    "Gila": {
+      "dem_votes": 14027,
+      "rep_votes": 22956,
+      "other_votes": 16,
+      "total_votes": 36999,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 8929,
+      "margin_pct": 24.1331,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 5682,
+      "rep_votes": 12696,
+      "other_votes": 19,
+      "total_votes": 18397,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 7014,
+      "margin_pct": 38.1258,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1934,
+      "rep_votes": 2625,
+      "other_votes": 5,
+      "total_votes": 4564,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 691,
+      "margin_pct": 15.1402,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 2775,
+      "rep_votes": 5737,
+      "other_votes": 9,
+      "total_votes": 8521,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 2962,
+      "margin_pct": 34.7612,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 32023,
+      "rep_votes": 86325,
+      "other_votes": 92,
+      "total_votes": 118440,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 54302,
+      "margin_pct": 45.8477,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 27809,
+      "rep_votes": 33540,
+      "other_votes": 65,
+      "total_votes": 61414,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 5731,
+      "margin_pct": 9.3317,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 397275,
+      "rep_votes": 282915,
+      "other_votes": 739,
+      "total_votes": 680929,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": -114360,
+      "margin_pct": -16.7947,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 86499,
+      "rep_votes": 117104,
+      "other_votes": 201,
+      "total_votes": 203804,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 30605,
+      "margin_pct": 15.0169,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 16083,
+      "rep_votes": 6616,
+      "other_votes": 15,
+      "total_votes": 22714,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": -9467,
+      "margin_pct": -41.6791,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 71826,
+      "rep_votes": 121228,
+      "other_votes": 118,
+      "total_votes": 193172,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 49402,
+      "margin_pct": 25.5741,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 34601,
+      "rep_votes": 38721,
+      "other_votes": 38,
+      "total_votes": 73360,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Rodney Glassman",
+      "margin": 4120,
+      "margin_pct": 5.6161,
+      "winner": "REP"
+    }
+  }
+}

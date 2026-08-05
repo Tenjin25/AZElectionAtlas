@@ -1,0 +1,339 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 14970,
+        "rep_votes": 11041,
+        "other_votes": 715,
+        "total_votes": 26726,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -3929,
+        "margin_pct": -14.701,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 6142,
+        "rep_votes": 3708,
+        "other_votes": 250,
+        "total_votes": 10100,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -2434,
+        "margin_pct": -24.099,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 5053,
+        "rep_votes": 3689,
+        "other_votes": 172,
+        "total_votes": 8914,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -1364,
+        "margin_pct": -15.3018,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 10860,
+        "rep_votes": 6775,
+        "other_votes": 304,
+        "total_votes": 17939,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -4085,
+        "margin_pct": -22.7716,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 6240,
+        "rep_votes": 2366,
+        "other_votes": 243,
+        "total_votes": 8849,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -3874,
+        "margin_pct": -43.779,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 31440,
+        "rep_votes": 7870,
+        "other_votes": 1245,
+        "total_votes": 40555,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -23570,
+        "margin_pct": -58.1186,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 18728,
+        "rep_votes": 11031,
+        "other_votes": 637,
+        "total_votes": 30396,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -7697,
+        "margin_pct": -25.3224,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 3132,
+        "rep_votes": 1426,
+        "other_votes": 102,
+        "total_votes": 4660,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -1706,
+        "margin_pct": -36.6094,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 532,
+        "rep_votes": 290,
+        "other_votes": 20,
+        "total_votes": 842,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -242,
+        "margin_pct": -28.7411,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 1808,
+        "rep_votes": 1223,
+        "other_votes": 53,
+        "total_votes": 3084,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -585,
+        "margin_pct": -18.9689,
+        "winner": "DEM"
+      },
+      "11": {
+        "dem_votes": 3420,
+        "rep_votes": 1144,
+        "other_votes": 117,
+        "total_votes": 4681,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -2276,
+        "margin_pct": -48.6221,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 20216,
+        "rep_votes": 10139,
+        "other_votes": 616,
+        "total_votes": 30971,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -10077,
+        "margin_pct": -32.5369,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 9414,
+        "rep_votes": 5757,
+        "other_votes": 320,
+        "total_votes": 15491,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -3657,
+        "margin_pct": -23.6073,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 784,
+        "rep_votes": 898,
+        "other_votes": 25,
+        "total_votes": 1707,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": 114,
+        "margin_pct": 6.6784,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 1186,
+        "rep_votes": 1089,
+        "other_votes": 52,
+        "total_votes": 2327,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -97,
+        "margin_pct": -4.1685,
+        "winner": "DEM"
+      },
+      "16": {
+        "dem_votes": 14646,
+        "rep_votes": 7429,
+        "other_votes": 464,
+        "total_votes": 22539,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -7217,
+        "margin_pct": -32.0201,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 44872,
+        "rep_votes": 27907,
+        "other_votes": 1073,
+        "total_votes": 73852,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -16965,
+        "margin_pct": -22.9716,
+        "winner": "DEM"
+      },
+      "18": {
+        "dem_votes": 61414,
+        "rep_votes": 25219,
+        "other_votes": 1318,
+        "total_votes": 87951,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -36195,
+        "margin_pct": -41.1536,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 30172,
+        "rep_votes": 20293,
+        "other_votes": 1081,
+        "total_votes": 51546,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -9879,
+        "margin_pct": -19.1654,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 39060,
+        "rep_votes": 8413,
+        "other_votes": 1033,
+        "total_votes": 48506,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -30647,
+        "margin_pct": -63.1819,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 32915,
+        "rep_votes": 11466,
+        "other_votes": 939,
+        "total_votes": 45320,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -21449,
+        "margin_pct": -47.3279,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 2119,
+        "rep_votes": 789,
+        "other_votes": 90,
+        "total_votes": 2998,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -1330,
+        "margin_pct": -44.3629,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 14519,
+        "rep_votes": 5932,
+        "other_votes": 446,
+        "total_votes": 20897,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -8587,
+        "margin_pct": -41.092,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 2412,
+        "rep_votes": 1029,
+        "other_votes": 94,
+        "total_votes": 3535,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -1383,
+        "margin_pct": -39.1231,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 4304,
+        "rep_votes": 3594,
+        "other_votes": 218,
+        "total_votes": 8116,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -710,
+        "margin_pct": -8.7482,
+        "winner": "DEM"
+      },
+      "26": {
+        "dem_votes": 3494,
+        "rep_votes": 1498,
+        "other_votes": 127,
+        "total_votes": 5119,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -1996,
+        "margin_pct": -38.992,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 8837,
+        "rep_votes": 6079,
+        "other_votes": 328,
+        "total_votes": 15244,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -2758,
+        "margin_pct": -18.0924,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 9480,
+        "rep_votes": 6251,
+        "other_votes": 230,
+        "total_votes": 15961,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -3229,
+        "margin_pct": -20.2306,
+        "winner": "DEM"
+      },
+      "29": {
+        "dem_votes": 1209,
+        "rep_votes": 810,
+        "other_votes": 18,
+        "total_votes": 2037,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -399,
+        "margin_pct": -19.5876,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 5633,
+        "rep_votes": 4580,
+        "other_votes": 307,
+        "total_votes": 10520,
+        "dem_candidate": "Janet Napolitano",
+        "rep_candidate": "Len Munsil",
+        "margin": -1053,
+        "margin_pct": -10.0095,
+        "winner": "DEM"
+      }
+    }
+  }
+}

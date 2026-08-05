@@ -1,0 +1,172 @@
+{
+  "year": 2024,
+  "contest_type": "president",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 18872,
+      "rep_votes": 12795,
+      "other_votes": 434,
+      "total_votes": 32101,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": -6077,
+      "margin_pct": -18.9309,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 22296,
+      "rep_votes": 35936,
+      "other_votes": 912,
+      "total_votes": 59144,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 13640,
+      "margin_pct": 23.0624,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 41504,
+      "rep_votes": 27576,
+      "other_votes": 1294,
+      "total_votes": 70374,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": -13928,
+      "margin_pct": -19.7914,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 8504,
+      "rep_votes": 18901,
+      "other_votes": 293,
+      "total_votes": 27698,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 10397,
+      "margin_pct": 37.537,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3867,
+      "rep_votes": 11177,
+      "other_votes": 171,
+      "total_votes": 15215,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 7310,
+      "margin_pct": 48.0447,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 954,
+      "rep_votes": 2308,
+      "other_votes": 54,
+      "total_votes": 3316,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 1354,
+      "margin_pct": 40.8323,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 2101,
+      "rep_votes": 5470,
+      "other_votes": 70,
+      "total_votes": 7641,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 3369,
+      "margin_pct": 44.0911,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 980008,
+      "rep_votes": 1051501,
+      "other_votes": 30027,
+      "total_votes": 2061536,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 71493,
+      "margin_pct": 3.4679,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 24081,
+      "rep_votes": 85683,
+      "other_votes": 929,
+      "total_votes": 110693,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 61602,
+      "margin_pct": 55.6512,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 20704,
+      "rep_votes": 29480,
+      "other_votes": 613,
+      "total_votes": 50797,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 8776,
+      "margin_pct": 17.2766,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 292450,
+      "rep_votes": 214669,
+      "other_votes": 7908,
+      "total_votes": 515027,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": -77781,
+      "margin_pct": -15.1023,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 80656,
+      "rep_votes": 126926,
+      "other_votes": 2591,
+      "total_votes": 210173,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 46270,
+      "margin_pct": 22.0152,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 11254,
+      "rep_votes": 7696,
+      "other_votes": 203,
+      "total_votes": 19153,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": -3558,
+      "margin_pct": -18.5767,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 48717,
+      "rep_votes": 99346,
+      "other_votes": 1365,
+      "total_votes": 149428,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 50629,
+      "margin_pct": 33.8819,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 26823,
+      "rep_votes": 40745,
+      "other_votes": 767,
+      "total_votes": 68335,
+      "dem_candidate": "Kamala D. Harris",
+      "rep_candidate": "Donald J. Trump",
+      "margin": 13922,
+      "margin_pct": 20.3732,
+      "winner": "REP"
+    }
+  }
+}

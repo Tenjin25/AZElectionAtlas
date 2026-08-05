@@ -1,0 +1,339 @@
+{
+  "year": 2022,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 44953,
+        "rep_votes": 78693,
+        "other_votes": 31,
+        "total_votes": 123677,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 33740,
+        "margin_pct": 27.2807,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 41634,
+        "rep_votes": 40150,
+        "other_votes": 317,
+        "total_votes": 82101,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -1484,
+        "margin_pct": -1.8075,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 54469,
+        "rep_votes": 81119,
+        "other_votes": 353,
+        "total_votes": 135941,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 26650,
+        "margin_pct": 19.6041,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 64705,
+        "rep_votes": 59811,
+        "other_votes": 388,
+        "total_votes": 124904,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -4894,
+        "margin_pct": -3.9182,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 58741,
+        "rep_votes": 22539,
+        "other_votes": 293,
+        "total_votes": 81573,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -36202,
+        "margin_pct": -44.3799,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 43352,
+        "rep_votes": 21159,
+        "other_votes": 189,
+        "total_votes": 64700,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -22193,
+        "margin_pct": -34.3014,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 47979,
+        "rep_votes": 65693,
+        "other_votes": 366,
+        "total_votes": 114038,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 17714,
+        "margin_pct": 15.5334,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 45295,
+        "rep_votes": 24467,
+        "other_votes": 292,
+        "total_votes": 70054,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -20828,
+        "margin_pct": -29.7314,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 34252,
+        "rep_votes": 29168,
+        "other_votes": 321,
+        "total_votes": 63741,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -5084,
+        "margin_pct": -7.976,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 39075,
+        "rep_votes": 53925,
+        "other_votes": 412,
+        "total_votes": 93412,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 14850,
+        "margin_pct": 15.8973,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 37881,
+        "rep_votes": 12625,
+        "other_votes": 169,
+        "total_votes": 50675,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -25256,
+        "margin_pct": -49.8392,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 62193,
+        "rep_votes": 39997,
+        "other_votes": 349,
+        "total_votes": 102539,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -22196,
+        "margin_pct": -21.6464,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 49393,
+        "rep_votes": 45684,
+        "other_votes": 316,
+        "total_votes": 95393,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -3709,
+        "margin_pct": -3.8881,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 43449,
+        "rep_votes": 56321,
+        "other_votes": 271,
+        "total_votes": 100041,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 12872,
+        "margin_pct": 12.8667,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 35611,
+        "rep_votes": 60092,
+        "other_votes": 276,
+        "total_votes": 95979,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 24481,
+        "margin_pct": 25.5066,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 35832,
+        "rep_votes": 38610,
+        "other_votes": 237,
+        "total_votes": 74679,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 2778,
+        "margin_pct": 3.7199,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 62852,
+        "rep_votes": 62525,
+        "other_votes": 294,
+        "total_votes": 125671,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -327,
+        "margin_pct": -0.2602,
+        "winner": "DEM"
+      },
+      "18": {
+        "dem_votes": 70408,
+        "rep_votes": 39106,
+        "other_votes": 280,
+        "total_votes": 109794,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -31302,
+        "margin_pct": -28.5098,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 38909,
+        "rep_votes": 54920,
+        "other_votes": 315,
+        "total_votes": 94144,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 16011,
+        "margin_pct": 17.0069,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 47648,
+        "rep_votes": 14170,
+        "other_votes": 191,
+        "total_votes": 62009,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -33478,
+        "margin_pct": -53.9889,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 41146,
+        "rep_votes": 22260,
+        "other_votes": 199,
+        "total_votes": 63605,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -18886,
+        "margin_pct": -29.6926,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 29241,
+        "rep_votes": 15456,
+        "other_votes": 179,
+        "total_votes": 44876,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -13785,
+        "margin_pct": -30.718,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 30469,
+        "rep_votes": 24684,
+        "other_votes": 168,
+        "total_votes": 55321,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -5785,
+        "margin_pct": -10.4572,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 23905,
+        "rep_votes": 12469,
+        "other_votes": 161,
+        "total_votes": 36535,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -11436,
+        "margin_pct": -31.3015,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 30066,
+        "rep_votes": 52210,
+        "other_votes": 251,
+        "total_votes": 82527,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 22144,
+        "margin_pct": 26.8324,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 24250,
+        "rep_votes": 10451,
+        "other_votes": 169,
+        "total_votes": 34870,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": -13799,
+        "margin_pct": -39.5727,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 38574,
+        "rep_votes": 42616,
+        "other_votes": 310,
+        "total_votes": 81500,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 4042,
+        "margin_pct": 4.9595,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 49378,
+        "rep_votes": 70706,
+        "other_votes": 339,
+        "total_votes": 120423,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 21328,
+        "margin_pct": 17.7109,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 38979,
+        "rep_votes": 50441,
+        "other_votes": 267,
+        "total_votes": 89687,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 11462,
+        "margin_pct": 12.78,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 23252,
+        "rep_votes": 68707,
+        "other_votes": 299,
+        "total_votes": 92258,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Kari Lake",
+        "margin": 45455,
+        "margin_pct": 49.2694,
+        "winner": "REP"
+      }
+    }
+  }
+}

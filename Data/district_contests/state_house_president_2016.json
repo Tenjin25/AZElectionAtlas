@@ -1,0 +1,339 @@
+{
+  "year": 2016,
+  "scope": "state_house",
+  "contest_type": "president",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 36467,
+        "rep_votes": 71848,
+        "other_votes": 7640,
+        "total_votes": 115955,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 35381,
+        "margin_pct": 30.5127,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 36564,
+        "rep_votes": 44788,
+        "other_votes": 7236,
+        "total_votes": 88588,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 8224,
+        "margin_pct": 9.2834,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 42798,
+        "rep_votes": 74761,
+        "other_votes": 6554,
+        "total_votes": 124113,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 31963,
+        "margin_pct": 25.7531,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 57150,
+        "rep_votes": 62704,
+        "other_votes": 8172,
+        "total_votes": 128026,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 5554,
+        "margin_pct": 4.3382,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 53058,
+        "rep_votes": 24897,
+        "other_votes": 6438,
+        "total_votes": 84393,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -28161,
+        "margin_pct": -33.3689,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 52617,
+        "rep_votes": 26559,
+        "other_votes": 8307,
+        "total_votes": 87483,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -26058,
+        "margin_pct": -29.7864,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 31757,
+        "rep_votes": 55783,
+        "other_votes": 6751,
+        "total_votes": 94291,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 24026,
+        "margin_pct": 25.4807,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 44504,
+        "rep_votes": 27223,
+        "other_votes": 7609,
+        "total_votes": 79336,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -17281,
+        "margin_pct": -21.782,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 31927,
+        "rep_votes": 33585,
+        "other_votes": 7958,
+        "total_votes": 73470,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 1658,
+        "margin_pct": 2.2567,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 30483,
+        "rep_votes": 54634,
+        "other_votes": 7600,
+        "total_votes": 92717,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 24151,
+        "margin_pct": 26.0481,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 40833,
+        "rep_votes": 11217,
+        "other_votes": 3773,
+        "total_votes": 55823,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -29616,
+        "margin_pct": -53.0534,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 56283,
+        "rep_votes": 44336,
+        "other_votes": 9392,
+        "total_votes": 110011,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -11947,
+        "margin_pct": -10.8598,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 41942,
+        "rep_votes": 46586,
+        "other_votes": 7164,
+        "total_votes": 95692,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 4644,
+        "margin_pct": 4.8531,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 33151,
+        "rep_votes": 53415,
+        "other_votes": 8413,
+        "total_votes": 94979,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 20264,
+        "margin_pct": 21.3352,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 22314,
+        "rep_votes": 44588,
+        "other_votes": 6021,
+        "total_votes": 72923,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 22274,
+        "margin_pct": 30.5445,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 31379,
+        "rep_votes": 35877,
+        "other_votes": 4951,
+        "total_votes": 72207,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 4498,
+        "margin_pct": 6.2293,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 49440,
+        "rep_votes": 62455,
+        "other_votes": 8409,
+        "total_votes": 120304,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 13015,
+        "margin_pct": 10.8184,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 63857,
+        "rep_votes": 44691,
+        "other_votes": 8208,
+        "total_votes": 116756,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -19166,
+        "margin_pct": -16.4154,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 32274,
+        "rep_votes": 55187,
+        "other_votes": 7353,
+        "total_votes": 94814,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 22913,
+        "margin_pct": 24.1663,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 52529,
+        "rep_votes": 16286,
+        "other_votes": 5039,
+        "total_votes": 73854,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -36243,
+        "margin_pct": -49.0738,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 46081,
+        "rep_votes": 24352,
+        "other_votes": 5513,
+        "total_votes": 75946,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -21729,
+        "margin_pct": -28.6111,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 35040,
+        "rep_votes": 16350,
+        "other_votes": 3896,
+        "total_votes": 55286,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -18690,
+        "margin_pct": -33.806,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 34200,
+        "rep_votes": 23227,
+        "other_votes": 3966,
+        "total_votes": 61393,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -10973,
+        "margin_pct": -17.8734,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 29651,
+        "rep_votes": 14894,
+        "other_votes": 3682,
+        "total_votes": 48227,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -14757,
+        "margin_pct": -30.599,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 22185,
+        "rep_votes": 42113,
+        "other_votes": 4403,
+        "total_votes": 68701,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 19928,
+        "margin_pct": 29.0069,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 28433,
+        "rep_votes": 12750,
+        "other_votes": 3333,
+        "total_votes": 44516,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": -15683,
+        "margin_pct": -35.23,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 35811,
+        "rep_votes": 48764,
+        "other_votes": 7146,
+        "total_votes": 91721,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 12953,
+        "margin_pct": 14.1222,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 36554,
+        "rep_votes": 67086,
+        "other_votes": 5843,
+        "total_votes": 109483,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 30532,
+        "margin_pct": 27.8874,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 32180,
+        "rep_votes": 46263,
+        "other_votes": 5532,
+        "total_votes": 83975,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 14083,
+        "margin_pct": 16.7705,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 19706,
+        "rep_votes": 65185,
+        "other_votes": 4784,
+        "total_votes": 89675,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "margin": 45479,
+        "margin_pct": 50.7154,
+        "winner": "REP"
+      }
+    }
+  }
+}

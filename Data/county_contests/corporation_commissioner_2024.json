@@ -1,0 +1,172 @@
+{
+  "year": 2024,
+  "contest_type": "corporation_commissioner",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 41946,
+      "rep_votes": 26703,
+      "other_votes": 1938,
+      "total_votes": 70587,
+      "dem_candidate": "Jonathon Hill",
+      "rep_candidate": "Rachel Walden",
+      "margin": -15243,
+      "margin_pct": -21.5946,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 54519,
+      "rep_votes": 93015,
+      "other_votes": 4139,
+      "total_votes": 151673,
+      "dem_candidate": "Jonathon Hill",
+      "rep_candidate": "Rachel Walden",
+      "margin": 38496,
+      "margin_pct": 25.3809,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 105369,
+      "rep_votes": 66019,
+      "other_votes": 6054,
+      "total_votes": 177442,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": -39350,
+      "margin_pct": -22.1763,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 21235,
+      "rep_votes": 46935,
+      "other_votes": 1753,
+      "total_votes": 69923,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 25700,
+      "margin_pct": 36.7547,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 9019,
+      "rep_votes": 27214,
+      "other_votes": 785,
+      "total_votes": 37018,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 18195,
+      "margin_pct": 49.1518,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 2520,
+      "rep_votes": 5527,
+      "other_votes": 258,
+      "total_votes": 8305,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 3007,
+      "margin_pct": 36.2071,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 4839,
+      "rep_votes": 12890,
+      "other_votes": 521,
+      "total_votes": 18250,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 8051,
+      "margin_pct": 44.1151,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 2397230,
+      "rep_votes": 2665824,
+      "other_votes": 127761,
+      "total_votes": 5190815,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 268594,
+      "margin_pct": 5.1744,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 57893,
+      "rep_votes": 199987,
+      "other_votes": 5863,
+      "total_votes": 263743,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 142094,
+      "margin_pct": 53.8759,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 48861,
+      "rep_votes": 73115,
+      "other_votes": 3588,
+      "total_votes": 125564,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 24254,
+      "margin_pct": 19.316,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 720046,
+      "rep_votes": 534964,
+      "other_votes": 36720,
+      "total_votes": 1291730,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": -185082,
+      "margin_pct": -14.3282,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 195089,
+      "rep_votes": 323502,
+      "other_votes": 13135,
+      "total_votes": 531726,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 128413,
+      "margin_pct": 24.1502,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 25874,
+      "rep_votes": 16958,
+      "other_votes": 1228,
+      "total_votes": 44060,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": -8916,
+      "margin_pct": -20.236,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 121355,
+      "rep_votes": 258189,
+      "other_votes": 8448,
+      "total_votes": 387992,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 136834,
+      "margin_pct": 35.2672,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 63432,
+      "rep_votes": 97391,
+      "other_votes": 4482,
+      "total_votes": 165305,
+      "dem_candidate": "Ylenia Aguilar",
+      "rep_candidate": "Rene Lopez",
+      "margin": 33959,
+      "margin_pct": 20.5432,
+      "winner": "REP"
+    }
+  }
+}

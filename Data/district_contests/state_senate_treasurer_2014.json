@@ -1,0 +1,339 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "treasurer",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 53369,
+        "other_votes": 560,
+        "total_votes": 53929,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 53369,
+        "margin_pct": 98.9616,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 34361,
+        "other_votes": 708,
+        "total_votes": 35069,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 34361,
+        "margin_pct": 97.9811,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 57977,
+        "other_votes": 532,
+        "total_votes": 58509,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 57977,
+        "margin_pct": 99.0907,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 56079,
+        "other_votes": 782,
+        "total_votes": 56861,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 56079,
+        "margin_pct": 98.6247,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 28158,
+        "other_votes": 1237,
+        "total_votes": 29395,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 28158,
+        "margin_pct": 95.7918,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 34951,
+        "other_votes": 0,
+        "total_votes": 34951,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 34951,
+        "margin_pct": 100.0,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 42309,
+        "other_votes": 174,
+        "total_votes": 42483,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 42309,
+        "margin_pct": 99.5904,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 25053,
+        "other_votes": 888,
+        "total_votes": 25941,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 25053,
+        "margin_pct": 96.5768,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 28309,
+        "other_votes": 701,
+        "total_votes": 29010,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 28309,
+        "margin_pct": 97.5836,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 42032,
+        "other_votes": 553,
+        "total_votes": 42585,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 42032,
+        "margin_pct": 98.7014,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 13115,
+        "other_votes": 857,
+        "total_votes": 13972,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 13115,
+        "margin_pct": 93.8663,
+        "winner": "REP"
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 41760,
+        "other_votes": 984,
+        "total_votes": 42744,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 41760,
+        "margin_pct": 97.6979,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 37142,
+        "other_votes": 630,
+        "total_votes": 37772,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 37142,
+        "margin_pct": 98.3321,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 35037,
+        "other_votes": 501,
+        "total_votes": 35538,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 35037,
+        "margin_pct": 98.5902,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 26497,
+        "other_votes": 359,
+        "total_votes": 26856,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 26497,
+        "margin_pct": 98.6632,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 27337,
+        "other_votes": 435,
+        "total_votes": 27772,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 27337,
+        "margin_pct": 98.4337,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 45002,
+        "other_votes": 35,
+        "total_votes": 45037,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 45002,
+        "margin_pct": 99.9223,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 50594,
+        "other_votes": 0,
+        "total_votes": 50594,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 50594,
+        "margin_pct": 100.0,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 12578,
+        "other_votes": 28,
+        "total_votes": 12606,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 12578,
+        "margin_pct": 99.7779,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 33811,
+        "other_votes": 0,
+        "total_votes": 33811,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 33811,
+        "margin_pct": 100.0,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 37595,
+        "other_votes": 244,
+        "total_votes": 37839,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 37595,
+        "margin_pct": 99.3552,
+        "winner": "REP"
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 14640,
+        "other_votes": 624,
+        "total_votes": 15264,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 14640,
+        "margin_pct": 95.9119,
+        "winner": "REP"
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 28615,
+        "other_votes": 148,
+        "total_votes": 28763,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 28615,
+        "margin_pct": 99.4855,
+        "winner": "REP"
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 14922,
+        "other_votes": 570,
+        "total_votes": 15492,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 14922,
+        "margin_pct": 96.3207,
+        "winner": "REP"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 27268,
+        "other_votes": 315,
+        "total_votes": 27583,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 27268,
+        "margin_pct": 98.858,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 13830,
+        "other_votes": 594,
+        "total_votes": 14424,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 13830,
+        "margin_pct": 95.8819,
+        "winner": "REP"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 37250,
+        "other_votes": 702,
+        "total_votes": 37952,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 37250,
+        "margin_pct": 98.1503,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 53248,
+        "other_votes": 561,
+        "total_votes": 53809,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 53248,
+        "margin_pct": 98.9574,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 34434,
+        "other_votes": 607,
+        "total_votes": 35041,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 34434,
+        "margin_pct": 98.2677,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 40045,
+        "other_votes": 15,
+        "total_votes": 40060,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Dewit",
+        "margin": 40045,
+        "margin_pct": 99.9626,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2016,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 18446,
+      "rep_votes": 7944,
+      "other_votes": 1476,
+      "total_votes": 27866,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": -10502,
+      "margin_pct": -37.6875,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 17642,
+      "rep_votes": 27636,
+      "other_votes": 3715,
+      "total_votes": 48993,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 9994,
+      "margin_pct": 20.3988,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 31695,
+      "rep_votes": 24031,
+      "other_votes": 147223,
+      "total_votes": 202949,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": -7664,
+      "margin_pct": -3.7763,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6701,
+      "rep_votes": 13157,
+      "other_votes": 1794,
+      "total_votes": 21652,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 6456,
+      "margin_pct": 29.8171,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3280,
+      "rep_votes": 7728,
+      "other_votes": 978,
+      "total_votes": 11986,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 4448,
+      "margin_pct": 37.11,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1189,
+      "rep_votes": 1784,
+      "other_votes": 303,
+      "total_votes": 3276,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 595,
+      "margin_pct": 18.1624,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1629,
+      "rep_votes": 3662,
+      "other_votes": 15705,
+      "total_votes": 20996,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 2033,
+      "margin_pct": 9.6828,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 602635,
+      "rep_votes": 842425,
+      "other_votes": 89573,
+      "total_votes": 1534633,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 239790,
+      "margin_pct": 15.6252,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 19045,
+      "rep_votes": 50486,
+      "other_votes": 7873,
+      "total_votes": 77404,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 31441,
+      "margin_pct": 40.6193,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 1759,
+      "rep_votes": 1871,
+      "other_votes": 297,
+      "total_votes": 3927,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 112,
+      "margin_pct": 2.852,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 202213,
+      "rep_votes": 187910,
+      "other_votes": 21879,
+      "total_votes": 412002,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": -14303,
+      "margin_pct": -3.4716,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 4496,
+      "rep_votes": 7236,
+      "other_votes": 851,
+      "total_votes": 12583,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 2740,
+      "margin_pct": 21.7754,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 962,
+      "rep_votes": 553,
+      "other_votes": 49,
+      "total_votes": 1564,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": -409,
+      "margin_pct": -26.1509,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 34527,
+      "rep_votes": 68032,
+      "other_votes": 8807,
+      "total_votes": 111366,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 33505,
+      "margin_pct": 30.0855,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 19451,
+      "rep_votes": 27290,
+      "other_votes": 145335,
+      "total_votes": 192076,
+      "dem_candidate": "Ann Kirkpatrick",
+      "rep_candidate": "John McCain",
+      "margin": 7839,
+      "margin_pct": 4.0812,
+      "winner": "REP"
+    }
+  }
+}

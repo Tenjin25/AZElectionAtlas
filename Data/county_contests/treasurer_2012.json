@@ -1,0 +1,18 @@
+{
+  "year": 2012,
+  "contest_type": "treasurer",
+  "scope": "county",
+  "county_totals": {
+    "Coconino": {
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 36465,
+      "total_votes": 36465,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2022,
+  "contest_type": "treasurer",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 15908,
+      "rep_votes": 9857,
+      "other_votes": 57,
+      "total_votes": 25822,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -6051,
+      "margin_pct": -23.4335,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 16524,
+      "rep_votes": 29624,
+      "other_votes": 56,
+      "total_votes": 46204,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 13100,
+      "margin_pct": 28.3525,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 31244,
+      "rep_votes": 22159,
+      "other_votes": 63,
+      "total_votes": 53466,
+      "dem_candidate": "Mart\u201eN Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -9085,
+      "margin_pct": -16.9921,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6553,
+      "rep_votes": 15685,
+      "other_votes": 25,
+      "total_votes": 22263,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 9132,
+      "margin_pct": 41.0187,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 2623,
+      "rep_votes": 8122,
+      "other_votes": 7,
+      "total_votes": 10752,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 5499,
+      "margin_pct": 51.144,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 853,
+      "rep_votes": 1545,
+      "other_votes": 4,
+      "total_votes": 2402,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 692,
+      "margin_pct": 28.8093,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1419,
+      "rep_votes": 4013,
+      "other_votes": 3,
+      "total_votes": 5435,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 2594,
+      "margin_pct": 47.7277,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 668142,
+      "rep_votes": 830056,
+      "other_votes": 908,
+      "total_votes": 1499106,
+      "dem_candidate": "Mart\u00edn Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 161914,
+      "margin_pct": 10.8007,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 16586,
+      "rep_votes": 63562,
+      "other_votes": 73,
+      "total_votes": 80221,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 46976,
+      "margin_pct": 58.5582,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 16319,
+      "rep_votes": 23492,
+      "other_votes": 53,
+      "total_votes": 39864,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 7173,
+      "margin_pct": 17.9937,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 215239,
+      "rep_votes": 177369,
+      "other_votes": 285,
+      "total_votes": 392893,
+      "dem_candidate": "Mart\u00edn Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -37870,
+      "margin_pct": -9.6388,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 51998,
+      "rep_votes": 89536,
+      "other_votes": 130,
+      "total_votes": 141664,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 37538,
+      "margin_pct": 26.4979,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 8292,
+      "rep_votes": 4667,
+      "other_votes": 14,
+      "total_votes": 12973,
+      "dem_candidate": "Mart\u00edn Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -3625,
+      "margin_pct": -27.9427,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 36555,
+      "rep_votes": 83417,
+      "other_votes": 70,
+      "total_votes": 120042,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 46862,
+      "margin_pct": 39.038,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 18192,
+      "rep_votes": 27108,
+      "other_votes": 24,
+      "total_votes": 45324,
+      "dem_candidate": "Martin Quezada",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 8916,
+      "margin_pct": 19.6717,
+      "winner": "REP"
+    }
+  }
+}

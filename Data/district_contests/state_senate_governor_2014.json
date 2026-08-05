@@ -1,0 +1,339 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 23191,
+        "rep_votes": 46724,
+        "other_votes": 4274,
+        "total_votes": 74189,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 23533,
+        "margin_pct": 31.7203,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 18326,
+        "rep_votes": 26497,
+        "other_votes": 3035,
+        "total_votes": 47858,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 8171,
+        "margin_pct": 17.0734,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 23864,
+        "rep_votes": 50494,
+        "other_votes": 2410,
+        "total_votes": 76768,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 26630,
+        "margin_pct": 34.6889,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 32484,
+        "rep_votes": 45521,
+        "other_votes": 2913,
+        "total_votes": 80918,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 13037,
+        "margin_pct": 16.1114,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 29025,
+        "rep_votes": 17645,
+        "other_votes": 2419,
+        "total_votes": 49089,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -11380,
+        "margin_pct": -23.1824,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 35527,
+        "rep_votes": 16815,
+        "other_votes": 3137,
+        "total_votes": 55479,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -18712,
+        "margin_pct": -33.7281,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 19593,
+        "rep_votes": 33801,
+        "other_votes": 3452,
+        "total_votes": 56846,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 14208,
+        "margin_pct": 24.9938,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 20808,
+        "rep_votes": 17127,
+        "other_votes": 2285,
+        "total_votes": 40220,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -3681,
+        "margin_pct": -9.1522,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 14925,
+        "rep_votes": 21597,
+        "other_votes": 2363,
+        "total_votes": 38885,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 6672,
+        "margin_pct": 17.1583,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 16906,
+        "rep_votes": 34068,
+        "other_votes": 3114,
+        "total_votes": 54088,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 17162,
+        "margin_pct": 31.7298,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 17454,
+        "rep_votes": 6432,
+        "other_votes": 1393,
+        "total_votes": 25279,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -11022,
+        "margin_pct": -43.6014,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 29625,
+        "rep_votes": 31048,
+        "other_votes": 2843,
+        "total_votes": 63516,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 1423,
+        "margin_pct": 2.2404,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 19354,
+        "rep_votes": 29297,
+        "other_votes": 2223,
+        "total_votes": 50874,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 9943,
+        "margin_pct": 19.5444,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 14691,
+        "rep_votes": 29132,
+        "other_votes": 1979,
+        "total_votes": 45802,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 14441,
+        "margin_pct": 31.5292,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 9866,
+        "rep_votes": 21656,
+        "other_votes": 1744,
+        "total_votes": 33266,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 11790,
+        "margin_pct": 35.4416,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 15386,
+        "rep_votes": 20000,
+        "other_votes": 2085,
+        "total_votes": 37471,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 4614,
+        "margin_pct": 12.3135,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 29857,
+        "rep_votes": 32619,
+        "other_votes": 2516,
+        "total_votes": 64992,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 2762,
+        "margin_pct": 4.2498,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 37933,
+        "rep_votes": 35057,
+        "other_votes": 3088,
+        "total_votes": 76078,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -2876,
+        "margin_pct": -3.7803,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 10566,
+        "rep_votes": 8218,
+        "other_votes": 909,
+        "total_votes": 19693,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -2348,
+        "margin_pct": -11.923,
+        "winner": "DEM"
+      },
+      "20": {
+        "dem_votes": 26458,
+        "rep_votes": 22550,
+        "other_votes": 2196,
+        "total_votes": 51204,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -3908,
+        "margin_pct": -7.6322,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 31407,
+        "rep_votes": 23250,
+        "other_votes": 2330,
+        "total_votes": 56987,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -8157,
+        "margin_pct": -14.3138,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 12664,
+        "rep_votes": 8915,
+        "other_votes": 1298,
+        "total_votes": 22877,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -3749,
+        "margin_pct": -16.3876,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 21448,
+        "rep_votes": 19449,
+        "other_votes": 1899,
+        "total_votes": 42796,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -1999,
+        "margin_pct": -4.671,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 11969,
+        "rep_votes": 9227,
+        "other_votes": 1619,
+        "total_votes": 22815,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -2742,
+        "margin_pct": -12.0184,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 10047,
+        "rep_votes": 22484,
+        "other_votes": 1948,
+        "total_votes": 34479,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 12437,
+        "margin_pct": 36.0712,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 12336,
+        "rep_votes": 8344,
+        "other_votes": 1512,
+        "total_votes": 22192,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": -3992,
+        "margin_pct": -17.9885,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 18013,
+        "rep_votes": 28852,
+        "other_votes": 3198,
+        "total_votes": 50063,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 10839,
+        "margin_pct": 21.6507,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 21903,
+        "rep_votes": 44199,
+        "other_votes": 3230,
+        "total_votes": 69332,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 22296,
+        "margin_pct": 32.1583,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 16162,
+        "rep_votes": 27551,
+        "other_votes": 2545,
+        "total_votes": 46258,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 11389,
+        "margin_pct": 24.6206,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 11643,
+        "rep_votes": 36172,
+        "other_votes": 3083,
+        "total_votes": 50898,
+        "dem_candidate": "Fred Duval",
+        "rep_candidate": "Doug Ducey",
+        "margin": 24529,
+        "margin_pct": 48.1925,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2016,
+  "contest_type": "president",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 17083,
+      "rep_votes": 8240,
+      "other_votes": 2338,
+      "total_votes": 27661,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": -8843,
+      "margin_pct": -31.9692,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 17450,
+      "rep_votes": 28092,
+      "other_votes": 4473,
+      "total_votes": 50015,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 10642,
+      "margin_pct": 21.2776,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 32404,
+      "rep_votes": 21108,
+      "other_votes": 149437,
+      "total_votes": 202949,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": -11296,
+      "margin_pct": -5.5659,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7003,
+      "rep_votes": 14182,
+      "other_votes": 1330,
+      "total_votes": 22515,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 7179,
+      "margin_pct": 31.8854,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3301,
+      "rep_votes": 8025,
+      "other_votes": 955,
+      "total_votes": 12281,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 4724,
+      "margin_pct": 38.4659,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1092,
+      "rep_votes": 1892,
+      "other_votes": 316,
+      "total_votes": 3300,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 800,
+      "margin_pct": 24.2424,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1575,
+      "rep_votes": 4003,
+      "other_votes": 15418,
+      "total_votes": 20996,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 2428,
+      "margin_pct": 11.5641,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 702907,
+      "rep_votes": 747361,
+      "other_votes": 117566,
+      "total_votes": 1567834,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 44454,
+      "margin_pct": 2.8354,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 17455,
+      "rep_votes": 58282,
+      "other_votes": 4206,
+      "total_votes": 79943,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 40827,
+      "margin_pct": 51.0701,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 1639,
+      "rep_votes": 2051,
+      "other_votes": 307,
+      "total_votes": 3997,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 412,
+      "margin_pct": 10.3077,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 224661,
+      "rep_votes": 167428,
+      "other_votes": 29551,
+      "total_votes": 421640,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": -57233,
+      "margin_pct": -13.5739,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 4743,
+      "rep_votes": 7239,
+      "other_votes": 751,
+      "total_votes": 12733,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 2496,
+      "margin_pct": 19.6026,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 1157,
+      "rep_votes": 378,
+      "other_votes": 57,
+      "total_votes": 1592,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": -779,
+      "margin_pct": -48.9322,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 35590,
+      "rep_votes": 71330,
+      "other_votes": 7530,
+      "total_votes": 114450,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 35740,
+      "margin_pct": 31.2276,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 24605,
+      "rep_votes": 25165,
+      "other_votes": 142306,
+      "total_votes": 192076,
+      "dem_candidate": "Hillary Clinton",
+      "rep_candidate": "Donald Trump",
+      "margin": 560,
+      "margin_pct": 0.2916,
+      "winner": "REP"
+    }
+  }
+}

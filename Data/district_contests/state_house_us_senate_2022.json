@@ -1,0 +1,339 @@
+{
+  "year": 2022,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 45910,
+        "rep_votes": 75583,
+        "other_votes": 2781,
+        "total_votes": 124274,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 29673,
+        "margin_pct": 23.8771,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 42507,
+        "rep_votes": 37697,
+        "other_votes": 2028,
+        "total_votes": 82232,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -4810,
+        "margin_pct": -5.8493,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 56011,
+        "rep_votes": 78331,
+        "other_votes": 1904,
+        "total_votes": 136246,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 22320,
+        "margin_pct": 16.3821,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 66087,
+        "rep_votes": 57298,
+        "other_votes": 2003,
+        "total_votes": 125388,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -8789,
+        "margin_pct": -7.0094,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 59448,
+        "rep_votes": 20935,
+        "other_votes": 1602,
+        "total_votes": 81985,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -38513,
+        "margin_pct": -46.9757,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 44477,
+        "rep_votes": 18975,
+        "other_votes": 1482,
+        "total_votes": 64934,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -25502,
+        "margin_pct": -39.2737,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 49371,
+        "rep_votes": 62212,
+        "other_votes": 2895,
+        "total_votes": 114478,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 12841,
+        "margin_pct": 11.217,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 46213,
+        "rep_votes": 22887,
+        "other_votes": 1516,
+        "total_votes": 70616,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -23326,
+        "margin_pct": -33.0322,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 34961,
+        "rep_votes": 27161,
+        "other_votes": 1847,
+        "total_votes": 63969,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -7800,
+        "margin_pct": -12.1934,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 40188,
+        "rep_votes": 51014,
+        "other_votes": 2435,
+        "total_votes": 93637,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 10826,
+        "margin_pct": 11.5617,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 38604,
+        "rep_votes": 11179,
+        "other_votes": 1091,
+        "total_votes": 50874,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -27425,
+        "margin_pct": -53.9077,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 63385,
+        "rep_votes": 37564,
+        "other_votes": 1910,
+        "total_votes": 102859,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -25821,
+        "margin_pct": -25.1033,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 50666,
+        "rep_votes": 43108,
+        "other_votes": 1843,
+        "total_votes": 95617,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -7558,
+        "margin_pct": -7.9045,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 44670,
+        "rep_votes": 53743,
+        "other_votes": 1819,
+        "total_votes": 100232,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 9073,
+        "margin_pct": 9.052,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 36860,
+        "rep_votes": 57205,
+        "other_votes": 2072,
+        "total_votes": 96137,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 20345,
+        "margin_pct": 21.1625,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 37021,
+        "rep_votes": 35849,
+        "other_votes": 2022,
+        "total_votes": 74892,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -1172,
+        "margin_pct": -1.5649,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 65066,
+        "rep_votes": 58683,
+        "other_votes": 2219,
+        "total_votes": 125968,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -6383,
+        "margin_pct": -5.0672,
+        "winner": "DEM"
+      },
+      "18": {
+        "dem_votes": 72026,
+        "rep_votes": 36146,
+        "other_votes": 1975,
+        "total_votes": 110147,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -35880,
+        "margin_pct": -32.5747,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 40653,
+        "rep_votes": 51263,
+        "other_votes": 2513,
+        "total_votes": 94429,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 10610,
+        "margin_pct": 11.236,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 48800,
+        "rep_votes": 12504,
+        "other_votes": 1244,
+        "total_votes": 62548,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -36296,
+        "margin_pct": -58.029,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 42261,
+        "rep_votes": 20066,
+        "other_votes": 1604,
+        "total_votes": 63931,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -22195,
+        "margin_pct": -34.7171,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 29953,
+        "rep_votes": 13875,
+        "other_votes": 1178,
+        "total_votes": 45006,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -16078,
+        "margin_pct": -35.7241,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 31462,
+        "rep_votes": 22529,
+        "other_votes": 1472,
+        "total_votes": 55463,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -8933,
+        "margin_pct": -16.1062,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 24413,
+        "rep_votes": 11173,
+        "other_votes": 1093,
+        "total_votes": 36679,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -13240,
+        "margin_pct": -36.0969,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 31594,
+        "rep_votes": 49029,
+        "other_votes": 1955,
+        "total_votes": 82578,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 17435,
+        "margin_pct": 21.1134,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 24702,
+        "rep_votes": 9294,
+        "other_votes": 993,
+        "total_votes": 34989,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": -15408,
+        "margin_pct": -44.0367,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 39622,
+        "rep_votes": 39979,
+        "other_votes": 2059,
+        "total_votes": 81660,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 357,
+        "margin_pct": 0.4372,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 50840,
+        "rep_votes": 67387,
+        "other_votes": 2358,
+        "total_votes": 120585,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 16547,
+        "margin_pct": 13.7223,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 40244,
+        "rep_votes": 47623,
+        "other_votes": 1948,
+        "total_votes": 89815,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 7379,
+        "margin_pct": 8.2158,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 24017,
+        "rep_votes": 66020,
+        "other_votes": 2498,
+        "total_votes": 92535,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Blake Masters",
+        "margin": 42003,
+        "margin_pct": 45.3915,
+        "winner": "REP"
+      }
+    }
+  }
+}

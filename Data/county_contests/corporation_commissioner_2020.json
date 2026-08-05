@@ -1,0 +1,161 @@
+{
+  "year": 2020,
+  "contest_type": "corporation_commissioner",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 46791,
+      "rep_votes": 25744,
+      "other_votes": 121,
+      "total_votes": 72656,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Eric Sloan",
+      "margin": -21047,
+      "margin_pct": -28.968,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 59914,
+      "rep_votes": 96965,
+      "other_votes": 192,
+      "total_votes": 157071,
+      "dem_candidate": "Anna Tovar",
+      "rep_candidate": "James \"Jim\" O'Connor",
+      "margin": 37051,
+      "margin_pct": 23.5887,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 108881,
+      "rep_votes": 68274,
+      "other_votes": 0,
+      "total_votes": 177155,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": -40607,
+      "margin_pct": -22.9217,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 23280,
+      "rep_votes": 45475,
+      "other_votes": 63,
+      "total_votes": 68818,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": 22195,
+      "margin_pct": 32.2517,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 9666,
+      "rep_votes": 25587,
+      "other_votes": 45,
+      "total_votes": 35298,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": 15921,
+      "margin_pct": 45.1045,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 3248,
+      "rep_votes": 5902,
+      "other_votes": 0,
+      "total_votes": 9150,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": 2654,
+      "margin_pct": 29.0055,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 5313,
+      "rep_votes": 11790,
+      "other_votes": 33,
+      "total_votes": 17136,
+      "dem_candidate": "Anna Tovar",
+      "rep_candidate": "James \"Jim\" O'Connor",
+      "margin": 6477,
+      "margin_pct": 37.7976,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 59513,
+      "rep_votes": 177248,
+      "other_votes": 236,
+      "total_votes": 236997,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": 117735,
+      "margin_pct": 49.6778,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 52993,
+      "rep_votes": 66282,
+      "other_votes": 170,
+      "total_votes": 119445,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": 13289,
+      "margin_pct": 11.1256,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 1272465,
+      "total_votes": 1272465,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE"
+    },
+    "Pinal": {
+      "dem_votes": 178668,
+      "rep_votes": 257052,
+      "other_votes": 386,
+      "total_votes": 436106,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": 78384,
+      "margin_pct": 17.9736,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 29992,
+      "rep_votes": 14235,
+      "other_votes": 76,
+      "total_votes": 44303,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": -15757,
+      "margin_pct": -35.5664,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 127912,
+      "rep_votes": 232037,
+      "other_votes": 320,
+      "total_votes": 360269,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": 104125,
+      "margin_pct": 28.902,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 72849,
+      "rep_votes": 86520,
+      "other_votes": 0,
+      "total_votes": 159369,
+      "dem_candidate": "William \"Bill\" Mundell",
+      "rep_candidate": "Lea Marquez Peterson",
+      "margin": 13671,
+      "margin_pct": 8.5782,
+      "winner": "REP"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 17281,
+        "rep_votes": 24012,
+        "other_votes": 1216,
+        "total_votes": 42509,
+        "dem_candidate": "Jim Pederson",
+        "rep_candidate": "Jon Kyl",
+        "margin": 6731,
+        "margin_pct": 15.8343,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 37094,
+        "rep_votes": 34652,
+        "other_votes": 3300,
+        "total_votes": 75046,
+        "dem_candidate": "Jim Pederson",
+        "rep_candidate": "Jon Kyl",
+        "margin": -2442,
+        "margin_pct": -3.254,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 8420,
+        "rep_votes": 5516,
+        "other_votes": 604,
+        "total_votes": 14540,
+        "dem_candidate": "Jim Pederson",
+        "rep_candidate": "Jon Kyl",
+        "margin": -2904,
+        "margin_pct": -19.9725,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 17163,
+        "rep_votes": 20224,
+        "other_votes": 1267,
+        "total_votes": 38654,
+        "dem_candidate": "Jim Pederson",
+        "rep_candidate": "Jon Kyl",
+        "margin": 3061,
+        "margin_pct": 7.919,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 4945,
+        "rep_votes": 7773,
+        "other_votes": 422,
+        "total_votes": 13140,
+        "dem_candidate": "Jim Pederson",
+        "rep_candidate": "Jon Kyl",
+        "margin": 2828,
+        "margin_pct": 21.5221,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 94537,
+        "rep_votes": 113837,
+        "other_votes": 6081,
+        "total_votes": 214455,
+        "dem_candidate": "Jim Gen Pederson",
+        "rep_candidate": "Jon Gen Kyl",
+        "margin": 19300,
+        "margin_pct": 8.9996,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 64135,
+        "rep_votes": 37267,
+        "other_votes": 3387,
+        "total_votes": 104789,
+        "dem_candidate": "Jim Gen Pederson",
+        "rep_candidate": "Jon Gen Kyl",
+        "margin": -26868,
+        "margin_pct": -25.6401,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 15033,
+        "rep_votes": 21999,
+        "other_votes": 1269,
+        "total_votes": 38301,
+        "dem_candidate": "Jim Pederson",
+        "rep_candidate": "Jon Kyl",
+        "margin": 6966,
+        "margin_pct": 18.1875,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 2182,
+        "rep_votes": 3214,
+        "other_votes": 166,
+        "total_votes": 5562,
+        "dem_candidate": "Jim Pederson",
+        "rep_candidate": "Jon Kyl",
+        "margin": 1032,
+        "margin_pct": 18.5545,
+        "winner": "REP"
+      }
+    }
+  }
+}

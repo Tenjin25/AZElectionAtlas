@@ -1,0 +1,339 @@
+{
+  "year": 2006,
+  "scope": "state_house",
+  "contest_type": "treasurer",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 8944,
+        "rep_votes": 16339,
+        "other_votes": 0,
+        "total_votes": 25283,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 7395,
+        "margin_pct": 29.2489,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 3997,
+        "rep_votes": 5568,
+        "other_votes": 16,
+        "total_votes": 9581,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 1571,
+        "margin_pct": 16.397,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 2803,
+        "rep_votes": 5647,
+        "other_votes": 1,
+        "total_votes": 8451,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 2844,
+        "margin_pct": 33.6528,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 6233,
+        "rep_votes": 10618,
+        "other_votes": 13,
+        "total_votes": 16864,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 4385,
+        "margin_pct": 26.0021,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 4570,
+        "rep_votes": 3781,
+        "other_votes": 14,
+        "total_votes": 8365,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -789,
+        "margin_pct": -9.4322,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 24575,
+        "rep_votes": 14165,
+        "other_votes": 0,
+        "total_votes": 38740,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -10410,
+        "margin_pct": -26.8715,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 11606,
+        "rep_votes": 16894,
+        "other_votes": 0,
+        "total_votes": 28500,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 5288,
+        "margin_pct": 18.5544,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 2052,
+        "rep_votes": 2272,
+        "other_votes": 3,
+        "total_votes": 4327,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 220,
+        "margin_pct": 5.0844,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 350,
+        "rep_votes": 442,
+        "other_votes": 1,
+        "total_votes": 793,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 92,
+        "margin_pct": 11.6015,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 1195,
+        "rep_votes": 1716,
+        "other_votes": 6,
+        "total_votes": 2917,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 521,
+        "margin_pct": 17.8608,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 2683,
+        "rep_votes": 1685,
+        "other_votes": 7,
+        "total_votes": 4375,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -998,
+        "margin_pct": -22.8114,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 12316,
+        "rep_votes": 16181,
+        "other_votes": 39,
+        "total_votes": 28536,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 3865,
+        "margin_pct": 13.5443,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 5905,
+        "rep_votes": 8479,
+        "other_votes": 20,
+        "total_votes": 14404,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 2574,
+        "margin_pct": 17.87,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 470,
+        "rep_votes": 1157,
+        "other_votes": 3,
+        "total_votes": 1630,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 687,
+        "margin_pct": 42.1472,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 732,
+        "rep_votes": 1455,
+        "other_votes": 0,
+        "total_votes": 2187,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 723,
+        "margin_pct": 33.059,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 10044,
+        "rep_votes": 11311,
+        "other_votes": 0,
+        "total_votes": 21355,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 1267,
+        "margin_pct": 5.933,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 27459,
+        "rep_votes": 42509,
+        "other_votes": 0,
+        "total_votes": 69968,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 15050,
+        "margin_pct": 21.5098,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 41381,
+        "rep_votes": 41823,
+        "other_votes": 0,
+        "total_votes": 83204,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 442,
+        "margin_pct": 0.5312,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 18829,
+        "rep_votes": 30213,
+        "other_votes": 0,
+        "total_votes": 49042,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 11384,
+        "margin_pct": 23.2128,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 31961,
+        "rep_votes": 14270,
+        "other_votes": 0,
+        "total_votes": 46231,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -17691,
+        "margin_pct": -38.2665,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 24142,
+        "rep_votes": 19011,
+        "other_votes": 0,
+        "total_votes": 43153,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -5131,
+        "margin_pct": -11.8903,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 1567,
+        "rep_votes": 1229,
+        "other_votes": 8,
+        "total_votes": 2804,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -338,
+        "margin_pct": -12.0542,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 10734,
+        "rep_votes": 9224,
+        "other_votes": 0,
+        "total_votes": 19958,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -1510,
+        "margin_pct": -7.5659,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 1738,
+        "rep_votes": 1608,
+        "other_votes": 6,
+        "total_votes": 3352,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -130,
+        "margin_pct": -3.8783,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 2628,
+        "rep_votes": 5051,
+        "other_votes": 6,
+        "total_votes": 7685,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 2423,
+        "margin_pct": 31.529,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 2518,
+        "rep_votes": 2323,
+        "other_votes": 6,
+        "total_votes": 4847,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": -195,
+        "margin_pct": -4.0231,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 5155,
+        "rep_votes": 9104,
+        "other_votes": 16,
+        "total_votes": 14275,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 3949,
+        "margin_pct": 27.6637,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 5856,
+        "rep_votes": 9411,
+        "other_votes": 13,
+        "total_votes": 15280,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 3555,
+        "margin_pct": 23.2657,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 734,
+        "rep_votes": 1235,
+        "other_votes": 3,
+        "total_votes": 1972,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 501,
+        "margin_pct": 25.4057,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 3366,
+        "rep_votes": 6613,
+        "other_votes": 0,
+        "total_votes": 9979,
+        "dem_candidate": "Rano Singh",
+        "rep_candidate": "Dean Martin",
+        "margin": 3247,
+        "margin_pct": 32.5383,
+        "winner": "REP"
+      }
+    }
+  }
+}

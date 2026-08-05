@@ -1,0 +1,161 @@
+{
+  "year": 2004,
+  "contest_type": "president",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 24198,
+      "total_votes": 24198,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE"
+    },
+    "Cochise": {
+      "dem_votes": 17514,
+      "rep_votes": 26556,
+      "other_votes": 318,
+      "total_votes": 44388,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "Bush",
+      "margin": 9042,
+      "margin_pct": 20.3704,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 29243,
+      "rep_votes": 0,
+      "other_votes": 22903,
+      "total_votes": 52146,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -29243,
+      "margin_pct": -56.0791,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 8314,
+      "rep_votes": 0,
+      "other_votes": 12498,
+      "total_votes": 20812,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -8314,
+      "margin_pct": -39.9481,
+      "winner": "DEM"
+    },
+    "Greenlee": {
+      "dem_votes": 1146,
+      "rep_votes": 0,
+      "other_votes": 1918,
+      "total_votes": 3064,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -1146,
+      "margin_pct": -37.4021,
+      "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 1849,
+      "rep_votes": 0,
+      "other_votes": 3203,
+      "total_votes": 5052,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -1849,
+      "margin_pct": -36.5994,
+      "winner": "DEM"
+    },
+    "Maricopa": {
+      "dem_votes": 504849,
+      "rep_votes": 679455,
+      "other_votes": 6776,
+      "total_votes": 1191080,
+      "dem_candidate": "John F. Kerry",
+      "rep_candidate": "George W. Bush",
+      "margin": 174606,
+      "margin_pct": 14.6595,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 20503,
+      "rep_votes": 0,
+      "other_votes": 37187,
+      "total_votes": 57690,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -20503,
+      "margin_pct": -35.54,
+      "winner": "DEM"
+    },
+    "Navajo": {
+      "dem_votes": 14815,
+      "rep_votes": 0,
+      "other_votes": 17528,
+      "total_votes": 32343,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -14815,
+      "margin_pct": -45.8059,
+      "winner": "DEM"
+    },
+    "Pima": {
+      "dem_votes": 0,
+      "rep_votes": 0,
+      "other_votes": 366346,
+      "total_votes": 366346,
+      "dem_candidate": "",
+      "rep_candidate": "",
+      "margin": 0,
+      "margin_pct": 0.0,
+      "winner": "TIE"
+    },
+    "Pinal": {
+      "dem_votes": 27252,
+      "rep_votes": 0,
+      "other_votes": 37339,
+      "total_votes": 64591,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -27252,
+      "margin_pct": -42.1916,
+      "winner": "DEM"
+    },
+    "Santa Cruz": {
+      "dem_votes": 6909,
+      "rep_votes": 0,
+      "other_votes": 4748,
+      "total_votes": 11657,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -6909,
+      "margin_pct": -59.2691,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 33127,
+      "rep_votes": 0,
+      "other_votes": 54080,
+      "total_votes": 87207,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -33127,
+      "margin_pct": -37.9866,
+      "winner": "DEM"
+    },
+    "Yuma": {
+      "dem_votes": 16032,
+      "rep_votes": 0,
+      "other_votes": 22391,
+      "total_votes": 38423,
+      "dem_candidate": "Kerry",
+      "rep_candidate": "",
+      "margin": -16032,
+      "margin_pct": -41.725,
+      "winner": "DEM"
+    }
+  }
+}

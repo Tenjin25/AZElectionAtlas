@@ -1,0 +1,108 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "superintendent",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 180100,
+        "rep_votes": 175649,
+        "other_votes": 345,
+        "total_votes": 356094,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": -4451,
+        "margin_pct": -1.25,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 144503,
+        "rep_votes": 174409,
+        "other_votes": 472,
+        "total_votes": 319384,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": 29906,
+        "margin_pct": 9.3637,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 105136,
+        "rep_votes": 33955,
+        "other_votes": 241,
+        "total_votes": 139332,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": -71181,
+        "margin_pct": -51.0873,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 145516,
+        "rep_votes": 115064,
+        "other_votes": 338,
+        "total_votes": 260918,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": -30452,
+        "margin_pct": -11.6711,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 135200,
+        "rep_votes": 181701,
+        "other_votes": 303,
+        "total_votes": 317204,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": 46501,
+        "margin_pct": 14.6597,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 178429,
+        "rep_votes": 167560,
+        "other_votes": 356,
+        "total_votes": 346345,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": -10869,
+        "margin_pct": -3.1382,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 126188,
+        "rep_votes": 68035,
+        "other_votes": 240,
+        "total_votes": 194463,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": -58153,
+        "margin_pct": -29.9044,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 133202,
+        "rep_votes": 166376,
+        "other_votes": 320,
+        "total_votes": 299898,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": 33174,
+        "margin_pct": 11.0618,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 98118,
+        "rep_votes": 172346,
+        "other_votes": 294,
+        "total_votes": 270758,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Tom Horne",
+        "margin": 74228,
+        "margin_pct": 27.4149,
+        "winner": "REP"
+      }
+    }
+  }
+}

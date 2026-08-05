@@ -1,0 +1,108 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 101293,
+        "rep_votes": 121808,
+        "other_votes": 302,
+        "total_votes": 223403,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 20515,
+        "margin_pct": 9.183,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 90796,
+        "rep_votes": 101374,
+        "other_votes": 187,
+        "total_votes": 192357,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 10578,
+        "margin_pct": 5.4992,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 54801,
+        "rep_votes": 21739,
+        "other_votes": 237,
+        "total_votes": 76777,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -33062,
+        "margin_pct": -43.0624,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 74774,
+        "rep_votes": 83188,
+        "other_votes": 341,
+        "total_votes": 158303,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 8414,
+        "margin_pct": 5.3151,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 54389,
+        "rep_votes": 90036,
+        "other_votes": 221,
+        "total_votes": 144646,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 35647,
+        "margin_pct": 24.6443,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 93597,
+        "rep_votes": 81133,
+        "other_votes": 26,
+        "total_votes": 174756,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -12464,
+        "margin_pct": -7.1322,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 91461,
+        "rep_votes": 64794,
+        "other_votes": 61,
+        "total_votes": 156316,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -26667,
+        "margin_pct": -17.0597,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 71842,
+        "rep_votes": 107020,
+        "other_votes": 326,
+        "total_votes": 179188,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 35178,
+        "margin_pct": 19.6319,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 45898,
+        "rep_votes": 82892,
+        "other_votes": 149,
+        "total_votes": 128939,
+        "dem_candidate": "Felecia Rotellini",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 36994,
+        "margin_pct": 28.6911,
+        "winner": "REP"
+      }
+    }
+  }
+}

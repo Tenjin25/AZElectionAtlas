@@ -1,0 +1,172 @@
+{
+  "year": 2022,
+  "contest_type": "corporation_commissioner",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 25871,
+      "rep_votes": 15703,
+      "other_votes": 2475,
+      "total_votes": 44049,
+      "dem_candidate": "Lauren Kuby",
+      "rep_candidate": "Kevin Thompson",
+      "margin": -10168,
+      "margin_pct": -23.0834,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 32664,
+      "rep_votes": 53013,
+      "other_votes": 84,
+      "total_votes": 85761,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": 20349,
+      "margin_pct": 23.7276,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 59975,
+      "rep_votes": 36285,
+      "other_votes": 121,
+      "total_votes": 96381,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": -23690,
+      "margin_pct": -24.5795,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 13461,
+      "rep_votes": 27231,
+      "other_votes": 20,
+      "total_votes": 40712,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": 13770,
+      "margin_pct": 33.823,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 5025,
+      "rep_votes": 13864,
+      "other_votes": 8,
+      "total_votes": 18897,
+      "dem_candidate": "Lauren Kuby",
+      "rep_candidate": "Kevin Thompson",
+      "margin": 8839,
+      "margin_pct": 46.7746,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1628,
+      "rep_votes": 2784,
+      "other_votes": 10,
+      "total_votes": 4422,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": 1156,
+      "margin_pct": 26.142,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 2671,
+      "rep_votes": 6773,
+      "other_votes": 8,
+      "total_votes": 9452,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nick Myers",
+      "margin": 4102,
+      "margin_pct": 43.3982,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 1341398,
+      "rep_votes": 1427577,
+      "other_votes": 1825,
+      "total_votes": 2770800,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": 86179,
+      "margin_pct": 3.1103,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 32664,
+      "rep_votes": 104497,
+      "other_votes": 114,
+      "total_votes": 137275,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": 71833,
+      "margin_pct": 52.3278,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 29495,
+      "rep_votes": 39507,
+      "other_votes": 89,
+      "total_votes": 69091,
+      "dem_candidate": "Lauren Kuby",
+      "rep_candidate": "Kevin Thompson",
+      "margin": 10012,
+      "margin_pct": 14.491,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 421683,
+      "rep_votes": 299944,
+      "other_votes": 542,
+      "total_votes": 722169,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nick Myers",
+      "margin": -121739,
+      "margin_pct": -16.8574,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 100446,
+      "rep_votes": 150299,
+      "other_votes": 190,
+      "total_votes": 250935,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": 49853,
+      "margin_pct": 19.8669,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 12703,
+      "rep_votes": 7144,
+      "other_votes": 15,
+      "total_votes": 19862,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": -5559,
+      "margin_pct": -27.9881,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 78009,
+      "rep_votes": 149213,
+      "other_votes": 154,
+      "total_votes": 227376,
+      "dem_candidate": "Sandra Kennedy",
+      "rep_candidate": "Nicholas \"Nick\" Myers",
+      "margin": 71204,
+      "margin_pct": 31.3155,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 33418,
+      "rep_votes": 46393,
+      "other_votes": 52,
+      "total_votes": 79863,
+      "dem_candidate": "Lauren Kuby",
+      "rep_candidate": "Kevin Thompson",
+      "margin": 12975,
+      "margin_pct": 16.2466,
+      "winner": "REP"
+    }
+  }
+}

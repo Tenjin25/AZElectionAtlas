@@ -1,0 +1,139 @@
+{
+  "year": 2010,
+  "contest_type": "governor",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 12839,
+      "rep_votes": 7002,
+      "other_votes": 808,
+      "total_votes": 20649,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Brewer. Jan",
+      "margin": -5837,
+      "margin_pct": -28.2677,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 13954,
+      "rep_votes": 24974,
+      "other_votes": 1140,
+      "total_votes": 40068,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 11020,
+      "margin_pct": 27.5032,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 20792,
+      "rep_votes": 16754,
+      "other_votes": 1385,
+      "total_votes": 38931,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": -4038,
+      "margin_pct": -10.3722,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6155,
+      "rep_votes": 11163,
+      "other_votes": 609,
+      "total_votes": 17927,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 5008,
+      "margin_pct": 27.9355,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 2865,
+      "rep_votes": 5994,
+      "other_votes": 294,
+      "total_votes": 9153,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 3129,
+      "margin_pct": 34.1855,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1177,
+      "rep_votes": 1187,
+      "other_votes": 84,
+      "total_votes": 2448,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 10,
+      "margin_pct": 0.4085,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 109452,
+      "rep_votes": 135854,
+      "other_votes": 8819,
+      "total_votes": 254125,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 26402,
+      "margin_pct": 10.3894,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 12517,
+      "rep_votes": 16157,
+      "other_votes": 965,
+      "total_votes": 29639,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 3640,
+      "margin_pct": 12.2811,
+      "winner": "REP"
+    },
+    "Pinal": {
+      "dem_votes": 30109,
+      "rep_votes": 45807,
+      "other_votes": 2657,
+      "total_votes": 78573,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 15698,
+      "margin_pct": 19.9789,
+      "winner": "REP"
+    },
+    "SantaCruz": {
+      "dem_votes": 6608,
+      "rep_votes": 3190,
+      "other_votes": 243,
+      "total_votes": 10041,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": -3418,
+      "margin_pct": -34.0404,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 25569,
+      "rep_votes": 53081,
+      "other_votes": 2730,
+      "total_votes": 81380,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 27512,
+      "margin_pct": 33.8068,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 13764,
+      "rep_votes": 19590,
+      "other_votes": 880,
+      "total_votes": 34234,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Jan Brewer",
+      "margin": 5826,
+      "margin_pct": 17.0182,
+      "winner": "REP"
+    }
+  }
+}

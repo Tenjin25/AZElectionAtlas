@@ -1,0 +1,317 @@
+{
+  "year": 2010,
+  "scope": "state_house",
+  "contest_type": "governor",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 26191,
+        "rep_votes": 53541,
+        "other_votes": 2752,
+        "total_votes": 82484,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 27350,
+        "margin_pct": 33.1579,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 7042,
+        "rep_votes": 9926,
+        "other_votes": 741,
+        "total_votes": 17709,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 2884,
+        "margin_pct": 16.2855,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 9085,
+        "rep_votes": 18356,
+        "other_votes": 793,
+        "total_votes": 28234,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 9271,
+        "margin_pct": 32.8363,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 10833,
+        "rep_votes": 14905,
+        "other_votes": 770,
+        "total_votes": 26508,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 4072,
+        "margin_pct": 15.3614,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 11178,
+        "rep_votes": 7101,
+        "other_votes": 704,
+        "total_votes": 18983,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": -4077,
+        "margin_pct": -21.4771,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 28462,
+        "rep_votes": 17123,
+        "other_votes": 1717,
+        "total_votes": 47302,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Brewer. Jan",
+        "margin": -11339,
+        "margin_pct": -23.9715,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 21951,
+        "rep_votes": 38623,
+        "other_votes": 2183,
+        "total_votes": 62757,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 16672,
+        "margin_pct": 26.566,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 3270,
+        "rep_votes": 2808,
+        "other_votes": 213,
+        "total_votes": 6291,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": -462,
+        "margin_pct": -7.3438,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 363,
+        "rep_votes": 447,
+        "other_votes": 32,
+        "total_votes": 842,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 84,
+        "margin_pct": 9.9762,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 3327,
+        "rep_votes": 5875,
+        "other_votes": 414,
+        "total_votes": 9616,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 2548,
+        "margin_pct": 26.4975,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 7490,
+        "rep_votes": 3211,
+        "other_votes": 412,
+        "total_votes": 11113,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": -4279,
+        "margin_pct": -38.5045,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 12328,
+        "rep_votes": 13871,
+        "other_votes": 1025,
+        "total_votes": 27224,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 1543,
+        "margin_pct": 5.6678,
+        "winner": "REP"
+      },
+      "13": {
+        "dem_votes": 5952,
+        "rep_votes": 7310,
+        "other_votes": 551,
+        "total_votes": 13813,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 1358,
+        "margin_pct": 9.8313,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 1470,
+        "rep_votes": 3441,
+        "other_votes": 168,
+        "total_votes": 5079,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 1971,
+        "margin_pct": 38.8069,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 4382,
+        "rep_votes": 8369,
+        "other_votes": 589,
+        "total_votes": 13340,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 3987,
+        "margin_pct": 29.8876,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 13345,
+        "rep_votes": 18047,
+        "other_votes": 1107,
+        "total_votes": 32499,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 4702,
+        "margin_pct": 14.4681,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 2669,
+        "rep_votes": 4752,
+        "other_votes": 117,
+        "total_votes": 7538,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 2083,
+        "margin_pct": 27.6333,
+        "winner": "REP"
+      },
+      "19": {
+        "dem_votes": 13819,
+        "rep_votes": 27413,
+        "other_votes": 1235,
+        "total_votes": 42467,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 13594,
+        "margin_pct": 32.0107,
+        "winner": "REP"
+      },
+      "21": {
+        "dem_votes": 7107,
+        "rep_votes": 3452,
+        "other_votes": 287,
+        "total_votes": 10846,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": -3655,
+        "margin_pct": -33.6991,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 3919,
+        "rep_votes": 2704,
+        "other_votes": 267,
+        "total_votes": 6890,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": -1215,
+        "margin_pct": -17.6343,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 10198,
+        "rep_votes": 10156,
+        "other_votes": 547,
+        "total_votes": 20901,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": -42,
+        "margin_pct": -0.2009,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 2917,
+        "rep_votes": 2166,
+        "other_votes": 181,
+        "total_votes": 5264,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": -751,
+        "margin_pct": -14.2667,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 6456,
+        "rep_votes": 13686,
+        "other_votes": 664,
+        "total_votes": 20806,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 7230,
+        "margin_pct": 34.7496,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 4816,
+        "rep_votes": 3232,
+        "other_votes": 302,
+        "total_votes": 8350,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": -1584,
+        "margin_pct": -18.9701,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 7470,
+        "rep_votes": 12062,
+        "other_votes": 723,
+        "total_votes": 20255,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 4592,
+        "margin_pct": 22.6709,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 9258,
+        "rep_votes": 17878,
+        "other_votes": 680,
+        "total_votes": 27816,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 8620,
+        "margin_pct": 30.9894,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 1526,
+        "rep_votes": 1811,
+        "other_votes": 127,
+        "total_votes": 3464,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 285,
+        "margin_pct": 8.2275,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 100,
+        "rep_votes": 383,
+        "other_votes": 13,
+        "total_votes": 496,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Jan Brewer",
+        "margin": 283,
+        "margin_pct": 57.0565,
+        "winner": "REP"
+      }
+    }
+  }
+}

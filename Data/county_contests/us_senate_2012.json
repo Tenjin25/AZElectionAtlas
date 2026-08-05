@@ -1,0 +1,73 @@
+{
+  "year": 2012,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 16455,
+      "rep_votes": 7680,
+      "other_votes": 1097,
+      "total_votes": 25232,
+      "dem_candidate": "Richard Carmona",
+      "rep_candidate": "Jeff Flake",
+      "margin": -8775,
+      "margin_pct": -34.7773,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 19736,
+      "rep_votes": 26208,
+      "other_votes": 2266,
+      "total_votes": 48210,
+      "dem_candidate": "Richard Carmona",
+      "rep_candidate": "Jeff Flake",
+      "margin": 6472,
+      "margin_pct": 13.4246,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 28723,
+      "rep_votes": 19334,
+      "other_votes": 2580,
+      "total_votes": 50637,
+      "dem_candidate": "Richard Carmona",
+      "rep_candidate": "Jeff Flake",
+      "margin": -9389,
+      "margin_pct": -18.5418,
+      "winner": "DEM"
+    },
+    "Maricopa": {
+      "dem_votes": 602809,
+      "rep_votes": 675500,
+      "other_votes": 62757,
+      "total_votes": 1341066,
+      "dem_candidate": "Richard Carmona",
+      "rep_candidate": "Jeff Flake",
+      "margin": 72691,
+      "margin_pct": 5.4204,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 16881,
+      "rep_votes": 18228,
+      "other_votes": 1631,
+      "total_votes": 36740,
+      "dem_candidate": "Richard Carmona",
+      "rep_candidate": "Jeff Flake",
+      "margin": 1347,
+      "margin_pct": 3.6663,
+      "winner": "REP"
+    },
+    "Yavapai": {
+      "dem_votes": 34902,
+      "rep_votes": 57838,
+      "other_votes": 5114,
+      "total_votes": 97854,
+      "dem_candidate": "Richard Carmona",
+      "rep_candidate": "Jeff Flake",
+      "margin": 22936,
+      "margin_pct": 23.439,
+      "winner": "REP"
+    }
+  }
+}

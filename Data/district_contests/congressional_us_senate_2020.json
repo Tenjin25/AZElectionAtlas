@@ -1,0 +1,108 @@
+{
+  "year": 2020,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 233097,
+        "rep_votes": 226252,
+        "other_votes": 0,
+        "total_votes": 459349,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": -6845,
+        "margin_pct": -1.4902,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 190745,
+        "rep_votes": 211891,
+        "other_votes": 0,
+        "total_votes": 402636,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": 21146,
+        "margin_pct": 5.2519,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 174239,
+        "rep_votes": 52903,
+        "other_votes": 0,
+        "total_votes": 227142,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": -121336,
+        "margin_pct": -53.4186,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 205960,
+        "rep_votes": 161783,
+        "other_votes": 0,
+        "total_votes": 367743,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": -44177,
+        "margin_pct": -12.013,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 176560,
+        "rep_votes": 236818,
+        "other_votes": 0,
+        "total_votes": 413378,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": 60258,
+        "margin_pct": 14.577,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 218693,
+        "rep_votes": 214452,
+        "other_votes": 0,
+        "total_votes": 433145,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": -4241,
+        "margin_pct": -0.9791,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 200499,
+        "rep_votes": 93764,
+        "other_votes": 0,
+        "total_votes": 294263,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": -106735,
+        "margin_pct": -36.272,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 177342,
+        "rep_votes": 221196,
+        "other_votes": 0,
+        "total_votes": 398538,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": 43854,
+        "margin_pct": 11.0037,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 139334,
+        "rep_votes": 218608,
+        "other_votes": 0,
+        "total_votes": 357942,
+        "dem_candidate": "Mark Kelly",
+        "rep_candidate": "Martha McSally",
+        "margin": 79274,
+        "margin_pct": 22.1472,
+        "winner": "REP"
+      }
+    }
+  }
+}

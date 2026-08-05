@@ -1,0 +1,339 @@
+{
+  "year": 2022,
+  "scope": "state_house",
+  "contest_type": "attorney_general",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 43430,
+        "rep_votes": 77343,
+        "other_votes": 124,
+        "total_votes": 120897,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 33913,
+        "margin_pct": 28.0512,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 40475,
+        "rep_votes": 39485,
+        "other_votes": 99,
+        "total_votes": 80059,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -990,
+        "margin_pct": -1.2366,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 52652,
+        "rep_votes": 79906,
+        "other_votes": 117,
+        "total_votes": 132675,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 27254,
+        "margin_pct": 20.5419,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 63317,
+        "rep_votes": 58720,
+        "other_votes": 118,
+        "total_votes": 122155,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -4597,
+        "margin_pct": -3.7633,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 57418,
+        "rep_votes": 22203,
+        "other_votes": 117,
+        "total_votes": 79738,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -35215,
+        "margin_pct": -44.1634,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 43796,
+        "rep_votes": 19902,
+        "other_votes": 151,
+        "total_votes": 63849,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -23894,
+        "margin_pct": -37.4227,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 47349,
+        "rep_votes": 64797,
+        "other_votes": 168,
+        "total_votes": 112314,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 17448,
+        "margin_pct": 15.535,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 43885,
+        "rep_votes": 24245,
+        "other_votes": 123,
+        "total_votes": 68253,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -19640,
+        "margin_pct": -28.7753,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 33459,
+        "rep_votes": 28743,
+        "other_votes": 92,
+        "total_votes": 62294,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -4716,
+        "margin_pct": -7.5706,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 37977,
+        "rep_votes": 53206,
+        "other_votes": 120,
+        "total_votes": 91303,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 15229,
+        "margin_pct": 16.6796,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 37117,
+        "rep_votes": 12185,
+        "other_votes": 90,
+        "total_votes": 49392,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -24932,
+        "margin_pct": -50.4778,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 60494,
+        "rep_votes": 39422,
+        "other_votes": 102,
+        "total_votes": 100018,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -21072,
+        "margin_pct": -21.0682,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 47940,
+        "rep_votes": 45156,
+        "other_votes": 95,
+        "total_votes": 93191,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -2784,
+        "margin_pct": -2.9874,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 41582,
+        "rep_votes": 55796,
+        "other_votes": 114,
+        "total_votes": 97492,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 14214,
+        "margin_pct": 14.5797,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 34401,
+        "rep_votes": 59273,
+        "other_votes": 79,
+        "total_votes": 93753,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 24872,
+        "margin_pct": 26.5293,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 35274,
+        "rep_votes": 38223,
+        "other_votes": 107,
+        "total_votes": 73604,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 2949,
+        "margin_pct": 4.0066,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 61189,
+        "rep_votes": 62675,
+        "other_votes": 133,
+        "total_votes": 123997,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham Hamadeh",
+        "margin": 1486,
+        "margin_pct": 1.1984,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 68896,
+        "rep_votes": 39311,
+        "other_votes": 108,
+        "total_votes": 108315,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham Hamadeh",
+        "margin": -29585,
+        "margin_pct": -27.3139,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 37746,
+        "rep_votes": 54951,
+        "other_votes": 138,
+        "total_votes": 92835,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 17205,
+        "margin_pct": 18.5329,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 46941,
+        "rep_votes": 14048,
+        "other_votes": 76,
+        "total_votes": 61065,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham Hamadeh",
+        "margin": -32893,
+        "margin_pct": -53.8656,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 40523,
+        "rep_votes": 22285,
+        "other_votes": 89,
+        "total_votes": 62897,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -18238,
+        "margin_pct": -28.9966,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 28314,
+        "rep_votes": 15047,
+        "other_votes": 104,
+        "total_votes": 43465,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -13267,
+        "margin_pct": -30.5234,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 29702,
+        "rep_votes": 24350,
+        "other_votes": 72,
+        "total_votes": 54124,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -5352,
+        "margin_pct": -9.8884,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 23114,
+        "rep_votes": 12201,
+        "other_votes": 88,
+        "total_votes": 35403,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -10913,
+        "margin_pct": -30.8251,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 28974,
+        "rep_votes": 51431,
+        "other_votes": 103,
+        "total_votes": 80508,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 22457,
+        "margin_pct": 27.8941,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 23553,
+        "rep_votes": 10159,
+        "other_votes": 84,
+        "total_votes": 33796,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": -13394,
+        "margin_pct": -39.6319,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 37346,
+        "rep_votes": 41740,
+        "other_votes": 134,
+        "total_votes": 79220,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 4394,
+        "margin_pct": 5.5466,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 47625,
+        "rep_votes": 69795,
+        "other_votes": 95,
+        "total_votes": 117515,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 22170,
+        "margin_pct": 18.8657,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 37733,
+        "rep_votes": 49429,
+        "other_votes": 108,
+        "total_votes": 87270,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 11696,
+        "margin_pct": 13.4021,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 22390,
+        "rep_votes": 68075,
+        "other_votes": 145,
+        "total_votes": 90610,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Abraham Hamadeh",
+        "margin": 45685,
+        "margin_pct": 50.4194,
+        "winner": "REP"
+      }
+    }
+  }
+}

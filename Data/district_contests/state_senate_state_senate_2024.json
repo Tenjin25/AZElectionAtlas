@@ -1,0 +1,339 @@
+{
+  "year": 2024,
+  "scope": "state_senate",
+  "contest_type": "state_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 49108,
+        "rep_votes": 94947,
+        "other_votes": 2,
+        "total_votes": 144057,
+        "dem_candidate": "Mike S. Fogel",
+        "rep_candidate": "Mark Finchem",
+        "margin": 45839,
+        "margin_pct": 31.82,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 48333,
+        "rep_votes": 52100,
+        "other_votes": 2174,
+        "total_votes": 102607,
+        "dem_candidate": "Judy Schwiebert",
+        "rep_candidate": "Shawnna Bolick",
+        "margin": 3767,
+        "margin_pct": 3.6713,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 110034,
+        "other_votes": 2289,
+        "total_votes": 112323,
+        "dem_candidate": "",
+        "rep_candidate": "John Kavanagh",
+        "margin": 110034,
+        "margin_pct": 97.9621,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 70614,
+        "rep_votes": 76079,
+        "other_votes": 152,
+        "total_votes": 146845,
+        "dem_candidate": "Christine Marsh",
+        "rep_candidate": "Carine Werner",
+        "margin": 5465,
+        "margin_pct": 3.7216,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 67425,
+        "rep_votes": 31296,
+        "other_votes": 128,
+        "total_votes": 98849,
+        "dem_candidate": "Lela Alston",
+        "rep_candidate": "Joshua Ortega",
+        "margin": -36129,
+        "margin_pct": -36.5497,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 72721,
+        "rep_votes": 0,
+        "other_votes": 2229,
+        "total_votes": 74950,
+        "dem_candidate": "Teresa Hatathlie",
+        "rep_candidate": "",
+        "margin": -72721,
+        "margin_pct": -97.026,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 43406,
+        "rep_votes": 80750,
+        "other_votes": 250,
+        "total_votes": 124406,
+        "dem_candidate": "Haley Creighton",
+        "rep_candidate": "Wendy Rogers",
+        "margin": 37344,
+        "margin_pct": 30.0178,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 53105,
+        "rep_votes": 34515,
+        "other_votes": 165,
+        "total_votes": 87785,
+        "dem_candidate": "Lauren Kuby",
+        "rep_candidate": "Roxana Holzapfel",
+        "margin": -18590,
+        "margin_pct": -21.1767,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 42072,
+        "rep_votes": 39261,
+        "other_votes": 125,
+        "total_votes": 81458,
+        "dem_candidate": "Eva Burch",
+        "rep_candidate": "Robert Scantlenury",
+        "margin": -2811,
+        "margin_pct": -3.4509,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 44170,
+        "rep_votes": 70561,
+        "other_votes": 148,
+        "total_votes": 114879,
+        "dem_candidate": "Robert Doyle",
+        "rep_candidate": "David Christian Farnsworth",
+        "margin": 26391,
+        "margin_pct": 22.9729,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 52106,
+        "rep_votes": 20095,
+        "other_votes": 107,
+        "total_votes": 72308,
+        "dem_candidate": "Catherine Miranda",
+        "rep_candidate": "Joshua Ayala",
+        "margin": -32011,
+        "margin_pct": -44.2703,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 70498,
+        "rep_votes": 50795,
+        "other_votes": 136,
+        "total_votes": 121429,
+        "dem_candidate": "Denise \"Mitzi\" Epstein",
+        "rep_candidate": "Cara Vicini",
+        "margin": -19703,
+        "margin_pct": -16.2259,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 55287,
+        "rep_votes": 62670,
+        "other_votes": 117,
+        "total_votes": 118074,
+        "dem_candidate": "Sharon Lee Winters",
+        "rep_candidate": "J.D. Mesnard",
+        "margin": 7383,
+        "margin_pct": 6.2529,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 50554,
+        "rep_votes": 76251,
+        "other_votes": 163,
+        "total_votes": 126968,
+        "dem_candidate": "Elizabeth Brown",
+        "rep_candidate": "Warren Petersen",
+        "margin": 25697,
+        "margin_pct": 20.239,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 43769,
+        "rep_votes": 87580,
+        "other_votes": 6148,
+        "total_votes": 137497,
+        "dem_candidate": "Alan Smith",
+        "rep_candidate": "Jake Hoffman",
+        "margin": 43811,
+        "margin_pct": 31.8632,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 45888,
+        "rep_votes": 58386,
+        "other_votes": 187,
+        "total_votes": 104461,
+        "dem_candidate": "Stacey Seaman",
+        "rep_candidate": "Thomas \"Tj.\" Shope Jr.",
+        "margin": 12498,
+        "margin_pct": 11.9643,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 74669,
+        "rep_votes": 77714,
+        "other_votes": 314,
+        "total_votes": 152697,
+        "dem_candidate": "John McLean",
+        "rep_candidate": "Venden \"Vince\" Leach",
+        "margin": 3045,
+        "margin_pct": 1.9941,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 89003,
+        "rep_votes": 0,
+        "other_votes": 3566,
+        "total_votes": 92569,
+        "dem_candidate": "Priya Sundareshan",
+        "rep_candidate": "",
+        "margin": -89003,
+        "margin_pct": -96.1477,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 41591,
+        "rep_votes": 71192,
+        "other_votes": 1141,
+        "total_votes": 113924,
+        "dem_candidate": "Bob Karp",
+        "rep_candidate": "David Gowan",
+        "margin": 29601,
+        "margin_pct": 25.9831,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 65214,
+        "rep_votes": 0,
+        "other_votes": 1949,
+        "total_votes": 67163,
+        "dem_candidate": "Sally Ann Gonzales",
+        "rep_candidate": "",
+        "margin": -65214,
+        "margin_pct": -97.0981,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 64282,
+        "rep_votes": 0,
+        "other_votes": 3171,
+        "total_votes": 67453,
+        "dem_candidate": "Rosanna Gabaldon",
+        "rep_candidate": "",
+        "margin": -64282,
+        "margin_pct": -95.2989,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 45253,
+        "rep_votes": 24812,
+        "other_votes": 81,
+        "total_votes": 70146,
+        "dem_candidate": "Eva Diaz",
+        "rep_candidate": "Steve Robinson",
+        "margin": -20441,
+        "margin_pct": -29.1406,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 42658,
+        "rep_votes": 36602,
+        "other_votes": 122,
+        "total_votes": 79382,
+        "dem_candidate": "Brian Fernandez",
+        "rep_candidate": "Michelle Altherr",
+        "margin": -6056,
+        "margin_pct": -7.6289,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 38436,
+        "rep_votes": 0,
+        "other_votes": 1375,
+        "total_votes": 39811,
+        "dem_candidate": "Analise Ortiz",
+        "rep_candidate": "",
+        "margin": -38436,
+        "margin_pct": -96.5462,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 88531,
+        "other_votes": 2633,
+        "total_votes": 91164,
+        "dem_candidate": "",
+        "rep_candidate": "Timothy \"Tim\" Dunn",
+        "margin": 88531,
+        "margin_pct": 97.1118,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 31198,
+        "rep_votes": 15826,
+        "other_votes": 92,
+        "total_votes": 47116,
+        "dem_candidate": "Flavio Bravo",
+        "rep_candidate": "Victor \"Vic\" Harris",
+        "margin": -15372,
+        "margin_pct": -32.6259,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 67274,
+        "other_votes": 2663,
+        "total_votes": 69937,
+        "dem_candidate": "",
+        "rep_candidate": "Kevin Payne",
+        "margin": 67274,
+        "margin_pct": 96.1923,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 97174,
+        "other_votes": 3339,
+        "total_votes": 100513,
+        "dem_candidate": "",
+        "rep_candidate": "Frank Carroll",
+        "margin": 97174,
+        "margin_pct": 96.678,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 48608,
+        "rep_votes": 70924,
+        "other_votes": 141,
+        "total_votes": 119673,
+        "dem_candidate": "Eric Stafford",
+        "rep_candidate": "Janae Shamp",
+        "margin": 22316,
+        "margin_pct": 18.6475,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 23361,
+        "rep_votes": 86934,
+        "other_votes": 222,
+        "total_votes": 110517,
+        "dem_candidate": "Jaime Morgaine",
+        "rep_candidate": "Hildy Angus",
+        "margin": 63573,
+        "margin_pct": 57.5233,
+        "winner": "REP"
+      }
+    }
+  }
+}

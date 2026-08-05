@@ -1,0 +1,108 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 179141,
+        "rep_votes": 182336,
+        "other_votes": 559,
+        "total_votes": 362036,
+        "dem_candidate": "Jevin D. Hodge",
+        "rep_candidate": "David Schweikert",
+        "margin": 3195,
+        "margin_pct": 0.8825,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 149151,
+        "rep_votes": 174169,
+        "other_votes": 564,
+        "total_votes": 323884,
+        "dem_candidate": "Tom O'Halleran",
+        "rep_candidate": "Eli Crane",
+        "margin": 25018,
+        "margin_pct": 7.7244,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 108599,
+        "rep_votes": 32475,
+        "other_votes": 213,
+        "total_votes": 141287,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Jeff Nelson Zink",
+        "margin": -76124,
+        "margin_pct": -53.879,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 148941,
+        "rep_votes": 116521,
+        "other_votes": 392,
+        "total_votes": 265854,
+        "dem_candidate": "Greg Stanton",
+        "rep_candidate": "Kelly Cooper",
+        "margin": -32420,
+        "margin_pct": -12.1947,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 120243,
+        "rep_votes": 182464,
+        "other_votes": 19107,
+        "total_votes": 321814,
+        "dem_candidate": "Javier Garcia Ramos",
+        "rep_candidate": "Andy Biggs",
+        "margin": 62221,
+        "margin_pct": 19.3345,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 171969,
+        "rep_votes": 177201,
+        "other_votes": 609,
+        "total_votes": 349779,
+        "dem_candidate": "Kirsten Engel",
+        "rep_candidate": "Juan Ciscomani",
+        "margin": 5232,
+        "margin_pct": 1.4958,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 124484,
+        "rep_votes": 68324,
+        "other_votes": 354,
+        "total_votes": 193162,
+        "dem_candidate": "Raul Grijalva",
+        "rep_candidate": "Luis Pozzolo",
+        "margin": -56160,
+        "margin_pct": -29.074,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 197555,
+        "other_votes": 24652,
+        "total_votes": 222207,
+        "dem_candidate": "",
+        "rep_candidate": "Debbie Lesko",
+        "margin": 197555,
+        "margin_pct": 88.9058,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 192796,
+        "other_votes": 18433,
+        "total_votes": 211229,
+        "dem_candidate": "",
+        "rep_candidate": "Paul Gosar",
+        "margin": 192796,
+        "margin_pct": 91.2735,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2022,
+  "contest_type": "superintendent",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 16659,
+      "rep_votes": 9131,
+      "other_votes": 56,
+      "total_votes": 25846,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": -7528,
+      "margin_pct": -29.1264,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 18457,
+      "rep_votes": 27767,
+      "other_votes": 0,
+      "total_votes": 46224,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 9310,
+      "margin_pct": 20.1411,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 33526,
+      "rep_votes": 20151,
+      "other_votes": 116,
+      "total_votes": 53793,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": -13375,
+      "margin_pct": -24.8638,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7756,
+      "rep_votes": 14554,
+      "other_votes": 24,
+      "total_votes": 22334,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 6798,
+      "margin_pct": 30.4379,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3222,
+      "rep_votes": 7527,
+      "other_votes": 13,
+      "total_votes": 10762,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 4305,
+      "margin_pct": 40.0019,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 941,
+      "rep_votes": 1465,
+      "other_votes": 4,
+      "total_votes": 2410,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 524,
+      "margin_pct": 21.7427,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1627,
+      "rep_votes": 3815,
+      "other_votes": 6,
+      "total_votes": 5448,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 2188,
+      "margin_pct": 40.1615,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 763697,
+      "rep_votes": 738705,
+      "other_votes": 1699,
+      "total_votes": 1504101,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": -24992,
+      "margin_pct": -1.6616,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 19399,
+      "rep_votes": 59810,
+      "other_votes": 90,
+      "total_votes": 79299,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 40411,
+      "margin_pct": 50.9603,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 18284,
+      "rep_votes": 21688,
+      "other_votes": 82,
+      "total_votes": 40054,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 3404,
+      "margin_pct": 8.4985,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 233581,
+      "rep_votes": 159637,
+      "other_votes": 459,
+      "total_votes": 393677,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": -73944,
+      "margin_pct": -18.7829,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 58802,
+      "rep_votes": 83148,
+      "other_votes": 171,
+      "total_votes": 142121,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 24346,
+      "margin_pct": 17.1305,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 8442,
+      "rep_votes": 4341,
+      "other_votes": 17,
+      "total_votes": 12800,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": -4101,
+      "margin_pct": -32.0391,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 42628,
+      "rep_votes": 77326,
+      "other_votes": 126,
+      "total_votes": 120080,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 34698,
+      "margin_pct": 28.8957,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 19371,
+      "rep_votes": 26030,
+      "other_votes": 46,
+      "total_votes": 45447,
+      "dem_candidate": "Kathy Hoffman",
+      "rep_candidate": "Tom Horne",
+      "margin": 6659,
+      "margin_pct": 14.6522,
+      "winner": "REP"
+    }
+  }
+}

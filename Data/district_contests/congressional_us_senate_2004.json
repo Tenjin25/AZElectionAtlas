@@ -1,0 +1,108 @@
+{
+  "year": 2004,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 48791,
+        "rep_votes": 238354,
+        "other_votes": 7620,
+        "total_votes": 294765,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 189563,
+        "margin_pct": 64.3099,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 31567,
+        "rep_votes": 87500,
+        "other_votes": 4309,
+        "total_votes": 123376,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 55933,
+        "margin_pct": 45.3354,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 38016,
+        "rep_votes": 69246,
+        "other_votes": 2980,
+        "total_votes": 110242,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 31230,
+        "margin_pct": 28.3286,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 15287,
+        "rep_votes": 75445,
+        "other_votes": 2118,
+        "total_votes": 92850,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 60158,
+        "margin_pct": 64.7905,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 17428,
+        "rep_votes": 114961,
+        "other_votes": 3289,
+        "total_votes": 135678,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 97533,
+        "margin_pct": 71.8856,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 53857,
+        "rep_votes": 207034,
+        "other_votes": 6321,
+        "total_votes": 267212,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 153177,
+        "margin_pct": 57.3241,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 56910,
+        "rep_votes": 121441,
+        "other_votes": 4237,
+        "total_votes": 182588,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 64531,
+        "margin_pct": 35.3424,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 43817,
+        "rep_votes": 198622,
+        "other_votes": 6106,
+        "total_votes": 248545,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 154805,
+        "margin_pct": 62.2845,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 24425,
+        "rep_votes": 103810,
+        "other_votes": 3746,
+        "total_votes": 131981,
+        "dem_candidate": "Stuart Starky",
+        "rep_candidate": "John McCain",
+        "margin": 79385,
+        "margin_pct": 60.1488,
+        "winner": "REP"
+      }
+    }
+  }
+}

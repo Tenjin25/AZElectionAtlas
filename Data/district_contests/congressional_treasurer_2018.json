@@ -1,0 +1,108 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 144851,
+        "rep_votes": 189212,
+        "other_votes": 298,
+        "total_votes": 334361,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 44361,
+        "margin_pct": 13.2674,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 124377,
+        "rep_votes": 158778,
+        "other_votes": 334,
+        "total_votes": 283489,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 34401,
+        "margin_pct": 12.1349,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 103575,
+        "rep_votes": 37995,
+        "other_votes": 286,
+        "total_votes": 141856,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -65580,
+        "margin_pct": -46.23,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 123084,
+        "rep_votes": 130555,
+        "other_votes": 235,
+        "total_votes": 253874,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 7471,
+        "margin_pct": 2.9428,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 97958,
+        "rep_votes": 166930,
+        "other_votes": 238,
+        "total_votes": 265126,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 68972,
+        "margin_pct": 26.0148,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 146158,
+        "rep_votes": 176264,
+        "other_votes": 331,
+        "total_votes": 322753,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 30106,
+        "margin_pct": 9.3279,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 129316,
+        "rep_votes": 69713,
+        "other_votes": 281,
+        "total_votes": 199310,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -59603,
+        "margin_pct": -29.9047,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 105695,
+        "rep_votes": 171613,
+        "other_votes": 273,
+        "total_votes": 277581,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 65918,
+        "margin_pct": 23.7473,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 77185,
+        "rep_votes": 148059,
+        "other_votes": 230,
+        "total_votes": 225474,
+        "dem_candidate": "Mark Manoil",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 70874,
+        "margin_pct": 31.4333,
+        "winner": "REP"
+      }
+    }
+  }
+}

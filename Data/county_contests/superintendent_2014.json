@@ -1,0 +1,150 @@
+{
+  "year": 2014,
+  "contest_type": "superintendent",
+  "scope": "county",
+  "county_totals": {
+    "apache": {
+      "dem_votes": 14523,
+      "rep_votes": 0,
+      "other_votes": 5967,
+      "total_votes": 20490,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -14523,
+      "margin_pct": -70.8785,
+      "winner": "DEM"
+    },
+    "coconino": {
+      "dem_votes": 22784,
+      "rep_votes": 0,
+      "other_votes": 13251,
+      "total_votes": 36035,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -22784,
+      "margin_pct": -63.2274,
+      "winner": "DEM"
+    },
+    "gila": {
+      "dem_votes": 6873,
+      "rep_votes": 0,
+      "other_votes": 8623,
+      "total_votes": 15496,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -6873,
+      "margin_pct": -44.3534,
+      "winner": "DEM"
+    },
+    "greenlee": {
+      "dem_votes": 1062,
+      "rep_votes": 0,
+      "other_votes": 833,
+      "total_votes": 1895,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -1062,
+      "margin_pct": -56.0422,
+      "winner": "DEM"
+    },
+    "la_paz": {
+      "dem_votes": 1185,
+      "rep_votes": 0,
+      "other_votes": 2193,
+      "total_votes": 3378,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -1185,
+      "margin_pct": -35.0799,
+      "winner": "DEM"
+    },
+    "maricopa": {
+      "dem_votes": 417504,
+      "rep_votes": 416261,
+      "other_votes": 1144,
+      "total_votes": 834909,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Diane M. Douglas",
+      "margin": -1243,
+      "margin_pct": -0.1489,
+      "winner": "DEM"
+    },
+    "mohave": {
+      "dem_votes": 13979,
+      "rep_votes": 0,
+      "other_votes": 31095,
+      "total_votes": 45074,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -13979,
+      "margin_pct": -31.0134,
+      "winner": "DEM"
+    },
+    "navajo": {
+      "dem_votes": 14467,
+      "rep_votes": 0,
+      "other_votes": 12313,
+      "total_votes": 26780,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -14467,
+      "margin_pct": -54.0217,
+      "winner": "DEM"
+    },
+    "pima": {
+      "dem_votes": 137859,
+      "rep_votes": 0,
+      "other_votes": 124729,
+      "total_votes": 262588,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -137859,
+      "margin_pct": -52.5001,
+      "winner": "DEM"
+    },
+    "pinal": {
+      "dem_votes": 31933,
+      "rep_votes": 37869,
+      "other_votes": 72,
+      "total_votes": 69874,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Diane M. Douglas",
+      "margin": 5936,
+      "margin_pct": 8.4953,
+      "winner": "REP"
+    },
+    "santa_cruz": {
+      "dem_votes": 12204,
+      "rep_votes": 6010,
+      "other_votes": 32,
+      "total_votes": 18246,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Diane M. Douglas",
+      "margin": -6194,
+      "margin_pct": -33.9472,
+      "winner": "DEM"
+    },
+    "yavapai": {
+      "dem_votes": 27934,
+      "rep_votes": 43365,
+      "other_votes": 62,
+      "total_votes": 71361,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "Diane M. Douglas",
+      "margin": 15431,
+      "margin_pct": 21.6239,
+      "winner": "REP"
+    },
+    "yuma": {
+      "dem_votes": 11200,
+      "rep_votes": 0,
+      "other_votes": 14870,
+      "total_votes": 26070,
+      "dem_candidate": "David Garcia",
+      "rep_candidate": "",
+      "margin": -11200,
+      "margin_pct": -42.9613,
+      "winner": "DEM"
+    }
+  }
+}

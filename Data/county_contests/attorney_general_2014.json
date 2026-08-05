@@ -1,0 +1,150 @@
+{
+  "year": 2014,
+  "contest_type": "attorney_general",
+  "scope": "county",
+  "county_totals": {
+    "apache": {
+      "dem_votes": 14549,
+      "rep_votes": 5901,
+      "other_votes": 0,
+      "total_votes": 20450,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": -8648,
+      "margin_pct": -42.2885,
+      "winner": "DEM"
+    },
+    "coconino": {
+      "dem_votes": 21733,
+      "rep_votes": 14360,
+      "other_votes": 0,
+      "total_votes": 36093,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": -7373,
+      "margin_pct": -20.4278,
+      "winner": "DEM"
+    },
+    "gila": {
+      "dem_votes": 6241,
+      "rep_votes": 9203,
+      "other_votes": 0,
+      "total_votes": 15444,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 2962,
+      "margin_pct": 19.179,
+      "winner": "REP"
+    },
+    "greenlee": {
+      "dem_votes": 916,
+      "rep_votes": 965,
+      "other_votes": 0,
+      "total_votes": 1881,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 49,
+      "margin_pct": 2.605,
+      "winner": "REP"
+    },
+    "la_paz": {
+      "dem_votes": 1075,
+      "rep_votes": 2327,
+      "other_votes": 0,
+      "total_votes": 3402,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 1252,
+      "margin_pct": 36.8019,
+      "winner": "REP"
+    },
+    "maricopa": {
+      "dem_votes": 385096,
+      "rep_votes": 457696,
+      "other_votes": 1574,
+      "total_votes": 844366,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 72600,
+      "margin_pct": 8.5982,
+      "winner": "REP"
+    },
+    "mohave": {
+      "dem_votes": 13234,
+      "rep_votes": 31900,
+      "other_votes": 0,
+      "total_votes": 45134,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 18666,
+      "margin_pct": 41.3568,
+      "winner": "REP"
+    },
+    "navajo": {
+      "dem_votes": 13463,
+      "rep_votes": 13483,
+      "other_votes": 0,
+      "total_votes": 26946,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 20,
+      "margin_pct": 0.0742,
+      "winner": "REP"
+    },
+    "pima": {
+      "dem_votes": 148243,
+      "rep_votes": 117418,
+      "other_votes": 0,
+      "total_votes": 265661,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": -30825,
+      "margin_pct": -11.6031,
+      "winner": "DEM"
+    },
+    "pinal": {
+      "dem_votes": 29887,
+      "rep_votes": 40246,
+      "other_votes": 133,
+      "total_votes": 70266,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 10359,
+      "margin_pct": 14.7425,
+      "winner": "REP"
+    },
+    "santa_cruz": {
+      "dem_votes": 12298,
+      "rep_votes": 6084,
+      "other_votes": 20,
+      "total_votes": 18402,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": -6214,
+      "margin_pct": -33.7681,
+      "winner": "DEM"
+    },
+    "yavapai": {
+      "dem_votes": 26123,
+      "rep_votes": 46371,
+      "other_votes": 126,
+      "total_votes": 72620,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 20248,
+      "margin_pct": 27.8821,
+      "winner": "REP"
+    },
+    "yuma": {
+      "dem_votes": 11394,
+      "rep_votes": 14652,
+      "other_votes": 0,
+      "total_votes": 26046,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Mark Brnovich",
+      "margin": 3258,
+      "margin_pct": 12.5086,
+      "winner": "REP"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "year": 2012,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 134353,
+        "rep_votes": 172899,
+        "other_votes": 13023,
+        "total_votes": 320275,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": 38546,
+        "margin_pct": 12.0353,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 97250,
+        "rep_votes": 103018,
+        "other_votes": 10445,
+        "total_votes": 210713,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": 5768,
+        "margin_pct": 2.7374,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 102076,
+        "rep_votes": 30399,
+        "other_votes": 6870,
+        "total_votes": 139345,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": -71677,
+        "margin_pct": -51.4385,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 134976,
+        "rep_votes": 147005,
+        "other_votes": 14776,
+        "total_votes": 296757,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": 12029,
+        "margin_pct": 4.0535,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 73173,
+        "rep_votes": 116768,
+        "other_votes": 8657,
+        "total_votes": 198598,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": 43595,
+        "margin_pct": 21.9514,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 13644,
+        "rep_votes": 23734,
+        "other_votes": 1901,
+        "total_votes": 39279,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": 10090,
+        "margin_pct": 25.688,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 19375,
+        "rep_votes": 10325,
+        "other_votes": 1431,
+        "total_votes": 31131,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": -9050,
+        "margin_pct": -29.0707,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 109392,
+        "rep_votes": 158906,
+        "other_votes": 14066,
+        "total_votes": 282364,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": 49514,
+        "margin_pct": 17.5355,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 34306,
+        "rep_votes": 40313,
+        "other_votes": 4174,
+        "total_votes": 78793,
+        "dem_candidate": "Richard Carmona",
+        "rep_candidate": "Jeff Flake",
+        "margin": 6007,
+        "margin_pct": 7.6238,
+        "winner": "REP"
+      }
+    }
+  }
+}

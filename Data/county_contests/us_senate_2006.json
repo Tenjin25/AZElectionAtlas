@@ -1,0 +1,84 @@
+{
+  "year": 2006,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 11402,
+      "rep_votes": 6530,
+      "other_votes": 831,
+      "total_votes": 18763,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": -4872,
+      "margin_pct": -25.966,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 14849,
+      "rep_votes": 20194,
+      "other_votes": 1302,
+      "total_votes": 36345,
+      "dem_candidate": "Jim Gen Pederson",
+      "rep_candidate": "Jon Gen Kyl",
+      "margin": 5345,
+      "margin_pct": 14.7063,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 20610,
+      "rep_votes": 16003,
+      "other_votes": 1448,
+      "total_votes": 38061,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": -4607,
+      "margin_pct": -12.1043,
+      "winner": "DEM"
+    },
+    "Graham": {
+      "dem_votes": 2194,
+      "rep_votes": 5127,
+      "other_votes": 516,
+      "total_votes": 7837,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 2933,
+      "margin_pct": 37.425,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 66132,
+      "rep_votes": 83407,
+      "other_votes": 5024,
+      "total_votes": 154563,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 17275,
+      "margin_pct": 11.1767,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 144275,
+      "rep_votes": 128987,
+      "other_votes": 7936,
+      "total_votes": 281198,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": -15288,
+      "margin_pct": -5.4367,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 26340,
+      "rep_votes": 43219,
+      "other_votes": 2849,
+      "total_votes": 72408,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 16879,
+      "margin_pct": 23.311,
+      "winner": "REP"
+    }
+  }
+}

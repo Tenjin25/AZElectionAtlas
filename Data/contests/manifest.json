@@ -1,0 +1,424 @@
+{
+  "files": [
+    {
+      "year": 2004,
+      "contest_type": "president",
+      "file": "president_2004.json",
+      "rows": 2063,
+      "scope": "precinct"
+    },
+    {
+      "year": 2004,
+      "contest_type": "treasurer",
+      "file": "treasurer_2004.json",
+      "rows": 81,
+      "scope": "precinct"
+    },
+    {
+      "year": 2004,
+      "contest_type": "us_senate",
+      "file": "us_senate_2004.json",
+      "rows": 2081,
+      "scope": "precinct"
+    },
+    {
+      "year": 2006,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2006.json",
+      "rows": 1247,
+      "scope": "precinct"
+    },
+    {
+      "year": 2006,
+      "contest_type": "governor",
+      "file": "governor_2006.json",
+      "rows": 1247,
+      "scope": "precinct"
+    },
+    {
+      "year": 2006,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2006.json",
+      "rows": 859,
+      "scope": "precinct"
+    },
+    {
+      "year": 2006,
+      "contest_type": "superintendent",
+      "file": "superintendent_2006.json",
+      "rows": 451,
+      "scope": "precinct"
+    },
+    {
+      "year": 2006,
+      "contest_type": "treasurer",
+      "file": "treasurer_2006.json",
+      "rows": 1247,
+      "scope": "precinct"
+    },
+    {
+      "year": 2006,
+      "contest_type": "us_senate",
+      "file": "us_senate_2006.json",
+      "rows": 923,
+      "scope": "precinct"
+    },
+    {
+      "year": 2010,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2010.json",
+      "rows": 872,
+      "scope": "precinct"
+    },
+    {
+      "year": 2010,
+      "contest_type": "governor",
+      "file": "governor_2010.json",
+      "rows": 873,
+      "scope": "precinct"
+    },
+    {
+      "year": 2010,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2010.json",
+      "rows": 582,
+      "scope": "precinct"
+    },
+    {
+      "year": 2010,
+      "contest_type": "superintendent",
+      "file": "superintendent_2010.json",
+      "rows": 582,
+      "scope": "precinct"
+    },
+    {
+      "year": 2010,
+      "contest_type": "treasurer",
+      "file": "treasurer_2010.json",
+      "rows": 873,
+      "scope": "precinct"
+    },
+    {
+      "year": 2010,
+      "contest_type": "us_senate",
+      "file": "us_senate_2010.json",
+      "rows": 672,
+      "scope": "precinct"
+    },
+    {
+      "year": 2012,
+      "contest_type": "president",
+      "file": "president_2012.json",
+      "rows": 1342,
+      "scope": "precinct"
+    },
+    {
+      "year": 2012,
+      "contest_type": "treasurer",
+      "file": "treasurer_2012.json",
+      "rows": 71,
+      "scope": "precinct"
+    },
+    {
+      "year": 2012,
+      "contest_type": "us_senate",
+      "file": "us_senate_2012.json",
+      "rows": 756,
+      "scope": "precinct"
+    },
+    {
+      "year": 2014,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2014.json",
+      "rows": 1490,
+      "scope": "precinct"
+    },
+    {
+      "year": 2014,
+      "contest_type": "governor",
+      "file": "governor_2014.json",
+      "rows": 1490,
+      "scope": "precinct"
+    },
+    {
+      "year": 2014,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2014.json",
+      "rows": 1490,
+      "scope": "precinct"
+    },
+    {
+      "year": 2014,
+      "contest_type": "superintendent",
+      "file": "superintendent_2014.json",
+      "rows": 1490,
+      "scope": "precinct"
+    },
+    {
+      "year": 2014,
+      "contest_type": "treasurer",
+      "file": "treasurer_2014.json",
+      "rows": 1489,
+      "scope": "precinct"
+    },
+    {
+      "year": 2016,
+      "contest_type": "corporation_commissioner",
+      "file": "corporation_commissioner_2016.json",
+      "rows": 658,
+      "scope": "precinct"
+    },
+    {
+      "year": 2016,
+      "contest_type": "president",
+      "file": "president_2016.json",
+      "rows": 1464,
+      "scope": "precinct"
+    },
+    {
+      "year": 2016,
+      "contest_type": "state_house",
+      "file": "state_house_2016.json",
+      "rows": 1421,
+      "scope": "precinct"
+    },
+    {
+      "year": 2016,
+      "contest_type": "state_senate",
+      "file": "state_senate_2016.json",
+      "rows": 1421,
+      "scope": "precinct"
+    },
+    {
+      "year": 2016,
+      "contest_type": "us_house",
+      "file": "us_house_2016.json",
+      "rows": 1421,
+      "scope": "precinct"
+    },
+    {
+      "year": 2016,
+      "contest_type": "us_senate",
+      "file": "us_senate_2016.json",
+      "rows": 1464,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "corporation_commissioner",
+      "file": "corporation_commissioner_2018.json",
+      "rows": 671,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "governor",
+      "file": "governor_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "state_house",
+      "file": "state_house_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "state_senate",
+      "file": "state_senate_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "superintendent",
+      "file": "superintendent_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "treasurer",
+      "file": "treasurer_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "us_house",
+      "file": "us_house_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2018,
+      "contest_type": "us_senate",
+      "file": "us_senate_2018.json",
+      "rows": 1485,
+      "scope": "precinct"
+    },
+    {
+      "year": 2020,
+      "contest_type": "corporation_commissioner",
+      "file": "corporation_commissioner_2020.json",
+      "rows": 741,
+      "scope": "precinct"
+    },
+    {
+      "year": 2020,
+      "contest_type": "president",
+      "file": "president_2020.json",
+      "rows": 1341,
+      "scope": "precinct"
+    },
+    {
+      "year": 2020,
+      "contest_type": "state_senate",
+      "file": "state_senate_2020.json",
+      "rows": 1339,
+      "scope": "precinct"
+    },
+    {
+      "year": 2020,
+      "contest_type": "us_house",
+      "file": "us_house_2020.json",
+      "rows": 1341,
+      "scope": "precinct"
+    },
+    {
+      "year": 2020,
+      "contest_type": "us_senate",
+      "file": "us_senate_2020.json",
+      "rows": 1341,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2022.json",
+      "rows": 1692,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "corporation_commissioner",
+      "file": "corporation_commissioner_2022.json",
+      "rows": 1687,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "governor",
+      "file": "governor_2022.json",
+      "rows": 1692,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2022.json",
+      "rows": 1692,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "state_house",
+      "file": "state_house_2022.json",
+      "rows": 1691,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "state_senate",
+      "file": "state_senate_2022.json",
+      "rows": 1691,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "superintendent",
+      "file": "superintendent_2022.json",
+      "rows": 1659,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "treasurer",
+      "file": "treasurer_2022.json",
+      "rows": 1692,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "us_house",
+      "file": "us_house_2022.json",
+      "rows": 1694,
+      "scope": "precinct"
+    },
+    {
+      "year": 2022,
+      "contest_type": "us_senate",
+      "file": "us_senate_2022.json",
+      "rows": 1694,
+      "scope": "precinct"
+    },
+    {
+      "year": 2024,
+      "contest_type": "corporation_commissioner",
+      "file": "corporation_commissioner_2024.json",
+      "rows": 1688,
+      "scope": "precinct"
+    },
+    {
+      "year": 2024,
+      "contest_type": "president",
+      "file": "president_2024.json",
+      "rows": 1688,
+      "scope": "precinct"
+    },
+    {
+      "year": 2024,
+      "contest_type": "state_house",
+      "file": "state_house_2024.json",
+      "rows": 1688,
+      "scope": "precinct"
+    },
+    {
+      "year": 2024,
+      "contest_type": "state_senate",
+      "file": "state_senate_2024.json",
+      "rows": 1677,
+      "scope": "precinct"
+    },
+    {
+      "year": 2024,
+      "contest_type": "us_house",
+      "file": "us_house_2024.json",
+      "rows": 1688,
+      "scope": "precinct"
+    },
+    {
+      "year": 2024,
+      "contest_type": "us_senate",
+      "file": "us_senate_2024.json",
+      "rows": 1688,
+      "scope": "precinct"
+    }
+  ]
+}

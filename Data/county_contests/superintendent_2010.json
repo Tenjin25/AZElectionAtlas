@@ -1,0 +1,128 @@
+{
+  "year": 2010,
+  "contest_type": "superintendent",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 14276,
+      "rep_votes": 5925,
+      "other_votes": 0,
+      "total_votes": 20201,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": -8351,
+      "margin_pct": -41.3395,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 16256,
+      "rep_votes": 22492,
+      "other_votes": 0,
+      "total_votes": 38748,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 6236,
+      "margin_pct": 16.0937,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 21537,
+      "rep_votes": 15550,
+      "other_votes": 0,
+      "total_votes": 37087,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": -5987,
+      "margin_pct": -16.1431,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6901,
+      "rep_votes": 10255,
+      "other_votes": 0,
+      "total_votes": 17156,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 3354,
+      "margin_pct": 19.55,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3574,
+      "rep_votes": 5229,
+      "other_votes": 0,
+      "total_votes": 8803,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 1655,
+      "margin_pct": 18.8004,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1290,
+      "rep_votes": 1009,
+      "other_votes": 0,
+      "total_votes": 2299,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": -281,
+      "margin_pct": -12.2227,
+      "winner": "DEM"
+    },
+    "Navajo": {
+      "dem_votes": 14177,
+      "rep_votes": 14056,
+      "other_votes": 0,
+      "total_votes": 28233,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": -121,
+      "margin_pct": -0.4286,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 31708,
+      "rep_votes": 44271,
+      "other_votes": 0,
+      "total_votes": 75979,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 12563,
+      "margin_pct": 16.5348,
+      "winner": "REP"
+    },
+    "SantaCruz": {
+      "dem_votes": 6470,
+      "rep_votes": 3161,
+      "other_votes": 0,
+      "total_votes": 9631,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": -3309,
+      "margin_pct": -34.3578,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 27046,
+      "rep_votes": 50419,
+      "other_votes": 0,
+      "total_votes": 77465,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 23373,
+      "margin_pct": 30.1723,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 14734,
+      "rep_votes": 17602,
+      "other_votes": 0,
+      "total_votes": 32336,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 2868,
+      "margin_pct": 8.8694,
+      "winner": "REP"
+    }
+  }
+}

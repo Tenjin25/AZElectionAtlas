@@ -1,0 +1,339 @@
+{
+  "year": 2018,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 37334,
+        "rep_votes": 68098,
+        "other_votes": 161,
+        "total_votes": 105593,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 30764,
+        "margin_pct": 29.1345,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 35251,
+        "rep_votes": 40620,
+        "other_votes": 143,
+        "total_votes": 76014,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 5369,
+        "margin_pct": 7.0632,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 40924,
+        "rep_votes": 74976,
+        "other_votes": 125,
+        "total_votes": 116025,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 34052,
+        "margin_pct": 29.3488,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 53666,
+        "rep_votes": 63163,
+        "other_votes": 130,
+        "total_votes": 116959,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 9497,
+        "margin_pct": 8.1199,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 51868,
+        "rep_votes": 25678,
+        "other_votes": 169,
+        "total_votes": 77715,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -26190,
+        "margin_pct": -33.7001,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 50859,
+        "rep_votes": 26920,
+        "other_votes": 178,
+        "total_votes": 77957,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -23939,
+        "margin_pct": -30.708,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 32287,
+        "rep_votes": 52373,
+        "other_votes": 174,
+        "total_votes": 84834,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 20086,
+        "margin_pct": 23.6768,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 42864,
+        "rep_votes": 26597,
+        "other_votes": 141,
+        "total_votes": 69602,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -16267,
+        "margin_pct": -23.3715,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 30445,
+        "rep_votes": 31758,
+        "other_votes": 114,
+        "total_votes": 62317,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 1313,
+        "margin_pct": 2.107,
+        "winner": "REP"
+      },
+      "10": {
+        "dem_votes": 30199,
+        "rep_votes": 52814,
+        "other_votes": 166,
+        "total_votes": 83179,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 22615,
+        "margin_pct": 27.1884,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 36226,
+        "rep_votes": 11535,
+        "other_votes": 128,
+        "total_votes": 47889,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -24691,
+        "margin_pct": -51.5588,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 54020,
+        "rep_votes": 44328,
+        "other_votes": 127,
+        "total_votes": 98475,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -9692,
+        "margin_pct": -9.8421,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 40671,
+        "rep_votes": 46367,
+        "other_votes": 122,
+        "total_votes": 87160,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 5696,
+        "margin_pct": 6.5351,
+        "winner": "REP"
+      },
+      "14": {
+        "dem_votes": 33581,
+        "rep_votes": 52039,
+        "other_votes": 113,
+        "total_votes": 85733,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 18458,
+        "margin_pct": 21.5296,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 24127,
+        "rep_votes": 44209,
+        "other_votes": 110,
+        "total_votes": 68446,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 20082,
+        "margin_pct": 29.3399,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 29764,
+        "rep_votes": 33615,
+        "other_votes": 167,
+        "total_votes": 63546,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 3851,
+        "margin_pct": 6.0602,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 51629,
+        "rep_votes": 60679,
+        "other_votes": 206,
+        "total_votes": 112514,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 9050,
+        "margin_pct": 8.0434,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 63842,
+        "rep_votes": 42139,
+        "other_votes": 199,
+        "total_votes": 106180,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -21703,
+        "margin_pct": -20.4398,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 33650,
+        "rep_votes": 52688,
+        "other_votes": 139,
+        "total_votes": 86477,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 19038,
+        "margin_pct": 22.0151,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 49671,
+        "rep_votes": 14654,
+        "other_votes": 139,
+        "total_votes": 64464,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -35017,
+        "margin_pct": -54.3202,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 41875,
+        "rep_votes": 21915,
+        "other_votes": 116,
+        "total_votes": 63906,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -19960,
+        "margin_pct": -31.2334,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 30450,
+        "rep_votes": 14382,
+        "other_votes": 114,
+        "total_votes": 44946,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -16068,
+        "margin_pct": -35.7496,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 29939,
+        "rep_votes": 21203,
+        "other_votes": 82,
+        "total_votes": 51224,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -8736,
+        "margin_pct": -17.0545,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 25403,
+        "rep_votes": 13601,
+        "other_votes": 118,
+        "total_votes": 39122,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -11802,
+        "margin_pct": -30.1672,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 22486,
+        "rep_votes": 39522,
+        "other_votes": 99,
+        "total_votes": 62107,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 17036,
+        "margin_pct": 27.4301,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 24990,
+        "rep_votes": 11806,
+        "other_votes": 120,
+        "total_votes": 36916,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": -13184,
+        "margin_pct": -35.7135,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 34358,
+        "rep_votes": 43791,
+        "other_votes": 197,
+        "total_votes": 78346,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 9433,
+        "margin_pct": 12.0402,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 37074,
+        "rep_votes": 66884,
+        "other_votes": 128,
+        "total_votes": 104086,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 29810,
+        "margin_pct": 28.6398,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 31824,
+        "rep_votes": 43706,
+        "other_votes": 149,
+        "total_votes": 75679,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 11882,
+        "margin_pct": 15.7005,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 19448,
+        "rep_votes": 59341,
+        "other_votes": 163,
+        "total_votes": 78952,
+        "dem_candidate": "January Contreras",
+        "rep_candidate": "Mark Brnovich",
+        "margin": 39893,
+        "margin_pct": 50.5282,
+        "winner": "REP"
+      }
+    }
+  }
+}

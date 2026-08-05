@@ -1,0 +1,108 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "superintendent",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 168102,
+        "rep_votes": 163792,
+        "other_votes": 428,
+        "total_votes": 332322,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": -4310,
+        "margin_pct": -1.2969,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 109871,
+        "rep_votes": 115338,
+        "other_votes": 58106,
+        "total_votes": 283315,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": 5467,
+        "margin_pct": 1.9297,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 110697,
+        "rep_votes": 31221,
+        "other_votes": 357,
+        "total_votes": 142275,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": -79476,
+        "margin_pct": -55.8608,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 140363,
+        "rep_votes": 112376,
+        "other_votes": 597,
+        "total_votes": 253336,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": -27987,
+        "margin_pct": -11.0474,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 115519,
+        "rep_votes": 150119,
+        "other_votes": 330,
+        "total_votes": 265968,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": 34600,
+        "margin_pct": 13.0091,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 157317,
+        "rep_votes": 136929,
+        "other_votes": 475,
+        "total_votes": 294721,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": -20388,
+        "margin_pct": -6.9177,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 143930,
+        "rep_votes": 82858,
+        "other_votes": 389,
+        "total_votes": 227177,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": -61072,
+        "margin_pct": -26.883,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 123360,
+        "rep_votes": 152742,
+        "other_votes": 318,
+        "total_votes": 276420,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": 29382,
+        "margin_pct": 10.6295,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 84826,
+        "rep_votes": 130215,
+        "other_votes": 355,
+        "total_votes": 215396,
+        "dem_candidate": "Kathy Hoffman",
+        "rep_candidate": "Frank Riggs",
+        "margin": 45389,
+        "margin_pct": 21.0724,
+        "winner": "REP"
+      }
+    }
+  }
+}

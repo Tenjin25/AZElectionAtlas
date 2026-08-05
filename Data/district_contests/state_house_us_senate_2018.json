@@ -1,0 +1,339 @@
+{
+  "year": 2018,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 41039,
+        "rep_votes": 65693,
+        "other_votes": 3060,
+        "total_votes": 109792,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 24654,
+        "margin_pct": 22.4552,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 38468,
+        "rep_votes": 37348,
+        "other_votes": 2178,
+        "total_votes": 77994,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -1120,
+        "margin_pct": -1.436,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 45616,
+        "rep_votes": 71942,
+        "other_votes": 1443,
+        "total_votes": 119001,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 26326,
+        "margin_pct": 22.1225,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 59944,
+        "rep_votes": 58473,
+        "other_votes": 1805,
+        "total_votes": 120222,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -1471,
+        "margin_pct": -1.2236,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 55778,
+        "rep_votes": 21976,
+        "other_votes": 1928,
+        "total_votes": 79682,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -33802,
+        "margin_pct": -42.4211,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 51819,
+        "rep_votes": 24584,
+        "other_votes": 3076,
+        "total_votes": 79479,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -27235,
+        "margin_pct": -34.2669,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 35063,
+        "rep_votes": 49263,
+        "other_votes": 2607,
+        "total_votes": 86933,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 14200,
+        "margin_pct": 16.3344,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 46239,
+        "rep_votes": 23670,
+        "other_votes": 1936,
+        "total_votes": 71845,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -22569,
+        "margin_pct": -31.4135,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 33057,
+        "rep_votes": 28930,
+        "other_votes": 2097,
+        "total_votes": 64084,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -4127,
+        "margin_pct": -6.44,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 34043,
+        "rep_votes": 48933,
+        "other_votes": 2278,
+        "total_votes": 85254,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 14890,
+        "margin_pct": 17.4655,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 37482,
+        "rep_votes": 9856,
+        "other_votes": 1752,
+        "total_votes": 49090,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -27626,
+        "margin_pct": -56.2762,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 59547,
+        "rep_votes": 39789,
+        "other_votes": 2019,
+        "total_votes": 101355,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -19758,
+        "margin_pct": -19.4939,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 44853,
+        "rep_votes": 42883,
+        "other_votes": 1842,
+        "total_votes": 89578,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -1970,
+        "margin_pct": -2.1992,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 36819,
+        "rep_votes": 49511,
+        "other_votes": 1774,
+        "total_votes": 88104,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 12692,
+        "margin_pct": 14.4057,
+        "winner": "REP"
+      },
+      "15": {
+        "dem_votes": 26307,
+        "rep_votes": 42075,
+        "other_votes": 1622,
+        "total_votes": 70004,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 15768,
+        "margin_pct": 22.5244,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 31203,
+        "rep_votes": 31436,
+        "other_votes": 2070,
+        "total_votes": 64709,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 233,
+        "margin_pct": 0.3601,
+        "winner": "REP"
+      },
+      "17": {
+        "dem_votes": 51497,
+        "rep_votes": 61912,
+        "other_votes": 2104,
+        "total_votes": 115513,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 10415,
+        "margin_pct": 9.0163,
+        "winner": "REP"
+      },
+      "18": {
+        "dem_votes": 64172,
+        "rep_votes": 42809,
+        "other_votes": 2079,
+        "total_votes": 109060,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -21363,
+        "margin_pct": -19.5883,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 33320,
+        "rep_votes": 52692,
+        "other_votes": 2314,
+        "total_votes": 88326,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 19372,
+        "margin_pct": 21.9324,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 49749,
+        "rep_votes": 14666,
+        "other_votes": 2089,
+        "total_votes": 66504,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -35083,
+        "margin_pct": -52.7532,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 41046,
+        "rep_votes": 22258,
+        "other_votes": 2118,
+        "total_votes": 65422,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -18788,
+        "margin_pct": -28.7182,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 31439,
+        "rep_votes": 12990,
+        "other_votes": 1620,
+        "total_votes": 46049,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -18449,
+        "margin_pct": -40.0638,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 29691,
+        "rep_votes": 20816,
+        "other_votes": 1764,
+        "total_votes": 52271,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -8875,
+        "margin_pct": -16.9788,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 26674,
+        "rep_votes": 11778,
+        "other_votes": 1607,
+        "total_votes": 40059,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -14896,
+        "margin_pct": -37.1852,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 23526,
+        "rep_votes": 38498,
+        "other_votes": 1664,
+        "total_votes": 63688,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 14972,
+        "margin_pct": 23.5084,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 26518,
+        "rep_votes": 10022,
+        "other_votes": 1466,
+        "total_votes": 38006,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": -16496,
+        "margin_pct": -43.4037,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 37723,
+        "rep_votes": 40438,
+        "other_votes": 2434,
+        "total_votes": 80595,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 2715,
+        "margin_pct": 3.3687,
+        "winner": "REP"
+      },
+      "28": {
+        "dem_votes": 42199,
+        "rep_votes": 62502,
+        "other_votes": 2077,
+        "total_votes": 106778,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 20303,
+        "margin_pct": 19.0142,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 34551,
+        "rep_votes": 41209,
+        "other_votes": 1933,
+        "total_votes": 77693,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 6658,
+        "margin_pct": 8.5696,
+        "winner": "REP"
+      },
+      "30": {
+        "dem_votes": 21720,
+        "rep_votes": 56245,
+        "other_votes": 2477,
+        "total_votes": 80442,
+        "dem_candidate": "Kyrsten Sinema",
+        "rep_candidate": "Martha McSally",
+        "margin": 34525,
+        "margin_pct": 42.9191,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 155183,
+        "rep_votes": 199873,
+        "other_votes": 175,
+        "total_votes": 355231,
+        "dem_candidate": "Mart\u00edn Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 44690,
+        "margin_pct": 12.5805,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 129645,
+        "rep_votes": 188606,
+        "other_votes": 318,
+        "total_votes": 318569,
+        "dem_candidate": "Martin Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 58961,
+        "margin_pct": 18.5081,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 99675,
+        "rep_votes": 39135,
+        "other_votes": 157,
+        "total_votes": 138967,
+        "dem_candidate": "Mart\u00edn Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -60540,
+        "margin_pct": -43.5643,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 127932,
+        "rep_votes": 131555,
+        "other_votes": 169,
+        "total_votes": 259656,
+        "dem_candidate": "Mart\u00edn Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 3623,
+        "margin_pct": 1.3953,
+        "winner": "REP"
+      },
+      "5": {
+        "dem_votes": 114317,
+        "rep_votes": 201054,
+        "other_votes": 181,
+        "total_votes": 315552,
+        "dem_candidate": "Mart\u00edn Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 86737,
+        "margin_pct": 27.4874,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 159014,
+        "rep_votes": 186742,
+        "other_votes": 259,
+        "total_votes": 346015,
+        "dem_candidate": "Martin Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 27728,
+        "margin_pct": 8.0135,
+        "winner": "REP"
+      },
+      "7": {
+        "dem_votes": 121791,
+        "rep_votes": 72023,
+        "other_votes": 173,
+        "total_votes": 193987,
+        "dem_candidate": "Martin Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -49768,
+        "margin_pct": -25.6553,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 112830,
+        "rep_votes": 186183,
+        "other_votes": 160,
+        "total_votes": 299173,
+        "dem_candidate": "Mart\u00edn Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 73353,
+        "margin_pct": 24.5186,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 86060,
+        "rep_votes": 185041,
+        "other_votes": 180,
+        "total_votes": 271281,
+        "dem_candidate": "Martin Quezada",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 98981,
+        "margin_pct": 36.4865,
+        "winner": "REP"
+      }
+    }
+  }
+}

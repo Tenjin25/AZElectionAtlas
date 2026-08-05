@@ -1,0 +1,172 @@
+{
+  "year": 2018,
+  "contest_type": "treasurer",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 16203,
+      "rep_votes": 8496,
+      "other_votes": 51,
+      "total_votes": 24750,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -7707,
+      "margin_pct": -31.1394,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 16629,
+      "rep_votes": 27850,
+      "other_votes": 47,
+      "total_votes": 44526,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 11221,
+      "margin_pct": 25.201,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 31712,
+      "rep_votes": 21370,
+      "other_votes": 58216,
+      "total_votes": 111298,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -10342,
+      "margin_pct": -9.2922,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6709,
+      "rep_votes": 13416,
+      "other_votes": 26,
+      "total_votes": 20151,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 6707,
+      "margin_pct": 33.2837,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3083,
+      "rep_votes": 7357,
+      "other_votes": 4,
+      "total_votes": 10444,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 4274,
+      "margin_pct": 40.923,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1034,
+      "rep_votes": 1473,
+      "other_votes": 2,
+      "total_votes": 2509,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 439,
+      "margin_pct": 17.497,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1402,
+      "rep_votes": 3542,
+      "other_votes": 5,
+      "total_votes": 4949,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 2140,
+      "margin_pct": 43.2411,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 628856,
+      "rep_votes": 754919,
+      "other_votes": 1461,
+      "total_votes": 1385236,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 126063,
+      "margin_pct": 9.1005,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 16958,
+      "rep_votes": 53106,
+      "other_votes": 69,
+      "total_votes": 70133,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 36148,
+      "margin_pct": 51.5421,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 15644,
+      "rep_votes": 20143,
+      "other_votes": 83,
+      "total_votes": 35870,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 4499,
+      "margin_pct": 12.5425,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 206369,
+      "rep_votes": 171373,
+      "other_votes": 457,
+      "total_votes": 378199,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -34996,
+      "margin_pct": -9.2533,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 44891,
+      "rep_votes": 69323,
+      "other_votes": 163,
+      "total_votes": 114377,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 24432,
+      "margin_pct": 21.3609,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 9144,
+      "rep_votes": 4129,
+      "other_votes": 15,
+      "total_votes": 13288,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -5015,
+      "margin_pct": -37.7408,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 34282,
+      "rep_votes": 69199,
+      "other_votes": 59,
+      "total_votes": 103540,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 34917,
+      "margin_pct": 33.7232,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 19281,
+      "rep_votes": 23424,
+      "other_votes": 32,
+      "total_votes": 42737,
+      "dem_candidate": "Mark Manoil",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 4143,
+      "margin_pct": 9.6942,
+      "winner": "REP"
+    }
+  }
+}

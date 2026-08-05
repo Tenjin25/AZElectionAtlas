@@ -1,0 +1,161 @@
+{
+  "year": 2006,
+  "contest_type": "treasurer",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 11644,
+      "rep_votes": 6496,
+      "other_votes": 0,
+      "total_votes": 18140,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": -5148,
+      "margin_pct": -28.3793,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 14343,
+      "rep_votes": 20432,
+      "other_votes": 0,
+      "total_votes": 34775,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 6089,
+      "margin_pct": 17.5097,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 20672,
+      "rep_votes": 15196,
+      "other_votes": 0,
+      "total_votes": 35868,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": -5476,
+      "margin_pct": -15.2671,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6710,
+      "rep_votes": 9021,
+      "other_votes": 0,
+      "total_votes": 15731,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 2311,
+      "margin_pct": 14.6907,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 2537,
+      "rep_votes": 4822,
+      "other_votes": 0,
+      "total_votes": 7359,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 2285,
+      "margin_pct": 31.0504,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1053,
+      "rep_votes": 941,
+      "other_votes": 0,
+      "total_votes": 1994,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": -112,
+      "margin_pct": -5.6169,
+      "winner": "DEM"
+    },
+    "Maricopa": {
+      "dem_votes": 61272,
+      "rep_votes": 84417,
+      "other_votes": 181,
+      "total_votes": 145870,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 23145,
+      "margin_pct": 15.8669,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 15297,
+      "rep_votes": 28271,
+      "other_votes": 0,
+      "total_votes": 43568,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 12974,
+      "margin_pct": 29.7787,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 12307,
+      "rep_votes": 13308,
+      "other_votes": 0,
+      "total_votes": 25615,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 1001,
+      "margin_pct": 3.9079,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 136035,
+      "rep_votes": 131965,
+      "other_votes": 0,
+      "total_votes": 268000,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": -4070,
+      "margin_pct": -1.5187,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 23769,
+      "rep_votes": 30523,
+      "other_votes": 0,
+      "total_votes": 54292,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 6754,
+      "margin_pct": 12.4401,
+      "winner": "REP"
+    },
+    "SantaCruz": {
+      "dem_votes": 4774,
+      "rep_votes": 2951,
+      "other_votes": 0,
+      "total_votes": 7725,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": -1823,
+      "margin_pct": -23.5987,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 24650,
+      "rep_votes": 44042,
+      "other_votes": 0,
+      "total_votes": 68692,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 19392,
+      "margin_pct": 28.2304,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 11828,
+      "rep_votes": 15424,
+      "other_votes": 0,
+      "total_votes": 27252,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 3596,
+      "margin_pct": 13.1954,
+      "winner": "REP"
+    }
+  }
+}

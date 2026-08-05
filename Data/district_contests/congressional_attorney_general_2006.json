@@ -1,0 +1,108 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 25216,
+        "rep_votes": 16274,
+        "other_votes": 32,
+        "total_votes": 41522,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": -8942,
+        "margin_pct": -21.5356,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 61814,
+        "rep_votes": 36985,
+        "other_votes": 0,
+        "total_votes": 98799,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": -24829,
+        "margin_pct": -25.1308,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 10802,
+        "rep_votes": 3525,
+        "other_votes": 8,
+        "total_votes": 14335,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": -7277,
+        "margin_pct": -50.7639,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 23617,
+        "rep_votes": 14038,
+        "other_votes": 50,
+        "total_votes": 37705,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": -9579,
+        "margin_pct": -25.4051,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 8170,
+        "rep_votes": 7251,
+        "other_votes": 13,
+        "total_votes": 15434,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": -919,
+        "margin_pct": -5.9544,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 127348,
+        "rep_votes": 87510,
+        "other_votes": 0,
+        "total_votes": 214858,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": -39838,
+        "margin_pct": -18.5415,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 90559,
+        "rep_votes": 34487,
+        "other_votes": 4,
+        "total_votes": 125050,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": -56072,
+        "margin_pct": -44.8397,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 22222,
+        "rep_votes": 15366,
+        "other_votes": 31,
+        "total_votes": 37619,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": -6856,
+        "margin_pct": -18.2248,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 9829,
+        "rep_votes": 10119,
+        "other_votes": 8,
+        "total_votes": 19956,
+        "dem_candidate": "Terry Goddard",
+        "rep_candidate": "Bill Montgomery",
+        "margin": 290,
+        "margin_pct": 1.4532,
+        "winner": "REP"
+      }
+    }
+  }
+}

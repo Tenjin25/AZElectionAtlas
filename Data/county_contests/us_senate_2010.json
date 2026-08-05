@@ -1,0 +1,84 @@
+{
+  "year": 2010,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 11785,
+      "rep_votes": 7371,
+      "other_votes": 1283,
+      "total_votes": 20439,
+      "dem_candidate": "Rodney Glassman",
+      "rep_candidate": "John McCain",
+      "margin": -4414,
+      "margin_pct": -21.596,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 13119,
+      "rep_votes": 23445,
+      "other_votes": 2997,
+      "total_votes": 39561,
+      "dem_candidate": "Rodney Glassman",
+      "rep_candidate": "John McCain",
+      "margin": 10326,
+      "margin_pct": 26.1015,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 17164,
+      "rep_votes": 18995,
+      "other_votes": 2412,
+      "total_votes": 38571,
+      "dem_candidate": "Rodney Glassman",
+      "rep_candidate": "John McCain",
+      "margin": 1831,
+      "margin_pct": 4.7471,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 2194,
+      "rep_votes": 6223,
+      "other_votes": 611,
+      "total_votes": 9028,
+      "dem_candidate": "Rodney Glassman",
+      "rep_candidate": "John McCain",
+      "margin": 4029,
+      "margin_pct": 44.6278,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 84256,
+      "rep_votes": 151214,
+      "other_votes": 16262,
+      "total_votes": 251732,
+      "dem_candidate": "Rodney Glassman",
+      "rep_candidate": "John McCain",
+      "margin": 66958,
+      "margin_pct": 26.5989,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 10737,
+      "rep_votes": 16157,
+      "other_votes": 2102,
+      "total_votes": 28996,
+      "dem_candidate": "Rodney Glassman",
+      "rep_candidate": "John McCain",
+      "margin": 5420,
+      "margin_pct": 18.6922,
+      "winner": "REP"
+    },
+    "Yavapai": {
+      "dem_votes": 21636,
+      "rep_votes": 52093,
+      "other_votes": 5630,
+      "total_votes": 79359,
+      "dem_candidate": "Rodney Glassman",
+      "rep_candidate": "John McCain",
+      "margin": 30457,
+      "margin_pct": 38.3788,
+      "winner": "REP"
+    }
+  }
+}

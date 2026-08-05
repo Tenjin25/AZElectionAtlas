@@ -1,0 +1,161 @@
+{
+  "year": 2006,
+  "contest_type": "attorney_general",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 13586,
+      "rep_votes": 4931,
+      "other_votes": 0,
+      "total_votes": 18517,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -8655,
+      "margin_pct": -46.7408,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 19547,
+      "rep_votes": 16157,
+      "other_votes": 0,
+      "total_votes": 35704,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -3390,
+      "margin_pct": -9.4947,
+      "winner": "DEM"
+    },
+    "Coconino": {
+      "dem_votes": 26301,
+      "rep_votes": 10773,
+      "other_votes": 0,
+      "total_votes": 37074,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -15528,
+      "margin_pct": -41.8838,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 10070,
+      "rep_votes": 6316,
+      "other_votes": 0,
+      "total_votes": 16386,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -3754,
+      "margin_pct": -22.9098,
+      "winner": "DEM"
+    },
+    "Graham": {
+      "dem_votes": 4154,
+      "rep_votes": 3531,
+      "other_votes": 0,
+      "total_votes": 7685,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -623,
+      "margin_pct": -8.1067,
+      "winner": "DEM"
+    },
+    "Greenlee": {
+      "dem_votes": 1429,
+      "rep_votes": 660,
+      "other_votes": 0,
+      "total_votes": 2089,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -769,
+      "margin_pct": -36.8119,
+      "winner": "DEM"
+    },
+    "Maricopa": {
+      "dem_votes": 93061,
+      "rep_votes": 58078,
+      "other_votes": 146,
+      "total_votes": 151285,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -34983,
+      "margin_pct": -23.1239,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 21563,
+      "rep_votes": 22872,
+      "other_votes": 0,
+      "total_votes": 44435,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": 1309,
+      "margin_pct": 2.9459,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 16294,
+      "rep_votes": 9998,
+      "other_votes": 0,
+      "total_votes": 26292,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -6296,
+      "margin_pct": -23.9464,
+      "winner": "DEM"
+    },
+    "Pima": {
+      "dem_votes": 179590,
+      "rep_votes": 95094,
+      "other_votes": 0,
+      "total_votes": 274684,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -84496,
+      "margin_pct": -30.7612,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 32991,
+      "rep_votes": 22886,
+      "other_votes": 0,
+      "total_votes": 55877,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -10105,
+      "margin_pct": -18.0844,
+      "winner": "DEM"
+    },
+    "SantaCruz": {
+      "dem_votes": 5851,
+      "rep_votes": 2135,
+      "other_votes": 0,
+      "total_votes": 7986,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -3716,
+      "margin_pct": -46.5314,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 36350,
+      "rep_votes": 34435,
+      "other_votes": 0,
+      "total_votes": 70785,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -1915,
+      "margin_pct": -2.7054,
+      "winner": "DEM"
+    },
+    "Yuma": {
+      "dem_votes": 15783,
+      "rep_votes": 12063,
+      "other_votes": 0,
+      "total_votes": 27846,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -3720,
+      "margin_pct": -13.3592,
+      "winner": "DEM"
+    }
+  }
+}

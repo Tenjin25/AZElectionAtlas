@@ -1,0 +1,108 @@
+{
+  "year": 2024,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 230005,
+        "rep_votes": 207860,
+        "other_votes": 8233,
+        "total_votes": 446098,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": -22145,
+        "margin_pct": -4.9642,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 185429,
+        "rep_votes": 218498,
+        "other_votes": 8619,
+        "total_votes": 412546,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": 33069,
+        "margin_pct": 8.0158,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 154814,
+        "rep_votes": 50865,
+        "other_votes": 6566,
+        "total_votes": 212245,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": -103949,
+        "margin_pct": -48.9759,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 193281,
+        "rep_votes": 141582,
+        "other_votes": 9317,
+        "total_votes": 344180,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": -51699,
+        "margin_pct": -15.0209,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 189836,
+        "rep_votes": 240570,
+        "other_votes": 9391,
+        "total_votes": 439797,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": 50734,
+        "margin_pct": 11.5358,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 222982,
+        "rep_votes": 200863,
+        "other_votes": 10255,
+        "total_votes": 434100,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": -22119,
+        "margin_pct": -5.0954,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 176010,
+        "rep_votes": 92344,
+        "other_votes": 9348,
+        "total_votes": 277702,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": -83666,
+        "margin_pct": -30.128,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 174817,
+        "rep_votes": 204402,
+        "other_votes": 8870,
+        "total_votes": 388089,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": 29585,
+        "margin_pct": 7.6233,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 149161,
+        "rep_votes": 238777,
+        "other_votes": 9442,
+        "total_votes": 397380,
+        "dem_candidate": "Ruben Gallego",
+        "rep_candidate": "Kari Lake",
+        "margin": 89616,
+        "margin_pct": 22.5517,
+        "winner": "REP"
+      }
+    }
+  }
+}
