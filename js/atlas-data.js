@@ -91,10 +91,11 @@
   }
 
   function mapContestPayloadRows(payload, contestType, year) {
+    const keyedResults = payload?.precinct_results || payload?.county_totals;
     const sourceRows = Array.isArray(payload?.rows)
       ? payload.rows.map(row => ({ key: '', value: row }))
-      : (payload?.precinct_results && typeof payload.precinct_results === 'object')
-        ? Object.entries(payload.precinct_results).map(([key, value]) => ({ key, value }))
+      : (keyedResults && typeof keyedResults === 'object')
+        ? Object.entries(keyedResults).map(([key, value]) => ({ key, value }))
         : [];
     return sourceRows.map(({ key, value: row }) => ({
       year: Number(year),

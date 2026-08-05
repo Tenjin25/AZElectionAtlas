@@ -10299,7 +10299,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-county-aggregation-v1"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-county-results-v2"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10339,8 +10339,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-county-aggregation-v1';
-    const APP_BUILD_ID = '2026-08-05-az-county-aggregation-v1';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-county-results-v2';
+    const APP_BUILD_ID = '2026-08-05-az-county-results-v2';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -19578,6 +19578,16 @@ document.addEventListener('DOMContentLoaded', function() {
         if (countyContestSliceCache.has(key)) return countyContestSliceCache.get(key);
         if (countyContestSliceInflight.has(key)) return countyContestSliceInflight.get(key);
         const p = atlasPerf(`slice.county:${key}`, async () => {
+          // Prefer the checked-in county totals. They are complete at the county
+          // layer even when historical precinct coverage is partial.
+          try {
+            const countyPayload = await loadJSON(`${CONFIG.paths.county_contests_dir}/${key}.json`);
+            const countyRows = mapContestPayloadRows(countyPayload, contestType, year);
+            if (countyRows.length) {
+              countyContestSliceCache.set(key, countyRows);
+              return countyRows;
+            }
+          } catch (_) {}
           const rows = await loadContestSlice(contestType, year, { raw: true });
           const countyRows = aggregateContestRowsToCountyRows(rows, contestType, year);
           if (!countyRows.length && rows.length) return rows;
