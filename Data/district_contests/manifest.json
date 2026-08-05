@@ -744,13 +744,6 @@
     },
     {
       "year": 2008,
-      "contest_type": "us_senate",
-      "file": "congressional_us_senate_2008.json",
-      "rows": 9,
-      "scope": "congressional"
-    },
-    {
-      "year": 2008,
       "contest_type": "president",
       "file": "state_house_president_2008.json",
       "rows": 30,
