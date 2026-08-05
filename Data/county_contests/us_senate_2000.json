@@ -1,0 +1,172 @@
+{
+  "year": 2000,
+  "contest_type": "us_senate",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 0,
+      "rep_votes": 9857,
+      "other_votes": 6277,
+      "total_votes": 16134,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 9857,
+      "margin_pct": 61.09458286847651,
+      "winner": "REP"
+    },
+    "Cochise": {
+      "dem_votes": 0,
+      "rep_votes": 24766,
+      "other_votes": 6135,
+      "total_votes": 30901,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 24766,
+      "margin_pct": 80.14627358337918,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 0,
+      "rep_votes": 25512,
+      "other_votes": 12373,
+      "total_votes": 37885,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 25512,
+      "margin_pct": 67.34063613567375,
+      "winner": "REP"
+    },
+    "Gila": {
+      "dem_votes": 0,
+      "rep_votes": 13549,
+      "other_votes": 3144,
+      "total_votes": 16693,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 13549,
+      "margin_pct": 81.16575810219852,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 0,
+      "rep_votes": 7520,
+      "other_votes": 1288,
+      "total_votes": 8808,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 7520,
+      "margin_pct": 85.37693006357856,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 0,
+      "rep_votes": 2135,
+      "other_votes": 492,
+      "total_votes": 2627,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 2135,
+      "margin_pct": 81.27141225732774,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 0,
+      "rep_votes": 3484,
+      "other_votes": 760,
+      "total_votes": 4244,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 3484,
+      "margin_pct": 82.0923656927427,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 0,
+      "rep_votes": 663756,
+      "other_votes": 154341,
+      "total_votes": 818097,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 663756,
+      "margin_pct": 81.13414423961952,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 0,
+      "rep_votes": 32686,
+      "other_votes": 8261,
+      "total_votes": 40947,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 32686,
+      "margin_pct": 79.82513981488265,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 0,
+      "rep_votes": 18671,
+      "other_votes": 5532,
+      "total_votes": 24203,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 18671,
+      "margin_pct": 77.1433293393381,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 0,
+      "rep_votes": 198266,
+      "other_votes": 63048,
+      "total_votes": 261314,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 198266,
+      "margin_pct": 75.87270486847241,
+      "winner": "REP"
+    },
+    "Pinal": {
+      "dem_votes": 0,
+      "rep_votes": 30134,
+      "other_votes": 8044,
+      "total_votes": 38178,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 30134,
+      "margin_pct": 78.93027397977893,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 0,
+      "rep_votes": 5753,
+      "other_votes": 2123,
+      "total_votes": 7876,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 5753,
+      "margin_pct": 73.04469273743017,
+      "winner": "REP"
+    },
+    "Yavapai": {
+      "dem_votes": 0,
+      "rep_votes": 50815,
+      "other_votes": 12522,
+      "total_votes": 63337,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 50815,
+      "margin_pct": 80.22956565672513,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 0,
+      "rep_votes": 21292,
+      "other_votes": 4540,
+      "total_votes": 25832,
+      "dem_candidate": "",
+      "rep_candidate": "Jon Kyl",
+      "margin": 21292,
+      "margin_pct": 82.42489934964385,
+      "winner": "REP"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2002,
+  "contest_type": "attorney_general",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 12301,
+      "rep_votes": 4540,
+      "other_votes": 672,
+      "total_votes": 17513,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -7761,
+      "margin_pct": -44.315651230514476,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 12994,
+      "rep_votes": 13289,
+      "other_votes": 944,
+      "total_votes": 27227,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": 295,
+      "margin_pct": 1.0834833070114225,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 20069,
+      "rep_votes": 11901,
+      "other_votes": 1578,
+      "total_votes": 33548,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -8168,
+      "margin_pct": -24.34720400620007,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 8172,
+      "rep_votes": 6362,
+      "other_votes": 574,
+      "total_votes": 15108,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -1810,
+      "margin_pct": -11.980407731003442,
+      "winner": "DEM"
+    },
+    "Graham": {
+      "dem_votes": 3836,
+      "rep_votes": 3786,
+      "other_votes": 187,
+      "total_votes": 7809,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -50,
+      "margin_pct": -0.6402868485081317,
+      "winner": "DEM"
+    },
+    "Greenlee": {
+      "dem_votes": 1277,
+      "rep_votes": 754,
+      "other_votes": 79,
+      "total_votes": 2110,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -523,
+      "margin_pct": -24.786729857819907,
+      "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 1698,
+      "rep_votes": 1712,
+      "other_votes": 118,
+      "total_votes": 3528,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": 14,
+      "margin_pct": 0.3968253968253968,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 348949,
+      "rep_votes": 325020,
+      "other_votes": 17937,
+      "total_votes": 691906,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -23929,
+      "margin_pct": -3.4584177619503227,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 14335,
+      "rep_votes": 18234,
+      "other_votes": 1389,
+      "total_votes": 33958,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": 3899,
+      "margin_pct": 11.481830496495672,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 13006,
+      "rep_votes": 9271,
+      "other_votes": 781,
+      "total_votes": 23058,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -3735,
+      "margin_pct": -16.198282591725217,
+      "winner": "DEM"
+    },
+    "Pima": {
+      "dem_votes": 126777,
+      "rep_votes": 88687,
+      "other_votes": 9442,
+      "total_votes": 224906,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -38090,
+      "margin_pct": -16.935964358443083,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 20648,
+      "rep_votes": 15413,
+      "other_votes": 1198,
+      "total_votes": 37259,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -5235,
+      "margin_pct": -14.050296572640168,
+      "winner": "DEM"
+    },
+    "Santa Cruz": {
+      "dem_votes": 3867,
+      "rep_votes": 2001,
+      "other_votes": 202,
+      "total_votes": 6070,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -1866,
+      "margin_pct": -30.741350906095548,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 24781,
+      "rep_votes": 29299,
+      "other_votes": 1957,
+      "total_votes": 56037,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": 4518,
+      "margin_pct": 8.0625301140318,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 10425,
+      "rep_votes": 10375,
+      "other_votes": 506,
+      "total_votes": 21306,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Andrew P. Thomas",
+      "margin": -50,
+      "margin_pct": -0.23467567821271001,
+      "winner": "DEM"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "year": 2002,
+  "contest_type": "superintendent",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 11960,
+      "rep_votes": 4613,
+      "other_votes": 693,
+      "total_votes": 17266,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": -7347,
+      "margin_pct": -42.551835978223096,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 11906,
+      "rep_votes": 13727,
+      "other_votes": 1034,
+      "total_votes": 26667,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": 1821,
+      "margin_pct": 6.8286646416919785,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 17701,
+      "rep_votes": 13125,
+      "other_votes": 1704,
+      "total_votes": 32530,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": -4576,
+      "margin_pct": -14.06701506301875,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7204,
+      "rep_votes": 6887,
+      "other_votes": 596,
+      "total_votes": 14687,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": -317,
+      "margin_pct": -2.1583713488118743,
+      "winner": "DEM"
+    },
+    "Graham": {
+      "dem_votes": 3677,
+      "rep_votes": 3745,
+      "other_votes": 189,
+      "total_votes": 7611,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": 68,
+      "margin_pct": 0.8934436999080279,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1221,
+      "rep_votes": 767,
+      "other_votes": 76,
+      "total_votes": 2064,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": -454,
+      "margin_pct": -21.996124031007753,
+      "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 1542,
+      "rep_votes": 1793,
+      "other_votes": 113,
+      "total_votes": 3448,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": 251,
+      "margin_pct": 7.2795823665893264,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 290811,
+      "rep_votes": 356412,
+      "other_votes": 22333,
+      "total_votes": 669556,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": 65601,
+      "margin_pct": 9.797686825299154,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 12796,
+      "rep_votes": 18990,
+      "other_votes": 1317,
+      "total_votes": 33103,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": 6194,
+      "margin_pct": 18.711295048787118,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 12283,
+      "rep_votes": 9455,
+      "other_votes": 815,
+      "total_votes": 22553,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": -2828,
+      "margin_pct": -12.539351749212965,
+      "winner": "DEM"
+    },
+    "Pima": {
+      "dem_votes": 117093,
+      "rep_votes": 93715,
+      "other_votes": 8859,
+      "total_votes": 219667,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": -23378,
+      "margin_pct": -10.642472469692763,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 18872,
+      "rep_votes": 16361,
+      "other_votes": 1201,
+      "total_votes": 36434,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": -2511,
+      "margin_pct": -6.891914146127244,
+      "winner": "DEM"
+    },
+    "Santa Cruz": {
+      "dem_votes": 3444,
+      "rep_votes": 2263,
+      "other_votes": 207,
+      "total_votes": 5914,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": -1181,
+      "margin_pct": -19.96956374704092,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 19861,
+      "rep_votes": 32365,
+      "other_votes": 2149,
+      "total_votes": 54375,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": 12504,
+      "margin_pct": 22.99586206896552,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 9829,
+      "rep_votes": 10610,
+      "other_votes": 535,
+      "total_votes": 20974,
+      "dem_candidate": "Jay Blanchard",
+      "rep_candidate": "Tom Horne",
+      "margin": 781,
+      "margin_pct": 3.723657862114999,
+      "winner": "REP"
+    }
+  }
+}

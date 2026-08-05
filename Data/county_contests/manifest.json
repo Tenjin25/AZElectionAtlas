@@ -1,17 +1,59 @@
 {
   "files": [
     {
-      "year": 2004,
+      "year": 2000,
       "contest_type": "president",
-      "file": "president_2004.json",
-      "rows": 14,
+      "file": "president_2000.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2000,
+      "contest_type": "us_senate",
+      "file": "us_senate_2000.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2002,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2002.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2002,
+      "contest_type": "governor",
+      "file": "governor_2002.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2002,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2002.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2002,
+      "contest_type": "superintendent",
+      "file": "superintendent_2002.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2002,
+      "contest_type": "treasurer",
+      "file": "treasurer_2002.json",
+      "rows": 15,
       "scope": "county"
     },
     {
       "year": 2004,
-      "contest_type": "treasurer",
-      "file": "treasurer_2004.json",
-      "rows": 1,
+      "contest_type": "president",
+      "file": "president_2004.json",
+      "rows": 14,
       "scope": "county"
     },
     {
@@ -312,13 +354,6 @@
       "year": 2024,
       "contest_type": "president",
       "file": "president_2024.json",
-      "rows": 15,
-      "scope": "county"
-    },
-    {
-      "year": 2024,
-      "contest_type": "us_senate",
-      "file": "us_senate_2024.json",
       "rows": 15,
       "scope": "county"
     }

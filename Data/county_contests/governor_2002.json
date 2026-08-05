@@ -1,0 +1,172 @@
+{
+  "year": 2002,
+  "contest_type": "governor",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 10927,
+      "rep_votes": 4041,
+      "other_votes": 2882,
+      "total_votes": 17850,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": -6886,
+      "margin_pct": -38.57703081232493,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 11401,
+      "rep_votes": 13210,
+      "other_votes": 3143,
+      "total_votes": 27754,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": 1809,
+      "margin_pct": 6.517979390358146,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 18928,
+      "rep_votes": 11585,
+      "other_votes": 3972,
+      "total_votes": 34485,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": -7343,
+      "margin_pct": -21.29331593446426,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7331,
+      "rep_votes": 6336,
+      "other_votes": 1785,
+      "total_votes": 15452,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": -995,
+      "margin_pct": -6.439295884027958,
+      "winner": "DEM"
+    },
+    "Graham": {
+      "dem_votes": 2924,
+      "rep_votes": 4491,
+      "other_votes": 566,
+      "total_votes": 7981,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": 1567,
+      "margin_pct": 19.63413106127052,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 966,
+      "rep_votes": 955,
+      "other_votes": 230,
+      "total_votes": 2151,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": -11,
+      "margin_pct": -0.5113900511390052,
+      "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 1488,
+      "rep_votes": 1766,
+      "other_votes": 372,
+      "total_votes": 3626,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": 278,
+      "margin_pct": 7.66685052399338,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 313107,
+      "rep_votes": 337954,
+      "other_votes": 53689,
+      "total_votes": 704750,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": 24847,
+      "margin_pct": 3.5256473926924445,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 13227,
+      "rep_votes": 18431,
+      "other_votes": 3528,
+      "total_votes": 35186,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": 5204,
+      "margin_pct": 14.789973284829195,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 11669,
+      "rep_votes": 9423,
+      "other_votes": 2366,
+      "total_votes": 23458,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": -2246,
+      "margin_pct": -9.574558785915253,
+      "winner": "DEM"
+    },
+    "Pima": {
+      "dem_votes": 118896,
+      "rep_votes": 89002,
+      "other_votes": 21905,
+      "total_votes": 229803,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": -29894,
+      "margin_pct": -13.0085333959957,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 18300,
+      "rep_votes": 16380,
+      "other_votes": 3343,
+      "total_votes": 38023,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": -1920,
+      "margin_pct": -5.049575257081241,
+      "winner": "DEM"
+    },
+    "Santa Cruz": {
+      "dem_votes": 3675,
+      "rep_votes": 2069,
+      "other_votes": 600,
+      "total_votes": 6344,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": -1606,
+      "margin_pct": -25.31525851197982,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 23238,
+      "rep_votes": 28245,
+      "other_votes": 5893,
+      "total_votes": 57376,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": 5007,
+      "margin_pct": 8.72664528722811,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 10207,
+      "rep_votes": 10577,
+      "other_votes": 1088,
+      "total_votes": 21872,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Matt Salmon",
+      "margin": 370,
+      "margin_pct": 1.6916605705925385,
+      "winner": "REP"
+    }
+  }
+}

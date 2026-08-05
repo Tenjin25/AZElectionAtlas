@@ -1,0 +1,172 @@
+{
+  "year": 2000,
+  "contest_type": "president",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 13025,
+      "rep_votes": 5947,
+      "other_votes": 461,
+      "total_votes": 19433,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": -7078,
+      "margin_pct": -36.42258014717233,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 13360,
+      "rep_votes": 18180,
+      "other_votes": 1664,
+      "total_votes": 33204,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 4820,
+      "margin_pct": 14.51632333453801,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 20280,
+      "rep_votes": 17562,
+      "other_votes": 3041,
+      "total_votes": 40883,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": -2718,
+      "margin_pct": -6.648240099796982,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7700,
+      "rep_votes": 9158,
+      "other_votes": 878,
+      "total_votes": 17736,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 1458,
+      "margin_pct": 8.220568335588634,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3355,
+      "rep_votes": 6007,
+      "other_votes": 302,
+      "total_votes": 9664,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 2652,
+      "margin_pct": 27.442052980132452,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1216,
+      "rep_votes": 1619,
+      "other_votes": 125,
+      "total_votes": 2960,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 403,
+      "margin_pct": 13.614864864864865,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1769,
+      "rep_votes": 2543,
+      "other_votes": 171,
+      "total_votes": 4483,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 774,
+      "margin_pct": 17.265224180236448,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 386683,
+      "rep_votes": 479967,
+      "other_votes": 33158,
+      "total_votes": 899808,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 93284,
+      "margin_pct": 10.36710053700345,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 17470,
+      "rep_votes": 24386,
+      "other_votes": 2285,
+      "total_votes": 44141,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 6916,
+      "margin_pct": 15.667973086246349,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 11794,
+      "rep_votes": 12386,
+      "other_votes": 967,
+      "total_votes": 25147,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 592,
+      "margin_pct": 2.354157553584921,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 147688,
+      "rep_votes": 124579,
+      "other_votes": 15373,
+      "total_votes": 287640,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": -23109,
+      "margin_pct": -8.034000834376304,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 19650,
+      "rep_votes": 20122,
+      "other_votes": 1518,
+      "total_votes": 41290,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 472,
+      "margin_pct": 1.143133930733834,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 5233,
+      "rep_votes": 3344,
+      "other_votes": 316,
+      "total_votes": 8893,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": -1889,
+      "margin_pct": -21.241425840548747,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 24063,
+      "rep_votes": 40144,
+      "other_votes": 3875,
+      "total_votes": 68082,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 16081,
+      "margin_pct": 23.62004641461767,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 12055,
+      "rep_votes": 15708,
+      "other_votes": 889,
+      "total_votes": 28652,
+      "dem_candidate": "Al Gore",
+      "rep_candidate": "George W. Bush",
+      "margin": 3653,
+      "margin_pct": 12.749546279491833,
+      "winner": "REP"
+    }
+  }
+}

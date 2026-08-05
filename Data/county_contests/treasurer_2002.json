@@ -1,0 +1,172 @@
+{
+  "year": 2002,
+  "contest_type": "treasurer",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 12259,
+      "rep_votes": 5037,
+      "other_votes": 0,
+      "total_votes": 17296,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": -7222,
+      "margin_pct": -41.755319148936174,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 12691,
+      "rep_votes": 14114,
+      "other_votes": 0,
+      "total_votes": 26805,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": 1423,
+      "margin_pct": 5.308711061369147,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 19362,
+      "rep_votes": 13000,
+      "other_votes": 0,
+      "total_votes": 32362,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": -6362,
+      "margin_pct": -19.658859155800013,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7750,
+      "rep_votes": 6929,
+      "other_votes": 0,
+      "total_votes": 14679,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": -821,
+      "margin_pct": -5.59302404795967,
+      "winner": "DEM"
+    },
+    "Graham": {
+      "dem_votes": 3724,
+      "rep_votes": 3911,
+      "other_votes": 0,
+      "total_votes": 7635,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": 187,
+      "margin_pct": 2.4492468893254746,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1235,
+      "rep_votes": 827,
+      "other_votes": 0,
+      "total_votes": 2062,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": -408,
+      "margin_pct": -19.786614936954415,
+      "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 1644,
+      "rep_votes": 1813,
+      "other_votes": 0,
+      "total_votes": 3457,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": 169,
+      "margin_pct": 4.888631761643043,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 301280,
+      "rep_votes": 365363,
+      "other_votes": 0,
+      "total_votes": 666643,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": 64083,
+      "margin_pct": 9.61279125408952,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 13578,
+      "rep_votes": 19625,
+      "other_votes": 0,
+      "total_votes": 33203,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": 6047,
+      "margin_pct": 18.212209740083726,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 12389,
+      "rep_votes": 10119,
+      "other_votes": 0,
+      "total_votes": 22508,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": -2270,
+      "margin_pct": -10.085303003376577,
+      "winner": "DEM"
+    },
+    "Pima": {
+      "dem_votes": 126199,
+      "rep_votes": 95470,
+      "other_votes": 0,
+      "total_votes": 221669,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": -30729,
+      "margin_pct": -13.862560845224186,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 19332,
+      "rep_votes": 16908,
+      "other_votes": 0,
+      "total_votes": 36240,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": -2424,
+      "margin_pct": -6.688741721854305,
+      "winner": "DEM"
+    },
+    "Santa Cruz": {
+      "dem_votes": 3861,
+      "rep_votes": 2186,
+      "other_votes": 0,
+      "total_votes": 6047,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": -1675,
+      "margin_pct": -27.699685794608897,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 23075,
+      "rep_votes": 31353,
+      "other_votes": 0,
+      "total_votes": 54428,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": 8278,
+      "margin_pct": 15.209083559932388,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 10315,
+      "rep_votes": 10780,
+      "other_votes": 0,
+      "total_votes": 21095,
+      "dem_candidate": "Ruth Solomon",
+      "rep_candidate": "David Petersen",
+      "margin": 465,
+      "margin_pct": 2.2043138184403888,
+      "winner": "REP"
+    }
+  }
+}
