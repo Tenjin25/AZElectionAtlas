@@ -10299,7 +10299,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-county-results-v3"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-county-results-v4"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10339,8 +10339,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-county-results-v3';
-    const APP_BUILD_ID = '2026-08-05-az-county-results-v3';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-county-results-v4';
+    const APP_BUILD_ID = '2026-08-05-az-county-results-v4';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -10817,6 +10817,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let districtElectionDataLoadFailed = false;
     let electionData = null; // Flattened array for compatibility
     let contestManifest = [];
+    let countyContestManifest = [];
     let districtManifest = [];
     let districtManifestByLines = { '2022': [], '2024': [], '2026': [] };
     let currentDistrictLinesYear = 2022;
@@ -19588,23 +19589,11 @@ document.addEventListener('DOMContentLoaded', function() {
               return countyRows;
             }
           } catch (_) {}
-          // The consolidated county slice covers offices that do not have a
-          // separate county_contests file (notably US House and state legs).
-          try {
-            const aggregatePayload = await loadJSON(CONFIG.paths.election);
-            const aggregateRows = (Array.isArray(aggregatePayload?.county) ? aggregatePayload.county : [])
-              .filter(row => Number(row?.year) === Number(year) && row?.[`${contestType}_total`] != null)
-              .map(row => ({ ...row, county: row.county || row.geography || row.county_name || '' }));
-            if (aggregateRows.length) {
-              countyContestSliceCache.set(key, aggregateRows);
-              return aggregateRows;
-            }
-          } catch (_) {}
-          const rows = await loadContestSlice(contestType, year, { raw: true });
-          const countyRows = aggregateContestRowsToCountyRows(rows, contestType, year);
-          if (!countyRows.length && rows.length) return rows;
-          countyContestSliceCache.set(key, countyRows);
-          return countyRows;
+          // Do not substitute precinct, district, or consolidated multi-office
+          // rows here. If a contest has no county result file, it is not a
+          // county-layer contest and should remain unavailable in county mode.
+          countyContestSliceCache.set(key, []);
+          return [];
         });
         countyContestSliceInflight.set(key, p);
         try {
@@ -20570,7 +20559,9 @@ document.addEventListener('DOMContentLoaded', function() {
       let entries = null;
 
       if (currentView === 'counties' || currentView === 'vtds_2000' || !currentView) {
-        entries = contestManifest || [];
+        entries = currentView === 'counties' && countyContestManifest.length
+          ? countyContestManifest
+          : (contestManifest || []);
       } else {
         const scope = currentView === 'districts'
           ? 'congressional'
@@ -33326,6 +33317,12 @@ document.addEventListener('DOMContentLoaded', function() {
       try {
         const manifest = await loadJSON(`${CONFIG.paths.contests_dir}/manifest.json`);
         contestManifest = manifest?.files || [];
+        try {
+          const countyManifest = await loadJSON(`${CONFIG.paths.county_contests_dir}/manifest.json`);
+          countyContestManifest = (countyManifest?.files || []).filter(entry => String(entry?.scope || '').toLowerCase() === 'county');
+        } catch (_) {
+          countyContestManifest = [];
+        }
         try { contestYearsByTypeCache.clear(); } catch (_) {}
         // Add CSV-backed presidential elections not present in the precomputed contest slices.
         Object.keys(PRESIDENT_OPEN_ELECTIONS_CSV).map(Number).forEach(y => {
