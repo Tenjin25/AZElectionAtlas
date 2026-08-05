@@ -127,23 +127,13 @@
     const normalized = String(countyName || '').trim().toUpperCase();
     if (!normalized) return '\u{1F3ED} Stable / Local Growth';
 
-    const coastal = new Set([
-      'BRUNSWICK', 'NEW HANOVER', 'PENDER', 'ONSLOW', 'CARTERET', 'CRAVEN',
-      'PAMLICO', 'BEAUFORT', 'HYDE', 'DARE', 'TYRRELL', 'CURRITUCK',
-      'PASQUOTANK', 'CAMDEN', 'CHOWAN', 'PERQUIMANS'
-    ]);
-    const charlotteMetro = new Set([
-      'MECKLENBURG', 'UNION', 'CABARRUS', 'GASTON', 'IREDELL', 'ROWAN',
-      'LINCOLN', 'STANLY', 'CLEVELAND', 'CATAWBA'
-    ]);
-    const i95Corridor = new Set([
-      'NORTHAMPTON', 'HALIFAX', 'EDGECOMBE', 'NASH', 'WILSON', 'JOHNSTON',
-      'HARNETT', 'CUMBERLAND', 'ROBESON', 'SAMPSON', 'WAYNE', 'DUPLIN'
-    ]);
+    const coastal = new Set(['YUMA', 'PIMA', 'SANTA CRUZ', 'COCHISE', 'MOHAVE', 'LA PAZ']);
+    const phoenixMetro = new Set(['MARICOPA', 'PINAL']);
+    const border = new Set(['YUMA', 'SANTA CRUZ', 'COCHISE', 'GREENLEE']);
 
-    if (coastal.has(normalized)) return '\u{1F30A} Coastal Growth';
-    if (charlotteMetro.has(normalized)) return '\u{1F306} Metro Spillover';
-    if (i95Corridor.has(normalized)) return '\u{1F6E3}\uFE0F Corridor Growth';
+    if (coastal.has(normalized)) return '\u{1F30A} Desert / Border Growth';
+    if (phoenixMetro.has(normalized)) return '\u{1F306} Metro Spillover';
+    if (border.has(normalized)) return '\u{1F6E3}\uFE0F Border Corridor Growth';
     return '\u{1F3ED} Stable / Local Growth';
   }
 

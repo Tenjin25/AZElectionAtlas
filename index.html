@@ -457,153 +457,7 @@
           const btn = document.getElementById('snapshot-share-btn');
           if (btn) btn.click();
         }
-        if (ev.key === 'c' || ev.key === 'C') {
-          const btn = document.getElementById('copy-link-btn');
-          if (btn) btn.click();
-        }
-        if (ev.key === 'i' || ev.key === 'I') {
-          const btn = document.getElementById('smart-insights-toggle');
-          if (btn) btn.click();
-        }
-        if (ev.key === 'r' || ev.key === 'R') {
-          const btn = document.getElementById('reset-view-btn');
-          if (btn) btn.click();
-        }
-      });
-      
-      // Status panel close button
-      if (statusExit) {
-        statusExit.onclick = function() {
-          document.getElementById('status-panel').style.display = 'none';
-        };
-      }
-      
-      // Show default message on load
-      if (detailsDiv && contentEl) {
-        contentEl.innerHTML = '<p>Select a contest or county to see results.</p>';
-        detailsDiv.style.display = 'block';
-      }
-
-      syncMobileTopbarToggle();
-      syncInitialTopbarOffset();
-      requestAnimationFrame(syncInitialTopbarOffset);
-      setTimeout(syncInitialTopbarOffset, 180);
-      window.addEventListener('resize', syncInitialTopbarOffset, { passive: true });
-      if (document.fonts && document.fonts.ready) {
-        document.fonts.ready.then(() => {
-          try { syncInitialTopbarOffset(); } catch (_) {}
-        }).catch(() => {});
-      }
-      try {
-        const topbar = document.getElementById('map-topbar');
-        if (topbar && typeof ResizeObserver !== 'undefined') {
-          if (window.__topbarResizeObserver) {
-            try { window.__topbarResizeObserver.disconnect(); } catch (_) {}
-          }
-          window.__topbarResizeObserver = new ResizeObserver(() => {
-            try { syncInitialTopbarOffset(); } catch (_) {}
-          });
-          window.__topbarResizeObserver.observe(topbar);
-        }
-      } catch (_) {}
-      setupRegionJumpButtons();
-      updateContextBanner();
-    });
-    // Zoom to county by name using turf.js
-    function zoomToCounty(countyName) {
-      const countiesSource = map.getSource('counties');
-      if (!countiesSource || !countiesSource._data || !countiesSource._data.features) return;
-      const counties = countiesSource._data.features;
-      // Normalize county names for matching
-      function normalizeCountyName(name) {
-        return (name || '')
-          .replace(/[^a-z0-9 .\-]/gi, '')  // Keep periods for St. names and hyphens for Miami-Dade
-          .replace(/\s+/g, ' ')
-          .trim()
-          .toUpperCase();
-      }
-      const normTarget = normalizeCountyName(countyName);
-      const countyFeature = counties.find(f => {
-        const props = f.properties || {};
-        const name = normalizeCountyName(props.NAME20 || props.County || props.COUNTYNAME || props.NAME || '');
-        return name === normTarget;
-      });
-      if (!countyFeature) return;
-      const bbox = turf.bbox(countyFeature);
-      const pad = (window && typeof window.computeMapViewportPadding === 'function')
-        ? window.computeMapViewportPadding(40)
-        : 40;
-      map.fitBounds(bbox, { padding: pad, maxZoom: 10 });
-    }
-  </script>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js'></script>
-  <script>
-    // Reduce noisy console errors when ad blockers block Mapbox telemetry (events.mapbox.com).
-    try {
-      if (window.mapboxgl && typeof window.mapboxgl.setTelemetryEnabled === 'function') {
-        window.mapboxgl.setTelemetryEnabled(false);
-      }
-    } catch (_) {}
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-    <meta charset='utf-8'>
-    <title>Arizona Election Atlas (2000-2024)</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover'>
-    <meta name="author" content="Shamar Davis">
-    <meta name="copyright" content="© 2026 Shamar Does Elections. All Rights Reserved.">
-    <!-- Watermark: SDE Creator Attribution | Created by Shamar Davis | Copyright 2026 Shamar Does Elections -->
-    <meta property="og:title" content="Arizona Election Atlas (2000-2024)">
-    <meta property="og:description" content="Interactive visualization of Arizona election trends from 2000 to 2024, with county, precinct, and district views.">
-    <meta property="og:image" content="preview.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <style>
-html, body {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-}
-body {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: 'Manrope', 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
-  color: #0f172a;
-  overflow: hidden;
-  touch-action: pan-x pan-y;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-#map {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw !important;
-  height: 100vh;
-  background: #f0f4f8;
-  transition: left 0.3s cubic-bezier(.4,0,.2,1), width 0.3s cubic-bezier(.4,0,.2,1);
-  z-index: 1;
-  touch-action: pan-x pan-y pinch-zoom;
-}
-/* Focus mode: dim the base map slightly without changing data colors. */
-body.focus-active #map {
-  filter: none !important;
-}
-body.focus-active .main-controls,
-body.focus-active .vote-counter,
-body.focus-active .hover-tooltip {
-  box-shadow: 0 18px 54px rgba(0, 0, 0, 0.24), 0 6px 16px rgba(0, 0, 0, 0.16);
-}
-/* Prefer dynamic viewport units on mobile browsers (prevents "address bar" jumps). */
-@supports (height: 100dvh) {
-  html, body { height: 100dvh; }
+        if (ev.key === 'c' || e}l, body { height: 100dvh; }
   body { height: 100dvh; }
   #map { height: 100dvh; }
 }
@@ -9388,31 +9242,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     };
   }
-  const districtLines2022Btn = document.getElementById('district-lines-2022');
-  if (districtLines2022Btn) {
-    districtLines2022Btn.onclick = function() {
-      if (typeof setDistrictLinesMode === 'function') {
-        setDistrictLinesMode(2022).catch(() => {});
-      }
-    };
-  }
-  const districtLines2024Btn = document.getElementById('district-lines-2024');
-  if (districtLines2024Btn) {
-    districtLines2024Btn.onclick = function() {
-      if (typeof setDistrictLinesMode === 'function') {
-        setDistrictLinesMode(2024).catch(() => {});
-      }
-    };
-  }
-  const districtLines2026Btn = document.getElementById('district-lines-2026');
-  if (districtLines2026Btn) {
-    districtLines2026Btn.onclick = function() {
-      if (typeof setDistrictLinesMode === 'function') {
-        setDistrictLinesMode(2026).catch(() => {});
-      }
-    };
-  }
-
   const splitTicketBtn = document.getElementById('split-ticket-toggle');
   if (splitTicketBtn) {
     if (typeof syncSplitTicketToggleUI === 'function') syncSplitTicketToggleUI();
@@ -9970,18 +9799,6 @@ document.addEventListener('DOMContentLoaded', function() {
                   <button id="state-senate-view" class="view-toggle-btn" onclick="setMapView('state_senate')" data-testid="view-state-senate" aria-label="Show state senate districts view" aria-pressed="false">State Senate</button>
                 </div>
             </div>
-            <div id="district-lines-control-group" class="control-group" style="margin-bottom:10px;">
-                <span class="section-kicker">District Lines</span>
-                <div class="view-toggle-row" style="display:flex;gap:6px;flex-wrap:wrap;">
-                  <button id="district-lines-2022" class="view-toggle-btn active" type="button" data-testid="lines-2022" aria-label="Use 2022 district lines" aria-pressed="true">2022 Lines</button>
-                  <button id="district-lines-2024" class="view-toggle-btn" type="button" data-testid="lines-2024" aria-label="Use 2024 district lines" aria-pressed="false">2024 Lines</button>
-                  <button id="district-lines-2026" class="view-toggle-btn" type="button" data-testid="lines-2026" aria-label="Use 2026 district lines" aria-pressed="false">2026 Lines</button>
-                </div>
-                <div style="margin-top:4px;font-size:11px;color:#6b7280;">
-                  2022 keeps the longer history; 2024 and 2026 use newer boundaries.
-                </div>
-                <div id="district-lines-loading-hint" class="district-lines-loading-hint" aria-live="polite" aria-atomic="true"></div>
-            </div>
             <div class="control-group viz-inline-group" style="margin-bottom:10px;">
               <span class="section-kicker">Analysis Mode</span>
               <div class="viz-modes-inline" id="viz-modes-inline">
@@ -10402,19 +10219,19 @@ document.addEventListener('DOMContentLoaded', function() {
         sources: {
           counties: {
             url: '',
-            sourceLayer: 'tl_2020_37_county20-9o371f'
+            sourceLayer: 'tl_2020_04_county20'
           },
           districts: {
             url: '',
-            sourceLayer: 'nc_cd118_tileset-30qeef'
+            sourceLayer: 'az_congressional_districts'
           },
           state_house: {
             url: '',
-            sourceLayer: 'nc_state_house_2022_lines_til-d2n5a7'
+            sourceLayer: 'az_state_house_districts'
           },
           state_senate: {
             url: '',
-            sourceLayer: 'nc_state_senate_2022_lines_ti-1co9e6'
+            sourceLayer: 'az_state_senate_districts'
           }
         }
       },
@@ -10425,7 +10242,7 @@ document.addEventListener('DOMContentLoaded', function() {
         precinct_centroids: null,
         precinct_aliases: null,
         precinct_friendly_names: null,
-        precinct_stable_to_nconemap_old_to_new: null,
+        precinct_stable_to_onemap_old_to_new: null,
         precinct_sbe2006_to_onemap: null,
         precinct_sbe2006_to_onemap_weights: null,
         precinct_sbe2012_to_onemap_weights: null,
@@ -10484,89 +10301,8 @@ document.addEventListener('DOMContentLoaded', function() {
       window.__ATLAS_BUILD__ = APP_BUILD_ID;
     } catch (_) {}
 
-    // County memberships back the regional quick jumps so they can drive
-    // real regional rollups instead of only camera movement.
-    // Definitions used:
-    // - Triangle: Research Triangle Regional Partnership
-    // - Triad: Piedmont Triad Regional Council
-    // - Charlotte: Expanded greater-Charlotte NC footprint
-    //   (Charlotte-Concord-Gastonia NC metro counties plus nearby commuter counties)
-    // - Asheville: Asheville metro-area counties
-    // - Mountains: NC Office of State Archaeology mountain region
-    // - Inner Banks: NC inland coastal plain counties east of I-95
-    // - Coast: NC DEQ CAMA counties
-    // - Sandhills: NCGS 143B-28.1 Sandhills (South Central) region
-    // - Fayetteville: Greater Fayetteville commuting footprint
-    // - Cape Fear: Lower Cape Fear counties
-    // - I-95: Core NC counties along the I-95 corridor
-    // - Foothills: Unifour and adjacent foothills counties
+    // Arizona regional shortcuts drive both camera movement and regional rollups.
     const REGION_JUMPS = {
-      triangle: {
-        label: 'Research Triangle',
-        bounds: [[-79.90, 35.25], [-77.55, 36.60]],
-        counties: ['Chatham', 'Durham', 'Franklin', 'Granville', 'Harnett', 'Johnston', 'Lee', 'Nash', 'Orange', 'Person', 'Vance', 'Wake', 'Warren', 'Wilson']
-      },
-      triad: {
-        label: 'Piedmont Triad',
-        bounds: [[-81.10, 35.15], [-79.15, 36.62]],
-        counties: ['Alamance', 'Caswell', 'Davidson', 'Davie', 'Forsyth', 'Guilford', 'Montgomery', 'Randolph', 'Rockingham', 'Stokes', 'Surry', 'Yadkin']
-      },
-      charlotte: {
-        label: 'Charlotte Metro',
-        bounds: [[-81.95, 34.55], [-79.95, 35.95]],
-        counties: ['Alexander', 'Anson', 'Cabarrus', 'Catawba', 'Cleveland', 'Gaston', 'Iredell', 'Lincoln', 'Mecklenburg', 'Rowan', 'Stanly', 'Union']
-      },
-      asheville: {
-        label: 'Asheville Metro',
-        bounds: [[-83.05, 34.92], [-82.10, 36.25]],
-        counties: ['Buncombe', 'Haywood', 'Henderson', 'Madison', 'Transylvania']
-      },
-      mountains: {
-        label: 'Western Mountains',
-        bounds: [[-84.45, 34.90], [-81.30, 36.65]],
-        counties: ['Alleghany', 'Ashe', 'Avery', 'Buncombe', 'Burke', 'Caldwell', 'Clay', 'Cherokee', 'Graham', 'Haywood', 'Henderson', 'Jackson', 'Macon', 'Madison', 'McDowell', 'Mitchell', 'Polk', 'Rutherford', 'Swain', 'Transylvania', 'Watauga', 'Wilkes', 'Yancey']
-      },
-      innerbanks: {
-        label: 'Inner Banks',
-        bounds: [[-78.85, 34.75], [-76.25, 36.35]],
-        counties: ['Beaufort', 'Carteret', 'Craven', 'Lenoir', 'Pitt']
-      },
-      coast: {
-        label: 'NC Coast',
-        bounds: [[-78.75, 33.80], [-75.30, 36.58]],
-        counties: ['Beaufort', 'Bertie', 'Brunswick', 'Camden', 'Carteret', 'Chowan', 'Craven', 'Currituck', 'Dare', 'Gates', 'Hertford', 'Hyde', 'New Hanover', 'Onslow', 'Pamlico', 'Pasquotank', 'Pender', 'Perquimans', 'Tyrrell', 'Washington']
-      },
-      sandhills: {
-        label: 'Sandhills',
-        bounds: [[-79.95, 33.90], [-77.35, 35.55]],
-        counties: ['Bladen', 'Columbus', 'Cumberland', 'Hoke', 'Montgomery', 'Moore', 'Richmond', 'Robeson', 'Sampson', 'Scotland']
-      },
-      fayetteville: {
-        label: 'Fayetteville Metro',
-        bounds: [[-79.95, 34.55], [-78.35, 35.55]],
-        counties: ['Cumberland', 'Harnett', 'Hoke', 'Moore', 'Robeson']
-      },
-      capefear: {
-        label: 'Cape Fear',
-        bounds: [[-79.75, 33.70], [-77.35, 35.35]],
-        counties: ['Bladen', 'Brunswick', 'Columbus', 'New Hanover', 'Pender']
-      },
-      i95: {
-        label: 'I-95 Corridor',
-        bounds: [[-78.55, 34.20], [-77.05, 36.60]],
-        counties: ['Cumberland', 'Halifax', 'Johnston', 'Nash', 'Northampton', 'Robeson', 'Wilson']
-      },
-      foothills: {
-        label: 'Foothills / Unifour',
-        bounds: [[-82.10, 35.45], [-80.60, 36.30]],
-        counties: ['Alexander', 'Burke', 'Caldwell', 'Catawba']
-      }
-    };
-
-    // Arizona regional shortcuts. Kept separate from the legacy object above
-    // so the shared atlas shell remains easy to diff while all live shortcuts
-    // use Arizona counties and bounds.
-    Object.assign(REGION_JUMPS, {
       phoenix: { label: 'Phoenix Metro', bounds: [[-112.75, 33.15], [-111.25, 33.95]], counties: ['Maricopa'] },
       eastvalley: { label: 'East Valley', bounds: [[-111.95, 33.15], [-111.25, 33.65]], counties: ['Maricopa', 'Pinal'] },
       tucson: { label: 'Tucson Metro', bounds: [[-111.35, 31.85], [-110.55, 32.55]], counties: ['Pima', 'Santa Cruz'] },
@@ -10575,10 +10311,7 @@ document.addEventListener('DOMContentLoaded', function() {
       central: { label: 'Central Arizona', bounds: [[-113.25, 32.6], [-109.9, 35.1]], counties: ['Maricopa', 'Pinal', 'Gila', 'Yavapai'] },
       border: { label: 'Border Counties', bounds: [[-112.0, 31.2], [-108.85, 32.8]], counties: ['Yuma', 'Santa Cruz', 'Cochise', 'Greenlee'] },
       tribal: { label: 'Tribal Lands', bounds: [[-113.7, 34.0], [-109.0, 36.95]], counties: ['Apache', 'Coconino', 'Navajo', 'Gila', 'Pima'] }
-    });
-    // Remove the inherited North Carolina shortcuts from the live Arizona model.
-    ['triangle', 'triad', 'charlotte', 'asheville', 'mountains', 'innerbanks', 'coast', 'sandhills', 'fayetteville', 'capefear', 'i95', 'foothills']
-      .forEach(key => delete REGION_JUMPS[key]);
+    };
 
     function normalizeRegionCountyName(name) {
       return window.AtlasRegions.normalizeCountyName(name);
@@ -11360,7 +11093,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (Array.isArray(years) && years.length) {
         let prev = null;
         // Prefer "last time this contest was up" when a seat/class cadence exists.
-        // US Senate is a special case: same seat repeats every 6 years, but NC has two seats so
+        // US Senate is a special case: same seat repeats every 6 years, but Arizona has two seats so
         // the generic series contains elections every 2 years. For deltas, prefer same-class y-6
         // when available, otherwise fall back to the most recent earlier year.
         // Judicial seat families use the most recent earlier family year (not a fixed y-8 gap).
@@ -12168,11 +11901,6 @@ document.addEventListener('DOMContentLoaded', function() {
           patch: { blendWeight: 0.62, turnoutFactor: 0.57, bonusScale: 1.05, countyBehaviorMode: 'volatile', uncertaintyBoost: 1.2 }
         }
       ],
-      nc_supreme_court_model: [
-        { id: 'default', label: 'Default', kind: 'reset' },
-        { id: 'more_climate', label: 'More climate', patch: { blendWeight: 0.45 } },
-        { id: 'more_base', label: 'More base', patch: { blendWeight: 0.75 } }
-      ]
     };
 
     let urlStateRestoreInFlight = false;
@@ -13495,7 +13223,7 @@ document.addEventListener('DOMContentLoaded', function() {
       startupPrecinctAliasPreloadScheduled = true;
       const aliasPath = CONFIG.paths?.precinct_aliases;
       const friendlyPath = CONFIG.paths?.precinct_friendly_names;
-      const stableToOneMapPath = CONFIG.paths?.precinct_stable_to_nconemap_old_to_new;
+      const stableToOneMapPath = CONFIG.paths?.precinct_stable_to_onemap_old_to_new;
       const sbe2006ToOneMapPath = CONFIG.paths?.precinct_sbe2006_to_onemap;
       const sbe2006WeightsPath = CONFIG.paths?.precinct_sbe2006_to_onemap_weights;
       const sbe2012WeightsPath = CONFIG.paths?.precinct_sbe2012_to_onemap_weights;
@@ -30320,7 +30048,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function ensurePrecinctStableToOneMapIndex() {
       if (precinctStableToOneMapByCounty) return precinctStableToOneMapByCounty;
       if (precinctStableToOneMapLoadInFlight) return null;
-      const path = CONFIG.paths?.precinct_stable_to_nconemap_old_to_new;
+      const path = CONFIG.paths?.precinct_stable_to_onemap_old_to_new;
       if (!path) return null;
       precinctStableToOneMapLoadInFlight = true;
       try {
@@ -31995,7 +31723,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countiesGeoJSON = await loadJSON(CONFIG.paths.counties);
         } catch (_) {
           try {
-            countiesGeoJSON = await loadJSON(withBase('./data/tl_2020_37_county20.geojson'));
+            countiesGeoJSON = await loadJSON(CONFIG.paths.counties);
           } catch (_) {
             countiesGeoJSON = null;
           }
@@ -33661,7 +33389,7 @@ document.addEventListener('DOMContentLoaded', function() {
             counties = await loadJSON(CONFIG.paths.counties);
           } catch (_) {
             // Fallback for alternate local layouts.
-            counties = await loadJSON(withBase('./data/tl_2020_37_county20.geojson'));
+            counties = await loadJSON(CONFIG.paths.counties);
           }
           map.addSource('counties', { type: 'geojson', data: counties });
           window.countiesData = counties;
@@ -35898,7 +35626,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setStatus(`Applied demographic mode for Congressional districts.`);
       } else {
         setStatewideContestTitle(`US House (${year})`);
-        setStatus(`Applied contest: NC US House ${year}`);
+        setStatus(`Applied contest: Arizona US House ${year}`);
       }
     }
 
