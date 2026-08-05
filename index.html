@@ -10299,7 +10299,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-county-results-v2"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-county-results-v3"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10339,8 +10339,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-county-results-v2';
-    const APP_BUILD_ID = '2026-08-05-az-county-results-v2';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-county-results-v3';
+    const APP_BUILD_ID = '2026-08-05-az-county-results-v3';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -19586,6 +19586,18 @@ document.addEventListener('DOMContentLoaded', function() {
             if (countyRows.length) {
               countyContestSliceCache.set(key, countyRows);
               return countyRows;
+            }
+          } catch (_) {}
+          // The consolidated county slice covers offices that do not have a
+          // separate county_contests file (notably US House and state legs).
+          try {
+            const aggregatePayload = await loadJSON(CONFIG.paths.election);
+            const aggregateRows = (Array.isArray(aggregatePayload?.county) ? aggregatePayload.county : [])
+              .filter(row => Number(row?.year) === Number(year) && row?.[`${contestType}_total`] != null)
+              .map(row => ({ ...row, county: row.county || row.geography || row.county_name || '' }));
+            if (aggregateRows.length) {
+              countyContestSliceCache.set(key, aggregateRows);
+              return aggregateRows;
             }
           } catch (_) {}
           const rows = await loadContestSlice(contestType, year, { raw: true });
