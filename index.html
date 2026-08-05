@@ -10354,19 +10354,19 @@ document.addEventListener('DOMContentLoaded', function() {
         sources: {
           counties: {
             url: '',
-            sourceLayer: 'tl_2020_37_county20-9o371f'
+            sourceLayer: 'tl_2020_04_county20'
           },
           districts: {
             url: '',
-            sourceLayer: 'nc_cd118_tileset-30qeef'
+            sourceLayer: 'az_congressional_districts'
           },
           state_house: {
             url: '',
-            sourceLayer: 'nc_state_house_2022_lines_til-d2n5a7'
+            sourceLayer: 'az_state_house_districts'
           },
           state_senate: {
             url: '',
-            sourceLayer: 'nc_state_senate_2022_lines_ti-1co9e6'
+            sourceLayer: 'az_state_senate_districts'
           }
         }
       },
@@ -27495,7 +27495,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const districtNumText = String(districtNum);
       const paddedDistrictNum = districtNumText.padStart(2, '0');
       const formattedDistrictLabel = scope === 'congressional'
-        ? `NC-${paddedDistrictNum}`
+        ? `AZ-${paddedDistrictNum}`
         : `${districtLabel}-${paddedDistrictNum}`;
       const panelDistrictLabel = scope === 'state_house'
         ? 'State House District'
@@ -29323,7 +29323,7 @@ document.addEventListener('DOMContentLoaded', function() {
           // Keep the county layer for interactions/search, but don't paint a fill.
           // This lets precinct/block/district coloring read cleanly while still
           // showing county outlines.
-          paint: { 'fill-color': '#d9e3ef', 'fill-opacity': 0.0 }
+          paint: { 'fill-color': '#d9e3ef', 'fill-opacity': 0.28 }
         });
         addLayerWithOptionalSourceLayer({
           id: 'county-stroke',
@@ -35779,7 +35779,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setStatus(`Applied demographic mode for Congressional districts.`);
       } else {
         setStatewideContestTitle(`US House (${year})`);
-        setStatus(`Applied contest: NC US House ${year}`);
+        setStatus(`Applied contest: Arizona US House ${year}`);
       }
     }
 
