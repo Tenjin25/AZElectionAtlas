@@ -37,6 +37,7 @@ def key(county, precinct):
 
 def main():
     assignments = {}
+    legislative_assignments = {}
     with CROSSWALK.open(newline="", encoding="utf-8-sig") as handle:
         for row in csv.DictReader(handle):
             if row.get("year") not in {"2004", "2006", "2010"}:
@@ -44,6 +45,9 @@ def main():
             district = row.get("congressional_district", "").strip()
             if district:
                 assignments.setdefault(key(row.get("county"), row.get("election_precinct")), district)
+            legislative = row.get("legislative_district", "").strip()
+            if legislative:
+                legislative_assignments.setdefault(key(row.get("county"), row.get("election_precinct")), legislative)
 
     # The 2008 files use the precinct vintage preserved in the county GIS
     # archives. Prefer those polygon-derived assignments where available,
@@ -52,6 +56,10 @@ def main():
 
     for year, source_dir in SOURCE_DIRS.items():
       totals = {office: defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0}) for office in OFFICES}
+      legislative_totals = {
+          office: defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
+          for office in OFFICES
+      }
       for source_file in sorted(source_dir.glob("*.txt")):
         for row in iter_official_2012_rows(source_file, historical_party_lookup()):
             contest = row.get("office", "").strip()
@@ -63,7 +71,8 @@ def main():
                 continue
             historical_item = historical.get((year, normalize_precinct_name(row.get("county")), normalize_precinct_name(row.get("precinct"))))
             district = (historical_item or {}).get("congressional") or assignments.get(key(row.get("county"), row.get("precinct")))
-            if not district:
+            legislative_district = (historical_item or {}).get("legislative_district") or legislative_assignments.get(key(row.get("county"), row.get("precinct")))
+            if not district and not legislative_district:
                 continue
             votes = int(row.get("votes", 0) or 0)
             if office == "President":
@@ -74,7 +83,10 @@ def main():
             else:
                 party = "DEM" if "STARKY" in candidate else "REP" if "MCCAIN" in candidate else "OTHER"
             bucket = "dem" if party == "DEM" else "rep" if party == "REP" else "other"
-            totals[office][district][bucket] += votes
+            if district:
+                totals[office][district][bucket] += votes
+            if legislative_district:
+                legislative_totals[office][legislative_district][bucket] += votes
 
       OUTPUT.mkdir(parents=True, exist_ok=True)
       for office, (contest_type, dem_candidate, rep_candidate) in OFFICES.items():
@@ -109,9 +121,34 @@ def main():
             json.dumps(payload, indent=2) + "\n", encoding="utf-8"
         )
 
+      for office, (contest_type, dem_candidate, rep_candidate) in OFFICES.items():
+        if not legislative_totals[office]:
+            continue
+        results = {}
+        for district in sorted(legislative_totals[office], key=lambda value: int(value)):
+            values = legislative_totals[office][district]
+            dem, rep, other = values["dem"], values["rep"], values["other"]
+            total = dem + rep + other
+            margin = rep - dem
+            results[district] = {
+                "dem_votes": dem, "rep_votes": rep, "other_votes": other,
+                "total_votes": total, "dem_candidate": dem_candidate if office != "President" or year == 2004 else "Barack Obama",
+                "rep_candidate": rep_candidate if office != "President" or year == 2004 else "John McCain",
+                "margin": margin, "margin_pct": (margin / total * 100) if total else 0,
+                "winner": "REP" if margin > 0 else "DEM" if margin < 0 else "TIE",
+            }
+        for scope in ("state_house", "state_senate"):
+            payload = {"year": year, "scope": scope, "contest_type": contest_type, "general": {"results": results}}
+            (OUTPUT / f"{scope}_{contest_type}_{year}.json").write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
     manifest_path = OUTPUT / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {"files": []}
-    manifest["files"] = [entry for entry in manifest.get("files", []) if not (entry.get("year") == 2008 and entry.get("scope") == "congressional" and entry.get("contest_type") in {"president", "us_senate"})]
+    manifest["files"] = [entry for entry in manifest.get("files", []) if not (entry.get("year") == 2008 and entry.get("scope") in {"congressional", "state_house", "state_senate"} and entry.get("contest_type") in {"president", "us_senate"})]
+    for scope in ("congressional", "state_house", "state_senate"):
+        for contest_type in ("president", "us_senate"):
+            filename = f"{scope}_{contest_type}_2008.json"
+            if (OUTPUT / filename).exists():
+                manifest["files"].append({"year": 2008, "contest_type": contest_type, "file": filename, "rows": 9 if scope == "congressional" else 30, "scope": scope})
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
 
 

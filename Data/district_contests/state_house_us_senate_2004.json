@@ -5,14 +5,14 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 5104,
-        "rep_votes": 26373,
-        "other_votes": 1315,
-        "total_votes": 32792,
+        "dem_votes": 4717,
+        "rep_votes": 25323,
+        "other_votes": 1289,
+        "total_votes": 31329,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 21269,
-        "margin_pct": 64.8603,
+        "margin": 20606,
+        "margin_pct": 65.77292604296339,
         "winner": "REP"
       },
       "2": {
@@ -23,7 +23,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 43628,
-        "margin_pct": 62.8981,
+        "margin_pct": 62.8980868762885,
         "winner": "REP"
       },
       "3": {
@@ -34,7 +34,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 56318,
-        "margin_pct": 73.347,
+        "margin_pct": 73.34696482294257,
         "winner": "REP"
       },
       "4": {
@@ -45,7 +45,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 75378,
-        "margin_pct": 66.754,
+        "margin_pct": 66.75404493486481,
         "winner": "REP"
       },
       "5": {
@@ -56,29 +56,29 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 30375,
-        "margin_pct": 45.2238,
+        "margin_pct": 45.22377393324003,
         "winner": "REP"
       },
       "6": {
-        "dem_votes": 18899,
-        "rep_votes": 31760,
-        "other_votes": 1797,
-        "total_votes": 52456,
+        "dem_votes": 19295,
+        "rep_votes": 32836,
+        "other_votes": 1861,
+        "total_votes": 53992,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 12861,
-        "margin_pct": 24.5177,
+        "margin": 13541,
+        "margin_pct": 25.079641428359757,
         "winner": "REP"
       },
       "7": {
-        "dem_votes": 7398,
-        "rep_votes": 29001,
-        "other_votes": 1177,
-        "total_votes": 37576,
+        "dem_votes": 7445,
+        "rep_votes": 29243,
+        "other_votes": 1154,
+        "total_votes": 37842,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 21603,
-        "margin_pct": 57.4915,
+        "margin": 21798,
+        "margin_pct": 57.60266370699223,
         "winner": "REP"
       },
       "8": {
@@ -89,7 +89,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 19286,
-        "margin_pct": 51.6179,
+        "margin_pct": 51.617910767336674,
         "winner": "REP"
       },
       "9": {
@@ -100,7 +100,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 729,
-        "margin_pct": 64.5704,
+        "margin_pct": 64.5704162976085,
         "winner": "REP"
       },
       "10": {
@@ -111,7 +111,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 17682,
-        "margin_pct": 64.7431,
+        "margin_pct": 64.74314378821721,
         "winner": "REP"
       },
       "11": {
@@ -122,7 +122,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 4382,
-        "margin_pct": 15.5236,
+        "margin_pct": 15.523593595012045,
         "winner": "REP"
       },
       "12": {
@@ -133,7 +133,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 45452,
-        "margin_pct": 65.8744,
+        "margin_pct": 65.87437317023682,
         "winner": "REP"
       },
       "13": {
@@ -144,7 +144,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 43506,
-        "margin_pct": 68.7701,
+        "margin_pct": 68.77005516652703,
         "winner": "REP"
       },
       "14": {
@@ -155,7 +155,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 35170,
-        "margin_pct": 75.2976,
+        "margin_pct": 75.29759355998974,
         "winner": "REP"
       },
       "15": {
@@ -166,7 +166,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 14826,
-        "margin_pct": 72.977,
+        "margin_pct": 72.9769639692853,
         "winner": "REP"
       },
       "16": {
@@ -177,7 +177,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 9387,
-        "margin_pct": 48.3866,
+        "margin_pct": 48.386597938144334,
         "winner": "REP"
       },
       "17": {
@@ -188,7 +188,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 55813,
-        "margin_pct": 62.9021,
+        "margin_pct": 62.90206243660543,
         "winner": "REP"
       },
       "18": {
@@ -199,18 +199,18 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 57872,
-        "margin_pct": 52.2782,
+        "margin_pct": 52.278229448961156,
         "winner": "REP"
       },
       "19": {
-        "dem_votes": 12351,
-        "rep_votes": 47876,
-        "other_votes": 1811,
-        "total_votes": 62038,
+        "dem_votes": 12347,
+        "rep_votes": 47905,
+        "other_votes": 1809,
+        "total_votes": 62061,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 35525,
-        "margin_pct": 57.2633,
+        "margin": 35558,
+        "margin_pct": 57.29524177825043,
         "winner": "REP"
       },
       "20": {
@@ -221,18 +221,18 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 16245,
-        "margin_pct": 23.7022,
+        "margin_pct": 23.70217981265867,
         "winner": "REP"
       },
       "21": {
-        "dem_votes": 17031,
-        "rep_votes": 39433,
-        "other_votes": 1337,
-        "total_votes": 57801,
+        "dem_votes": 17034,
+        "rep_votes": 39404,
+        "other_votes": 1339,
+        "total_votes": 57777,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 22402,
-        "margin_pct": 38.7571,
+        "margin": 22370,
+        "margin_pct": 38.717828893850495,
         "winner": "REP"
       },
       "22": {
@@ -243,18 +243,18 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 13225,
-        "margin_pct": 48.5767,
+        "margin_pct": 48.576675849403124,
         "winner": "REP"
       },
       "23": {
-        "dem_votes": 9804,
-        "rep_votes": 29154,
-        "other_votes": 1025,
-        "total_votes": 39983,
+        "dem_votes": 9807,
+        "rep_votes": 29156,
+        "other_votes": 1026,
+        "total_votes": 39989,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 19350,
-        "margin_pct": 48.3956,
+        "margin": 19349,
+        "margin_pct": 48.38580609667659,
         "winner": "REP"
       },
       "24": {
@@ -265,18 +265,18 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 16573,
-        "margin_pct": 42.4818,
+        "margin_pct": 42.48180047164975,
         "winner": "REP"
       },
       "25": {
-        "dem_votes": 3752,
-        "rep_votes": 17377,
-        "other_votes": 766,
-        "total_votes": 21895,
+        "dem_votes": 3749,
+        "rep_votes": 17375,
+        "other_votes": 765,
+        "total_votes": 21889,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 13625,
-        "margin_pct": 62.2288,
+        "margin": 13626,
+        "margin_pct": 62.25044542921102,
         "winner": "REP"
       },
       "26": {
@@ -287,7 +287,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 15546,
-        "margin_pct": 38.979,
+        "margin_pct": 38.97901361482336,
         "winner": "REP"
       },
       "27": {
@@ -298,7 +298,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 53912,
-        "margin_pct": 64.2904,
+        "margin_pct": 64.29039913185542,
         "winner": "REP"
       },
       "28": {
@@ -309,7 +309,7 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 46922,
-        "margin_pct": 62.2283,
+        "margin_pct": 62.22829330397994,
         "winner": "REP"
       },
       "29": {
@@ -320,18 +320,18 @@
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
         "margin": 31519,
-        "margin_pct": 62.1248,
+        "margin_pct": 62.12476594067212,
         "winner": "REP"
       },
       "30": {
-        "dem_votes": 10968,
-        "rep_votes": 46902,
-        "other_votes": 1796,
-        "total_votes": 59666,
+        "dem_votes": 10949,
+        "rep_votes": 46745,
+        "other_votes": 1781,
+        "total_votes": 59475,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 35934,
-        "margin_pct": 60.2253,
+        "margin": 35796,
+        "margin_pct": 60.18663303909205,
         "winner": "REP"
       }
     }
