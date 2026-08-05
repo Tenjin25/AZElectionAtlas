@@ -193,17 +193,6 @@
     .spinner svg circle {
       animation: spinner-rotate 0.8s linear infinite;
     }
-    .district-lines-loading-hint {
-      display: none;
-      align-items: center;
-      gap: 8px;
-      margin-top: 6px;
-      font-size: 11px;
-      color: #6b7280;
-    }
-    .district-lines-loading-hint.is-visible {
-      display: flex;
-    }
   /* Colorblind mode legend readability.
      Use dashed separators with palette-matched yellow/blue tones (not black). */
   body.colorblind-mode .legend-spectrum .legend-segment.legend-color {
@@ -1236,8 +1225,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 }
 
 .minimize-btn {
-  background: #2563eb;
-  border: 1px solid #1d4ed8;
+  background: var(--az-control-active);
+  border: 1px solid rgba(199, 221, 240, 0.28);
   border-radius: 6px;
   width: 30px;
   height: 30px;
@@ -1251,8 +1240,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   transition: all 0.2s ease;
 }
 .minimize-btn:hover {
-  background: #1d4ed8;
-  border-color: #2563eb;
+  background: var(--az-control-active-strong);
+  border-color: rgba(199, 221, 240, 0.42);
   transform: scale(1.05);
 }
 
@@ -1423,9 +1412,9 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   color: #6b7280;
 }
 .mode-toggle.active {
-  background: #2563eb;
+  background: var(--az-control-active);
   color: white;
-  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 2px 4px rgba(31, 95, 125, 0.3);
 }
 .mode-toggle:hover:not(.active) {
   background: #e5e7eb;
@@ -6036,9 +6025,9 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     margin: 0;
     padding: 0 14px;
     border-radius: 999px;
-    background: linear-gradient(135deg, rgba(185, 28, 28, 0.96) 0%, rgba(29, 78, 216, 0.92) 100%);
+    background: var(--state-accent-gradient);
     border: 1px solid rgba(148, 163, 184, 0.18);
-    box-shadow: 0 14px 30px rgba(37, 99, 235, 0.16), 0 8px 22px rgba(185, 28, 28, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+    box-shadow: 0 14px 30px rgba(31, 95, 125, 0.18), 0 8px 22px rgba(168, 68, 49, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.16);
     color: #f8fafc !important;
     font-size: 14px;
     font-weight: 800;
@@ -13098,30 +13087,6 @@ document.addEventListener('DOMContentLoaded', function() {
       return '';
     }
 
-    function updateDistrictLinesToggleUI() {
-      const y = normalizeDistrictLinesYear(currentDistrictLinesYear);
-      const group = document.getElementById('district-lines-control-group');
-      const btn2022 = document.getElementById('district-lines-2022');
-      const btn2024 = document.getElementById('district-lines-2024');
-      const btn2026 = document.getElementById('district-lines-2026');
-      const showLinesControls = currentView !== 'counties';
-      if (group) group.style.display = showLinesControls ? '' : 'none';
-      if (btn2022) {
-        btn2022.classList.toggle('active', y === 2022);
-        btn2022.setAttribute('aria-pressed', y === 2022 ? 'true' : 'false');
-      }
-      if (btn2024) {
-        btn2024.classList.toggle('active', y === 2024);
-        btn2024.setAttribute('aria-pressed', y === 2024 ? 'true' : 'false');
-      }
-      if (btn2026) {
-        const congressView = currentView === 'districts';
-        btn2026.style.display = congressView ? '' : 'none';
-        btn2026.classList.toggle('active', y === 2026);
-        btn2026.setAttribute('aria-pressed', y === 2026 ? 'true' : 'false');
-      }
-    }
-
     function clearDistrictSearchGeoJSONCache() {
       delete window['districts__search_geojson'];
       delete window['state-house__search_geojson'];
@@ -13163,58 +13128,15 @@ document.addEventListener('DOMContentLoaded', function() {
       }));
     }
 
-    let districtLinesLoadingModalWired = false;
-
-    function wireDistrictLinesLoadingModal() {
-      if (districtLinesLoadingModalWired) return;
-      districtLinesLoadingModalWired = true;
-      const hint = document.getElementById('district-lines-loading-hint');
-      if (!hint) return;
-      hint.addEventListener('click', () => hideDistrictLinesLoadingModal());
-    }
-
-    function showDistrictLinesLoadingModal() {
-      wireDistrictLinesLoadingModal();
-      const hint = document.getElementById('district-lines-loading-hint');
-      if (!hint) return;
-      const y = normalizeDistrictLinesYear(currentDistrictLinesYear);
-      hint.classList.add('is-visible');
-      hint.innerHTML = `
-        <span class="spinner" aria-hidden="true" style="display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;">
-          <svg width="14" height="14" viewBox="0 0 50 50"><circle cx="25" cy="25" r="20" fill="none" stroke="#2563eb" stroke-width="5" stroke-linecap="round" stroke-dasharray="31.4 31.4" transform="rotate(-90 25 25)"/></svg>
-        </span>
-        <span>Loading ${y} lines (first-time load can take <b>10–30s</b>)…</span>
-      `;
-    }
-
-    function hideDistrictLinesLoadingModal() {
-      const hint = document.getElementById('district-lines-loading-hint');
-      if (!hint) return;
-      hint.classList.remove('is-visible');
-      hint.innerHTML = '';
-    }
-
-    function shouldWarnDistrictLinesLoad(linesYear) {
-      const y = normalizeDistrictLinesYear(linesYear);
-      if (y !== 2024 && y !== 2026) return false;
-      const scopes = ['congressional', 'state_house', 'state_senate'];
-      return scopes.some(scope => {
-        const path = getDistrictGeometryPath(scope, y);
-        if (!path) return false;
-        const cacheKey = `${scope}:${path}`;
-        return !districtGeometryCache.has(cacheKey);
-      });
-    }
-
     async function setDistrictLinesMode(linesYear) {
       const nextYear = normalizeDistrictLinesYear(linesYear);
       if (nextYear === 2026 && currentView !== 'districts') {
         setStatus('2026 lines are only available for congressional view.');
-        updateDistrictLinesToggleUI();
+        
         return;
       }
       if (nextYear === normalizeDistrictLinesYear(currentDistrictLinesYear)) {
-        updateDistrictLinesToggleUI();
+        
         return;
       }
       const contestSelect = document.getElementById('contestSelect');
@@ -13226,17 +13148,13 @@ document.addEventListener('DOMContentLoaded', function() {
       districtCarryCrosswalkCache.clear();
       vizPrevDistrictCache.clear();
       clearDistrictSearchGeoJSONCache();
-      updateDistrictLinesToggleUI();
+      
 
       if (appReady) {
-        const showLoading = (nextYear === 2024 || nextYear === 2026) && shouldWarnDistrictLinesLoad(nextYear);
         try {
-          if (showLoading) showDistrictLinesLoadingModal();
           await refreshDistrictGeometrySources(nextYear);
         } catch (err) {
           console.warn('District geometry refresh failed:', err?.message || err);
-        } finally {
-          if (showLoading) hideDistrictLinesLoadingModal();
         }
       }
 
@@ -21179,7 +21097,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
       if (String(view || '').trim() === String(currentView || '').trim() && isCurrentViewLayerReady(view)) {
-        updateDistrictLinesToggleUI();
+        
         try { reinforceMapLabelHalos(); } catch (_) {}
         try { applyLayerOpacityTuning(); } catch (_) {}
         try { setSplitTicketOverlayVisibility(); } catch (_) {}
@@ -21199,7 +21117,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (currentView !== 'districts' && normalizeDistrictLinesYear(currentDistrictLinesYear) === 2026) {
         currentDistrictLinesYear = 2024;
       }
-      updateDistrictLinesToggleUI();
+      
       
       // Update button states
       const viewButtonStates = [
@@ -33386,7 +33304,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         districtManifest = getActiveDistrictManifest();
         districtElectionDataJSON = null;
-        updateDistrictLinesToggleUI();
+        
         if (contestManifest.length > 0 || districtManifest.length > 0) {
           updateContestSelectForCurrentView();
         }
@@ -33399,7 +33317,7 @@ document.addEventListener('DOMContentLoaded', function() {
         districtElectionDataLoadFailed = false;
         districtManifestByLines = { '2022': [], '2024': [], '2026': [] };
         districtManifest = [];
-        updateDistrictLinesToggleUI();
+        
       }
 
       // Optional district resources: do not fail app initialization if absent
