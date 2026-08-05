@@ -263,14 +263,14 @@
       "year": 2020,
       "contest_type": "president",
       "file": "president_2020.json",
-      "rows": 13,
+      "rows": 15,
       "scope": "county"
     },
     {
       "year": 2020,
       "contest_type": "us_senate",
       "file": "us_senate_2020.json",
-      "rows": 13,
+      "rows": 15,
       "scope": "county"
     },
     {

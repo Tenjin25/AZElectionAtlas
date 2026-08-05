@@ -12,7 +12,9 @@ OUTPUT_DIR = ROOT / "Data" / "county_contests"
 
 OFFICE_TO_CONTEST = {
     "President": "president",
+    "Presidential Electors": "president",
     "U.S. Senate": "us_senate",
+    "U.S. Senator": "us_senate",
     "Governor": "governor",
     "Secretary of State": "secretary_of_state",
     "Attorney General": "attorney_general",
@@ -29,33 +31,47 @@ GENERAL_FILES = {
     2012: "20121106__az__general.csv",
     2014: "20141104__az__general.csv",
     2016: "20161108__az__general__precinct.csv",
+    2020: "counties",
 }
 
 
+def source_files(source_file):
+    return sorted(source_file.glob("*.csv")) if source_file.is_dir() else [source_file]
+
+
+def normalized_candidate(year, contest_type, bucket, candidate):
+    if year == 2016 and contest_type == "president":
+        return {"dem": "Hillary Clinton", "rep": "Donald Trump"}.get(bucket, candidate)
+    return candidate
+
+
 def build_contest(year, source_file, office, contest_type):
+    offices = {office} if isinstance(office, str) else set(office)
     totals = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0, "dem_candidate": "", "rep_candidate": ""})
     candidate_votes = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
-    with source_file.open(newline="", encoding="utf-8-sig") as handle:
-        for row in csv.DictReader(handle):
-            if row.get("office", "").strip() != office:
-                continue
-            county = row.get("county", "").strip()
-            if not county:
-                continue
-            candidate = row.get("candidate", "").strip()
-            candidate_key = "".join(character for character in candidate.upper() if character.isalpha())
-            if (
-                candidate_key in {"OVERVOTES", "UNDERVOTES", "BLANKVOTES", "TOTALVOTES"}
-                or candidate_key.startswith("TIMES")
-                or candidate_key in {"REGISTEREDVOTERS", "BALLOTSCAST", "TOTALVOTES"}
-            ):
-                continue
-            votes = int(float(row.get("votes", "0") or 0))
-            party = row.get("party", "").strip().upper()
-            bucket = "dem" if party == "DEM" else "rep" if party == "REP" else "other"
-            totals[county][bucket] += votes
-            if candidate:
-                candidate_votes[county][bucket][candidate] += votes
+    for input_file in source_files(source_file):
+        with input_file.open(newline="", encoding="utf-8-sig") as handle:
+            for row in csv.DictReader(handle):
+                if row.get("office", "").strip() not in offices:
+                    continue
+                county = row.get("county", "").strip()
+                if not county:
+                    continue
+                candidate = row.get("candidate", "").strip()
+                candidate_key = "".join(character for character in candidate.upper() if character.isalpha())
+                if (
+                    candidate_key in {"OVERVOTES", "UNDERVOTES", "BLANKVOTES", "TOTALVOTES"}
+                    or candidate_key.startswith("TIMES")
+                    or candidate_key in {"REGISTEREDVOTERS", "BALLOTSCAST", "TOTALVOTES"}
+                ):
+                    continue
+                votes = int(float(row.get("votes", "0") or 0))
+                party = row.get("party", "").strip().upper()
+                bucket = "dem" if party == "DEM" else "rep" if party == "REP" else "other"
+                totals[county][bucket] += votes
+                if candidate:
+                    normalized = normalized_candidate(year, contest_type, bucket, candidate)
+                    candidate_votes[county][bucket][normalized] += votes
 
     county_totals = {}
     for county, values in sorted(totals.items()):
@@ -97,13 +113,18 @@ def main():
 
     for year, filename in GENERAL_FILES.items():
         source_file = SOURCE_DIR / str(year) / filename
-        with source_file.open(newline="", encoding="utf-8-sig") as handle:
-            offices = sorted({row.get("office", "").strip() for row in csv.DictReader(handle)})
+        offices = set()
+        for input_file in source_files(source_file):
+            with input_file.open(newline="", encoding="utf-8-sig") as handle:
+                offices.update(row.get("office", "").strip() for row in csv.DictReader(handle))
+        offices = sorted(offices)
+        offices_by_contest = defaultdict(list)
         for office in offices:
             contest_type = OFFICE_TO_CONTEST.get(office)
-            if not contest_type:
-                continue
-            payload = build_contest(year, source_file, office, contest_type)
+            if contest_type:
+                offices_by_contest[contest_type].append(office)
+        for contest_type, contest_offices in offices_by_contest.items():
+            payload = build_contest(year, source_file, contest_offices, contest_type)
             output_file = OUTPUT_DIR / f"{contest_type}_{year}.json"
             output_file.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
             entries.append({

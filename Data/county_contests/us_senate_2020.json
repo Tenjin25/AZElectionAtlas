@@ -8,10 +8,10 @@
       "rep_votes": 11052,
       "other_votes": 96,
       "total_votes": 35198,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "KELLY, MARK",
+      "rep_candidate": "MCSALLY, MARTHA",
       "margin": -12998,
-      "margin_pct": -36.9282,
+      "margin_pct": -36.928234558781746,
       "winner": "DEM"
     },
     "Cochise": {
@@ -19,10 +19,10 @@
       "rep_votes": 35214,
       "other_votes": 192,
       "total_votes": 60249,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "Kelly, Mark",
+      "rep_candidate": "McSally, Martha",
       "margin": 10371,
-      "margin_pct": 17.2136,
+      "margin_pct": 17.213563710601008,
       "winner": "REP"
     },
     "Coconino": {
@@ -33,7 +33,7 @@
       "dem_candidate": "Mark Kelly",
       "rep_candidate": "Martha McSally",
       "margin": -18306,
-      "margin_pct": -25.1401,
+      "margin_pct": -25.14007910349374,
       "winner": "DEM"
     },
     "Gila": {
@@ -41,10 +41,10 @@
       "rep_votes": 17889,
       "other_votes": 71,
       "total_votes": 27608,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "KELLY, MARK",
+      "rep_candidate": "MCSALLY, MARTHA",
       "margin": 8241,
-      "margin_pct": 29.85,
+      "margin_pct": 29.85004346566213,
       "winner": "REP"
     },
     "Graham": {
@@ -52,10 +52,10 @@
       "rep_votes": 10303,
       "other_votes": 36,
       "total_votes": 14845,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "Kelly, Mark",
+      "rep_candidate": "McSally, Martha",
       "margin": 5797,
-      "margin_pct": 39.0502,
+      "margin_pct": 39.0501852475581,
       "winner": "REP"
     },
     "Greenlee": {
@@ -63,10 +63,10 @@
       "rep_votes": 2225,
       "other_votes": 0,
       "total_votes": 3628,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "KELLY, MARK",
+      "rep_candidate": "MCSALLY, MARTHA",
       "margin": 822,
-      "margin_pct": 22.6571,
+      "margin_pct": 22.657111356119074,
       "winner": "REP"
     },
     "La Paz": {
@@ -74,21 +74,21 @@
       "rep_votes": 4835,
       "other_votes": 21,
       "total_votes": 7348,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "Kelly, Mark",
+      "rep_candidate": "McSally, Martha",
       "margin": 2343,
-      "margin_pct": 31.8862,
+      "margin_pct": 31.886227544910177,
       "winner": "REP"
     },
     "Maricopa": {
       "dem_votes": 1064396,
       "rep_votes": 984203,
-      "other_votes": 5321,
-      "total_votes": 2053920,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "other_votes": 9246,
+      "total_votes": 2057845,
+      "dem_candidate": "KELLY, MARK",
+      "rep_candidate": "MCSALLY, MARTHA",
       "margin": -80193,
-      "margin_pct": -3.9044,
+      "margin_pct": -3.8969407316877605,
       "winner": "DEM"
     },
     "Mohave": {
@@ -96,10 +96,10 @@
       "rep_votes": 75359,
       "other_votes": 352,
       "total_votes": 103125,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "Kelly, Mark",
+      "rep_candidate": "McSally, Martha",
       "margin": 47945,
-      "margin_pct": 46.4921,
+      "margin_pct": 46.49212121212121,
       "winner": "REP"
     },
     "Navajo": {
@@ -107,10 +107,10 @@
       "rep_votes": 26952,
       "other_votes": 185,
       "total_votes": 51533,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "KELLY, MARK",
+      "rep_candidate": "MCSALLY, MARTHA",
       "margin": 2556,
-      "margin_pct": 4.9599,
+      "margin_pct": 4.9599285894475384,
       "winner": "REP"
     },
     "Pima": {
@@ -118,21 +118,32 @@
       "rep_votes": 207317,
       "other_votes": 1175,
       "total_votes": 517634,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "KELLY, MARK",
+      "rep_candidate": "MCSALLY, MARTHA",
       "margin": -101825,
-      "margin_pct": -19.6712,
+      "margin_pct": -19.671234887971035,
       "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 79114,
+      "rep_votes": 104048,
+      "other_votes": 594,
+      "total_votes": 183756,
+      "dem_candidate": "Kelly, Mark",
+      "rep_candidate": "McSally, Martha",
+      "margin": 24934,
+      "margin_pct": 13.569080737499728,
+      "winner": "REP"
     },
     "Santa Cruz": {
       "dem_votes": 13689,
       "rep_votes": 5685,
       "other_votes": 96,
       "total_votes": 19470,
-      "dem_candidate": "Mark Kelly",
-      "rep_candidate": "Martha McSally",
+      "dem_candidate": "KELLY, MARK",
+      "rep_candidate": "MCSALLY, MARTHA",
       "margin": -8004,
-      "margin_pct": -41.1094,
+      "margin_pct": -41.10939907550077,
       "winner": "DEM"
     },
     "Yavapai": {
@@ -143,7 +154,18 @@
       "dem_candidate": "Mark Kelly",
       "rep_candidate": "Martha McSally",
       "margin": 38328,
-      "margin_pct": 26.9261,
+      "margin_pct": 26.92613017668341,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 33961,
+      "rep_votes": 35144,
+      "other_votes": 0,
+      "total_votes": 69105,
+      "dem_candidate": "KELLY, MARK",
+      "rep_candidate": "McSALLY, MARTHA",
+      "margin": 1183,
+      "margin_pct": 1.7118877071123653,
       "winner": "REP"
     }
   }
