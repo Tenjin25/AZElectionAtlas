@@ -10615,7 +10615,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v15"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v16"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10655,8 +10655,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v15';
-    const APP_BUILD_ID = '2026-08-05-az-district-results-v15';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v16';
+    const APP_BUILD_ID = '2026-08-05-az-district-results-v16';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -36293,10 +36293,13 @@ document.addEventListener('DOMContentLoaded', function() {
         return { dem: districtDem, rep: districtRep, other: districtOther, total: districtTotal };
       }
 
-      // Load the selected contest's county slice before rendering district-view statewide summaries.
-      // electionData may still contain the previous contest's rows when users switch contests from
-      // a district view, so relying on it can leave the statewide panel stale.
-      const contestData = await loadContestSlice(contestType, year);
+      // Load complete county totals for the district-view statewide summary.
+      // Keep district allocations for map coloring, but do not derive the
+      // statewide header from incomplete historical precinct slices.
+      const countyContestData = await loadCountyContestSlice(contestType, year);
+      const contestData = countyContestData.length
+        ? countyContestData
+        : await loadContestSlice(contestType, year);
 
       // Prefer district-level results reallocated to 2024 lines when available.
       // Prefer district-level results reallocated to 2024 lines when available.
