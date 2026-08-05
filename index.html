@@ -10615,7 +10615,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v14"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v15"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10655,8 +10655,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v14';
-    const APP_BUILD_ID = '2026-08-05-az-district-results-v14';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v15';
+    const APP_BUILD_ID = '2026-08-05-az-district-results-v15';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -34701,15 +34701,11 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       if (staleCheck()) return;
 
-      // Historical county mode may use compact county totals, but modeled contests
-      // stay precinct-first even with the precinct overlay off. This keeps the
-      // statewide/county cards on the same rebuilt rows as model tuning and districts.
-      let needsPrecinctDetail = !!precinctsEnabled;
-      if (needsPrecinctDetail && shouldDeferPrecinctDetail()) {
-        needsPrecinctDetail = false;
-      }
       const modeledCountyContest = !!getModeledContestDefinition(contestType, Number(year));
-      const contestData = (needsPrecinctDetail || modeledCountyContest)
+      // County mode must use the county-layer totals. Precinct files can be
+      // incomplete for historical elections and must not silently replace the
+      // certified county rollups when the precinct overlay is enabled.
+      const contestData = modeledCountyContest
         ? await loadContestSlice(contestType, year)
         : await loadCountyContestSlice(contestType, year);
       if (staleCheck()) return;
