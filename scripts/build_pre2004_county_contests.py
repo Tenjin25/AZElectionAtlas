@@ -42,6 +42,10 @@ def source_files(source_file):
 def normalized_candidate(year, contest_type, bucket, candidate):
     if year == 2016 and contest_type == "president":
         return {"dem": "Hillary Clinton", "rep": "Donald Trump"}.get(bucket, candidate)
+    if year == 2020 and contest_type == "president":
+        return {"dem": "Joe Biden", "rep": "Donald Trump"}.get(bucket, candidate)
+    if year == 2020 and contest_type == "us_senate":
+        return {"dem": "Mark Kelly", "rep": "Martha McSally"}.get(bucket, candidate)
     return candidate
 
 
