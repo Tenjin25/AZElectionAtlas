@@ -1,0 +1,172 @@
+{
+  "year": 2008,
+  "contest_type": "president",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 15390,
+      "rep_votes": 8551,
+      "other_votes": 321,
+      "total_votes": 24262,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": -6839,
+      "margin_pct": -28.188113098672822,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 18943,
+      "rep_votes": 29026,
+      "other_votes": 851,
+      "total_votes": 48820,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 10083,
+      "margin_pct": 20.65342072920934,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 31433,
+      "rep_votes": 22186,
+      "other_votes": 725,
+      "total_votes": 54344,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": -9247,
+      "margin_pct": -17.01567790372442,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7884,
+      "rep_votes": 14095,
+      "other_votes": 354,
+      "total_votes": 22333,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 6211,
+      "margin_pct": 27.810862848699237,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3487,
+      "rep_votes": 8376,
+      "other_votes": 144,
+      "total_votes": 12007,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 4889,
+      "margin_pct": 40.71791454984592,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 1165,
+      "rep_votes": 1712,
+      "other_votes": 36,
+      "total_votes": 2913,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 547,
+      "margin_pct": 18.777892207346376,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1929,
+      "rep_votes": 3509,
+      "other_votes": 114,
+      "total_votes": 5552,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 1580,
+      "margin_pct": 28.45821325648415,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 602166,
+      "rep_votes": 746448,
+      "other_votes": 16348,
+      "total_votes": 1364962,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 144282,
+      "margin_pct": 10.570404157771424,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 22092,
+      "rep_votes": 44333,
+      "other_votes": 1180,
+      "total_votes": 67605,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 22241,
+      "margin_pct": 32.898454256341985,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 15579,
+      "rep_votes": 19761,
+      "other_votes": 460,
+      "total_votes": 35800,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 4182,
+      "margin_pct": 11.681564245810055,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 206254,
+      "rep_votes": 182406,
+      "other_votes": 4768,
+      "total_votes": 393428,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": -23848,
+      "margin_pct": -6.061591955834358,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 44254,
+      "rep_votes": 59421,
+      "other_votes": 1208,
+      "total_votes": 104883,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 15167,
+      "margin_pct": 14.460875451693791,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 8683,
+      "rep_votes": 4518,
+      "other_votes": 102,
+      "total_votes": 13303,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": -4165,
+      "margin_pct": -31.308727354732014,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 36889,
+      "rep_votes": 61192,
+      "other_votes": 1567,
+      "total_votes": 99648,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 24303,
+      "margin_pct": 24.38884874759152,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 18559,
+      "rep_votes": 24577,
+      "other_votes": 479,
+      "total_votes": 43615,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "John McCain",
+      "margin": 6018,
+      "margin_pct": 13.798005273415109,
+      "winner": "REP"
+    }
+  }
+}

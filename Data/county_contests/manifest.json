@@ -106,6 +106,13 @@
       "scope": "county"
     },
     {
+      "year": 2008,
+      "contest_type": "president",
+      "file": "president_2008.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
       "year": 2010,
       "contest_type": "attorney_general",
       "file": "attorney_general_2010.json",

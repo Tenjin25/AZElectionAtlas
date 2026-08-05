@@ -22,6 +22,7 @@ OFFICE_TO_CONTEST = {
 GENERAL_FILES = {
     2000: "20001107__az__general.csv",
     2002: "20021105__az__general.csv",
+    2008: "20081104__az__general.csv",
 }
 
 
