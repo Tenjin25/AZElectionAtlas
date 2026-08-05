@@ -734,6 +734,13 @@
       "file": "state_senate_us_senate_2024.json",
       "rows": 30,
       "scope": "state_senate"
+    },
+    {
+      "year": 2008,
+      "contest_type": "president",
+      "file": "congressional_president_2008.json",
+      "rows": 9,
+      "scope": "congressional"
     }
   ]
 }

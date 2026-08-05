@@ -1,0 +1,1065 @@
+01020010001000977          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             001 SOLOMON                                            00 
+01020010002001751          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             002 SAFFORD                                            00 
+01020010003000702          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             003 SAFFORD                                            00 
+01020010004000694          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             004 LAYTON                                             00 
+01020010005001096          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             005 LAYTON                                             00 
+01020010006000761          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             006 THATCHER                                           00 
+01020010007001673          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             007 THATCHER                                           00 
+01020010008000502          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             008 CENTRAL                                            00 
+01020010009002022          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             009 PIMA                                               00 
+01020010010000264          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             010 FORT THOMAS                                        00 
+01020010011001212          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             011 BYLAS                                              00 
+01020010012000044          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             012 KLONDYKE                                           00 
+01020010013000132          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             013 BONITA                                             00 
+01020010014000883          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             014 THUNDERBIRD                                        00 
+01020010015002552          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             015 SAFFORD                                            00 
+01020010016000977          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             016 PERIDOT                                            00 
+01020010017000177          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             017 CACTUS                                             00 
+01020010018000853          REGISTERED VOTERS - TOTAL                               REGISTERED VOTERS - TOTAL             018 JACKSON                                            00 
+01030010001000693          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  001 SOLOMON                                            00 
+01030010002001101          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  002 SAFFORD                                            00 
+01030010003000523          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  003 SAFFORD                                            00 
+01030010004000505          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  004 LAYTON                                             00 
+01030010005000801          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  005 LAYTON                                             00 
+01030010006000576          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  006 THATCHER                                           00 
+01030010007001242          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  007 THATCHER                                           00 
+01030010008000418          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  008 CENTRAL                                            00 
+01030010009001524          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  009 PIMA                                               00 
+01030010010000199          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  010 FORT THOMAS                                        00 
+01030010011000752          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  011 BYLAS                                              00 
+01030010012000040          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  012 KLONDYKE                                           00 
+01030010013000118          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  013 BONITA                                             00 
+01030010014000656          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  014 THUNDERBIRD                                        00 
+01030010015001847          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  015 SAFFORD                                            00 
+01030010016000362          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  016 PERIDOT                                            00 
+01030010017000126          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  017 CACTUS                                             00 
+01030010018000687          BALLOTS CAST - TOTAL                                    BALLOTS CAST - TOTAL                  018 JACKSON                                            00 
+11000010001000253DEM       Presidential Electors                                   OBAMA                                 001 SOLOMON                                            01 
+11000010002000392DEM       Presidential Electors                                   OBAMA                                 002 SAFFORD                                            01 
+11000010003000138DEM       Presidential Electors                                   OBAMA                                 003 SAFFORD                                            01 
+11000010004000172DEM       Presidential Electors                                   OBAMA                                 004 LAYTON                                             01 
+11000010005000232DEM       Presidential Electors                                   OBAMA                                 005 LAYTON                                             01 
+11000010006000046DEM       Presidential Electors                                   OBAMA                                 006 THATCHER                                           01 
+11000010007000252DEM       Presidential Electors                                   OBAMA                                 007 THATCHER                                           01 
+11000010008000045DEM       Presidential Electors                                   OBAMA                                 008 CENTRAL                                            01 
+11000010009000268DEM       Presidential Electors                                   OBAMA                                 009 PIMA                                               01 
+11000010010000035DEM       Presidential Electors                                   OBAMA                                 010 FORT THOMAS                                        01 
+11000010011000576DEM       Presidential Electors                                   OBAMA                                 011 BYLAS                                              01 
+11000010012000013DEM       Presidential Electors                                   OBAMA                                 012 KLONDYKE                                           01 
+11000010013000014DEM       Presidential Electors                                   OBAMA                                 013 BONITA                                             01 
+11000010014000132DEM       Presidential Electors                                   OBAMA                                 014 THUNDERBIRD                                        01 
+11000010015000502DEM       Presidential Electors                                   OBAMA                                 015 SAFFORD                                            01 
+11000010016000249DEM       Presidential Electors                                   OBAMA                                 016 PERIDOT                                            01 
+11000010017000043DEM       Presidential Electors                                   OBAMA                                 017 CACTUS                                             01 
+11000010018000125DEM       Presidential Electors                                   OBAMA                                 018 JACKSON                                            01 
+11000020001000428REP       Presidential Electors                                   McCAIN                                001 SOLOMON                                            01 
+11000020002000674REP       Presidential Electors                                   McCAIN                                002 SAFFORD                                            01 
+11000020003000373REP       Presidential Electors                                   McCAIN                                003 SAFFORD                                            01 
+11000020004000320REP       Presidential Electors                                   McCAIN                                004 LAYTON                                             01 
+11000020005000553REP       Presidential Electors                                   McCAIN                                005 LAYTON                                             01 
+11000020006000524REP       Presidential Electors                                   McCAIN                                006 THATCHER                                           01 
+11000020007000962REP       Presidential Electors                                   McCAIN                                007 THATCHER                                           01 
+11000020008000365REP       Presidential Electors                                   McCAIN                                008 CENTRAL                                            01 
+11000020009001207REP       Presidential Electors                                   McCAIN                                009 PIMA                                               01 
+11000020010000158REP       Presidential Electors                                   McCAIN                                010 FORT THOMAS                                        01 
+11000020011000148REP       Presidential Electors                                   McCAIN                                011 BYLAS                                              01 
+11000020012000025REP       Presidential Electors                                   McCAIN                                012 KLONDYKE                                           01 
+11000020013000102REP       Presidential Electors                                   McCAIN                                013 BONITA                                             01 
+11000020014000504REP       Presidential Electors                                   McCAIN                                014 THUNDERBIRD                                        01 
+11000020015001302REP       Presidential Electors                                   McCAIN                                015 SAFFORD                                            01 
+11000020016000101REP       Presidential Electors                                   McCAIN                                016 PERIDOT                                            01 
+11000020017000079REP       Presidential Electors                                   McCAIN                                017 CACTUS                                             01 
+11000020018000551REP       Presidential Electors                                   McCAIN                                018 JACKSON                                            01 
+11000030001000002LBT       Presidential Electors                                   BARR                                  001 SOLOMON                                            01 
+11000030002000005LBT       Presidential Electors                                   BARR                                  002 SAFFORD                                            01 
+11000030003000002LBT       Presidential Electors                                   BARR                                  003 SAFFORD                                            01 
+11000030004000002LBT       Presidential Electors                                   BARR                                  004 LAYTON                                             01 
+11000030005000005LBT       Presidential Electors                                   BARR                                  005 LAYTON                                             01 
+11000030006000001LBT       Presidential Electors                                   BARR                                  006 THATCHER                                           01 
+11000030007000007LBT       Presidential Electors                                   BARR                                  007 THATCHER                                           01 
+11000030008000003LBT       Presidential Electors                                   BARR                                  008 CENTRAL                                            01 
+11000030009000008LBT       Presidential Electors                                   BARR                                  009 PIMA                                               01 
+11000030010000001LBT       Presidential Electors                                   BARR                                  010 FORT THOMAS                                        01 
+11000030011000001LBT       Presidential Electors                                   BARR                                  011 BYLAS                                              01 
+11000030012000001LBT       Presidential Electors                                   BARR                                  012 KLONDYKE                                           01 
+11000030013000001LBT       Presidential Electors                                   BARR                                  013 BONITA                                             01 
+11000030014000008LBT       Presidential Electors                                   BARR                                  014 THUNDERBIRD                                        01 
+11000030015000007LBT       Presidential Electors                                   BARR                                  015 SAFFORD                                            01 
+11000030016000001LBT       Presidential Electors                                   BARR                                  016 PERIDOT                                            01 
+11000030017000002LBT       Presidential Electors                                   BARR                                  017 CACTUS                                             01 
+11000030018000003LBT       Presidential Electors                                   BARR                                  018 JACKSON                                            01 
+11000040001000000GRN       Presidential Electors                                   McKINNEY                              001 SOLOMON                                            01 
+11000040002000002GRN       Presidential Electors                                   McKINNEY                              002 SAFFORD                                            01 
+11000040003000001GRN       Presidential Electors                                   McKINNEY                              003 SAFFORD                                            01 
+11000040004000002GRN       Presidential Electors                                   McKINNEY                              004 LAYTON                                             01 
+11000040005000003GRN       Presidential Electors                                   McKINNEY                              005 LAYTON                                             01 
+11000040006000001GRN       Presidential Electors                                   McKINNEY                              006 THATCHER                                           01 
+11000040007000002GRN       Presidential Electors                                   McKINNEY                              007 THATCHER                                           01 
+11000040008000000GRN       Presidential Electors                                   McKINNEY                              008 CENTRAL                                            01 
+11000040009000006GRN       Presidential Electors                                   McKINNEY                              009 PIMA                                               01 
+11000040010000000GRN       Presidential Electors                                   McKINNEY                              010 FORT THOMAS                                        01 
+11000040011000002GRN       Presidential Electors                                   McKINNEY                              011 BYLAS                                              01 
+11000040012000001GRN       Presidential Electors                                   McKINNEY                              012 KLONDYKE                                           01 
+11000040013000000GRN       Presidential Electors                                   McKINNEY                              013 BONITA                                             01 
+11000040014000000GRN       Presidential Electors                                   McKINNEY                              014 THUNDERBIRD                                        01 
+11000040015000002GRN       Presidential Electors                                   McKINNEY                              015 SAFFORD                                            01 
+11000040016000001GRN       Presidential Electors                                   McKINNEY                              016 PERIDOT                                            01 
+11000040017000000GRN       Presidential Electors                                   McKINNEY                              017 CACTUS                                             01 
+11000040018000000GRN       Presidential Electors                                   McKINNEY                              018 JACKSON                                            01 
+11000050001000001Noe       Presidential Electors                                   NADER                                 001 SOLOMON                                            01 
+11000050002000008Noe       Presidential Electors                                   NADER                                 002 SAFFORD                                            01 
+11000050003000001Noe       Presidential Electors                                   NADER                                 003 SAFFORD                                            01 
+11000050004000002Noe       Presidential Electors                                   NADER                                 004 LAYTON                                             01 
+11000050005000003Noe       Presidential Electors                                   NADER                                 005 LAYTON                                             01 
+11000050006000001Noe       Presidential Electors                                   NADER                                 006 THATCHER                                           01 
+11000050007000007Noe       Presidential Electors                                   NADER                                 007 THATCHER                                           01 
+11000050008000001Noe       Presidential Electors                                   NADER                                 008 CENTRAL                                            01 
+11000050009000006Noe       Presidential Electors                                   NADER                                 009 PIMA                                               01 
+11000050010000000Noe       Presidential Electors                                   NADER                                 010 FORT THOMAS                                        01 
+11000050011000005Noe       Presidential Electors                                   NADER                                 011 BYLAS                                              01 
+11000050012000000Noe       Presidential Electors                                   NADER                                 012 KLONDYKE                                           01 
+11000050013000001Noe       Presidential Electors                                   NADER                                 013 BONITA                                             01 
+11000050014000006Noe       Presidential Electors                                   NADER                                 014 THUNDERBIRD                                        01 
+11000050015000008Noe       Presidential Electors                                   NADER                                 015 SAFFORD                                            01 
+11000050016000001Noe       Presidential Electors                                   NADER                                 016 PERIDOT                                            01 
+11000050017000000Noe       Presidential Electors                                   NADER                                 017 CACTUS                                             01 
+11000050018000005Noe       Presidential Electors                                   NADER                                 018 JACKSON                                            01 
+11010010001000338DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      001 SOLOMON                                            01 
+11010010002000553DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      002 SAFFORD                                            01 
+11010010003000211DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      003 SAFFORD                                            01 
+11010010004000235DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      004 LAYTON                                             01 
+11010010005000329DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      005 LAYTON                                             01 
+11010010006000091DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      006 THATCHER                                           01 
+11010010007000434DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      007 THATCHER                                           01 
+11010010008000087DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      008 CENTRAL                                            01 
+11010010009000495DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      009 PIMA                                               01 
+11010010010000059DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      010 FORT THOMAS                                        01 
+11010010011000621DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      011 BYLAS                                              01 
+11010010012000015DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      012 KLONDYKE                                           01 
+11010010013000020DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      013 BONITA                                             01 
+11010010014000220DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      014 THUNDERBIRD                                        01 
+11010010015000824DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      015 SAFFORD                                            01 
+11010010016000298DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      016 PERIDOT                                            01 
+11010010017000064DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      017 CACTUS                                             01 
+11010010018000196DEM       Congressional Dist. 1                                   KIRKPATRICK, ANN                      018 JACKSON                                            01 
+11010020001000312REP       Congressional Dist. 1                                   HAY, SYDNEY                           001 SOLOMON                                            01 
+11010020002000460REP       Congressional Dist. 1                                   HAY, SYDNEY                           002 SAFFORD                                            01 
+11010020003000277REP       Congressional Dist. 1                                   HAY, SYDNEY                           003 SAFFORD                                            01 
+11010020004000232REP       Congressional Dist. 1                                   HAY, SYDNEY                           004 LAYTON                                             01 
+11010020005000430REP       Congressional Dist. 1                                   HAY, SYDNEY                           005 LAYTON                                             01 
+11010020006000455REP       Congressional Dist. 1                                   HAY, SYDNEY                           006 THATCHER                                           01 
+11010020007000737REP       Congressional Dist. 1                                   HAY, SYDNEY                           007 THATCHER                                           01 
+11010020008000310REP       Congressional Dist. 1                                   HAY, SYDNEY                           008 CENTRAL                                            01 
+11010020009000937REP       Congressional Dist. 1                                   HAY, SYDNEY                           009 PIMA                                               01 
+11010020010000132REP       Congressional Dist. 1                                   HAY, SYDNEY                           010 FORT THOMAS                                        01 
+11010020011000080REP       Congressional Dist. 1                                   HAY, SYDNEY                           011 BYLAS                                              01 
+11010020012000021REP       Congressional Dist. 1                                   HAY, SYDNEY                           012 KLONDYKE                                           01 
+11010020013000093REP       Congressional Dist. 1                                   HAY, SYDNEY                           013 BONITA                                             01 
+11010020014000375REP       Congressional Dist. 1                                   HAY, SYDNEY                           014 THUNDERBIRD                                        01 
+11010020015000900REP       Congressional Dist. 1                                   HAY, SYDNEY                           015 SAFFORD                                            01 
+11010020016000039REP       Congressional Dist. 1                                   HAY, SYDNEY                           016 PERIDOT                                            01 
+11010020017000061REP       Congressional Dist. 1                                   HAY, SYDNEY                           017 CACTUS                                             01 
+11010020018000448REP       Congressional Dist. 1                                   HAY, SYDNEY                           018 JACKSON                                            01 
+11010030001000007LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     001 SOLOMON                                            01 
+11010030002000008LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     002 SAFFORD                                            01 
+11010030003000002LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     003 SAFFORD                                            01 
+11010030004000003LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     004 LAYTON                                             01 
+11010030005000003LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     005 LAYTON                                             01 
+11010030006000001LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     006 THATCHER                                           01 
+11010030007000010LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     007 THATCHER                                           01 
+11010030008000003LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     008 CENTRAL                                            01 
+11010030009000011LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     009 PIMA                                               01 
+11010030010000003LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     010 FORT THOMAS                                        01 
+11010030011000004LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     011 BYLAS                                              01 
+11010030012000002LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     012 KLONDYKE                                           01 
+11010030013000002LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     013 BONITA                                             01 
+11010030014000010LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     014 THUNDERBIRD                                        01 
+11010030015000010LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     015 SAFFORD                                            01 
+11010030016000005LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     016 PERIDOT                                            01 
+11010030017000000LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     017 CACTUS                                             01 
+11010030018000002LBT       Congressional Dist. 1                                   EICHENAUER, THANE                     018 JACKSON                                            01 
+11010040001000011IND       Congressional Dist. 1                                   MAUPIN, BRENT                         001 SOLOMON                                            01 
+11010040002000026IND       Congressional Dist. 1                                   MAUPIN, BRENT                         002 SAFFORD                                            01 
+11010040003000005IND       Congressional Dist. 1                                   MAUPIN, BRENT                         003 SAFFORD                                            01 
+11010040004000016IND       Congressional Dist. 1                                   MAUPIN, BRENT                         004 LAYTON                                             01 
+11010040005000017IND       Congressional Dist. 1                                   MAUPIN, BRENT                         005 LAYTON                                             01 
+11010040006000007IND       Congressional Dist. 1                                   MAUPIN, BRENT                         006 THATCHER                                           01 
+11010040007000025IND       Congressional Dist. 1                                   MAUPIN, BRENT                         007 THATCHER                                           01 
+11010040008000009IND       Congressional Dist. 1                                   MAUPIN, BRENT                         008 CENTRAL                                            01 
+11010040009000029IND       Congressional Dist. 1                                   MAUPIN, BRENT                         009 PIMA                                               01 
+11010040010000002IND       Congressional Dist. 1                                   MAUPIN, BRENT                         010 FORT THOMAS                                        01 
+11010040011000010IND       Congressional Dist. 1                                   MAUPIN, BRENT                         011 BYLAS                                              01 
+11010040012000001IND       Congressional Dist. 1                                   MAUPIN, BRENT                         012 KLONDYKE                                           01 
+11010040013000000IND       Congressional Dist. 1                                   MAUPIN, BRENT                         013 BONITA                                             01 
+11010040014000015IND       Congressional Dist. 1                                   MAUPIN, BRENT                         014 THUNDERBIRD                                        01 
+11010040015000040IND       Congressional Dist. 1                                   MAUPIN, BRENT                         015 SAFFORD                                            01 
+11010040016000008IND       Congressional Dist. 1                                   MAUPIN, BRENT                         016 PERIDOT                                            01 
+11010040017000001IND       Congressional Dist. 1                                   MAUPIN, BRENT                         017 CACTUS                                             01 
+11010040018000018IND       Congressional Dist. 1                                   MAUPIN, BRENT                         018 JACKSON                                            01 
+11020010001000310DEM       State Senator Dist. 5                                   JEFFERS, BILL                         001 SOLOMON                                            01 
+11020010002000511DEM       State Senator Dist. 5                                   JEFFERS, BILL                         002 SAFFORD                                            01 
+11020010003000192DEM       State Senator Dist. 5                                   JEFFERS, BILL                         003 SAFFORD                                            01 
+11020010004000215DEM       State Senator Dist. 5                                   JEFFERS, BILL                         004 LAYTON                                             01 
+11020010005000328DEM       State Senator Dist. 5                                   JEFFERS, BILL                         005 LAYTON                                             01 
+11020010006000121DEM       State Senator Dist. 5                                   JEFFERS, BILL                         006 THATCHER                                           01 
+11020010007000400DEM       State Senator Dist. 5                                   JEFFERS, BILL                         007 THATCHER                                           01 
+11020010008000104DEM       State Senator Dist. 5                                   JEFFERS, BILL                         008 CENTRAL                                            01 
+11020010009000470DEM       State Senator Dist. 5                                   JEFFERS, BILL                         009 PIMA                                               01 
+11020010010000069DEM       State Senator Dist. 5                                   JEFFERS, BILL                         010 FORT THOMAS                                        01 
+11020010011000627DEM       State Senator Dist. 5                                   JEFFERS, BILL                         011 BYLAS                                              01 
+11020010012000023DEM       State Senator Dist. 5                                   JEFFERS, BILL                         012 KLONDYKE                                           01 
+11020010013000022DEM       State Senator Dist. 5                                   JEFFERS, BILL                         013 BONITA                                             01 
+11020010014000235DEM       State Senator Dist. 5                                   JEFFERS, BILL                         014 THUNDERBIRD                                        01 
+11020010015000809DEM       State Senator Dist. 5                                   JEFFERS, BILL                         015 SAFFORD                                            01 
+11020010016000301DEM       State Senator Dist. 5                                   JEFFERS, BILL                         016 PERIDOT                                            01 
+11020010017000057DEM       State Senator Dist. 5                                   JEFFERS, BILL                         017 CACTUS                                             01 
+11020010018000211DEM       State Senator Dist. 5                                   JEFFERS, BILL                         018 JACKSON                                            01 
+11020020001000347REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  001 SOLOMON                                            01 
+11020020002000526REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  002 SAFFORD                                            01 
+11020020003000285REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  003 SAFFORD                                            01 
+11020020004000252REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  004 LAYTON                                             01 
+11020020005000436REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  005 LAYTON                                             01 
+11020020006000428REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  006 THATCHER                                           01 
+11020020007000784REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  007 THATCHER                                           01 
+11020020008000296REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  008 CENTRAL                                            01 
+11020020009000974REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  009 PIMA                                               01 
+11020020010000123REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  010 FORT THOMAS                                        01 
+11020020011000083REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  011 BYLAS                                              01 
+11020020012000014REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  012 KLONDYKE                                           01 
+11020020013000089REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  013 BONITA                                             01 
+11020020014000366REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  014 THUNDERBIRD                                        01 
+11020020015000928REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  015 SAFFORD                                            01 
+11020020016000049REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  016 PERIDOT                                            01 
+11020020017000068REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  017 CACTUS                                             01 
+11020020018000443REP       State Senator Dist. 5                                   ALLEN, SYLVIA TENNEY                  018 JACKSON                                            01 
+11030010001000342DEM       State Representative Dist. 5                            BROWN, JACK A.                        001 SOLOMON                                            02 
+11030010002000541DEM       State Representative Dist. 5                            BROWN, JACK A.                        002 SAFFORD                                            02 
+11030010003000212DEM       State Representative Dist. 5                            BROWN, JACK A.                        003 SAFFORD                                            02 
+11030010004000224DEM       State Representative Dist. 5                            BROWN, JACK A.                        004 LAYTON                                             02 
+11030010005000338DEM       State Representative Dist. 5                            BROWN, JACK A.                        005 LAYTON                                             02 
+11030010006000179DEM       State Representative Dist. 5                            BROWN, JACK A.                        006 THATCHER                                           02 
+11030010007000460DEM       State Representative Dist. 5                            BROWN, JACK A.                        007 THATCHER                                           02 
+11030010008000119DEM       State Representative Dist. 5                            BROWN, JACK A.                        008 CENTRAL                                            02 
+11030010009000555DEM       State Representative Dist. 5                            BROWN, JACK A.                        009 PIMA                                               02 
+11030010010000081DEM       State Representative Dist. 5                            BROWN, JACK A.                        010 FORT THOMAS                                        02 
+11030010011000627DEM       State Representative Dist. 5                            BROWN, JACK A.                        011 BYLAS                                              02 
+11030010012000020DEM       State Representative Dist. 5                            BROWN, JACK A.                        012 KLONDYKE                                           02 
+11030010013000024DEM       State Representative Dist. 5                            BROWN, JACK A.                        013 BONITA                                             02 
+11030010014000223DEM       State Representative Dist. 5                            BROWN, JACK A.                        014 THUNDERBIRD                                        02 
+11030010015000800DEM       State Representative Dist. 5                            BROWN, JACK A.                        015 SAFFORD                                            02 
+11030010016000278DEM       State Representative Dist. 5                            BROWN, JACK A.                        016 PERIDOT                                            02 
+11030010017000061DEM       State Representative Dist. 5                            BROWN, JACK A.                        017 CACTUS                                             02 
+11030010018000228DEM       State Representative Dist. 5                            BROWN, JACK A.                        018 JACKSON                                            02 
+11030020001000269REP       State Representative Dist. 5                            BREWER, BARBARA G.                    001 SOLOMON                                            02 
+11030020002000376REP       State Representative Dist. 5                            BREWER, BARBARA G.                    002 SAFFORD                                            02 
+11030020003000206REP       State Representative Dist. 5                            BREWER, BARBARA G.                    003 SAFFORD                                            02 
+11030020004000176REP       State Representative Dist. 5                            BREWER, BARBARA G.                    004 LAYTON                                             02 
+11030020005000351REP       State Representative Dist. 5                            BREWER, BARBARA G.                    005 LAYTON                                             02 
+11030020006000277REP       State Representative Dist. 5                            BREWER, BARBARA G.                    006 THATCHER                                           02 
+11030020007000580REP       State Representative Dist. 5                            BREWER, BARBARA G.                    007 THATCHER                                           02 
+11030020008000213REP       State Representative Dist. 5                            BREWER, BARBARA G.                    008 CENTRAL                                            02 
+11030020009000736REP       State Representative Dist. 5                            BREWER, BARBARA G.                    009 PIMA                                               02 
+11030020010000079REP       State Representative Dist. 5                            BREWER, BARBARA G.                    010 FORT THOMAS                                        02 
+11030020011000169REP       State Representative Dist. 5                            BREWER, BARBARA G.                    011 BYLAS                                              02 
+11030020012000014REP       State Representative Dist. 5                            BREWER, BARBARA G.                    012 KLONDYKE                                           02 
+11030020013000075REP       State Representative Dist. 5                            BREWER, BARBARA G.                    013 BONITA                                             02 
+11030020014000277REP       State Representative Dist. 5                            BREWER, BARBARA G.                    014 THUNDERBIRD                                        02 
+11030020015000745REP       State Representative Dist. 5                            BREWER, BARBARA G.                    015 SAFFORD                                            02 
+11030020016000050REP       State Representative Dist. 5                            BREWER, BARBARA G.                    016 PERIDOT                                            02 
+11030020017000043REP       State Representative Dist. 5                            BREWER, BARBARA G.                    017 CACTUS                                             02 
+11030020018000341REP       State Representative Dist. 5                            BREWER, BARBARA G.                    018 JACKSON                                            02 
+11030030001000359REP       State Representative Dist. 5                            KONOPNICKI, BILL                      001 SOLOMON                                            02 
+11030030002000635REP       State Representative Dist. 5                            KONOPNICKI, BILL                      002 SAFFORD                                            02 
+11030030003000326REP       State Representative Dist. 5                            KONOPNICKI, BILL                      003 SAFFORD                                            02 
+11030030004000336REP       State Representative Dist. 5                            KONOPNICKI, BILL                      004 LAYTON                                             02 
+11030030005000510REP       State Representative Dist. 5                            KONOPNICKI, BILL                      005 LAYTON                                             02 
+11030030006000481REP       State Representative Dist. 5                            KONOPNICKI, BILL                      006 THATCHER                                           02 
+11030030007000871REP       State Representative Dist. 5                            KONOPNICKI, BILL                      007 THATCHER                                           02 
+11030030008000316REP       State Representative Dist. 5                            KONOPNICKI, BILL                      008 CENTRAL                                            02 
+11030030009001098REP       State Representative Dist. 5                            KONOPNICKI, BILL                      009 PIMA                                               02 
+11030030010000151REP       State Representative Dist. 5                            KONOPNICKI, BILL                      010 FORT THOMAS                                        02 
+11030030011000286REP       State Representative Dist. 5                            KONOPNICKI, BILL                      011 BYLAS                                              02 
+11030030012000025REP       State Representative Dist. 5                            KONOPNICKI, BILL                      012 KLONDYKE                                           02 
+11030030013000078REP       State Representative Dist. 5                            KONOPNICKI, BILL                      013 BONITA                                             02 
+11030030014000427REP       State Representative Dist. 5                            KONOPNICKI, BILL                      014 THUNDERBIRD                                        02 
+11030030015001155REP       State Representative Dist. 5                            KONOPNICKI, BILL                      015 SAFFORD                                            02 
+11030030016000094REP       State Representative Dist. 5                            KONOPNICKI, BILL                      016 PERIDOT                                            02 
+11030030017000080REP       State Representative Dist. 5                            KONOPNICKI, BILL                      017 CACTUS                                             02 
+11030030018000500REP       State Representative Dist. 5                            KONOPNICKI, BILL                      018 JACKSON                                            02 
+11040010001000287DEM       Corporation Commissioner                                GEORGE, SAM                           001 SOLOMON                                            03 
+11040010002000454DEM       Corporation Commissioner                                GEORGE, SAM                           002 SAFFORD                                            03 
+11040010003000198DEM       Corporation Commissioner                                GEORGE, SAM                           003 SAFFORD                                            03 
+11040010004000180DEM       Corporation Commissioner                                GEORGE, SAM                           004 LAYTON                                             03 
+11040010005000288DEM       Corporation Commissioner                                GEORGE, SAM                           005 LAYTON                                             03 
+11040010006000083DEM       Corporation Commissioner                                GEORGE, SAM                           006 THATCHER                                           03 
+11040010007000371DEM       Corporation Commissioner                                GEORGE, SAM                           007 THATCHER                                           03 
+11040010008000095DEM       Corporation Commissioner                                GEORGE, SAM                           008 CENTRAL                                            03 
+11040010009000467DEM       Corporation Commissioner                                GEORGE, SAM                           009 PIMA                                               03 
+11040010010000051DEM       Corporation Commissioner                                GEORGE, SAM                           010 FORT THOMAS                                        03 
+11040010011000589DEM       Corporation Commissioner                                GEORGE, SAM                           011 BYLAS                                              03 
+11040010012000016DEM       Corporation Commissioner                                GEORGE, SAM                           012 KLONDYKE                                           03 
+11040010013000026DEM       Corporation Commissioner                                GEORGE, SAM                           013 BONITA                                             03 
+11040010014000224DEM       Corporation Commissioner                                GEORGE, SAM                           014 THUNDERBIRD                                        03 
+11040010015000708DEM       Corporation Commissioner                                GEORGE, SAM                           015 SAFFORD                                            03 
+11040010016000183DEM       Corporation Commissioner                                GEORGE, SAM                           016 PERIDOT                                            03 
+11040010017000049DEM       Corporation Commissioner                                GEORGE, SAM                           017 CACTUS                                             03 
+11040010018000195DEM       Corporation Commissioner                                GEORGE, SAM                           018 JACKSON                                            03 
+11040020001000322DEM       Corporation Commissioner                                KENNEDY, SANDRA                       001 SOLOMON                                            03 
+11040020002000540DEM       Corporation Commissioner                                KENNEDY, SANDRA                       002 SAFFORD                                            03 
+11040020003000221DEM       Corporation Commissioner                                KENNEDY, SANDRA                       003 SAFFORD                                            03 
+11040020004000218DEM       Corporation Commissioner                                KENNEDY, SANDRA                       004 LAYTON                                             03 
+11040020005000334DEM       Corporation Commissioner                                KENNEDY, SANDRA                       005 LAYTON                                             03 
+11040020006000112DEM       Corporation Commissioner                                KENNEDY, SANDRA                       006 THATCHER                                           03 
+11040020007000411DEM       Corporation Commissioner                                KENNEDY, SANDRA                       007 THATCHER                                           03 
+11040020008000122DEM       Corporation Commissioner                                KENNEDY, SANDRA                       008 CENTRAL                                            03 
+11040020009000541DEM       Corporation Commissioner                                KENNEDY, SANDRA                       009 PIMA                                               03 
+11040020010000062DEM       Corporation Commissioner                                KENNEDY, SANDRA                       010 FORT THOMAS                                        03 
+11040020011000632DEM       Corporation Commissioner                                KENNEDY, SANDRA                       011 BYLAS                                              03 
+11040020012000021DEM       Corporation Commissioner                                KENNEDY, SANDRA                       012 KLONDYKE                                           03 
+11040020013000028DEM       Corporation Commissioner                                KENNEDY, SANDRA                       013 BONITA                                             03 
+11040020014000246DEM       Corporation Commissioner                                KENNEDY, SANDRA                       014 THUNDERBIRD                                        03 
+11040020015000803DEM       Corporation Commissioner                                KENNEDY, SANDRA                       015 SAFFORD                                            03 
+11040020016000256DEM       Corporation Commissioner                                KENNEDY, SANDRA                       016 PERIDOT                                            03 
+11040020017000066DEM       Corporation Commissioner                                KENNEDY, SANDRA                       017 CACTUS                                             03 
+11040020018000222DEM       Corporation Commissioner                                KENNEDY, SANDRA                       018 JACKSON                                            03 
+11040030001000316DEM       Corporation Commissioner                                NEWMAN, PAUL                          001 SOLOMON                                            03 
+11040030002000545DEM       Corporation Commissioner                                NEWMAN, PAUL                          002 SAFFORD                                            03 
+11040030003000222DEM       Corporation Commissioner                                NEWMAN, PAUL                          003 SAFFORD                                            03 
+11040030004000220DEM       Corporation Commissioner                                NEWMAN, PAUL                          004 LAYTON                                             03 
+11040030005000339DEM       Corporation Commissioner                                NEWMAN, PAUL                          005 LAYTON                                             03 
+11040030006000116DEM       Corporation Commissioner                                NEWMAN, PAUL                          006 THATCHER                                           03 
+11040030007000419DEM       Corporation Commissioner                                NEWMAN, PAUL                          007 THATCHER                                           03 
+11040030008000125DEM       Corporation Commissioner                                NEWMAN, PAUL                          008 CENTRAL                                            03 
+11040030009000579DEM       Corporation Commissioner                                NEWMAN, PAUL                          009 PIMA                                               03 
+11040030010000068DEM       Corporation Commissioner                                NEWMAN, PAUL                          010 FORT THOMAS                                        03 
+11040030011000634DEM       Corporation Commissioner                                NEWMAN, PAUL                          011 BYLAS                                              03 
+11040030012000026DEM       Corporation Commissioner                                NEWMAN, PAUL                          012 KLONDYKE                                           03 
+11040030013000028DEM       Corporation Commissioner                                NEWMAN, PAUL                          013 BONITA                                             03 
+11040030014000274DEM       Corporation Commissioner                                NEWMAN, PAUL                          014 THUNDERBIRD                                        03 
+11040030015000817DEM       Corporation Commissioner                                NEWMAN, PAUL                          015 SAFFORD                                            03 
+11040030016000215DEM       Corporation Commissioner                                NEWMAN, PAUL                          016 PERIDOT                                            03 
+11040030017000068DEM       Corporation Commissioner                                NEWMAN, PAUL                          017 CACTUS                                             03 
+11040030018000217DEM       Corporation Commissioner                                NEWMAN, PAUL                          018 JACKSON                                            03 
+11040040001000246REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    001 SOLOMON                                            03 
+11040040002000381REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    002 SAFFORD                                            03 
+11040040003000215REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    003 SAFFORD                                            03 
+11040040004000210REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    004 LAYTON                                             03 
+11040040005000353REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    005 LAYTON                                             03 
+11040040006000371REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    006 THATCHER                                           03 
+11040040007000626REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    007 THATCHER                                           03 
+11040040008000223REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    008 CENTRAL                                            03 
+11040040009000749REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    009 PIMA                                               03 
+11040040010000111REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    010 FORT THOMAS                                        03 
+11040040011000064REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    011 BYLAS                                              03 
+11040040012000011REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    012 KLONDYKE                                           03 
+11040040013000072REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    013 BONITA                                             03 
+11040040014000285REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    014 THUNDERBIRD                                        03 
+11040040015000730REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    015 SAFFORD                                            03 
+11040040016000018REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    016 PERIDOT                                            03 
+11040040017000049REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    017 CACTUS                                             03 
+11040040018000358REP       Corporation Commissioner                                MCCLURE, MARIAN A.                    018 JACKSON                                            03 
+11040050001000265REP       Corporation Commissioner                                STUMP, BOB                            001 SOLOMON                                            03 
+11040050002000365REP       Corporation Commissioner                                STUMP, BOB                            002 SAFFORD                                            03 
+11040050003000215REP       Corporation Commissioner                                STUMP, BOB                            003 SAFFORD                                            03 
+11040050004000205REP       Corporation Commissioner                                STUMP, BOB                            004 LAYTON                                             03 
+11040050005000343REP       Corporation Commissioner                                STUMP, BOB                            005 LAYTON                                             03 
+11040050006000381REP       Corporation Commissioner                                STUMP, BOB                            006 THATCHER                                           03 
+11040050007000632REP       Corporation Commissioner                                STUMP, BOB                            007 THATCHER                                           03 
+11040050008000231REP       Corporation Commissioner                                STUMP, BOB                            008 CENTRAL                                            03 
+11040050009000789REP       Corporation Commissioner                                STUMP, BOB                            009 PIMA                                               03 
+11040050010000118REP       Corporation Commissioner                                STUMP, BOB                            010 FORT THOMAS                                        03 
+11040050011000049REP       Corporation Commissioner                                STUMP, BOB                            011 BYLAS                                              03 
+11040050012000016REP       Corporation Commissioner                                STUMP, BOB                            012 KLONDYKE                                           03 
+11040050013000082REP       Corporation Commissioner                                STUMP, BOB                            013 BONITA                                             03 
+11040050014000280REP       Corporation Commissioner                                STUMP, BOB                            014 THUNDERBIRD                                        03 
+11040050015000722REP       Corporation Commissioner                                STUMP, BOB                            015 SAFFORD                                            03 
+11040050016000027REP       Corporation Commissioner                                STUMP, BOB                            016 PERIDOT                                            03 
+11040050017000053REP       Corporation Commissioner                                STUMP, BOB                            017 CACTUS                                             03 
+11040050018000373REP       Corporation Commissioner                                STUMP, BOB                            018 JACKSON                                            03 
+11040060001000224REP       Corporation Commissioner                                WONG, BARRY                           001 SOLOMON                                            03 
+11040060002000344REP       Corporation Commissioner                                WONG, BARRY                           002 SAFFORD                                            03 
+11040060003000188REP       Corporation Commissioner                                WONG, BARRY                           003 SAFFORD                                            03 
+11040060004000180REP       Corporation Commissioner                                WONG, BARRY                           004 LAYTON                                             03 
+11040060005000321REP       Corporation Commissioner                                WONG, BARRY                           005 LAYTON                                             03 
+11040060006000350REP       Corporation Commissioner                                WONG, BARRY                           006 THATCHER                                           03 
+11040060007000579REP       Corporation Commissioner                                WONG, BARRY                           007 THATCHER                                           03 
+11040060008000200REP       Corporation Commissioner                                WONG, BARRY                           008 CENTRAL                                            03 
+11040060009000680REP       Corporation Commissioner                                WONG, BARRY                           009 PIMA                                               03 
+11040060010000107REP       Corporation Commissioner                                WONG, BARRY                           010 FORT THOMAS                                        03 
+11040060011000041REP       Corporation Commissioner                                WONG, BARRY                           011 BYLAS                                              03 
+11040060012000017REP       Corporation Commissioner                                WONG, BARRY                           012 KLONDYKE                                           03 
+11040060013000071REP       Corporation Commissioner                                WONG, BARRY                           013 BONITA                                             03 
+11040060014000251REP       Corporation Commissioner                                WONG, BARRY                           014 THUNDERBIRD                                        03 
+11040060015000645REP       Corporation Commissioner                                WONG, BARRY                           015 SAFFORD                                            03 
+11040060016000019REP       Corporation Commissioner                                WONG, BARRY                           016 PERIDOT                                            03 
+11040060017000048REP       Corporation Commissioner                                WONG, BARRY                           017 CACTUS                                             03 
+11040060018000328REP       Corporation Commissioner                                WONG, BARRY                           018 JACKSON                                            03 
+11050010003000338DEM5PG7935Supervisory Dist. 1                                     JOHN, DREW                            003 SAFFORD                                            01 
+11050010004000324DEM5PG7935Supervisory Dist. 1                                     JOHN, DREW                            004 LAYTON                                             01 
+11050010011000710DEM5PG7935Supervisory Dist. 1                                     JOHN, DREW                            011 BYLAS                                              01 
+11050010015001096DEM5PG7935Supervisory Dist. 1                                     JOHN, DREW                            015 SAFFORD                                            01 
+11050010016000320DEM5PG7935Supervisory Dist. 1                                     JOHN, DREW                            016 PERIDOT                                            01 
+11050020003000140IND5PG7935Supervisory Dist. 1                                     BOEHM, DALE                           003 SAFFORD                                            01 
+11050020004000128IND5PG7935Supervisory Dist. 1                                     BOEHM, DALE                           004 LAYTON                                             01 
+11050020011000022IND5PG7935Supervisory Dist. 1                                     BOEHM, DALE                           011 BYLAS                                              01 
+11050020015000597IND5PG7935Supervisory Dist. 1                                     BOEHM, DALE                           015 SAFFORD                                            01 
+11050020016000025IND5PG7935Supervisory Dist. 1                                     BOEHM, DALE                           016 PERIDOT                                            01 
+11060010006000085DEM5PG7940Supervisory Dist. 2                                     HENAGER, BUD L.                       006 THATCHER                                           01 
+11060010007000350DEM5PG7940Supervisory Dist. 2                                     HENAGER, BUD L.                       007 THATCHER                                           01 
+11060010008000093DEM5PG7940Supervisory Dist. 2                                     HENAGER, BUD L.                       008 CENTRAL                                            01 
+11060010009000572DEM5PG7940Supervisory Dist. 2                                     HENAGER, BUD L.                       009 PIMA                                               01 
+11060010010000064DEM5PG7940Supervisory Dist. 2                                     HENAGER, BUD L.                       010 FORT THOMAS                                        01 
+11060010012000018DEM5PG7940Supervisory Dist. 2                                     HENAGER, BUD L.                       012 KLONDYKE                                           01 
+11060010017000052DEM5PG7940Supervisory Dist. 2                                     HENAGER, BUD L.                       017 CACTUS                                             01 
+11060010018000177DEM5PG7940Supervisory Dist. 2                                     HENAGER, BUD L.                       018 JACKSON                                            01 
+11060020006000476REP5PG7940Supervisory Dist. 2                                     PALMER, JAMES A. "JIM"                006 THATCHER                                           01 
+11060020007000839REP5PG7940Supervisory Dist. 2                                     PALMER, JAMES A. "JIM"                007 THATCHER                                           01 
+11060020008000308REP5PG7940Supervisory Dist. 2                                     PALMER, JAMES A. "JIM"                008 CENTRAL                                            01 
+11060020009000872REP5PG7940Supervisory Dist. 2                                     PALMER, JAMES A. "JIM"                009 PIMA                                               01 
+11060020010000126REP5PG7940Supervisory Dist. 2                                     PALMER, JAMES A. "JIM"                010 FORT THOMAS                                        01 
+11060020012000015REP5PG7940Supervisory Dist. 2                                     PALMER, JAMES A. "JIM"                012 KLONDYKE                                           01 
+11060020017000069REP5PG7940Supervisory Dist. 2                                     PALMER, JAMES A. "JIM"                017 CACTUS                                             01 
+11060020018000484REP5PG7940Supervisory Dist. 2                                     PALMER, JAMES A. "JIM"                018 JACKSON                                            01 
+11070010001000285DEM5PG7945Supervisory Dist. 3                                     HINTON, MAX T.                        001 SOLOMON                                            01 
+11070010002000495DEM5PG7945Supervisory Dist. 3                                     HINTON, MAX T.                        002 SAFFORD                                            01 
+11070010005000308DEM5PG7945Supervisory Dist. 3                                     HINTON, MAX T.                        005 LAYTON                                             01 
+11070010013000040DEM5PG7945Supervisory Dist. 3                                     HINTON, MAX T.                        013 BONITA                                             01 
+11070010014000237DEM5PG7945Supervisory Dist. 3                                     HINTON, MAX T.                        014 THUNDERBIRD                                        01 
+11070020001000384REP5PG7945Supervisory Dist. 3                                     HERRINGTON, MARK C.                   001 SOLOMON                                            01 
+11070020002000545REP5PG7945Supervisory Dist. 3                                     HERRINGTON, MARK C.                   002 SAFFORD                                            01 
+11070020005000459REP5PG7945Supervisory Dist. 3                                     HERRINGTON, MARK C.                   005 LAYTON                                             01 
+11070020013000068REP5PG7945Supervisory Dist. 3                                     HERRINGTON, MARK C.                   013 BONITA                                             01 
+11070020014000373REP5PG7945Supervisory Dist. 3                                     HERRINGTON, MARK C.                   014 THUNDERBIRD                                        01 
+11080010001000471DEM       County Attorney                                         ANGLE, KENNETH A.                     001 SOLOMON                                            01 
+11080010002000772DEM       County Attorney                                         ANGLE, KENNETH A.                     002 SAFFORD                                            01 
+11080010003000352DEM       County Attorney                                         ANGLE, KENNETH A.                     003 SAFFORD                                            01 
+11080010004000355DEM       County Attorney                                         ANGLE, KENNETH A.                     004 LAYTON                                             01 
+11080010005000592DEM       County Attorney                                         ANGLE, KENNETH A.                     005 LAYTON                                             01 
+11080010006000437DEM       County Attorney                                         ANGLE, KENNETH A.                     006 THATCHER                                           01 
+11080010007000894DEM       County Attorney                                         ANGLE, KENNETH A.                     007 THATCHER                                           01 
+11080010008000323DEM       County Attorney                                         ANGLE, KENNETH A.                     008 CENTRAL                                            01 
+11080010009001065DEM       County Attorney                                         ANGLE, KENNETH A.                     009 PIMA                                               01 
+11080010010000131DEM       County Attorney                                         ANGLE, KENNETH A.                     010 FORT THOMAS                                        01 
+11080010011000641DEM       County Attorney                                         ANGLE, KENNETH A.                     011 BYLAS                                              01 
+11080010012000026DEM       County Attorney                                         ANGLE, KENNETH A.                     012 KLONDYKE                                           01 
+11080010013000061DEM       County Attorney                                         ANGLE, KENNETH A.                     013 BONITA                                             01 
+11080010014000419DEM       County Attorney                                         ANGLE, KENNETH A.                     014 THUNDERBIRD                                        01 
+11080010015001279DEM       County Attorney                                         ANGLE, KENNETH A.                     015 SAFFORD                                            01 
+11080010016000294DEM       County Attorney                                         ANGLE, KENNETH A.                     016 PERIDOT                                            01 
+11080010017000097DEM       County Attorney                                         ANGLE, KENNETH A.                     017 CACTUS                                             01 
+11080010018000470DEM       County Attorney                                         ANGLE, KENNETH A.                     018 JACKSON                                            01 
+11090010001000216DEM       Sheriff                                                 HUGHES, FRANK D.                      001 SOLOMON                                            01 
+11090010002000444DEM       Sheriff                                                 HUGHES, FRANK D.                      002 SAFFORD                                            01 
+11090010003000161DEM       Sheriff                                                 HUGHES, FRANK D.                      003 SAFFORD                                            01 
+11090010004000222DEM       Sheriff                                                 HUGHES, FRANK D.                      004 LAYTON                                             01 
+11090010005000302DEM       Sheriff                                                 HUGHES, FRANK D.                      005 LAYTON                                             01 
+11090010006000121DEM       Sheriff                                                 HUGHES, FRANK D.                      006 THATCHER                                           01 
+11090010007000369DEM       Sheriff                                                 HUGHES, FRANK D.                      007 THATCHER                                           01 
+11090010008000075DEM       Sheriff                                                 HUGHES, FRANK D.                      008 CENTRAL                                            01 
+11090010009000393DEM       Sheriff                                                 HUGHES, FRANK D.                      009 PIMA                                               01 
+11090010010000066DEM       Sheriff                                                 HUGHES, FRANK D.                      010 FORT THOMAS                                        01 
+11090010011000378DEM       Sheriff                                                 HUGHES, FRANK D.                      011 BYLAS                                              01 
+11090010012000016DEM       Sheriff                                                 HUGHES, FRANK D.                      012 KLONDYKE                                           01 
+11090010013000027DEM       Sheriff                                                 HUGHES, FRANK D.                      013 BONITA                                             01 
+11090010014000196DEM       Sheriff                                                 HUGHES, FRANK D.                      014 THUNDERBIRD                                        01 
+11090010015000693DEM       Sheriff                                                 HUGHES, FRANK D.                      015 SAFFORD                                            01 
+11090010016000210DEM       Sheriff                                                 HUGHES, FRANK D.                      016 PERIDOT                                            01 
+11090010017000051DEM       Sheriff                                                 HUGHES, FRANK D.                      017 CACTUS                                             01 
+11090010018000183DEM       Sheriff                                                 HUGHES, FRANK D.                      018 JACKSON                                            01 
+11090020001000457REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  001 SOLOMON                                            01 
+11090020002000637REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  002 SAFFORD                                            01 
+11090020003000348REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  003 SAFFORD                                            01 
+11090020004000270REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  004 LAYTON                                             01 
+11090020005000486REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  005 LAYTON                                             01 
+11090020006000445REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  006 THATCHER                                           01 
+11090020007000850REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  007 THATCHER                                           01 
+11090020008000335REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  008 CENTRAL                                            01 
+11090020009001107REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  009 PIMA                                               01 
+11090020010000130REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  010 FORT THOMAS                                        01 
+11090020011000359REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  011 BYLAS                                              01 
+11090020012000024REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  012 KLONDYKE                                           01 
+11090020013000088REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  013 BONITA                                             01 
+11090020014000448REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  014 THUNDERBIRD                                        01 
+11090020015001120REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  015 SAFFORD                                            01 
+11090020016000141REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  016 PERIDOT                                            01 
+11090020017000075REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  017 CACTUS                                             01 
+11090020018000493REP       Sheriff                                                 ALLRED, PRESTON "PJ"                  018 JACKSON                                            01 
+11100010001000535DEM       County Treasurer                                        REYNOLDS, JEAN L.                     001 SOLOMON                                            01 
+11100010002000851DEM       County Treasurer                                        REYNOLDS, JEAN L.                     002 SAFFORD                                            01 
+11100010003000380DEM       County Treasurer                                        REYNOLDS, JEAN L.                     003 SAFFORD                                            01 
+11100010004000394DEM       County Treasurer                                        REYNOLDS, JEAN L.                     004 LAYTON                                             01 
+11100010005000621DEM       County Treasurer                                        REYNOLDS, JEAN L.                     005 LAYTON                                             01 
+11100010006000435DEM       County Treasurer                                        REYNOLDS, JEAN L.                     006 THATCHER                                           01 
+11100010007000954DEM       County Treasurer                                        REYNOLDS, JEAN L.                     007 THATCHER                                           01 
+11100010008000308DEM       County Treasurer                                        REYNOLDS, JEAN L.                     008 CENTRAL                                            01 
+11100010009001133DEM       County Treasurer                                        REYNOLDS, JEAN L.                     009 PIMA                                               01 
+11100010010000150DEM       County Treasurer                                        REYNOLDS, JEAN L.                     010 FORT THOMAS                                        01 
+11100010011000671DEM       County Treasurer                                        REYNOLDS, JEAN L.                     011 BYLAS                                              01 
+11100010012000034DEM       County Treasurer                                        REYNOLDS, JEAN L.                     012 KLONDYKE                                           01 
+11100010013000068DEM       County Treasurer                                        REYNOLDS, JEAN L.                     013 BONITA                                             01 
+11100010014000476DEM       County Treasurer                                        REYNOLDS, JEAN L.                     014 THUNDERBIRD                                        01 
+11100010015001438DEM       County Treasurer                                        REYNOLDS, JEAN L.                     015 SAFFORD                                            01 
+11100010016000322DEM       County Treasurer                                        REYNOLDS, JEAN L.                     016 PERIDOT                                            01 
+11100010017000097DEM       County Treasurer                                        REYNOLDS, JEAN L.                     017 CACTUS                                             01 
+11100010018000510DEM       County Treasurer                                        REYNOLDS, JEAN L.                     018 JACKSON                                            01 
+11110010001000553DEM       County School Super                                     MCGAUGHEY, DONNA M.                   001 SOLOMON                                            01 
+11110010002000887DEM       County School Super                                     MCGAUGHEY, DONNA M.                   002 SAFFORD                                            01 
+11110010003000391DEM       County School Super                                     MCGAUGHEY, DONNA M.                   003 SAFFORD                                            01 
+11110010004000411DEM       County School Super                                     MCGAUGHEY, DONNA M.                   004 LAYTON                                             01 
+11110010005000642DEM       County School Super                                     MCGAUGHEY, DONNA M.                   005 LAYTON                                             01 
+11110010006000431DEM       County School Super                                     MCGAUGHEY, DONNA M.                   006 THATCHER                                           01 
+11110010007000957DEM       County School Super                                     MCGAUGHEY, DONNA M.                   007 THATCHER                                           01 
+11110010008000312DEM       County School Super                                     MCGAUGHEY, DONNA M.                   008 CENTRAL                                            01 
+11110010009001126DEM       County School Super                                     MCGAUGHEY, DONNA M.                   009 PIMA                                               01 
+11110010010000149DEM       County School Super                                     MCGAUGHEY, DONNA M.                   010 FORT THOMAS                                        01 
+11110010011000675DEM       County School Super                                     MCGAUGHEY, DONNA M.                   011 BYLAS                                              01 
+11110010012000033DEM       County School Super                                     MCGAUGHEY, DONNA M.                   012 KLONDYKE                                           01 
+11110010013000071DEM       County School Super                                     MCGAUGHEY, DONNA M.                   013 BONITA                                             01 
+11110010014000479DEM       County School Super                                     MCGAUGHEY, DONNA M.                   014 THUNDERBIRD                                        01 
+11110010015001486DEM       County School Super                                     MCGAUGHEY, DONNA M.                   015 SAFFORD                                            01 
+11110010016000319DEM       County School Super                                     MCGAUGHEY, DONNA M.                   016 PERIDOT                                            01 
+11110010017000105DEM       County School Super                                     MCGAUGHEY, DONNA M.                   017 CACTUS                                             01 
+11110010018000518DEM       County School Super                                     MCGAUGHEY, DONNA M.                   018 JACKSON                                            01 
+11120010001000549DEM       County Recorder                                         JOHN, WENDY                           001 SOLOMON                                            01 
+11120010002000901DEM       County Recorder                                         JOHN, WENDY                           002 SAFFORD                                            01 
+11120010003000409DEM       County Recorder                                         JOHN, WENDY                           003 SAFFORD                                            01 
+11120010004000401DEM       County Recorder                                         JOHN, WENDY                           004 LAYTON                                             01 
+11120010005000631DEM       County Recorder                                         JOHN, WENDY                           005 LAYTON                                             01 
+11120010006000441DEM       County Recorder                                         JOHN, WENDY                           006 THATCHER                                           01 
+11120010007000963DEM       County Recorder                                         JOHN, WENDY                           007 THATCHER                                           01 
+11120010008000315DEM       County Recorder                                         JOHN, WENDY                           008 CENTRAL                                            01 
+11120010009001146DEM       County Recorder                                         JOHN, WENDY                           009 PIMA                                               01 
+11120010010000149DEM       County Recorder                                         JOHN, WENDY                           010 FORT THOMAS                                        01 
+11120010011000669DEM       County Recorder                                         JOHN, WENDY                           011 BYLAS                                              01 
+11120010012000035DEM       County Recorder                                         JOHN, WENDY                           012 KLONDYKE                                           01 
+11120010013000068DEM       County Recorder                                         JOHN, WENDY                           013 BONITA                                             01 
+11120010014000479DEM       County Recorder                                         JOHN, WENDY                           014 THUNDERBIRD                                        01 
+11120010015001454DEM       County Recorder                                         JOHN, WENDY                           015 SAFFORD                                            01 
+11120010016000323DEM       County Recorder                                         JOHN, WENDY                           016 PERIDOT                                            01 
+11120010017000105DEM       County Recorder                                         JOHN, WENDY                           017 CACTUS                                             01 
+11120010018000527DEM       County Recorder                                         JOHN, WENDY                           018 JACKSON                                            01 
+11130010001000376DEM       County Assessor                                         ATTAWAY, JACQUE                       001 SOLOMON                                            01 
+11130010002000563DEM       County Assessor                                         ATTAWAY, JACQUE                       002 SAFFORD                                            01 
+11130010003000274DEM       County Assessor                                         ATTAWAY, JACQUE                       003 SAFFORD                                            01 
+11130010004000273DEM       County Assessor                                         ATTAWAY, JACQUE                       004 LAYTON                                             01 
+11130010005000421DEM       County Assessor                                         ATTAWAY, JACQUE                       005 LAYTON                                             01 
+11130010006000181DEM       County Assessor                                         ATTAWAY, JACQUE                       006 THATCHER                                           01 
+11130010007000540DEM       County Assessor                                         ATTAWAY, JACQUE                       007 THATCHER                                           01 
+11130010008000169DEM       County Assessor                                         ATTAWAY, JACQUE                       008 CENTRAL                                            01 
+11130010009000601DEM       County Assessor                                         ATTAWAY, JACQUE                       009 PIMA                                               01 
+11130010010000107DEM       County Assessor                                         ATTAWAY, JACQUE                       010 FORT THOMAS                                        01 
+11130010011000442DEM       County Assessor                                         ATTAWAY, JACQUE                       011 BYLAS                                              01 
+11130010012000033DEM       County Assessor                                         ATTAWAY, JACQUE                       012 KLONDYKE                                           01 
+11130010013000045DEM       County Assessor                                         ATTAWAY, JACQUE                       013 BONITA                                             01 
+11130010014000248DEM       County Assessor                                         ATTAWAY, JACQUE                       014 THUNDERBIRD                                        01 
+11130010015000898DEM       County Assessor                                         ATTAWAY, JACQUE                       015 SAFFORD                                            01 
+11130010016000202DEM       County Assessor                                         ATTAWAY, JACQUE                       016 PERIDOT                                            01 
+11130010017000065DEM       County Assessor                                         ATTAWAY, JACQUE                       017 CACTUS                                             01 
+11130010018000294DEM       County Assessor                                         ATTAWAY, JACQUE                       018 JACKSON                                            01 
+11130020001000283REP       County Assessor                                         ALDER, DARLENE                        001 SOLOMON                                            01 
+11130020002000496REP       County Assessor                                         ALDER, DARLENE                        002 SAFFORD                                            01 
+11130020003000227REP       County Assessor                                         ALDER, DARLENE                        003 SAFFORD                                            01 
+11130020004000214REP       County Assessor                                         ALDER, DARLENE                        004 LAYTON                                             01 
+11130020005000352REP       County Assessor                                         ALDER, DARLENE                        005 LAYTON                                             01 
+11130020006000375REP       County Assessor                                         ALDER, DARLENE                        006 THATCHER                                           01 
+11130020007000664REP       County Assessor                                         ALDER, DARLENE                        007 THATCHER                                           01 
+11130020008000233REP       County Assessor                                         ALDER, DARLENE                        008 CENTRAL                                            01 
+11130020009000865REP       County Assessor                                         ALDER, DARLENE                        009 PIMA                                               01 
+11130020010000088REP       County Assessor                                         ALDER, DARLENE                        010 FORT THOMAS                                        01 
+11130020011000277REP       County Assessor                                         ALDER, DARLENE                        011 BYLAS                                              01 
+11130020012000007REP       County Assessor                                         ALDER, DARLENE                        012 KLONDYKE                                           01 
+11130020013000067REP       County Assessor                                         ALDER, DARLENE                        013 BONITA                                             01 
+11130020014000378REP       County Assessor                                         ALDER, DARLENE                        014 THUNDERBIRD                                        01 
+11130020015000869REP       County Assessor                                         ALDER, DARLENE                        015 SAFFORD                                            01 
+11130020016000143REP       County Assessor                                         ALDER, DARLENE                        016 PERIDOT                                            01 
+11130020017000061REP       County Assessor                                         ALDER, DARLENE                        017 CACTUS                                             01 
+11130020018000376REP       County Assessor                                         ALDER, DARLENE                        018 JACKSON                                            01 
+11140010014000477NON5PG8605Eastern AZ CCD 2                                        MOODY, LOIS ANN                       014 THUNDERBIRD                                        01 
+11140010015001375NON5PG8605Eastern AZ CCD 2                                        MOODY, LOIS ANN                       015 SAFFORD                                            01 
+11150010006000500NON5PG8615Eastern AZ CCD 3                                        LAYTON, DENNIS                        006 THATCHER                                           01 
+11150010008000338NON5PG8615Eastern AZ CCD 3                                        LAYTON, DENNIS                        008 CENTRAL                                            01 
+11150010011000582NON5PG8615Eastern AZ CCD 3                                        LAYTON, DENNIS                        011 BYLAS                                              01 
+11150010016000293NON5PG8615Eastern AZ CCD 3                                        LAYTON, DENNIS                        016 PERIDOT                                            01 
+11160010002000792NON5PG8645Gila Institute For Technology (1)                       SMITH, RALPH M.                       002 SAFFORD                                            01 
+11160010003000346NON5PG8645Gila Institute For Technology (1)                       SMITH, RALPH M.                       003 SAFFORD                                            01 
+11160010004000356NON5PG8645Gila Institute For Technology (1)                       SMITH, RALPH M.                       004 LAYTON                                             01 
+11160010005000594NON5PG8645Gila Institute For Technology (1)                       SMITH, RALPH M.                       005 LAYTON                                             01 
+11160010014000473NON5PG8645Gila Institute For Technology (1)                       SMITH, RALPH M.                       014 THUNDERBIRD                                        01 
+11160010015001361NON5PG8645Gila Institute For Technology (1)                       SMITH, RALPH M.                       015 SAFFORD                                            01 
+11160010017000091NON5PG8645Gila Institute For Technology (1)                       SMITH, RALPH M.                       017 CACTUS                                             01 
+11180010001000530NON5PG8655Gila Institute For Technology (5)                       LINDSAY, DAVID                        001 SOLOMON                                            01 
+11190010009001179NON5PG8660Vac.-Gila Institute For Technology (6)                  BRYCE, JIM                            009 PIMA                                               01 
+11200010002000730NON5PG8670Safford School Dist. 1                                  CLUFF, JULIE                          002 SAFFORD                                            03 
+11200010003000332NON5PG8670Safford School Dist. 1                                  CLUFF, JULIE                          003 SAFFORD                                            03 
+11200010004000334NON5PG8670Safford School Dist. 1                                  CLUFF, JULIE                          004 LAYTON                                             03 
+11200010005000559NON5PG8670Safford School Dist. 1                                  CLUFF, JULIE                          005 LAYTON                                             03 
+11200010014000415NON5PG8670Safford School Dist. 1                                  CLUFF, JULIE                          014 THUNDERBIRD                                        03 
+11200010015001144NON5PG8670Safford School Dist. 1                                  CLUFF, JULIE                          015 SAFFORD                                            03 
+11200010017000090NON5PG8670Safford School Dist. 1                                  CLUFF, JULIE                          017 CACTUS                                             03 
+11200020002000626NON5PG8670Safford School Dist. 1                                  JUNION, DIANE CURTIS                  002 SAFFORD                                            03 
+11200020003000320NON5PG8670Safford School Dist. 1                                  JUNION, DIANE CURTIS                  003 SAFFORD                                            03 
+11200020004000312NON5PG8670Safford School Dist. 1                                  JUNION, DIANE CURTIS                  004 LAYTON                                             03 
+11200020005000522NON5PG8670Safford School Dist. 1                                  JUNION, DIANE CURTIS                  005 LAYTON                                             03 
+11200020014000370NON5PG8670Safford School Dist. 1                                  JUNION, DIANE CURTIS                  014 THUNDERBIRD                                        03 
+11200020015001101NON5PG8670Safford School Dist. 1                                  JUNION, DIANE CURTIS                  015 SAFFORD                                            03 
+11200020017000086NON5PG8670Safford School Dist. 1                                  JUNION, DIANE CURTIS                  017 CACTUS                                             03 
+11200030002000722NON5PG8670Safford School Dist. 1                                  PLAYER, DAVID                         002 SAFFORD                                            03 
+11200030003000364NON5PG8670Safford School Dist. 1                                  PLAYER, DAVID                         003 SAFFORD                                            03 
+11200030004000338NON5PG8670Safford School Dist. 1                                  PLAYER, DAVID                         004 LAYTON                                             03 
+11200030005000564NON5PG8670Safford School Dist. 1                                  PLAYER, DAVID                         005 LAYTON                                             03 
+11200030014000400NON5PG8670Safford School Dist. 1                                  PLAYER, DAVID                         014 THUNDERBIRD                                        03 
+11200030015001260NON5PG8670Safford School Dist. 1                                  PLAYER, DAVID                         015 SAFFORD                                            03 
+11200030017000096NON5PG8670Safford School Dist. 1                                  PLAYER, DAVID                         017 CACTUS                                             03 
+11210010002000585NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, YES                  002 SAFFORD                                            01Y
+11210010003000259NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, YES                  003 SAFFORD                                            01Y
+11210010004000287NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, YES                  004 LAYTON                                             01Y
+11210010005000466NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, YES                  005 LAYTON                                             01Y
+11210010014000314NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, YES                  014 THUNDERBIRD                                        01Y
+11210010015000961NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, YES                  015 SAFFORD                                            01Y
+11210010017000087NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, YES                  017 CACTUS                                             01Y
+11210020002000392NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, NO                   002 SAFFORD                                            01Y
+11210020003000204NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, NO                   003 SAFFORD                                            01Y
+11210020004000185NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, NO                   004 LAYTON                                             01Y
+11210020005000288NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, NO                   005 LAYTON                                             01Y
+11210020014000215NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, NO                   014 THUNDERBIRD                                        01Y
+11210020015000692NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, NO                   015 SAFFORD                                            01Y
+11210020017000034NON5PG8670Safford USD 1 Question                                  BUDGET INCREASE, NO                   017 CACTUS                                             01Y
+11220010006000415NON5PG8680Thatcher School Dist. 4                                 ALDER, PRESTON L.                     006 THATCHER                                           03 
+11220010007000801NON5PG8680Thatcher School Dist. 4                                 ALDER, PRESTON L.                     007 THATCHER                                           03 
+11220010008000273NON5PG8680Thatcher School Dist. 4                                 ALDER, PRESTON L.                     008 CENTRAL                                            03 
+11220010009000006NON5PG8680Thatcher School Dist. 4                                 ALDER, PRESTON L.                     009 PIMA                                               03 
+11220010018000410NON5PG8680Thatcher School Dist. 4                                 ALDER, PRESTON L.                     018 JACKSON                                            03 
+11220020006000369NON5PG8680Thatcher School Dist. 4                                 BRYCE, REX                            006 THATCHER                                           03 
+11220020007000643NON5PG8680Thatcher School Dist. 4                                 BRYCE, REX                            007 THATCHER                                           03 
+11220020008000260NON5PG8680Thatcher School Dist. 4                                 BRYCE, REX                            008 CENTRAL                                            03 
+11220020009000006NON5PG8680Thatcher School Dist. 4                                 BRYCE, REX                            009 PIMA                                               03 
+11220020018000364NON5PG8680Thatcher School Dist. 4                                 BRYCE, REX                            018 JACKSON                                            03 
+11220030006000196NON5PG8680Thatcher School Dist. 4                                 MERRIMAN, BRIAN "B.K."                006 THATCHER                                           03 
+11220030007000551NON5PG8680Thatcher School Dist. 4                                 MERRIMAN, BRIAN "B.K."                007 THATCHER                                           03 
+11220030008000150NON5PG8680Thatcher School Dist. 4                                 MERRIMAN, BRIAN "B.K."                008 CENTRAL                                            03 
+11220030009000000NON5PG8680Thatcher School Dist. 4                                 MERRIMAN, BRIAN "B.K."                009 PIMA                                               03 
+11220030018000326NON5PG8680Thatcher School Dist. 4                                 MERRIMAN, BRIAN "B.K."                018 JACKSON                                            03 
+11220040006000309NON5PG8680Thatcher School Dist. 4                                 WRIGHT, WILL                          006 THATCHER                                           03 
+11220040007000592NON5PG8680Thatcher School Dist. 4                                 WRIGHT, WILL                          007 THATCHER                                           03 
+11220040008000196NON5PG8680Thatcher School Dist. 4                                 WRIGHT, WILL                          008 CENTRAL                                            03 
+11220040009000006NON5PG8680Thatcher School Dist. 4                                 WRIGHT, WILL                          009 PIMA                                               03 
+11220040018000327NON5PG8680Thatcher School Dist. 4                                 WRIGHT, WILL                          018 JACKSON                                            03 
+11230010001000425NON5PG8690Solomonville School Dist. 5                             LOPEZ, ROBERTA                        001 SOLOMON                                            02 
+11230020001000394NON5PG8690Solomonville School Dist. 5                             ROMERO, DAVID "DOC"                   001 SOLOMON                                            02 
+11240010001000457NON5PG8695Vac.-Solomonville School Dist. 5                        BOWMAN, GIL                           001 SOLOMON                                            01 
+11250010009001056NON5PG8700Pima School Dist. 6                                     CLARIDGE, TOM                         009 PIMA                                               03 
+11250020009000977NON5PG8700Pima School Dist. 6                                     DRAPER, RUSTY                         009 PIMA                                               03 
+11250030009001105NON5PG8700Pima School Dist. 6                                     JUDD, BART                            009 PIMA                                               03 
+11260010010000169NON5PG8710Fort Thomas School Dist. 7                              BLACK, GERALD                         010 FORT THOMAS                                        03 
+11260010011000243NON5PG8710Fort Thomas School Dist. 7                              BLACK, GERALD                         011 BYLAS                                              03 
+11260020010000157NON5PG8710Fort Thomas School Dist. 7                              CLARIDGE, CHRIS                       010 FORT THOMAS                                        03 
+11260020011000235NON5PG8710Fort Thomas School Dist. 7                              CLARIDGE, CHRIS                       011 BYLAS                                              03 
+11260030010000159NON5PG8710Fort Thomas School Dist. 7                              HINTON, BILLIE KAY                    010 FORT THOMAS                                        03 
+11260030011000241NON5PG8710Fort Thomas School Dist. 7                              HINTON, BILLIE KAY                    011 BYLAS                                              03 
+11260040010000009NON5PG8710Fort Thomas School Dist. 7                              OLIVAR, ROBERT G., SR.                010 FORT THOMAS                                        03 
+11260040011000412NON5PG8710Fort Thomas School Dist. 7                              OLIVAR, ROBERT G., SR.                011 BYLAS                                              03 
+11260050010000013NON5PG8710Fort Thomas School Dist. 7                              RAMBLER, TERRY                        010 FORT THOMAS                                        03 
+11260050011000518NON5PG8710Fort Thomas School Dist. 7                              RAMBLER, TERRY                        011 BYLAS                                              03 
+11260060010000016NON5PG8710Fort Thomas School Dist. 7                              TITLA, KAREN J.                       010 FORT THOMAS                                        03 
+11260060011000394NON5PG8710Fort Thomas School Dist. 7                              TITLA, KAREN J.                       011 BYLAS                                              03 
+11290010016000065NON5PG8740San Carlos School Dist. 20                              NOSIE, PAUL, JR.                      016 PERIDOT                                            02 
+11290020016000227NON5PG8740San Carlos School Dist. 20                              REEDE, DAVID                          016 PERIDOT                                            02 
+11290030016000166NON5PG8740San Carlos School Dist. 20                              THOMPSON, JOANN                       016 PERIDOT                                            02 
+11300010016000273NON5PG8740San Carlos USD 20 Question 1                            BUDGET INCREASE, YES                  016 PERIDOT                                            01Y
+11300020016000057NON5PG8740San Carlos USD 20 Question 1                            BUDGET INCREASE, NO                   016 PERIDOT                                            01Y
+11310010016000279NON5PG8740San Carlos USD 20 Question 2                            BUDGET INCREASE, YES                  016 PERIDOT                                            01Y
+11310020016000052NON5PG8740San Carlos USD 20 Question 2                            BUDGET INCREASE, NO                   016 PERIDOT                                            01Y
+11320010016000286NON5PG8740San Carlos USD 20 Question 3                            BUDGET INCREASE, YES                  016 PERIDOT                                            01Y
+11320020016000049NON5PG8740San Carlos USD 20 Question 3                            BUDGET INCREASE, NO                   016 PERIDOT                                            01Y
+11330010001000003NON5PG8750City of Safford Question One                            FOR THE BONDS                         001 SOLOMON                                            01Y
+11330010002000276NON5PG8750City of Safford Question One                            FOR THE BONDS                         002 SAFFORD                                            01Y
+11330010003000152NON5PG8750City of Safford Question One                            FOR THE BONDS                         003 SAFFORD                                            01Y
+11330010004000236NON5PG8750City of Safford Question One                            FOR THE BONDS                         004 LAYTON                                             01Y
+11330010005000301NON5PG8750City of Safford Question One                            FOR THE BONDS                         005 LAYTON                                             01Y
+11330010014000000NON5PG8750City of Safford Question One                            FOR THE BONDS                         014 THUNDERBIRD                                        01Y
+11330010015000408NON5PG8750City of Safford Question One                            FOR THE BONDS                         015 SAFFORD                                            01Y
+11330010017000061NON5PG8750City of Safford Question One                            FOR THE BONDS                         017 CACTUS                                             01Y
+11330020001000000NON5PG8750City of Safford Question One                            AGAINST THE BONDS                     001 SOLOMON                                            01Y
+11330020002000357NON5PG8750City of Safford Question One                            AGAINST THE BONDS                     002 SAFFORD                                            01Y
+11330020003000189NON5PG8750City of Safford Question One                            AGAINST THE BONDS                     003 SAFFORD                                            01Y
+11330020004000230NON5PG8750City of Safford Question One                            AGAINST THE BONDS                     004 LAYTON                                             01Y
+11330020005000387NON5PG8750City of Safford Question One                            AGAINST THE BONDS                     005 LAYTON                                             01Y
+11330020014000000NON5PG8750City of Safford Question One                            AGAINST THE BONDS                     014 THUNDERBIRD                                        01Y
+11330020015000544NON5PG8750City of Safford Question One                            AGAINST THE BONDS                     015 SAFFORD                                            01Y
+11330020017000033NON5PG8750City of Safford Question One                            AGAINST THE BONDS                     017 CACTUS                                             01Y
+11340010001000003NON5PG8750City of Safford Question Two                            FOR THE BONDS                         001 SOLOMON                                            01Y
+11340010002000289NON5PG8750City of Safford Question Two                            FOR THE BONDS                         002 SAFFORD                                            01Y
+11340010003000159NON5PG8750City of Safford Question Two                            FOR THE BONDS                         003 SAFFORD                                            01Y
+11340010004000237NON5PG8750City of Safford Question Two                            FOR THE BONDS                         004 LAYTON                                             01Y
+11340010005000331NON5PG8750City of Safford Question Two                            FOR THE BONDS                         005 LAYTON                                             01Y
+11340010014000000NON5PG8750City of Safford Question Two                            FOR THE BONDS                         014 THUNDERBIRD                                        01Y
+11340010015000442NON5PG8750City of Safford Question Two                            FOR THE BONDS                         015 SAFFORD                                            01Y
+11340010017000057NON5PG8750City of Safford Question Two                            FOR THE BONDS                         017 CACTUS                                             01Y
+11340020001000000NON5PG8750City of Safford Question Two                            AGAINST THE BONDS                     001 SOLOMON                                            01Y
+11340020002000344NON5PG8750City of Safford Question Two                            AGAINST THE BONDS                     002 SAFFORD                                            01Y
+11340020003000182NON5PG8750City of Safford Question Two                            AGAINST THE BONDS                     003 SAFFORD                                            01Y
+11340020004000230NON5PG8750City of Safford Question Two                            AGAINST THE BONDS                     004 LAYTON                                             01Y
+11340020005000351NON5PG8750City of Safford Question Two                            AGAINST THE BONDS                     005 LAYTON                                             01Y
+11340020014000000NON5PG8750City of Safford Question Two                            AGAINST THE BONDS                     014 THUNDERBIRD                                        01Y
+11340020015000507NON5PG8750City of Safford Question Two                            AGAINST THE BONDS                     015 SAFFORD                                            01Y
+11340020017000037NON5PG8750City of Safford Question Two                            AGAINST THE BONDS                     017 CACTUS                                             01Y
+11350010001000375NON       BALES, SCOTT, Supreme Court Justice                     YES                                   001 SOLOMON                                            01Y
+11350010002000649NON       BALES, SCOTT, Supreme Court Justice                     YES                                   002 SAFFORD                                            01Y
+11350010003000301NON       BALES, SCOTT, Supreme Court Justice                     YES                                   003 SAFFORD                                            01Y
+11350010004000299NON       BALES, SCOTT, Supreme Court Justice                     YES                                   004 LAYTON                                             01Y
+11350010005000476NON       BALES, SCOTT, Supreme Court Justice                     YES                                   005 LAYTON                                             01Y
+11350010006000329NON       BALES, SCOTT, Supreme Court Justice                     YES                                   006 THATCHER                                           01Y
+11350010007000777NON       BALES, SCOTT, Supreme Court Justice                     YES                                   007 THATCHER                                           01Y
+11350010008000240NON       BALES, SCOTT, Supreme Court Justice                     YES                                   008 CENTRAL                                            01Y
+11350010009000887NON       BALES, SCOTT, Supreme Court Justice                     YES                                   009 PIMA                                               01Y
+11350010010000129NON       BALES, SCOTT, Supreme Court Justice                     YES                                   010 FORT THOMAS                                        01Y
+11350010011000394NON       BALES, SCOTT, Supreme Court Justice                     YES                                   011 BYLAS                                              01Y
+11350010012000020NON       BALES, SCOTT, Supreme Court Justice                     YES                                   012 KLONDYKE                                           01Y
+11350010013000070NON       BALES, SCOTT, Supreme Court Justice                     YES                                   013 BONITA                                             01Y
+11350010014000379NON       BALES, SCOTT, Supreme Court Justice                     YES                                   014 THUNDERBIRD                                        01Y
+11350010015001131NON       BALES, SCOTT, Supreme Court Justice                     YES                                   015 SAFFORD                                            01Y
+11350010016000215NON       BALES, SCOTT, Supreme Court Justice                     YES                                   016 PERIDOT                                            01Y
+11350010017000068NON       BALES, SCOTT, Supreme Court Justice                     YES                                   017 CACTUS                                             01Y
+11350010018000411NON       BALES, SCOTT, Supreme Court Justice                     YES                                   018 JACKSON                                            01Y
+11350020001000112NON       BALES, SCOTT, Supreme Court Justice                     NO                                    001 SOLOMON                                            01Y
+11350020002000206NON       BALES, SCOTT, Supreme Court Justice                     NO                                    002 SAFFORD                                            01Y
+11350020003000083NON       BALES, SCOTT, Supreme Court Justice                     NO                                    003 SAFFORD                                            01Y
+11350020004000091NON       BALES, SCOTT, Supreme Court Justice                     NO                                    004 LAYTON                                             01Y
+11350020005000150NON       BALES, SCOTT, Supreme Court Justice                     NO                                    005 LAYTON                                             01Y
+11350020006000087NON       BALES, SCOTT, Supreme Court Justice                     NO                                    006 THATCHER                                           01Y
+11350020007000196NON       BALES, SCOTT, Supreme Court Justice                     NO                                    007 THATCHER                                           01Y
+11350020008000048NON       BALES, SCOTT, Supreme Court Justice                     NO                                    008 CENTRAL                                            01Y
+11350020009000242NON       BALES, SCOTT, Supreme Court Justice                     NO                                    009 PIMA                                               01Y
+11350020010000022NON       BALES, SCOTT, Supreme Court Justice                     NO                                    010 FORT THOMAS                                        01Y
+11350020011000160NON       BALES, SCOTT, Supreme Court Justice                     NO                                    011 BYLAS                                              01Y
+11350020012000010NON       BALES, SCOTT, Supreme Court Justice                     NO                                    012 KLONDYKE                                           01Y
+11350020013000019NON       BALES, SCOTT, Supreme Court Justice                     NO                                    013 BONITA                                             01Y
+11350020014000124NON       BALES, SCOTT, Supreme Court Justice                     NO                                    014 THUNDERBIRD                                        01Y
+11350020015000316NON       BALES, SCOTT, Supreme Court Justice                     NO                                    015 SAFFORD                                            01Y
+11350020016000101NON       BALES, SCOTT, Supreme Court Justice                     NO                                    016 PERIDOT                                            01Y
+11350020017000020NON       BALES, SCOTT, Supreme Court Justice                     NO                                    017 CACTUS                                             01Y
+11350020018000100NON       BALES, SCOTT, Supreme Court Justice                     NO                                    018 JACKSON                                            01Y
+11360010001000351NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   001 SOLOMON                                            01Y
+11360010002000595NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   002 SAFFORD                                            01Y
+11360010003000256NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   003 SAFFORD                                            01Y
+11360010004000289NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   004 LAYTON                                             01Y
+11360010005000445NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   005 LAYTON                                             01Y
+11360010006000291NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   006 THATCHER                                           01Y
+11360010007000682NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   007 THATCHER                                           01Y
+11360010008000196NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   008 CENTRAL                                            01Y
+11360010009000712NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   009 PIMA                                               01Y
+11360010010000104NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   010 FORT THOMAS                                        01Y
+11360010011000331NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   011 BYLAS                                              01Y
+11360010012000017NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   012 KLONDYKE                                           01Y
+11360010013000052NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   013 BONITA                                             01Y
+11360010014000342NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   014 THUNDERBIRD                                        01Y
+11360010015000997NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   015 SAFFORD                                            01Y
+11360010016000204NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   016 PERIDOT                                            01Y
+11360010017000058NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   017 CACTUS                                             01Y
+11360010018000358NON       VASQUEZ, GARYE L., Appeals, Div. 2                      YES                                   018 JACKSON                                            01Y
+11360020001000103NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    001 SOLOMON                                            01Y
+11360020002000188NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    002 SAFFORD                                            01Y
+11360020003000094NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    003 SAFFORD                                            01Y
+11360020004000078NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    004 LAYTON                                             01Y
+11360020005000143NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    005 LAYTON                                             01Y
+11360020006000093NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    006 THATCHER                                           01Y
+11360020007000219NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    007 THATCHER                                           01Y
+11360020008000066NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    008 CENTRAL                                            01Y
+11360020009000283NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    009 PIMA                                               01Y
+11360020010000027NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    010 FORT THOMAS                                        01Y
+11360020011000160NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    011 BYLAS                                              01Y
+11360020012000011NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    012 KLONDYKE                                           01Y
+11360020013000026NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    013 BONITA                                             01Y
+11360020014000131NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    014 THUNDERBIRD                                        01Y
+11360020015000321NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    015 SAFFORD                                            01Y
+11360020016000096NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    016 PERIDOT                                            01Y
+11360020017000024NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    017 CACTUS                                             01Y
+11360020018000116NON       VASQUEZ, GARYE L., Appeals, Div. 2                      NO                                    018 JACKSON                                            01Y
+11370010001000535NON       Proposition 100                                         YES                                   001 SOLOMON                                            01Y
+11370010002000815NON       Proposition 100                                         YES                                   002 SAFFORD                                            01Y
+11370010003000394NON       Proposition 100                                         YES                                   003 SAFFORD                                            01Y
+11370010004000372NON       Proposition 100                                         YES                                   004 LAYTON                                             01Y
+11370010005000590NON       Proposition 100                                         YES                                   005 LAYTON                                             01Y
+11370010006000452NON       Proposition 100                                         YES                                   006 THATCHER                                           01Y
+11370010007000960NON       Proposition 100                                         YES                                   007 THATCHER                                           01Y
+11370010008000347NON       Proposition 100                                         YES                                   008 CENTRAL                                            01Y
+11370010009001220NON       Proposition 100                                         YES                                   009 PIMA                                               01Y
+11370010010000167NON       Proposition 100                                         YES                                   010 FORT THOMAS                                        01Y
+11370010011000352NON       Proposition 100                                         YES                                   011 BYLAS                                              01Y
+11370010012000028NON       Proposition 100                                         YES                                   012 KLONDYKE                                           01Y
+11370010013000099NON       Proposition 100                                         YES                                   013 BONITA                                             01Y
+11370010014000511NON       Proposition 100                                         YES                                   014 THUNDERBIRD                                        01Y
+11370010015001408NON       Proposition 100                                         YES                                   015 SAFFORD                                            01Y
+11370010016000204NON       Proposition 100                                         YES                                   016 PERIDOT                                            01Y
+11370010017000098NON       Proposition 100                                         YES                                   017 CACTUS                                             01Y
+11370010018000543NON       Proposition 100                                         YES                                   018 JACKSON                                            01Y
+11370020001000108NON       Proposition 100                                         NO                                    001 SOLOMON                                            01Y
+11370020002000208NON       Proposition 100                                         NO                                    002 SAFFORD                                            01Y
+11370020003000095NON       Proposition 100                                         NO                                    003 SAFFORD                                            01Y
+11370020004000108NON       Proposition 100                                         NO                                    004 LAYTON                                             01Y
+11370020005000163NON       Proposition 100                                         NO                                    005 LAYTON                                             01Y
+11370020006000090NON       Proposition 100                                         NO                                    006 THATCHER                                           01Y
+11370020007000216NON       Proposition 100                                         NO                                    007 THATCHER                                           01Y
+11370020008000047NON       Proposition 100                                         NO                                    008 CENTRAL                                            01Y
+11370020009000232NON       Proposition 100                                         NO                                    009 PIMA                                               01Y
+11370020010000023NON       Proposition 100                                         NO                                    010 FORT THOMAS                                        01Y
+11370020011000212NON       Proposition 100                                         NO                                    011 BYLAS                                              01Y
+11370020012000012NON       Proposition 100                                         NO                                    012 KLONDYKE                                           01Y
+11370020013000015NON       Proposition 100                                         NO                                    013 BONITA                                             01Y
+11370020014000118NON       Proposition 100                                         NO                                    014 THUNDERBIRD                                        01Y
+11370020015000351NON       Proposition 100                                         NO                                    015 SAFFORD                                            01Y
+11370020016000128NON       Proposition 100                                         NO                                    016 PERIDOT                                            01Y
+11370020017000022NON       Proposition 100                                         NO                                    017 CACTUS                                             01Y
+11370020018000114NON       Proposition 100                                         NO                                    018 JACKSON                                            01Y
+11380010001000357NON       Proposition 101                                         YES                                   001 SOLOMON                                            01Y
+11380010002000555NON       Proposition 101                                         YES                                   002 SAFFORD                                            01Y
+11380010003000277NON       Proposition 101                                         YES                                   003 SAFFORD                                            01Y
+11380010004000243NON       Proposition 101                                         YES                                   004 LAYTON                                             01Y
+11380010005000366NON       Proposition 101                                         YES                                   005 LAYTON                                             01Y
+11380010006000309NON       Proposition 101                                         YES                                   006 THATCHER                                           01Y
+11380010007000689NON       Proposition 101                                         YES                                   007 THATCHER                                           01Y
+11380010008000243NON       Proposition 101                                         YES                                   008 CENTRAL                                            01Y
+11380010009000820NON       Proposition 101                                         YES                                   009 PIMA                                               01Y
+11380010010000110NON       Proposition 101                                         YES                                   010 FORT THOMAS                                        01Y
+11380010011000332NON       Proposition 101                                         YES                                   011 BYLAS                                              01Y
+11380010012000017NON       Proposition 101                                         YES                                   012 KLONDYKE                                           01Y
+11380010013000067NON       Proposition 101                                         YES                                   013 BONITA                                             01Y
+11380010014000342NON       Proposition 101                                         YES                                   014 THUNDERBIRD                                        01Y
+11380010015000907NON       Proposition 101                                         YES                                   015 SAFFORD                                            01Y
+11380010016000179NON       Proposition 101                                         YES                                   016 PERIDOT                                            01Y
+11380010017000055NON       Proposition 101                                         YES                                   017 CACTUS                                             01Y
+11380010018000334NON       Proposition 101                                         YES                                   018 JACKSON                                            01Y
+11380020001000274NON       Proposition 101                                         NO                                    001 SOLOMON                                            01Y
+11380020002000464NON       Proposition 101                                         NO                                    002 SAFFORD                                            01Y
+11380020003000191NON       Proposition 101                                         NO                                    003 SAFFORD                                            01Y
+11380020004000234NON       Proposition 101                                         NO                                    004 LAYTON                                             01Y
+11380020005000385NON       Proposition 101                                         NO                                    005 LAYTON                                             01Y
+11380020006000232NON       Proposition 101                                         NO                                    006 THATCHER                                           01Y
+11380020007000480NON       Proposition 101                                         NO                                    007 THATCHER                                           01Y
+11380020008000148NON       Proposition 101                                         NO                                    008 CENTRAL                                            01Y
+11380020009000621NON       Proposition 101                                         NO                                    009 PIMA                                               01Y
+11380020010000077NON       Proposition 101                                         NO                                    010 FORT THOMAS                                        01Y
+11380020011000246NON       Proposition 101                                         NO                                    011 BYLAS                                              01Y
+11380020012000023NON       Proposition 101                                         NO                                    012 KLONDYKE                                           01Y
+11380020013000048NON       Proposition 101                                         NO                                    013 BONITA                                             01Y
+11380020014000281NON       Proposition 101                                         NO                                    014 THUNDERBIRD                                        01Y
+11380020015000826NON       Proposition 101                                         NO                                    015 SAFFORD                                            01Y
+11380020016000154NON       Proposition 101                                         NO                                    016 PERIDOT                                            01Y
+11380020017000064NON       Proposition 101                                         NO                                    017 CACTUS                                             01Y
+11380020018000312NON       Proposition 101                                         NO                                    018 JACKSON                                            01Y
+11390010001000538NON       Proposition 102                                         YES                                   001 SOLOMON                                            01Y
+11390010002000808NON       Proposition 102                                         YES                                   002 SAFFORD                                            01Y
+11390010003000393NON       Proposition 102                                         YES                                   003 SAFFORD                                            01Y
+11390010004000353NON       Proposition 102                                         YES                                   004 LAYTON                                             01Y
+11390010005000588NON       Proposition 102                                         YES                                   005 LAYTON                                             01Y
+11390010006000531NON       Proposition 102                                         YES                                   006 THATCHER                                           01Y
+11390010007001022NON       Proposition 102                                         YES                                   007 THATCHER                                           01Y
+11390010008000370NON       Proposition 102                                         YES                                   008 CENTRAL                                            01Y
+11390010009001272NON       Proposition 102                                         YES                                   009 PIMA                                               01Y
+11390010010000171NON       Proposition 102                                         YES                                   010 FORT THOMAS                                        01Y
+11390010011000491NON       Proposition 102                                         YES                                   011 BYLAS                                              01Y
+11390010012000026NON       Proposition 102                                         YES                                   012 KLONDYKE                                           01Y
+11390010013000094NON       Proposition 102                                         YES                                   013 BONITA                                             01Y
+11390010014000513NON       Proposition 102                                         YES                                   014 THUNDERBIRD                                        01Y
+11390010015001374NON       Proposition 102                                         YES                                   015 SAFFORD                                            01Y
+11390010016000237NON       Proposition 102                                         YES                                   016 PERIDOT                                            01Y
+11390010017000081NON       Proposition 102                                         YES                                   017 CACTUS                                             01Y
+11390010018000544NON       Proposition 102                                         YES                                   018 JACKSON                                            01Y
+11390020001000124NON       Proposition 102                                         NO                                    001 SOLOMON                                            01Y
+11390020002000255NON       Proposition 102                                         NO                                    002 SAFFORD                                            01Y
+11390020003000112NON       Proposition 102                                         NO                                    003 SAFFORD                                            01Y
+11390020004000136NON       Proposition 102                                         NO                                    004 LAYTON                                             01Y
+11390020005000191NON       Proposition 102                                         NO                                    005 LAYTON                                             01Y
+11390020006000035NON       Proposition 102                                         NO                                    006 THATCHER                                           01Y
+11390020007000195NON       Proposition 102                                         NO                                    007 THATCHER                                           01Y
+11390020008000042NON       Proposition 102                                         NO                                    008 CENTRAL                                            01Y
+11390020009000229NON       Proposition 102                                         NO                                    009 PIMA                                               01Y
+11390020010000024NON       Proposition 102                                         NO                                    010 FORT THOMAS                                        01Y
+11390020011000141NON       Proposition 102                                         NO                                    011 BYLAS                                              01Y
+11390020012000014NON       Proposition 102                                         NO                                    012 KLONDYKE                                           01Y
+11390020013000022NON       Proposition 102                                         NO                                    013 BONITA                                             01Y
+11390020014000132NON       Proposition 102                                         NO                                    014 THUNDERBIRD                                        01Y
+11390020015000429NON       Proposition 102                                         NO                                    015 SAFFORD                                            01Y
+11390020016000102NON       Proposition 102                                         NO                                    016 PERIDOT                                            01Y
+11390020017000041NON       Proposition 102                                         NO                                    017 CACTUS                                             01Y
+11390020018000128NON       Proposition 102                                         NO                                    018 JACKSON                                            01Y
+11400010001000276NON       Proposition 105                                         YES                                   001 SOLOMON                                            01Y
+11400010002000432NON       Proposition 105                                         YES                                   002 SAFFORD                                            01Y
+11400010003000174NON       Proposition 105                                         YES                                   003 SAFFORD                                            01Y
+11400010004000177NON       Proposition 105                                         YES                                   004 LAYTON                                             01Y
+11400010005000279NON       Proposition 105                                         YES                                   005 LAYTON                                             01Y
+11400010006000191NON       Proposition 105                                         YES                                   006 THATCHER                                           01Y
+11400010007000455NON       Proposition 105                                         YES                                   007 THATCHER                                           01Y
+11400010008000185NON       Proposition 105                                         YES                                   008 CENTRAL                                            01Y
+11400010009000551NON       Proposition 105                                         YES                                   009 PIMA                                               01Y
+11400010010000069NON       Proposition 105                                         YES                                   010 FORT THOMAS                                        01Y
+11400010011000263NON       Proposition 105                                         YES                                   011 BYLAS                                              01Y
+11400010012000010NON       Proposition 105                                         YES                                   012 KLONDYKE                                           01Y
+11400010013000049NON       Proposition 105                                         YES                                   013 BONITA                                             01Y
+11400010014000241NON       Proposition 105                                         YES                                   014 THUNDERBIRD                                        01Y
+11400010015000636NON       Proposition 105                                         YES                                   015 SAFFORD                                            01Y
+11400010016000131NON       Proposition 105                                         YES                                   016 PERIDOT                                            01Y
+11400010017000041NON       Proposition 105                                         YES                                   017 CACTUS                                             01Y
+11400010018000200NON       Proposition 105                                         YES                                   018 JACKSON                                            01Y
+11400020001000358NON       Proposition 105                                         NO                                    001 SOLOMON                                            01Y
+11400020002000582NON       Proposition 105                                         NO                                    002 SAFFORD                                            01Y
+11400020003000292NON       Proposition 105                                         NO                                    003 SAFFORD                                            01Y
+11400020004000293NON       Proposition 105                                         NO                                    004 LAYTON                                             01Y
+11400020005000465NON       Proposition 105                                         NO                                    005 LAYTON                                             01Y
+11400020006000350NON       Proposition 105                                         NO                                    006 THATCHER                                           01Y
+11400020007000709NON       Proposition 105                                         NO                                    007 THATCHER                                           01Y
+11400020008000207NON       Proposition 105                                         NO                                    008 CENTRAL                                            01Y
+11400020009000873NON       Proposition 105                                         NO                                    009 PIMA                                               01Y
+11400020010000120NON       Proposition 105                                         NO                                    010 FORT THOMAS                                        01Y
+11400020011000296NON       Proposition 105                                         NO                                    011 BYLAS                                              01Y
+11400020012000030NON       Proposition 105                                         NO                                    012 KLONDYKE                                           01Y
+11400020013000064NON       Proposition 105                                         NO                                    013 BONITA                                             01Y
+11400020014000350NON       Proposition 105                                         NO                                    014 THUNDERBIRD                                        01Y
+11400020015001072NON       Proposition 105                                         NO                                    015 SAFFORD                                            01Y
+11400020016000192NON       Proposition 105                                         NO                                    016 PERIDOT                                            01Y
+11400020017000079NON       Proposition 105                                         NO                                    017 CACTUS                                             01Y
+11400020018000431NON       Proposition 105                                         NO                                    018 JACKSON                                            01Y
+11410010001000296NON       Proposition 200                                         YES                                   001 SOLOMON                                            01Y
+11410010002000466NON       Proposition 200                                         YES                                   002 SAFFORD                                            01Y
+11410010003000197NON       Proposition 200                                         YES                                   003 SAFFORD                                            01Y
+11410010004000191NON       Proposition 200                                         YES                                   004 LAYTON                                             01Y
+11410010005000289NON       Proposition 200                                         YES                                   005 LAYTON                                             01Y
+11410010006000171NON       Proposition 200                                         YES                                   006 THATCHER                                           01Y
+11410010007000424NON       Proposition 200                                         YES                                   007 THATCHER                                           01Y
+11410010008000133NON       Proposition 200                                         YES                                   008 CENTRAL                                            01Y
+11410010009000557NON       Proposition 200                                         YES                                   009 PIMA                                               01Y
+11410010010000048NON       Proposition 200                                         YES                                   010 FORT THOMAS                                        01Y
+11410010011000395NON       Proposition 200                                         YES                                   011 BYLAS                                              01Y
+11410010012000012NON       Proposition 200                                         YES                                   012 KLONDYKE                                           01Y
+11410010013000043NON       Proposition 200                                         YES                                   013 BONITA                                             01Y
+11410010014000278NON       Proposition 200                                         YES                                   014 THUNDERBIRD                                        01Y
+11410010015000742NON       Proposition 200                                         YES                                   015 SAFFORD                                            01Y
+11410010016000201NON       Proposition 200                                         YES                                   016 PERIDOT                                            01Y
+11410010017000038NON       Proposition 200                                         YES                                   017 CACTUS                                             01Y
+11410010018000221NON       Proposition 200                                         YES                                   018 JACKSON                                            01Y
+11410020001000333NON       Proposition 200                                         NO                                    001 SOLOMON                                            01Y
+11410020002000539NON       Proposition 200                                         NO                                    002 SAFFORD                                            01Y
+11410020003000265NON       Proposition 200                                         NO                                    003 SAFFORD                                            01Y
+11410020004000273NON       Proposition 200                                         NO                                    004 LAYTON                                             01Y
+11410020005000452NON       Proposition 200                                         NO                                    005 LAYTON                                             01Y
+11410020006000366NON       Proposition 200                                         NO                                    006 THATCHER                                           01Y
+11410020007000745NON       Proposition 200                                         NO                                    007 THATCHER                                           01Y
+11410020008000252NON       Proposition 200                                         NO                                    008 CENTRAL                                            01Y
+11410020009000866NON       Proposition 200                                         NO                                    009 PIMA                                               01Y
+11410020010000138NON       Proposition 200                                         NO                                    010 FORT THOMAS                                        01Y
+11410020011000181NON       Proposition 200                                         NO                                    011 BYLAS                                              01Y
+11410020012000027NON       Proposition 200                                         NO                                    012 KLONDYKE                                           01Y
+11410020013000066NON       Proposition 200                                         NO                                    013 BONITA                                             01Y
+11410020014000318NON       Proposition 200                                         NO                                    014 THUNDERBIRD                                        01Y
+11410020015000986NON       Proposition 200                                         NO                                    015 SAFFORD                                            01Y
+11410020016000124NON       Proposition 200                                         NO                                    016 PERIDOT                                            01Y
+11410020017000079NON       Proposition 200                                         NO                                    017 CACTUS                                             01Y
+11410020018000420NON       Proposition 200                                         NO                                    018 JACKSON                                            01Y
+11420010001000172NON       Proposition 201                                         YES                                   001 SOLOMON                                            01Y
+11420010002000279NON       Proposition 201                                         YES                                   002 SAFFORD                                            01Y
+11420010003000110NON       Proposition 201                                         YES                                   003 SAFFORD                                            01Y
+11420010004000116NON       Proposition 201                                         YES                                   004 LAYTON                                             01Y
+11420010005000147NON       Proposition 201                                         YES                                   005 LAYTON                                             01Y
+11420010006000061NON       Proposition 201                                         YES                                   006 THATCHER                                           01Y
+11420010007000214NON       Proposition 201                                         YES                                   007 THATCHER                                           01Y
+11420010008000044NON       Proposition 201                                         YES                                   008 CENTRAL                                            01Y
+11420010009000209NON       Proposition 201                                         YES                                   009 PIMA                                               01Y
+11420010010000028NON       Proposition 201                                         YES                                   010 FORT THOMAS                                        01Y
+11420010011000299NON       Proposition 201                                         YES                                   011 BYLAS                                              01Y
+11420010012000009NON       Proposition 201                                         YES                                   012 KLONDYKE                                           01Y
+11420010013000015NON       Proposition 201                                         YES                                   013 BONITA                                             01Y
+11420010014000133NON       Proposition 201                                         YES                                   014 THUNDERBIRD                                        01Y
+11420010015000389NON       Proposition 201                                         YES                                   015 SAFFORD                                            01Y
+11420010016000179NON       Proposition 201                                         YES                                   016 PERIDOT                                            01Y
+11420010017000026NON       Proposition 201                                         YES                                   017 CACTUS                                             01Y
+11420010018000086NON       Proposition 201                                         YES                                   018 JACKSON                                            01Y
+11420020001000454NON       Proposition 201                                         NO                                    001 SOLOMON                                            01Y
+11420020002000733NON       Proposition 201                                         NO                                    002 SAFFORD                                            01Y
+11420020003000358NON       Proposition 201                                         NO                                    003 SAFFORD                                            01Y
+11420020004000350NON       Proposition 201                                         NO                                    004 LAYTON                                             01Y
+11420020005000599NON       Proposition 201                                         NO                                    005 LAYTON                                             01Y
+11420020006000483NON       Proposition 201                                         NO                                    006 THATCHER                                           01Y
+11420020007000957NON       Proposition 201                                         NO                                    007 THATCHER                                           01Y
+11420020008000349NON       Proposition 201                                         NO                                    008 CENTRAL                                            01Y
+11420020009001228NON       Proposition 201                                         NO                                    009 PIMA                                               01Y
+11420020010000163NON       Proposition 201                                         NO                                    010 FORT THOMAS                                        01Y
+11420020011000261NON       Proposition 201                                         NO                                    011 BYLAS                                              01Y
+11420020012000030NON       Proposition 201                                         NO                                    012 KLONDYKE                                           01Y
+11420020013000099NON       Proposition 201                                         NO                                    013 BONITA                                             01Y
+11420020014000478NON       Proposition 201                                         NO                                    014 THUNDERBIRD                                        01Y
+11420020015001340NON       Proposition 201                                         NO                                    015 SAFFORD                                            01Y
+11420020016000150NON       Proposition 201                                         NO                                    016 PERIDOT                                            01Y
+11420020017000093NON       Proposition 201                                         NO                                    017 CACTUS                                             01Y
+11420020018000560NON       Proposition 201                                         NO                                    018 JACKSON                                            01Y
+11430010001000315NON       Proposition 202                                         YES                                   001 SOLOMON                                            01Y
+11430010002000533NON       Proposition 202                                         YES                                   002 SAFFORD                                            01Y
+11430010003000243NON       Proposition 202                                         YES                                   003 SAFFORD                                            01Y
+11430010004000220NON       Proposition 202                                         YES                                   004 LAYTON                                             01Y
+11430010005000339NON       Proposition 202                                         YES                                   005 LAYTON                                             01Y
+11430010006000220NON       Proposition 202                                         YES                                   006 THATCHER                                           01Y
+11430010007000510NON       Proposition 202                                         YES                                   007 THATCHER                                           01Y
+11430010008000158NON       Proposition 202                                         YES                                   008 CENTRAL                                            01Y
+11430010009000643NON       Proposition 202                                         YES                                   009 PIMA                                               01Y
+11430010010000073NON       Proposition 202                                         YES                                   010 FORT THOMAS                                        01Y
+11430010011000359NON       Proposition 202                                         YES                                   011 BYLAS                                              01Y
+11430010012000013NON       Proposition 202                                         YES                                   012 KLONDYKE                                           01Y
+11430010013000044NON       Proposition 202                                         YES                                   013 BONITA                                             01Y
+11430010014000289NON       Proposition 202                                         YES                                   014 THUNDERBIRD                                        01Y
+11430010015000829NON       Proposition 202                                         YES                                   015 SAFFORD                                            01Y
+11430010016000194NON       Proposition 202                                         YES                                   016 PERIDOT                                            01Y
+11430010017000044NON       Proposition 202                                         YES                                   017 CACTUS                                             01Y
+11430010018000287NON       Proposition 202                                         YES                                   018 JACKSON                                            01Y
+11430020001000327NON       Proposition 202                                         NO                                    001 SOLOMON                                            01Y
+11430020002000497NON       Proposition 202                                         NO                                    002 SAFFORD                                            01Y
+11430020003000236NON       Proposition 202                                         NO                                    003 SAFFORD                                            01Y
+11430020004000255NON       Proposition 202                                         NO                                    004 LAYTON                                             01Y
+11430020005000420NON       Proposition 202                                         NO                                    005 LAYTON                                             01Y
+11430020006000329NON       Proposition 202                                         NO                                    006 THATCHER                                           01Y
+11430020007000673NON       Proposition 202                                         NO                                    007 THATCHER                                           01Y
+11430020008000231NON       Proposition 202                                         NO                                    008 CENTRAL                                            01Y
+11430020009000803NON       Proposition 202                                         NO                                    009 PIMA                                               01Y
+11430020010000117NON       Proposition 202                                         NO                                    010 FORT THOMAS                                        01Y
+11430020011000219NON       Proposition 202                                         NO                                    011 BYLAS                                              01Y
+11430020012000026NON       Proposition 202                                         NO                                    012 KLONDYKE                                           01Y
+11430020013000069NON       Proposition 202                                         NO                                    013 BONITA                                             01Y
+11430020014000319NON       Proposition 202                                         NO                                    014 THUNDERBIRD                                        01Y
+11430020015000924NON       Proposition 202                                         NO                                    015 SAFFORD                                            01Y
+11430020016000139NON       Proposition 202                                         NO                                    016 PERIDOT                                            01Y
+11430020017000074NON       Proposition 202                                         NO                                    017 CACTUS                                             01Y
+11430020018000355NON       Proposition 202                                         NO                                    018 JACKSON                                            01Y
+11440010001000152NON       Proposition 300                                         YES                                   001 SOLOMON                                            01Y
+11440010002000269NON       Proposition 300                                         YES                                   002 SAFFORD                                            01Y
+11440010003000146NON       Proposition 300                                         YES                                   003 SAFFORD                                            01Y
+11440010004000150NON       Proposition 300                                         YES                                   004 LAYTON                                             01Y
+11440010005000241NON       Proposition 300                                         YES                                   005 LAYTON                                             01Y
+11440010006000183NON       Proposition 300                                         YES                                   006 THATCHER                                           01Y
+11440010007000342NON       Proposition 300                                         YES                                   007 THATCHER                                           01Y
+11440010008000089NON       Proposition 300                                         YES                                   008 CENTRAL                                            01Y
+11440010009000399NON       Proposition 300                                         YES                                   009 PIMA                                               01Y
+11440010010000043NON       Proposition 300                                         YES                                   010 FORT THOMAS                                        01Y
+11440010011000221NON       Proposition 300                                         YES                                   011 BYLAS                                              01Y
+11440010012000014NON       Proposition 300                                         YES                                   012 KLONDYKE                                           01Y
+11440010013000039NON       Proposition 300                                         YES                                   013 BONITA                                             01Y
+11440010014000168NON       Proposition 300                                         YES                                   014 THUNDERBIRD                                        01Y
+11440010015000479NON       Proposition 300                                         YES                                   015 SAFFORD                                            01Y
+11440010016000127NON       Proposition 300                                         YES                                   016 PERIDOT                                            01Y
+11440010017000049NON       Proposition 300                                         YES                                   017 CACTUS                                             01Y
+11440010018000209NON       Proposition 300                                         YES                                   018 JACKSON                                            01Y
+11440020001000497NON       Proposition 300                                         NO                                    001 SOLOMON                                            01Y
+11440020002000770NON       Proposition 300                                         NO                                    002 SAFFORD                                            01Y
+11440020003000339NON       Proposition 300                                         NO                                    003 SAFFORD                                            01Y
+11440020004000328NON       Proposition 300                                         NO                                    004 LAYTON                                             01Y
+11440020005000521NON       Proposition 300                                         NO                                    005 LAYTON                                             01Y
+11440020006000368NON       Proposition 300                                         NO                                    006 THATCHER                                           01Y
+11440020007000843NON       Proposition 300                                         NO                                    007 THATCHER                                           01Y
+11440020008000309NON       Proposition 300                                         NO                                    008 CENTRAL                                            01Y
+11440020009001067NON       Proposition 300                                         NO                                    009 PIMA                                               01Y
+11440020010000149NON       Proposition 300                                         NO                                    010 FORT THOMAS                                        01Y
+11440020011000357NON       Proposition 300                                         NO                                    011 BYLAS                                              01Y
+11440020012000025NON       Proposition 300                                         NO                                    012 KLONDYKE                                           01Y
+11440020013000076NON       Proposition 300                                         NO                                    013 BONITA                                             01Y
+11440020014000444NON       Proposition 300                                         NO                                    014 THUNDERBIRD                                        01Y
+11440020015001290NON       Proposition 300                                         NO                                    015 SAFFORD                                            01Y
+11440020016000204NON       Proposition 300                                         NO                                    016 PERIDOT                                            01Y
+11440020017000070NON       Proposition 300                                         NO                                    017 CACTUS                                             01Y
+11440020018000449NON       Proposition 300                                         NO                                    018 JACKSON                                            01Y

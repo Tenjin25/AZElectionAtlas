@@ -1617,7 +1617,7 @@ def build_historical_precinct_district_assignments() -> dict:
         ("MARICOPA", 2000, 2003, SOURCE / "Maricopa_2000_2001_precincts.geojson", "PctName", "PctNum"),
         ("MARICOPA", 2004, 2005, SOURCE / "Maricopa_2004_2005_precincts.geojson", "PctName", "PctNum"),
         ("MARICOPA", 2006, 2007, SOURCE / "Maricopa_2006_2007_precincts.geojson", "PctName", "PctNum"),
-        ("MARICOPA", 2008, 2011, SOURCE / "Maricopa_2008_2011_precincts.geojson", "PctName", "PctNum"),
+        ("MARICOPA", 2008, 2011, SOURCE / "Maricopa_2008_2011_precincts.geojson", "BdName", "BdVal"),
         ("PIMA", 2004, 2011, SOURCE / "Pima_historical_precincts_2000s.geojson", "PRECINCT", "PRECINCT"),
         # Cochise County's public GIS catalog preserves a 2011 precinct
         # vintage.  Use it for the 2010-era results instead of forcing those

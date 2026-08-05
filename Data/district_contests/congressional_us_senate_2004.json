@@ -16,14 +16,14 @@
         "winner": "REP"
       },
       "2": {
-        "dem_votes": 31568,
-        "rep_votes": 87498,
+        "dem_votes": 31604,
+        "rep_votes": 87609,
         "other_votes": 4309,
-        "total_votes": 123375,
+        "total_votes": 123522,
         "dem_candidate": "Stuart Starky",
         "rep_candidate": "John McCain",
-        "margin": 55930,
-        "margin_pct": 45.33333333333333,
+        "margin": 56005,
+        "margin_pct": 45.34010135846246,
         "winner": "REP"
       },
       "3": {
