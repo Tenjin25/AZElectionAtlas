@@ -10615,7 +10615,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v17"></script>
+    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v18"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10655,8 +10655,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v17';
-    const APP_BUILD_ID = '2026-08-05-az-district-results-v17';
+    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v18';
+    const APP_BUILD_ID = '2026-08-05-az-district-results-v18';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -19897,6 +19897,16 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         }
         const key = `${contestType}_${year}`;
+        if (Array.isArray(countyContestManifest) && countyContestManifest.length > 0) {
+          const indexed = countyContestManifest.some(entry =>
+            String(entry?.contest_type || '').trim() === String(contestType || '').trim()
+            && Number(entry?.year) === Number(year)
+          );
+          if (!indexed) {
+            countyContestSliceCache.set(key, []);
+            return [];
+          }
+        }
         if (countyContestSliceCache.has(key)) return countyContestSliceCache.get(key);
         if (countyContestSliceInflight.has(key)) return countyContestSliceInflight.get(key);
         const p = atlasPerf(`slice.county:${key}`, async () => {
@@ -34701,6 +34711,10 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       if (staleCheck()) return;
 
+      let needsPrecinctDetail = !!precinctsEnabled;
+      if (needsPrecinctDetail && shouldDeferPrecinctDetail()) {
+        needsPrecinctDetail = false;
+      }
       const modeledCountyContest = !!getModeledContestDefinition(contestType, Number(year));
       // County mode must use the county-layer totals. Precinct files can be
       // incomplete for historical elections and must not silently replace the
