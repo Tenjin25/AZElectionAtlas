@@ -11,7 +11,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 3335,
-      "margin_pct": 14.2424,
+      "margin_pct": 14.242398360095661,
       "winner": "REP"
     },
     "Cochise": {
@@ -22,7 +22,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 23324,
-      "margin_pct": 53.2171,
+      "margin_pct": 53.217121474856256,
       "winner": "REP"
     },
     "Coconino": {
@@ -33,7 +33,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 22329,
-      "margin_pct": 43.8917,
+      "margin_pct": 43.89165176026576,
       "winner": "REP"
     },
     "Gila": {
@@ -44,7 +44,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 11260,
-      "margin_pct": 54.9966,
+      "margin_pct": 54.99658102959851,
       "winner": "REP"
     },
     "Graham": {
@@ -55,7 +55,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 6171,
-      "margin_pct": 58.8106,
+      "margin_pct": 58.81063566186982,
       "winner": "REP"
     },
     "Greenlee": {
@@ -66,7 +66,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 1420,
-      "margin_pct": 47.651,
+      "margin_pct": 47.651006711409394,
       "winner": "REP"
     },
     "La Paz": {
@@ -77,7 +77,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 2861,
-      "margin_pct": 57.833,
+      "margin_pct": 57.83303011926421,
       "winner": "REP"
     },
     "Maricopa": {
@@ -88,7 +88,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 701403,
-      "margin_pct": 60.288,
+      "margin_pct": 60.28803011810009,
       "winner": "REP"
     },
     "Mohave": {
@@ -99,7 +99,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 33979,
-      "margin_pct": 60.1281,
+      "margin_pct": 60.12811664985578,
       "winner": "REP"
     },
     "Navajo": {
@@ -110,7 +110,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 15657,
-      "margin_pct": 49.318,
+      "margin_pct": 49.31804579960311,
       "winner": "REP"
     },
     "Pima": {
@@ -121,7 +121,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 168527,
-      "margin_pct": 47.4092,
+      "margin_pct": 47.409226579796496,
       "winner": "REP"
     },
     "Pinal": {
@@ -132,7 +132,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 34499,
-      "margin_pct": 54.4311,
+      "margin_pct": 54.431138669317306,
       "winner": "REP"
     },
     "Santa Cruz": {
@@ -143,7 +143,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 3919,
-      "margin_pct": 34.5682,
+      "margin_pct": 34.568227926259155,
       "winner": "REP"
     },
     "Yavapai": {
@@ -154,7 +154,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 52460,
-      "margin_pct": 61.4833,
+      "margin_pct": 61.48328723454127,
       "winner": "REP"
     },
     "Yuma": {
@@ -165,7 +165,7 @@
       "dem_candidate": "Stuart Starky",
       "rep_candidate": "John McCain",
       "margin": 19721,
-      "margin_pct": 52.6272,
+      "margin_pct": 52.62722493528674,
       "winner": "REP"
     }
   }

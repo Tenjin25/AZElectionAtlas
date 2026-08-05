@@ -22,7 +22,13 @@ OFFICE_TO_CONTEST = {
 GENERAL_FILES = {
     2000: "20001107__az__general.csv",
     2002: "20021105__az__general.csv",
+    2004: "20041102__az__general.csv",
+    2006: "20061107__az__general.csv",
     2008: "20081104__az__general.csv",
+    2010: "20101102__az__general.csv",
+    2012: "20121106__az__general.csv",
+    2014: "20141104__az__general.csv",
+    2016: "20161108__az__general__precinct.csv",
 }
 
 
@@ -36,9 +42,16 @@ def build_contest(year, source_file, office, contest_type):
             county = row.get("county", "").strip()
             if not county:
                 continue
+            candidate = row.get("candidate", "").strip()
+            candidate_key = "".join(character for character in candidate.upper() if character.isalpha())
+            if (
+                candidate_key in {"OVERVOTES", "UNDERVOTES", "BLANKVOTES", "TOTALVOTES"}
+                or candidate_key.startswith("TIMES")
+                or candidate_key in {"REGISTEREDVOTERS", "BALLOTSCAST", "TOTALVOTES"}
+            ):
+                continue
             votes = int(float(row.get("votes", "0") or 0))
             party = row.get("party", "").strip().upper()
-            candidate = row.get("candidate", "").strip()
             bucket = "dem" if party == "DEM" else "rep" if party == "REP" else "other"
             totals[county][bucket] += votes
             if candidate:
@@ -75,7 +88,12 @@ def build_contest(year, source_file, office, contest_type):
 def main():
     manifest_path = OUTPUT_DIR / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    entries = [entry for entry in manifest.get("files", []) if not (entry.get("year") in GENERAL_FILES and entry.get("scope") == "county")]
+    entries = [
+        entry for entry in manifest.get("files", [])
+        if entry.get("contest_type") != "corporation_commissioner"
+        and not (entry.get("contest_type") == "treasurer" and entry.get("year") == 2012)
+        and not (entry.get("year") in GENERAL_FILES and entry.get("scope") == "county")
+    ]
 
     for year, filename in GENERAL_FILES.items():
         source_file = SOURCE_DIR / str(year) / filename

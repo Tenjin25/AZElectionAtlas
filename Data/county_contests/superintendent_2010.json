@@ -11,7 +11,7 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": -8351,
-      "margin_pct": -41.3395,
+      "margin_pct": -41.33953764665115,
       "winner": "DEM"
     },
     "Cochise": {
@@ -22,7 +22,7 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": 6236,
-      "margin_pct": 16.0937,
+      "margin_pct": 16.09373387013523,
       "winner": "REP"
     },
     "Coconino": {
@@ -33,7 +33,7 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": -5987,
-      "margin_pct": -16.1431,
+      "margin_pct": -16.143122927171248,
       "winner": "DEM"
     },
     "Gila": {
@@ -44,7 +44,7 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": 3354,
-      "margin_pct": 19.55,
+      "margin_pct": 19.550011657729076,
       "winner": "REP"
     },
     "Graham": {
@@ -55,7 +55,7 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": 1655,
-      "margin_pct": 18.8004,
+      "margin_pct": 18.800408951493807,
       "winner": "REP"
     },
     "Greenlee": {
@@ -66,8 +66,41 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": -281,
-      "margin_pct": -12.2227,
+      "margin_pct": -12.222705524140931,
       "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 1547,
+      "rep_votes": 2726,
+      "other_votes": 0,
+      "total_votes": 4273,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 1179,
+      "margin_pct": 27.591855838988998,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 407355,
+      "rep_votes": 543230,
+      "other_votes": 0,
+      "total_votes": 950585,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 135875,
+      "margin_pct": 14.293829589147736,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 15710,
+      "rep_votes": 35242,
+      "other_votes": 0,
+      "total_votes": 50952,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": 19532,
+      "margin_pct": 38.33411838593186,
+      "winner": "REP"
     },
     "Navajo": {
       "dem_votes": 14177,
@@ -77,7 +110,18 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": -121,
-      "margin_pct": -0.4286,
+      "margin_pct": -0.4285764885063578,
+      "winner": "DEM"
+    },
+    "Pima": {
+      "dem_votes": 158412,
+      "rep_votes": 146593,
+      "other_votes": 0,
+      "total_votes": 305005,
+      "dem_candidate": "Penny Kotterman",
+      "rep_candidate": "John Huppenthal",
+      "margin": -11819,
+      "margin_pct": -3.8750184423206178,
       "winner": "DEM"
     },
     "Pinal": {
@@ -88,10 +132,10 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": 12563,
-      "margin_pct": 16.5348,
+      "margin_pct": 16.534831993050712,
       "winner": "REP"
     },
-    "SantaCruz": {
+    "Santa Cruz": {
       "dem_votes": 6470,
       "rep_votes": 3161,
       "other_votes": 0,
@@ -99,7 +143,7 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": -3309,
-      "margin_pct": -34.3578,
+      "margin_pct": -34.357802928044855,
       "winner": "DEM"
     },
     "Yavapai": {
@@ -110,7 +154,7 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": 23373,
-      "margin_pct": 30.1723,
+      "margin_pct": 30.17233589362938,
       "winner": "REP"
     },
     "Yuma": {
@@ -121,7 +165,7 @@
       "dem_candidate": "Penny Kotterman",
       "rep_candidate": "John Huppenthal",
       "margin": 2868,
-      "margin_pct": 8.8694,
+      "margin_pct": 8.869371598218704,
       "winner": "REP"
     }
   }

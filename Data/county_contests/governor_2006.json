@@ -11,29 +11,29 @@
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -10848,
-      "margin_pct": -57.7175,
+      "margin_pct": -57.717478052673584,
       "winner": "DEM"
     },
     "Cochise": {
       "dem_votes": 21416,
       "rep_votes": 14038,
-      "other_votes": 922,
-      "total_votes": 36376,
+      "other_votes": 923,
+      "total_votes": 36377,
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -7378,
-      "margin_pct": -20.2826,
+      "margin_pct": -20.28204634796712,
       "winner": "DEM"
     },
     "Coconino": {
       "dem_votes": 28551,
       "rep_votes": 8879,
-      "other_votes": 872,
-      "total_votes": 38302,
+      "other_votes": 874,
+      "total_votes": 38304,
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -19672,
-      "margin_pct": -51.3602,
+      "margin_pct": -51.35756056808688,
       "winner": "DEM"
     },
     "Gila": {
@@ -44,7 +44,7 @@
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -4783,
-      "margin_pct": -28.5603,
+      "margin_pct": -28.56033916522362,
       "winner": "DEM"
     },
     "Graham": {
@@ -55,7 +55,7 @@
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -1042,
-      "margin_pct": -13.3333,
+      "margin_pct": -13.333333333333334,
       "winner": "DEM"
     },
     "Greenlee": {
@@ -66,29 +66,40 @@
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -898,
-      "margin_pct": -42.1201,
+      "margin_pct": -42.12007504690432,
+      "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 2353,
+      "rep_votes": 1342,
+      "other_votes": 138,
+      "total_votes": 3833,
+      "dem_candidate": "Janet Napolitano",
+      "rep_candidate": "Len Munsil",
+      "margin": -1011,
+      "margin_pct": -26.37620662666319,
       "winner": "DEM"
     },
     "Maricopa": {
-      "dem_votes": 96874,
-      "rep_votes": 55311,
-      "other_votes": 3196,
-      "total_votes": 155381,
+      "dem_votes": 538383,
+      "rep_votes": 332570,
+      "other_votes": 16900,
+      "total_votes": 887853,
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
-      "margin": -41563,
-      "margin_pct": -26.7491,
+      "margin": -205813,
+      "margin_pct": -23.180977031107627,
       "winner": "DEM"
     },
     "Mohave": {
       "dem_votes": 25400,
       "rep_votes": 19588,
-      "other_votes": 1129,
-      "total_votes": 46117,
+      "other_votes": 1130,
+      "total_votes": 46118,
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -5812,
-      "margin_pct": -12.6027,
+      "margin_pct": -12.602454573051736,
       "winner": "DEM"
     },
     "Navajo": {
@@ -99,7 +110,7 @@
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -8660,
-      "margin_pct": -32.3932,
+      "margin_pct": -32.39320715194135,
       "winner": "DEM"
     },
     "Pima": {
@@ -110,21 +121,21 @@
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -113253,
-      "margin_pct": -40.1391,
+      "margin_pct": -40.13914535124809,
       "winner": "DEM"
     },
     "Pinal": {
       "dem_votes": 35428,
       "rep_votes": 20716,
-      "other_votes": 1116,
-      "total_votes": 57260,
+      "other_votes": 1117,
+      "total_votes": 57261,
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -14712,
-      "margin_pct": -25.6933,
+      "margin_pct": -25.69287997066066,
       "winner": "DEM"
     },
-    "SantaCruz": {
+    "Santa Cruz": {
       "dem_votes": 6482,
       "rep_votes": 1634,
       "other_votes": 160,
@@ -132,18 +143,18 @@
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -4848,
-      "margin_pct": -58.579,
+      "margin_pct": -58.57902368293861,
       "winner": "DEM"
     },
     "Yavapai": {
       "dem_votes": 40848,
       "rep_votes": 30203,
-      "other_votes": 1587,
-      "total_votes": 72638,
+      "other_votes": 1588,
+      "total_votes": 72639,
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -10645,
-      "margin_pct": -14.6549,
+      "margin_pct": -14.654662096119164,
       "winner": "DEM"
     },
     "Yuma": {
@@ -154,7 +165,7 @@
       "dem_candidate": "Janet Napolitano",
       "rep_candidate": "Len Munsil",
       "margin": -6927,
-      "margin_pct": -24.2118,
+      "margin_pct": -24.21181405103111,
       "winner": "DEM"
     }
   }

@@ -11,7 +11,7 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": -7516,
-      "margin_pct": -37.0758,
+      "margin_pct": -37.07576953433307,
       "winner": "DEM"
     },
     "Cochise": {
@@ -22,7 +22,7 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": 5755,
-      "margin_pct": 14.8773,
+      "margin_pct": 14.87733629759843,
       "winner": "REP"
     },
     "Coconino": {
@@ -33,7 +33,7 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": -4778,
-      "margin_pct": -12.8804,
+      "margin_pct": -12.880442108100823,
       "winner": "DEM"
     },
     "Gila": {
@@ -44,7 +44,7 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": 3731,
-      "margin_pct": 21.6755,
+      "margin_pct": 21.675477836518912,
       "winner": "REP"
     },
     "Graham": {
@@ -55,7 +55,7 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": 2564,
-      "margin_pct": 29.044,
+      "margin_pct": 29.043951064793838,
       "winner": "REP"
     },
     "Greenlee": {
@@ -66,18 +66,40 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": -172,
-      "margin_pct": -7.2943,
+      "margin_pct": -7.29431721798134,
       "winner": "DEM"
     },
-    "Maricopa": {
-      "dem_votes": 98173,
-      "rep_votes": 127785,
-      "other_votes": 17150,
-      "total_votes": 243108,
+    "La Paz": {
+      "dem_votes": 1341,
+      "rep_votes": 2582,
+      "other_votes": 366,
+      "total_votes": 4289,
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
-      "margin": 29612,
-      "margin_pct": 12.1806,
+      "margin": 1241,
+      "margin_pct": 28.934483562602004,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 374064,
+      "rep_votes": 510622,
+      "other_votes": 63902,
+      "total_votes": 948588,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 136558,
+      "margin_pct": 14.39592320375126,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 14108,
+      "rep_votes": 32884,
+      "other_votes": 4602,
+      "total_votes": 51594,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": 18776,
+      "margin_pct": 36.39182850719076,
       "winner": "REP"
     },
     "Navajo": {
@@ -88,8 +110,19 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": 1460,
-      "margin_pct": 5.071,
+      "margin_pct": 5.071029141051023,
       "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 151537,
+      "rep_votes": 132764,
+      "other_votes": 19081,
+      "total_votes": 303382,
+      "dem_candidate": "Andrei Cherny",
+      "rep_candidate": "Doug Ducey",
+      "margin": -18773,
+      "margin_pct": -6.1879083136112225,
+      "winner": "DEM"
     },
     "Pinal": {
       "dem_votes": 29604,
@@ -99,10 +132,10 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": 11591,
-      "margin_pct": 15.2403,
+      "margin_pct": 15.240286634672277,
       "winner": "REP"
     },
-    "SantaCruz": {
+    "Santa Cruz": {
       "dem_votes": 6169,
       "rep_votes": 2911,
       "other_votes": 539,
@@ -110,7 +143,7 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": -3258,
-      "margin_pct": -33.8705,
+      "margin_pct": -33.87046470527082,
       "winner": "DEM"
     },
     "Yavapai": {
@@ -121,7 +154,7 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": 22811,
-      "margin_pct": 29.1962,
+      "margin_pct": 29.196211442467686,
       "winner": "REP"
     },
     "Yuma": {
@@ -132,7 +165,7 @@
       "dem_candidate": "Andrei Cherny",
       "rep_candidate": "Doug Ducey",
       "margin": 3817,
-      "margin_pct": 11.5944,
+      "margin_pct": 11.594423012666686,
       "winner": "REP"
     }
   }

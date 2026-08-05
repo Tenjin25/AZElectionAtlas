@@ -11,7 +11,7 @@
       "dem_candidate": "Jim Pederson",
       "rep_candidate": "Jon Kyl",
       "margin": -4872,
-      "margin_pct": -25.966,
+      "margin_pct": -25.965996908809892,
       "winner": "DEM"
     },
     "Cochise": {
@@ -19,22 +19,33 @@
       "rep_votes": 20194,
       "other_votes": 1302,
       "total_votes": 36345,
-      "dem_candidate": "Jim Gen Pederson",
-      "rep_candidate": "Jon Gen Kyl",
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
       "margin": 5345,
-      "margin_pct": 14.7063,
+      "margin_pct": 14.706286972073187,
       "winner": "REP"
     },
     "Coconino": {
       "dem_votes": 20610,
       "rep_votes": 16003,
-      "other_votes": 1448,
-      "total_votes": 38061,
+      "other_votes": 1449,
+      "total_votes": 38062,
       "dem_candidate": "Jim Pederson",
       "rep_candidate": "Jon Kyl",
       "margin": -4607,
-      "margin_pct": -12.1043,
+      "margin_pct": -12.103935683884188,
       "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6643,
+      "rep_votes": 9512,
+      "other_votes": 533,
+      "total_votes": 16688,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 2869,
+      "margin_pct": 17.191994247363375,
+      "winner": "REP"
     },
     "Graham": {
       "dem_votes": 2194,
@@ -44,29 +55,95 @@
       "dem_candidate": "Jim Pederson",
       "rep_candidate": "Jon Kyl",
       "margin": 2933,
-      "margin_pct": 37.425,
+      "margin_pct": 37.425035089957895,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 942,
+      "rep_votes": 1068,
+      "other_votes": 119,
+      "total_votes": 2129,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 126,
+      "margin_pct": 5.918271488961954,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1457,
+      "rep_votes": 2203,
+      "other_votes": 173,
+      "total_votes": 3833,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 746,
+      "margin_pct": 19.46256196190973,
       "winner": "REP"
     },
     "Maricopa": {
-      "dem_votes": 66132,
-      "rep_votes": 83407,
-      "other_votes": 5024,
-      "total_votes": 154563,
+      "dem_votes": 364661,
+      "rep_votes": 491721,
+      "other_votes": 26737,
+      "total_votes": 883119,
       "dem_candidate": "Jim Pederson",
       "rep_candidate": "Jon Kyl",
-      "margin": 17275,
-      "margin_pct": 11.1767,
+      "margin": 127060,
+      "margin_pct": 14.38764198256407,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 16998,
+      "rep_votes": 26964,
+      "other_votes": 1982,
+      "total_votes": 45944,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 9966,
+      "margin_pct": 21.691624586453074,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 11785,
+      "rep_votes": 13927,
+      "other_votes": 951,
+      "total_votes": 26663,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 2142,
+      "margin_pct": 8.033604620635337,
       "winner": "REP"
     },
     "Pima": {
       "dem_votes": 144275,
       "rep_votes": 128987,
-      "other_votes": 7936,
-      "total_votes": 281198,
+      "other_votes": 7940,
+      "total_votes": 281202,
       "dem_candidate": "Jim Pederson",
       "rep_candidate": "Jon Kyl",
       "margin": -15288,
-      "margin_pct": -5.4367,
+      "margin_pct": -5.436661190176457,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 24790,
+      "rep_votes": 30379,
+      "other_votes": 1836,
+      "total_votes": 57005,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 5589,
+      "margin_pct": 9.80440312253311,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 4892,
+      "rep_votes": 3067,
+      "other_votes": 197,
+      "total_votes": 8156,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": -1825,
+      "margin_pct": -22.376164786660127,
       "winner": "DEM"
     },
     "Yavapai": {
@@ -77,7 +154,18 @@
       "dem_candidate": "Jim Pederson",
       "rep_candidate": "Jon Kyl",
       "margin": 16879,
-      "margin_pct": 23.311,
+      "margin_pct": 23.31096011490443,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 12303,
+      "rep_votes": 15497,
+      "other_votes": 828,
+      "total_votes": 28628,
+      "dem_candidate": "Jim Pederson",
+      "rep_candidate": "Jon Kyl",
+      "margin": 3194,
+      "margin_pct": 11.156909319547296,
       "winner": "REP"
     }
   }

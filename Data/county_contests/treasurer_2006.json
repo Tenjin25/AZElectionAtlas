@@ -11,7 +11,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": -5148,
-      "margin_pct": -28.3793,
+      "margin_pct": -28.37927232635061,
       "winner": "DEM"
     },
     "Cochise": {
@@ -22,7 +22,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": 6089,
-      "margin_pct": 17.5097,
+      "margin_pct": 17.509705248023007,
       "winner": "REP"
     },
     "Coconino": {
@@ -33,7 +33,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": -5476,
-      "margin_pct": -15.2671,
+      "margin_pct": -15.267090442734471,
       "winner": "DEM"
     },
     "Gila": {
@@ -44,7 +44,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": 2311,
-      "margin_pct": 14.6907,
+      "margin_pct": 14.690738033182887,
       "winner": "REP"
     },
     "Graham": {
@@ -55,7 +55,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": 2285,
-      "margin_pct": 31.0504,
+      "margin_pct": 31.05041445848621,
       "winner": "REP"
     },
     "Greenlee": {
@@ -66,18 +66,29 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": -112,
-      "margin_pct": -5.6169,
+      "margin_pct": -5.616850551654965,
       "winner": "DEM"
     },
-    "Maricopa": {
-      "dem_votes": 61272,
-      "rep_votes": 84417,
-      "other_votes": 181,
-      "total_votes": 145870,
+    "La Paz": {
+      "dem_votes": 1432,
+      "rep_votes": 2178,
+      "other_votes": 0,
+      "total_votes": 3610,
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
-      "margin": 23145,
-      "margin_pct": 15.8669,
+      "margin": 746,
+      "margin_pct": 20.664819944598335,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 340139,
+      "rep_votes": 495568,
+      "other_votes": 0,
+      "total_votes": 835707,
+      "dem_candidate": "Rano Singh",
+      "rep_candidate": "Dean Martin",
+      "margin": 155429,
+      "margin_pct": 18.598504021146166,
       "winner": "REP"
     },
     "Mohave": {
@@ -88,7 +99,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": 12974,
-      "margin_pct": 29.7787,
+      "margin_pct": 29.778736687477046,
       "winner": "REP"
     },
     "Navajo": {
@@ -99,7 +110,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": 1001,
-      "margin_pct": 3.9079,
+      "margin_pct": 3.9078664844817492,
       "winner": "REP"
     },
     "Pima": {
@@ -110,7 +121,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": -4070,
-      "margin_pct": -1.5187,
+      "margin_pct": -1.5186567164179103,
       "winner": "DEM"
     },
     "Pinal": {
@@ -121,10 +132,10 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": 6754,
-      "margin_pct": 12.4401,
+      "margin_pct": 12.440138510277757,
       "winner": "REP"
     },
-    "SantaCruz": {
+    "Santa Cruz": {
       "dem_votes": 4774,
       "rep_votes": 2951,
       "other_votes": 0,
@@ -132,7 +143,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": -1823,
-      "margin_pct": -23.5987,
+      "margin_pct": -23.598705501618124,
       "winner": "DEM"
     },
     "Yavapai": {
@@ -143,7 +154,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": 19392,
-      "margin_pct": 28.2304,
+      "margin_pct": 28.230361614161765,
       "winner": "REP"
     },
     "Yuma": {
@@ -154,7 +165,7 @@
       "dem_candidate": "Rano Singh",
       "rep_candidate": "Dean Martin",
       "margin": 3596,
-      "margin_pct": 13.1954,
+      "margin_pct": 13.195361808307648,
       "winner": "REP"
     }
   }

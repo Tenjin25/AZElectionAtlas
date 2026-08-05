@@ -11,7 +11,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -8655,
-      "margin_pct": -46.7408,
+      "margin_pct": -46.740832748285364,
       "winner": "DEM"
     },
     "Cochise": {
@@ -22,7 +22,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -3390,
-      "margin_pct": -9.4947,
+      "margin_pct": -9.494734483531257,
       "winner": "DEM"
     },
     "Coconino": {
@@ -33,7 +33,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -15528,
-      "margin_pct": -41.8838,
+      "margin_pct": -41.8837999676323,
       "winner": "DEM"
     },
     "Gila": {
@@ -44,7 +44,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -3754,
-      "margin_pct": -22.9098,
+      "margin_pct": -22.909801049676553,
       "winner": "DEM"
     },
     "Graham": {
@@ -55,7 +55,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -623,
-      "margin_pct": -8.1067,
+      "margin_pct": -8.106701366297983,
       "winner": "DEM"
     },
     "Greenlee": {
@@ -66,18 +66,29 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -769,
-      "margin_pct": -36.8119,
+      "margin_pct": -36.81187170895165,
+      "winner": "DEM"
+    },
+    "La Paz": {
+      "dem_votes": 2036,
+      "rep_votes": 1695,
+      "other_votes": 0,
+      "total_votes": 3731,
+      "dem_candidate": "Terry Goddard",
+      "rep_candidate": "Bill Montgomery",
+      "margin": -341,
+      "margin_pct": -9.13964084695792,
       "winner": "DEM"
     },
     "Maricopa": {
-      "dem_votes": 93061,
-      "rep_votes": 58078,
-      "other_votes": 146,
-      "total_votes": 151285,
+      "dem_votes": 513462,
+      "rep_votes": 351771,
+      "other_votes": 0,
+      "total_votes": 865233,
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
-      "margin": -34983,
-      "margin_pct": -23.1239,
+      "margin": -161691,
+      "margin_pct": -18.68756739514096,
       "winner": "DEM"
     },
     "Mohave": {
@@ -88,7 +99,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": 1309,
-      "margin_pct": 2.9459,
+      "margin_pct": 2.945875998649713,
       "winner": "REP"
     },
     "Navajo": {
@@ -99,7 +110,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -6296,
-      "margin_pct": -23.9464,
+      "margin_pct": -23.946447588620114,
       "winner": "DEM"
     },
     "Pima": {
@@ -110,7 +121,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -84496,
-      "margin_pct": -30.7612,
+      "margin_pct": -30.76116555751336,
       "winner": "DEM"
     },
     "Pinal": {
@@ -121,10 +132,10 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -10105,
-      "margin_pct": -18.0844,
+      "margin_pct": -18.084363870644452,
       "winner": "DEM"
     },
-    "SantaCruz": {
+    "Santa Cruz": {
       "dem_votes": 5851,
       "rep_votes": 2135,
       "other_votes": 0,
@@ -132,7 +143,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -3716,
-      "margin_pct": -46.5314,
+      "margin_pct": -46.53143000250438,
       "winner": "DEM"
     },
     "Yavapai": {
@@ -143,7 +154,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -1915,
-      "margin_pct": -2.7054,
+      "margin_pct": -2.7053754326481596,
       "winner": "DEM"
     },
     "Yuma": {
@@ -154,7 +165,7 @@
       "dem_candidate": "Terry Goddard",
       "rep_candidate": "Bill Montgomery",
       "margin": -3720,
-      "margin_pct": -13.3592,
+      "margin_pct": -13.359189829778066,
       "winner": "DEM"
     }
   }

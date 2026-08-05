@@ -11,7 +11,7 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": -6766,
-      "margin_pct": -33.5349,
+      "margin_pct": -33.53489294210944,
       "winner": "DEM"
     },
     "Cochise": {
@@ -22,7 +22,7 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": 6881,
-      "margin_pct": 17.6531,
+      "margin_pct": 17.653095256420123,
       "winner": "REP"
     },
     "Coconino": {
@@ -33,7 +33,7 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": -6357,
-      "margin_pct": -17.0205,
+      "margin_pct": -17.020536025060913,
       "winner": "DEM"
     },
     "Gila": {
@@ -44,7 +44,7 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": 2498,
-      "margin_pct": 14.3811,
+      "margin_pct": 14.381116868163502,
       "winner": "REP"
     },
     "Graham": {
@@ -55,7 +55,7 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": 2085,
-      "margin_pct": 23.2935,
+      "margin_pct": 23.293486761255725,
       "winner": "REP"
     },
     "Greenlee": {
@@ -66,18 +66,40 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": -215,
-      "margin_pct": -9.0756,
+      "margin_pct": -9.07555930772478,
       "winner": "DEM"
     },
-    "Maricopa": {
-      "dem_votes": 121029,
-      "rep_votes": 125617,
-      "other_votes": 617,
-      "total_votes": 247263,
+    "La Paz": {
+      "dem_votes": 1540,
+      "rep_votes": 2760,
+      "other_votes": 0,
+      "total_votes": 4300,
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
-      "margin": 4588,
-      "margin_pct": 1.8555,
+      "margin": 1220,
+      "margin_pct": 28.37209302325581,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 461597,
+      "rep_votes": 501202,
+      "other_votes": 0,
+      "total_votes": 962799,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Tom Horne",
+      "margin": 39605,
+      "margin_pct": 4.113527330211186,
+      "winner": "REP"
+    },
+    "Mohave": {
+      "dem_votes": 16152,
+      "rep_votes": 35387,
+      "other_votes": 0,
+      "total_votes": 51539,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Tom Horne",
+      "margin": 19235,
+      "margin_pct": 37.3212518675178,
       "winner": "REP"
     },
     "Navajo": {
@@ -88,7 +110,18 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": -414,
-      "margin_pct": -1.4382,
+      "margin_pct": -1.4381991245744459,
+      "winner": "DEM"
+    },
+    "Pima": {
+      "dem_votes": 165195,
+      "rep_votes": 142417,
+      "other_votes": 0,
+      "total_votes": 307612,
+      "dem_candidate": "Felecia Rotellini",
+      "rep_candidate": "Tom Horne",
+      "margin": -22778,
+      "margin_pct": -7.404782648271199,
       "winner": "DEM"
     },
     "Pinal": {
@@ -99,10 +132,10 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": 8884,
-      "margin_pct": 11.6478,
+      "margin_pct": 11.647786868051185,
       "winner": "REP"
     },
-    "SantaCruz": {
+    "Santa Cruz": {
       "dem_votes": 6420,
       "rep_votes": 3216,
       "other_votes": 0,
@@ -110,7 +143,7 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": -3204,
-      "margin_pct": -33.2503,
+      "margin_pct": -33.25031133250312,
       "winner": "DEM"
     },
     "Yavapai": {
@@ -121,7 +154,7 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": 18221,
-      "margin_pct": 23.2005,
+      "margin_pct": 23.20052968664451,
       "winner": "REP"
     },
     "Yuma": {
@@ -132,7 +165,7 @@
       "dem_candidate": "Felecia Rotellini",
       "rep_candidate": "Tom Horne",
       "margin": 4403,
-      "margin_pct": 13.3453,
+      "margin_pct": 13.345255054102385,
       "winner": "REP"
     }
   }

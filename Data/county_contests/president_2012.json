@@ -6,45 +6,56 @@
     "Apache": {
       "dem_votes": 17147,
       "rep_votes": 8250,
-      "other_votes": 442,
-      "total_votes": 25839,
+      "other_votes": 451,
+      "total_votes": 25848,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": -8897,
-      "margin_pct": -34.4324,
+      "margin_pct": -34.420458062519344,
       "winner": "DEM"
     },
     "Cochise": {
       "dem_votes": 18546,
       "rep_votes": 29497,
-      "other_votes": 943,
-      "total_votes": 48986,
+      "other_votes": 959,
+      "total_votes": 49002,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 10951,
-      "margin_pct": 22.3554,
+      "margin_pct": 22.348067425819355,
       "winner": "REP"
     },
     "Coconino": {
       "dem_votes": 29257,
       "rep_votes": 21220,
-      "other_votes": 1242,
-      "total_votes": 51719,
+      "other_votes": 1254,
+      "total_votes": 51731,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": -8037,
-      "margin_pct": -15.5397,
+      "margin_pct": -15.53613887224295,
       "winner": "DEM"
     },
     "Gila": {
       "dem_votes": 7697,
       "rep_votes": 13455,
-      "other_votes": 374,
-      "total_votes": 21526,
+      "other_votes": 376,
+      "total_votes": 21528,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 5758,
-      "margin_pct": 26.749,
+      "margin_pct": 26.746562616127832,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3609,
+      "rep_votes": 8076,
+      "other_votes": 170,
+      "total_votes": 11855,
+      "dem_candidate": "Barack Obama",
+      "rep_candidate": "Mitt Romney",
+      "margin": 4467,
+      "margin_pct": 37.68030366933783,
       "winner": "REP"
     },
     "Greenlee": {
@@ -55,7 +66,7 @@
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 282,
-      "margin_pct": 9.4822,
+      "margin_pct": 9.482178883658372,
       "winner": "REP"
     },
     "La Paz": {
@@ -66,7 +77,7 @@
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 1834,
-      "margin_pct": 32.0798,
+      "margin_pct": 32.07976211299633,
       "winner": "REP"
     },
     "Maricopa": {
@@ -77,51 +88,51 @@
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 147597,
-      "margin_pct": 10.7222,
+      "margin_pct": 10.722193648496683,
       "winner": "REP"
     },
     "Mohave": {
       "dem_votes": 19533,
       "rep_votes": 49168,
-      "other_votes": 1294,
-      "total_votes": 69995,
+      "other_votes": 1309,
+      "total_votes": 70010,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 29635,
-      "margin_pct": 42.3387,
+      "margin_pct": 42.32966719040137,
       "winner": "REP"
     },
     "Navajo": {
       "dem_votes": 16945,
       "rep_votes": 19884,
-      "other_votes": 498,
-      "total_votes": 37327,
+      "other_votes": 506,
+      "total_votes": 37335,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 2939,
-      "margin_pct": 7.8737,
+      "margin_pct": 7.871970001339227,
       "winner": "REP"
     },
     "Pima": {
       "dem_votes": 201251,
       "rep_votes": 174779,
-      "other_votes": 6124,
-      "total_votes": 382154,
+      "other_votes": 6218,
+      "total_votes": 382248,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": -26472,
-      "margin_pct": -6.9271,
+      "margin_pct": -6.925346895209393,
       "winner": "DEM"
     },
     "Pinal": {
       "dem_votes": 44306,
       "rep_votes": 62079,
-      "other_votes": 1893,
-      "total_votes": 108278,
+      "other_votes": 1930,
+      "total_votes": 108315,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 17773,
-      "margin_pct": 16.4142,
+      "margin_pct": 16.408622997738078,
       "winner": "REP"
     },
     "Santa Cruz": {
@@ -132,29 +143,29 @@
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": -5251,
-      "margin_pct": -37.7933,
+      "margin_pct": -37.79329206851879,
       "winner": "DEM"
     },
     "Yavapai": {
       "dem_votes": 33918,
       "rep_votes": 64468,
-      "other_votes": 1867,
-      "total_votes": 100253,
+      "other_votes": 1895,
+      "total_votes": 100281,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 30550,
-      "margin_pct": 30.4729,
+      "margin_pct": 30.464395049909754,
       "winner": "REP"
     },
     "Yuma": {
       "dem_votes": 18059,
       "rep_votes": 23352,
-      "other_votes": 539,
-      "total_votes": 41950,
+      "other_votes": 542,
+      "total_votes": 41953,
       "dem_candidate": "Barack Obama",
       "rep_candidate": "Mitt Romney",
       "margin": 5293,
-      "margin_pct": 12.6174,
+      "margin_pct": 12.616499416013157,
       "winner": "REP"
     }
   }
