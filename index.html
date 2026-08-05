@@ -10395,16 +10395,8 @@ document.addEventListener('DOMContentLoaded', function() {
         county_demographics: null,
         county_population_estimates: null,
         precinct_demographics: null,
-        cvap_aggregates: {
-          county_2020: withBase('./Data/cvap_aggregates/county_2020__cvap24.csv'),
-          precinct_2020: withBase('./Data/cvap_aggregates/precinct_2020__cvap24.csv'),
-          cd118_2022: withBase('./Data/cvap_aggregates/cd118_2022_lines__cvap24.csv'),
-          cd119_2024: withBase('./Data/cvap_aggregates/cd119_2024_lines__cvap24.csv'),
-          state_house_2022: withBase('./Data/cvap_aggregates/state_house_2022_lines__cvap24.csv'),
-          state_house_2024: withBase('./Data/cvap_aggregates/state_house_2024_lines__cvap24.csv'),
-          state_senate_2022: withBase('./Data/cvap_aggregates/state_senate_2022_lines__cvap24.csv'),
-          state_senate_2024: withBase('./Data/cvap_aggregates/state_senate_2024_lines__cvap24.csv')
-        },
+        // CVAP aggregate files are optional and are not part of this deployment.
+        cvap_aggregates: {},
         election: withBase('./Data/elections_aggregated.json'),
         county_contests_dir: withBase('./Data/county_contests'),
         district_election: null,
