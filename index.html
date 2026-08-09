@@ -10615,7 +10615,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-05-az-district-results-v18"></script>
+    <script src="./js/atlas-data.js?v=2026-08-09-mccain-special-election-v1"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10655,8 +10655,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-05-az-district-results-v18';
-    const APP_BUILD_ID = '2026-08-05-az-district-results-v18';
+    const DATA_CACHE_BUSTER = '2026-08-09-mccain-special-election-v1';
+    const APP_BUILD_ID = '2026-08-09-mccain-special-election-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -20454,7 +20454,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      if (modeledDef?.displayName) {
 	        return modeledDef.displayName;
 	      }
-	      const nameMap = {
+      const nameMap = {
 	        'president': 'President of the United States',
 	        'governor': 'Governor',
 	        'us_senate': 'United States Senator',
@@ -20469,10 +20469,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'treasurer': 'Treasurer',
 	        'us_house': 'US House',
 	        'state_senate': 'State Senate',
-	        'state_house': 'State House'
-	      };
+        'state_house': 'State House'
+      };
 
-	      if (contestType.startsWith('a') && contestType.length <= 3) {
+      // Arizona's 2020 Senate contest filled the vacancy created by Senator
+      // John McCain's death; it was not the state's regular Senate election.
+      if (contestType === 'us_senate' && Number(year) === 2020) {
+        return 'United States Senator (Special Election)';
+      }
+
+      if (contestType.startsWith('a') && contestType.length <= 3) {
 	        return `Amendment ${contestType.substring(1).toUpperCase()}`;
 	      }
 
@@ -20859,6 +20865,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const modeledSuffix = modeledDef && !modeledOptionLabel ? ' [Modeled]' : '';
             if (modeledOptionLabel) {
               opt.textContent = modeledOptionLabel;
+            } else if (item.contestType === 'us_senate' && Number(item.year) === 2020) {
+              opt.textContent = 'US Senate Special Election (2020)';
             } else
 	          if (isJudicial || modeledDef) {
               opt.textContent = `${formatContestName(item.contestType, item.year)} (${item.year})${modeledSuffix}`;
@@ -22226,6 +22234,10 @@ document.addEventListener('DOMContentLoaded', function() {
       if (key === 'OBAMA' || key === 'B. OBAMA' || key === 'B OBAMA') return 'Barack Obama';
       if (key === 'ROMNEY' || key === 'M. ROMNEY' || key === 'M ROMNEY') return 'Mitt Romney';
       if (key === 'MCCAIN' || key === 'J. MCCAIN' || key === 'J MCCAIN') return 'John McCain';
+      // Official county files sometimes use "SURNAME, GIVEN"; normalize it
+      // before compact and full candidate labels are derived.
+      const surnameFirst = raw.match(/^([^,]+),\s*([^,]+)$/);
+      if (surnameFirst) return `${surnameFirst[2].trim()} ${surnameFirst[1].trim()}`;
       return raw;
     }
 
