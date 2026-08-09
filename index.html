@@ -21680,7 +21680,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Prefer the surname in compact labels; ignore trailing suffixes like Jr./III.
       let idx = parts.length - 1;
       while (idx > 0 && isNameSuffixToken(parts[idx])) idx -= 1;
-      return parts[idx];
+      return toTitleCaseName(parts[idx]);
     }
 
     // Shared candidate/last-name resolver for hover, selected results, county trend + timeline, and trajectory.
