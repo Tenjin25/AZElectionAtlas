@@ -10655,8 +10655,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-11-shared-margin-palette';
-    const APP_BUILD_ID = '2026-08-11-shared-margin-palette';
+    const DATA_CACHE_BUSTER = '2026-08-11-pre-overnight-palette-v1';
+    const APP_BUILD_ID = '2026-08-11-pre-overnight-palette-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -34061,9 +34061,9 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (marginPct >= 20) {
         return winner === 'R' ? '#cb181d' : '#2876b5'; // Stronghold — midpoint blue, OG red
       } else if (marginPct >= 10) {
-        return winner === 'R' ? '#ef3b2c' : '#6baed6'; // Safe — near-original Atlas red, slightly tempered
+        return winner === 'R' ? '#e93a2d' : '#4795d2'; // Safe — near-original Atlas red, slightly tempered
       } else if (marginPct >= 5.5) {
-        return winner === 'R' ? '#fb6a4a' : '#9ecae1'; // Likely — near-original Atlas red, slightly tempered
+        return winner === 'R' ? '#f7634b' : '#6baed6'; // Likely — near-original Atlas red, slightly tempered
       } else if (marginPct >= 1.0) {
         return winner === 'R' ? '#fcae91' : '#c6dbef'; // Lean — near-original Atlas red with a restrained rosy shift
       } else if (marginPct >= 0.5) {
