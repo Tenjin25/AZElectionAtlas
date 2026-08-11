@@ -10386,15 +10386,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="legend-segment legend-color" style="background: #67000d;"></span>
                 <span class="legend-segment legend-color" style="background: #a50f15;"></span>
                 <span class="legend-segment legend-color" style="background: #cb181d;"></span>
-                <span class="legend-segment legend-color" style="background: #e93a2d;"></span>
-                <span class="legend-segment legend-color" style="background: #f7634b;"></span>
-                <span class="legend-segment legend-color" style="background: #fca793;"></span>
+                <span class="legend-segment legend-color" style="background: #ef3b2c;"></span>
+                <span class="legend-segment legend-color" style="background: #fb6a4a;"></span>
+                <span class="legend-segment legend-color" style="background: #f99a90;"></span>
                 <span class="legend-segment legend-color" style="background: #f4c9c5;"></span>
                 <span class="legend-segment legend-color" style="background: #f7f7f7; border-left: 1px solid rgba(15,23,42,0.12); border-right: 1px solid rgba(15,23,42,0.12);"></span>
                 <span class="legend-segment legend-color" style="background: #c7ddf0;"></span>
                 <span class="legend-segment legend-color" style="background: #8bbde0;"></span>
-                <span class="legend-segment legend-color" style="background: #6baed6;"></span>
-                <span class="legend-segment legend-color" style="background: #4795d2;"></span>
+                <span class="legend-segment legend-color" style="background: #9ecae1;"></span>
+                <span class="legend-segment legend-color" style="background: #9ecae1;"></span>
                 <span class="legend-segment legend-color" style="background: #2876b5;"></span>
                 <span class="legend-segment legend-color" style="background: #08519c;"></span>
                 <span class="legend-segment legend-color" style="background: #08306b;"></span>
@@ -10655,8 +10655,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-09-mccain-special-election-v2';
-    const APP_BUILD_ID = '2026-08-09-mccain-special-election-v2';
+    const DATA_CACHE_BUSTER = '2026-08-11-shared-margin-palette';
+    const APP_BUILD_ID = '2026-08-11-shared-margin-palette';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -34061,11 +34061,11 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (marginPct >= 20) {
         return winner === 'R' ? '#cb181d' : '#2876b5'; // Stronghold — midpoint blue, OG red
       } else if (marginPct >= 10) {
-        return winner === 'R' ? '#e93a2d' : '#4795d2'; // Safe — near-original Atlas red, slightly tempered
+        return winner === 'R' ? '#ef3b2c' : '#6baed6'; // Safe — near-original Atlas red, slightly tempered
       } else if (marginPct >= 5.5) {
-        return winner === 'R' ? '#f7634b' : '#6baed6'; // Likely — near-original Atlas red, slightly tempered
+        return winner === 'R' ? '#fb6a4a' : '#9ecae1'; // Likely — near-original Atlas red, slightly tempered
       } else if (marginPct >= 1.0) {
-        return winner === 'R' ? '#fca793' : '#8bbde0'; // Lean — near-original Atlas red with a restrained rosy shift
+        return winner === 'R' ? '#f99a90' : '#8bbde0'; // Lean — near-original Atlas red with a restrained rosy shift
       } else if (marginPct >= 0.5) {
         return winner === 'R' ? '#f4c9c5' : '#c7ddf0'; // Balanced Tilt shades, still clearly lighter than Lean
       } else {
