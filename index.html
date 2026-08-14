@@ -570,6 +570,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Keep native controls on the same atlas type system in every browser mode. */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
 #map {
   position: absolute;
   top: 0;
