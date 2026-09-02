@@ -219,7 +219,17 @@
     border-color: rgba(217, 119, 6, 0.75) !important;
   }
   body.colorblind-mode .legend-swatch-card .legend-color {
-    border: 1px solid rgba(15, 23, 42, 0.55) !important;
+    border: 2px solid #ffffff !important;
+    outline: 1px solid rgba(15, 23, 42, 0.72);
+  }
+  body.colorblind-mode .legend-tier-row .legend-color {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffffff !important;
+    outline: 1px solid rgba(15, 23, 42, 0.68);
+  }
+  body.colorblind-mode .legend-tier-label.rep {
+    color: #a23b00 !important;
   }
   body.colorblind-mode .legend-axis .rep,
   body.colorblind-mode .legend-scale-caption .rep {
@@ -227,7 +237,35 @@
   }
   body.colorblind-mode .legend-axis .dem,
   body.colorblind-mode .legend-scale-caption .dem {
-    color: #1d4ed8 !important;
+    color: #00629b !important;
+  }
+  .colorblind-legend-note {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px 10px;
+    padding: 8px 10px;
+    border: 1px solid rgba(2, 132, 199, 0.26);
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(245, 158, 11, 0.10), rgba(14, 165, 233, 0.10));
+    color: #334155;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  .colorblind-legend-note strong { color: #0f172a; }
+  .colorblind-legend-key {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+  }
+  .colorblind-legend-key i {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    outline: 1px solid rgba(15, 23, 42, 0.72);
   }
 
   @media (min-width: 769px) {
@@ -360,7 +398,7 @@
       function applyToolAccessibilityAndTestHooks() {
         const toolMeta = [
           { id: 'accessibility-toggle', label: 'Toggle color blind mode', keyShortcuts: 'B' },
-          { id: 'label-toggle', label: 'Toggle county labels', keyShortcuts: 'L' },
+          { id: 'basemap-toggle', label: 'Toggle underlying map', keyShortcuts: 'L' },
           { id: 'precinct-toggle', label: 'Toggle precinct overlay', keyShortcuts: 'P' },
           { id: 'split-ticket-toggle', label: 'Toggle split ticket comparison', keyShortcuts: 'T' },
           { id: 'gps-locate-btn', label: 'Find my precinct by GPS', keyShortcuts: 'G' },
@@ -427,7 +465,7 @@
           if (typeof togglePrecinctOverlay === 'function') togglePrecinctOverlay();
         }
         if (ev.key === 'l' || ev.key === 'L') {
-          const btn = document.getElementById('label-toggle');
+          const btn = document.getElementById('basemap-toggle');
           if (btn) btn.click();
         }
         if (ev.key === 'b' || ev.key === 'B') {
@@ -459,14 +497,14 @@
           if (btn) btn.click();
         }
       });
-      
+
       // Status panel close button
       if (statusExit) {
         statusExit.onclick = function() {
           document.getElementById('status-panel').style.display = 'none';
         };
       }
-      
+
       // Show default message on load
       if (detailsDiv && contentEl) {
         contentEl.innerHTML = '<p>Select a contest or county to see results.</p>';
@@ -1327,7 +1365,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
   #help-btn,
   #accessibility-toggle,
-  #label-toggle {
+  #basemap-toggle {
     width: 44px !important;
     height: 44px !important;
     min-width: 44px !important;
@@ -3448,7 +3486,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   .minimize-btn,
   #accessibility-toggle,
-  #label-toggle,
+  #basemap-toggle,
   #precinct-toggle {
     border: 1px solid rgba(37, 99, 235, 0.34);
     box-shadow: 0 6px 14px rgba(37, 99, 235, 0.18);
@@ -3529,7 +3567,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       margin: 0 !important;
     }
     .contest-toolbar #accessibility-toggle,
-    .contest-toolbar #label-toggle {
+    .contest-toolbar #basemap-toggle {
       flex: 0 0 44px;
     }
     .contest-toolbar #precinct-toggle {
@@ -6403,7 +6441,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .control-group-contest #accessibility-toggle,
-  .control-group-contest #label-toggle {
+  .control-group-contest #basemap-toggle {
     width: 36px;
     height: 36px;
     min-width: 36px;
@@ -6492,7 +6530,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   #help-btn,
   #accessibility-toggle,
-  #label-toggle {
+  #basemap-toggle {
     border: 1px solid rgba(148, 163, 184, 0.18) !important;
     background: rgba(15, 23, 42, 0.92) !important;
     box-shadow: 0 10px 20px rgba(15, 23, 42, 0.14) !important;
@@ -8087,7 +8125,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     }
 
     .contest-toolbar #accessibility-toggle,
-    .contest-toolbar #label-toggle {
+    .contest-toolbar #basemap-toggle {
       width: 100% !important;
       min-width: 0 !important;
       border-radius: 10px !important;
@@ -8179,7 +8217,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     .contest-toolbar #copy-link-btn,
     .contest-toolbar #reset-view-btn,
     .contest-toolbar #accessibility-toggle,
-    .contest-toolbar #label-toggle {
+    .contest-toolbar #basemap-toggle {
       grid-column: 1 / -1;
       width: 100% !important;
       min-width: 0 !important;
@@ -9256,7 +9294,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       font-feature-settings: "tnum" 1;
     }
   }
-    
+
 
   /* Arizona UI theme override
      Replaces inherited Carolina-blue interface accents only.
@@ -9439,7 +9477,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   .tool-chip-btn,
   #help-btn,
   #accessibility-toggle,
-  #label-toggle,
+  #basemap-toggle,
   #precinct-toggle {
     background: var(--az-control-idle) !important;
     border-color: rgba(231, 199, 157, 0.24) !important;
@@ -9458,14 +9496,14 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   .tool-chip-btn:hover,
   #help-btn:hover,
   #accessibility-toggle:hover,
-  #label-toggle:hover,
+  #basemap-toggle:hover,
   #precinct-toggle:hover {
     background: var(--az-control-active-strong) !important;
   }
 
   .tool-chip-btn[aria-pressed="true"],
   #accessibility-toggle[aria-pressed="true"],
-  #label-toggle[aria-pressed="true"],
+  #basemap-toggle[aria-pressed="true"],
   #precinct-toggle[aria-pressed="true"],
   #smart-insights-toggle[aria-pressed="true"],
   #follow-hover-toggle[aria-pressed="true"] {
@@ -9621,21 +9659,38 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!accBtn) return;
     const pressed = document.body.classList.contains('colorblind-mode');
     accBtn.setAttribute('aria-pressed', pressed ? 'true' : 'false');
+    accBtn.setAttribute('aria-label', pressed ? 'Turn off color-blind palette' : 'Turn on color-blind palette');
+    accBtn.title = pressed ? 'Color-blind palette: On' : 'Color-blind palette: Off';
   }
     if (accBtn) {
+      try {
+        if (localStorage.getItem('az-atlas-colorblind') === 'true') document.body.classList.add('colorblind-mode');
+      } catch (_) {}
+      try {
+        if (localStorage.getItem('az-atlas-colorblind') === 'true') {
+          document.body.classList.add('colorblind-mode');
+        }
+      } catch (_) {}
       syncColorblindToggleAria();
+      updateLegendColors();
       accBtn.onclick = function() {
         document.body.classList.toggle('colorblind-mode');
+        try { localStorage.setItem('az-atlas-colorblind', document.body.classList.contains('colorblind-mode') ? 'true' : 'false'); } catch (_) {}
+        try {
+          localStorage.setItem('az-atlas-colorblind', document.body.classList.contains('colorblind-mode') ? 'true' : 'false');
+        } catch (_) {}
         updateLegendColors();
         syncColorblindToggleAria();
       if (typeof splitTicketOverlayCache !== 'undefined' && splitTicketOverlayCache && typeof splitTicketOverlayCache.clear === 'function') {
         splitTicketOverlayCache.clear();
       }
+      try { countyColorExprCache.clear(); } catch (_) {}
+      try { precinctColorExprCache.clear(); } catch (_) {}
       // Reapply current contest with new color mode
       const contestSelect = document.getElementById('contestSelect');
       const contestKey = contestSelect && contestSelect.value;
         if (contestKey) {
-          applyContest(contestKey);
+          applyContest(contestKey, { force: true });
         }
         try { updateFiltersActiveChip(); } catch (_) {}
         try { saveUIState(); } catch (_) {}
@@ -9677,33 +9732,16 @@ document.addEventListener('DOMContentLoaded', function() {
       if (helpBackdrop && helpBackdrop.style.display === 'flex') closeHelp();
     }
   });
-  // County label toggle
-  function syncCountyLabelToggleAria() {
-    if (!labelBtn) return;
-    let visible = true;
+  // Underlying basemap toggle (election and boundary overlays stay visible).
+  const basemapBtn = document.getElementById('basemap-toggle');
+  if (basemapBtn) {
     try {
-      if (map && map.getLayer && map.getLayer('county-label')) {
-        visible = map.getLayoutProperty('county-label', 'visibility') === 'visible';
-      }
+      const savedBasemap = localStorage.getItem('az-atlas-basemap-visible');
+      if (savedBasemap === 'false') basemapVisible = false;
     } catch (_) {}
-    labelBtn.setAttribute('aria-pressed', visible ? 'true' : 'false');
-  }
-  const labelBtn = document.getElementById('label-toggle');
-  if (labelBtn) {
-    syncCountyLabelToggleAria();
-    labelBtn.onclick = function() {
-      if (map.getLayer('county-label')) {
-        const visibility = map.getLayoutProperty('county-label', 'visibility');
-        const nextVisible = visibility !== 'visible';
-        map.setLayoutProperty(
-          'county-label',
-          'visibility',
-          nextVisible ? 'visible' : 'none'
-        );
-        labelBtn.style.opacity = nextVisible ? '1' : '0.5';
-        labelBtn.setAttribute('aria-pressed', nextVisible ? 'true' : 'false');
-      }
-      try { saveUIState(); } catch (_) {}
+    syncBasemapToggleUI();
+    basemapBtn.onclick = function() {
+      setBasemapVisible(!basemapVisible);
     };
   }
   const precinctBtn = document.getElementById('precinct-toggle');
@@ -10139,7 +10177,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <span id="status-message"></span>
     <button id="status-exit" title="Close" style="position:absolute;top:10px;right:10px;padding:4px 10px;border-radius:6px;border:none;background:#eee;cursor:pointer;font-weight:bold;font-size:18px;">×</button>
   </div>
-    
+
 
 
     <!-- Main Controls Dropdown (Contest Selector) -->
@@ -10195,7 +10233,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   <label>Quick tools</label>
                   <div class="contest-tools-row">
                     <button id="accessibility-toggle" title="Accessibility: Color Blind Mode" data-testid="tool-colorblind" aria-label="Toggle color blind mode" aria-pressed="false">&#9855;</button>
-                    <button id="label-toggle" title="Toggle County Labels" data-testid="tool-labels" aria-label="Toggle county labels" aria-pressed="true">Aa</button>
+                    <button id="basemap-toggle" title="Underlying map: On" data-testid="tool-basemap" aria-label="Turn off underlying map" aria-pressed="true">Map On</button>
                     <button id="precinct-toggle" title="Enable Precinct Overlay (Zoom 8.5+)" data-testid="tool-precinct-overlay" aria-label="Toggle precinct overlay" aria-pressed="false">Precincts Off</button>
                     <button id="split-ticket-toggle" title="Overlay Governor over President to highlight split-ticket patterns" class="tool-chip-btn" type="button" data-testid="tool-split-ticket" aria-label="Toggle split ticket comparison" aria-pressed="false">Pres-Gov</button>
                     <button id="snapshot-share-btn" title="Download 9:16 social snapshot" class="tool-chip-btn" type="button" data-testid="tool-snapshot" aria-label="Download story snapshot">Story Snapshot</button>
@@ -10221,7 +10259,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   </details>
                 </div>
                 <div class="controls-panel-note">
-                  Start here: pick a contest, then click a county or district for the full story. Shortcuts: `P` precincts, `L` labels, `C` copy link.
+                  Start here: pick a contest, then click a county or district for the full story. Shortcuts: `P` precincts, `L` basemap, `C` copy link.
                 </div>
             </div>
             <div class="control-summary" id="control-summary">
@@ -10623,7 +10661,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <h3>Controls</h3>
           <ul>
             <li><span class="kbd">P</span> toggles precinct overlay (dots at statewide zoom; polygons when zoomed in).</li>
-            <li><span class="kbd">L</span> toggles county labels.</li>
+            <li><span class="kbd">L</span> toggles the underlying map while keeping election colors and boundaries visible.</li>
             <li><strong>♿</strong> toggles colorblind-friendly colors.</li>
             <li><strong>Clear</strong> (in the vote counter) unpins a selected area.</li>
           </ul>
@@ -10636,7 +10674,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-08-14-dem-colors-v1"></script>
+    <script src="./js/atlas-data.js?v=2026-09-01-az-colorblind-basemap-v1"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10676,8 +10714,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-15-dem-ramp-nc-red-v4';
-    const APP_BUILD_ID = '2026-08-15-dem-ramp-nc-red-v4';
+    const DATA_CACHE_BUSTER = '2026-09-01-az-colorblind-basemap-v1';
+    const APP_BUILD_ID = '2026-09-01-az-colorblind-basemap-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -10959,6 +10997,77 @@ document.addEventListener('DOMContentLoaded', function() {
       zoom: CONFIG.zoom,
       preserveDrawingBuffer: true,
       performanceMetricsCollection: false
+    });
+
+    let basemapVisible = true;
+    let basemapLayerIds = [];
+    const basemapOriginalVisibility = new Map();
+
+    function captureBasemapLayers() {
+      if (basemapLayerIds.length || !map || !map.getStyle) return;
+      const layers = map.getStyle()?.layers || [];
+      // Keep the neutral style background in place. The Mapbox Light style's
+      // reference layers use its composite source; atlas overlays use their
+      // own sources and must never be captured here, even during a style race.
+      basemapLayerIds = layers
+        .filter(layer => layer && layer.id && layer.source === 'composite')
+        .map(layer => layer.id);
+      basemapLayerIds.forEach(layerId => {
+        let visibility = 'visible';
+        try { visibility = map.getLayoutProperty(layerId, 'visibility') || 'visible'; } catch (_) {}
+        basemapOriginalVisibility.set(layerId, visibility);
+      });
+    }
+
+    function syncBasemapToggleUI() {
+      const btn = document.getElementById('basemap-toggle');
+      if (!btn) return;
+      btn.textContent = basemapVisible ? 'Map On' : 'Map Off';
+      btn.setAttribute('aria-pressed', basemapVisible ? 'true' : 'false');
+      btn.setAttribute('aria-label', basemapVisible ? 'Turn off underlying map' : 'Turn on underlying map');
+      btn.title = basemapVisible
+        ? 'Underlying map: On — hide roads, places, and terrain'
+        : 'Underlying map: Off — show roads, places, and terrain';
+      btn.style.background = basemapVisible ? 'var(--nc-control-active)' : 'var(--nc-control-idle)';
+      btn.style.opacity = '1';
+      btn.dataset.basemapLayerCount = String(basemapLayerIds.length);
+      btn.dataset.countyOverlayVisibility = map.getLayer('county-fill')
+        ? (map.getLayoutProperty('county-fill', 'visibility') || 'visible')
+        : 'pending';
+    }
+
+    function setBasemapVisible(visible, { persist = true, announce = true } = {}) {
+      basemapVisible = !!visible;
+      captureBasemapLayers();
+      basemapLayerIds.forEach(layerId => {
+        if (!map.getLayer(layerId)) return;
+        const visibility = basemapVisible
+          ? (basemapOriginalVisibility.get(layerId) || 'visible')
+          : 'none';
+        try { map.setLayoutProperty(layerId, 'visibility', visibility); } catch (_) {}
+      });
+      syncBasemapToggleUI();
+      if (persist) {
+        try { localStorage.setItem('az-atlas-basemap-visible', basemapVisible ? 'true' : 'false'); } catch (_) {}
+      }
+      try { updateFiltersActiveChip(); } catch (_) {}
+      if (announce) {
+        try {
+          setStatus(basemapVisible
+            ? 'Underlying map on: roads, places, and terrain are visible.'
+            : 'Underlying map off: election colors and boundaries remain visible.');
+        } catch (_) {}
+      }
+      try { saveUIState(); } catch (_) {}
+    }
+
+    map.on('style.load', () => {
+      // A style load recreates every underlying Mapbox layer. Capture the new
+      // set and immediately reapply the user's saved basemap preference.
+      basemapLayerIds = [];
+      basemapOriginalVisibility.clear();
+      captureBasemapLayers();
+      setBasemapVisible(basemapVisible, { persist: false, announce: false });
     });
 
     const IS_COARSE_POINTER = (() => {
@@ -13462,11 +13571,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const nextYear = normalizeDistrictLinesYear(linesYear);
       if (nextYear === 2026 && currentView !== 'districts') {
         setStatus('2026 lines are only available for congressional view.');
-        
+
         return;
       }
       if (nextYear === normalizeDistrictLinesYear(currentDistrictLinesYear)) {
-        
+
         return;
       }
       const contestSelect = document.getElementById('contestSelect');
@@ -13478,7 +13587,7 @@ document.addEventListener('DOMContentLoaded', function() {
       districtCarryCrosswalkCache.clear();
       vizPrevDistrictCache.clear();
       clearDistrictSearchGeoJSONCache();
-      
+
 
       if (appReady) {
         try {
@@ -14548,12 +14657,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function switchVizMode(mode) {
       currentVizMode = mode;
-      
+
       // Update button states
       setVizModeUI(mode);
       renderLegendForVizMode(mode);
       try { updatePopulationMetricLegendChip(); } catch (_) {}
-      
+
       // Reapply current contest with new mode
       const contestSelect = document.getElementById('contestSelect');
       if (contestSelect && contestSelect.value) {
@@ -14796,7 +14905,7 @@ document.addEventListener('DOMContentLoaded', function() {
         showVoteCounter();
         return;
       }
-      
+
       const demPct = (demVotes / totalVotes) * 100;
       const repPct = (repVotes / totalVotes) * 100;
       const otherPct = (otherVotes / totalVotes) * 100;
@@ -14804,16 +14913,16 @@ document.addEventListener('DOMContentLoaded', function() {
       const isLincolnCountyEquivalentHouse = String(meta?.kind || '').toLowerCase() === 'district' && String(meta?.scope || '').toLowerCase() === 'state_house' && Number(meta?.districtNum) === 97;
       const isCountyContext = String(meta?.kind || '').toLowerCase() === 'county' || isLincolnCountyEquivalentHouse;
       const pctFormatter = isCountyContext ? formatPctForCountyCloseRace : formatPctForCloseRace;
-      
+
       animateCounter('dem-count', demVotes);
       animateCounter('rep-count', repVotes);
       animateCounter('other-count', otherVotes);
-      
+
       document.getElementById('dem-percent').textContent = pctFormatter(demPct, marginPct) + '%';
       document.getElementById('rep-percent').textContent = pctFormatter(repPct, marginPct) + '%';
       document.getElementById('other-percent').textContent = pctFormatter(otherPct, marginPct) + '%';
       updateVoteCounterSummary(demVotes, repVotes, otherVotes, candidates, meta);
-      
+
       showVoteCounter();
     }
 
@@ -15822,30 +15931,30 @@ document.addEventListener('DOMContentLoaded', function() {
     function animateCounter(id, targetValue) {
       const element = document.getElementById(id);
       if (!element) return;
-      
+
       const startValue = parseInt(element.textContent.replace(/,/g, '')) || 0;
       const duration = 800;
       const startTime = performance.now();
-      
+
       function update(currentTime) {
         const elapsed = currentTime - startTime;
         const progress = Math.min(elapsed / duration, 1);
-        
+
         // Easing function for smooth animation
-        const easeProgress = progress < 0.5 
-          ? 2 * progress * progress 
+        const easeProgress = progress < 0.5
+          ? 2 * progress * progress
           : 1 - Math.pow(-2 * progress + 2, 2) / 2;
-        
+
         const currentValue = Math.floor(startValue + (targetValue - startValue) * easeProgress);
         element.textContent = currentValue.toLocaleString();
-        
+
         if (progress < 1) {
           requestAnimationFrame(update);
         } else {
           queueVoteBreakdownLayoutMeasure();
         }
       }
-      
+
       requestAnimationFrame(update);
     }
 
@@ -20305,13 +20414,13 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       const recordsMap = {}; // Map by "year|county" to merge office types
       const results = jsonData.results_by_year || {};
-      
+
       Object.keys(results).forEach(year => {
         const yearData = results[year];
-        
+
         Object.keys(yearData).forEach(officeType => {
           const contests = yearData[officeType];
-          
+
 	          // Map office type to match what the UI expects
 	          const officeTypeMap = {
 	            'presidential': 'president',
@@ -20321,15 +20430,15 @@ document.addEventListener('DOMContentLoaded', function() {
 	            'agriculture_commissioner': 'agriculture_commissioner'
 	          };
           const mappedOfficeType = officeTypeMap[officeType] || officeType;
-          
+
           Object.keys(contests).forEach(contestKey => {
             const contest = contests[contestKey];
             const countyResults = contest.results || {};
-            
+
             Object.keys(countyResults).forEach(countyName => {
               const countyData = countyResults[countyName];
               const key = `${year}|${countyName}`;
-              
+
               // Get or create the record for this year/county combo
               if (!recordsMap[key]) {
                 recordsMap[key] = {
@@ -20337,7 +20446,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   county: countyName
                 };
               }
-              
+
               // Add this office type's data to the record
               recordsMap[key][`${mappedOfficeType}_dem`] = countyData.dem_votes || 0;
               recordsMap[key][`${mappedOfficeType}_rep`] = countyData.rep_votes || 0;
@@ -20349,7 +20458,7 @@ document.addEventListener('DOMContentLoaded', function() {
               recordsMap[key][`${mappedOfficeType}_margin_pct`] = countyData.margin_pct || 0;
               recordsMap[key][`${mappedOfficeType}_winner`] = countyData.winner || '';
               recordsMap[key][`${mappedOfficeType}_color`] = countyData.competitiveness?.color || '';
-              
+
               // Debug: Log first entry to see data structure
               if (Object.keys(recordsMap).length === 1) {
                 debugLog('Debug flatten - first record:', {
@@ -20384,7 +20493,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
         });
       });
-      
+
       // Convert map to array
       return Object.values(recordsMap);
     }
@@ -20392,7 +20501,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Get candidate name from the JSON data (already includes first/last names)
     function getCandidateName(year, office, party) {
       if (!electionData || electionData.length === 0) return party === 'Democrat' ? 'D' : 'R';
-      
+
       // Map office name to office type key (matching flattened data field names)
       const officeMap = {
         'President of the United States': 'president',
@@ -20403,24 +20512,24 @@ document.addEventListener('DOMContentLoaded', function() {
         'Secretary of State': 'secretary_of_state',
         'Treasurer': 'treasurer'
       };
-      
+
       const officeType = officeMap[office] || office.toLowerCase().replace(/ /g, '_');
       const partyKey = party === 'Democrat' ? 'dem' : 'rep';
       const candidateField = `${officeType}_${partyKey}_candidate`;
-      
+
       // Find any county record for this year/office and get the candidate name
       const record = electionData.find(r => r.year == year && r[candidateField]);
-      
+
       const cacheKey = `${year}|${officeType}|${partyKey}`;
       if (candidateNameCache.has(cacheKey)) {
         return candidateNameCache.get(cacheKey);
       }
-      
+
       if (record && record[candidateField]) {
         candidateNameCache.set(cacheKey, record[candidateField]);
         return record[candidateField];
       }
-      
+
       const fallback = party === 'Democrat' ? 'D' : 'R';
       candidateNameCache.set(cacheKey, fallback);
       return fallback;
@@ -20588,7 +20697,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       const sel = document.getElementById('contestSelect');
       sel.innerHTML = '<option value="">Select a contest...</option>';
-      
+
       // Use only non-gerrymandered statewide contests for all views
       populateContestSelectFromCSV(electionData);
     }
@@ -21066,12 +21175,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function populateContestSelectForStateHouse(csvData) {
       const sel = document.getElementById('contestSelect');
       const years = [...new Set(csvData.map(row => row.year))].sort();
-      
+
       years.forEach(year => {
-        const hasData = csvData.some(row => 
+        const hasData = csvData.some(row =>
           row.year == year && row.state_house_total > 0
         );
-        
+
         if (hasData) {
           const opt = document.createElement('option');
           opt.value = `state_house_${year}`;
@@ -21085,12 +21194,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function populateContestSelectForStateSenate(csvData) {
       const sel = document.getElementById('contestSelect');
       const years = [...new Set(csvData.map(row => row.year))].sort();
-      
+
       years.forEach(year => {
-        const hasData = csvData.some(row => 
+        const hasData = csvData.some(row =>
           row.year == year && row.state_senate_total > 0
         );
-        
+
         if (hasData) {
           const opt = document.createElement('option');
           opt.value = `state_senate_${year}`;
@@ -21104,12 +21213,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function populateContestSelectFromCongressionalCSV(csvData) {
       const sel = document.getElementById('contestSelect');
       const years = [...new Set(csvData.map(row => row.year))].sort();
-      
+
       years.forEach(year => {
-        const hasData = csvData.some(row => 
+        const hasData = csvData.some(row =>
           row.year == year && row.us_house_total > 0
         );
-        
+
         if (hasData) {
           const opt = document.createElement('option');
           opt.value = `us_house_${year}`;
@@ -21124,7 +21233,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Update button states
       document.getElementById('county-mode').classList.toggle('active', mode === 'county');
       document.getElementById('district-mode').classList.toggle('active', mode === 'district');
-      
+
       // Could add different analysis modes here (e.g., demographic analysis vs electoral analysis)
       debugLog(`Analysis mode set to: ${mode}`);
     }
@@ -21525,7 +21634,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
       if (String(view || '').trim() === String(currentView || '').trim() && isCurrentViewLayerReady(view)) {
-        
+
         try { reinforceMapLabelHalos(); } catch (_) {}
         try { applyLayerOpacityTuning(); } catch (_) {}
         try { setSplitTicketOverlayVisibility(); } catch (_) {}
@@ -21545,8 +21654,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (currentView !== 'districts' && normalizeDistrictLinesYear(currentDistrictLinesYear) === 2026) {
         currentDistrictLinesYear = 2024;
       }
-      
-      
+
+
       // Update button states
       const viewButtonStates = [
         ['counties-view', view === 'counties'],
@@ -21560,13 +21669,13 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.classList.toggle('active', !!active);
         btn.setAttribute('aria-pressed', active ? 'true' : 'false');
       });
-      
+
       // Update 2000 VTDs button if available
       const vtds2000Button = document.getElementById('vtds-2000-view');
       if (vtds2000Button) {
         vtds2000Button.classList.toggle('active', view === 'vtds_2000');
       }
-      
+
       // Clear all map layers for the active view.
       // Precincts are an overlay; don't destroy precinct layers when switching views.
        const layerTypes = ['county', 'district', 'state-house', 'state-senate', 'vtds-2000'];
@@ -21595,7 +21704,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // cannot skip the repaint because lastCountyFillExpr points to an old layer.
       lastCountyFillExpr = null;
       clearHoverOutline();
-      
+
       // Add appropriate layers
       if (view === 'counties') {
         addCountyLayers();
@@ -21608,10 +21717,10 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (view === 'vtds_2000') {
         add2000VTDLayers();
       }
-      
+
       // Repopulate contest selector
       updateContestSelectForCurrentView();
-      
+
       // Clear pinned geography selection before rebuilding the new view.
       window.lastSelectedCounty = '';
       if (voteCounterPinned) {
@@ -22739,6 +22848,17 @@ document.addEventListener('DOMContentLoaded', function() {
       `;
     }
 
+    function buildColorblindLegendNote() {
+      if (!isColorblindModeActive()) return '';
+      return `
+        <div class="colorblind-legend-note" role="note" aria-label="Color-blind palette is active">
+          <strong>Color-blind palette</strong>
+          <span class="colorblind-legend-key"><i style="background:${colorForWinnerMode('R')};"></i>Republican = orange</span>
+          <span class="colorblind-legend-key"><i style="background:${colorForWinnerMode('D')};"></i>Democratic = blue</span>
+        </div>
+      `;
+    }
+
     function buildMarginsLegendHTML() {
       const tiers = [
         { label: 'Annihilation', range: '40+', color: colorForMarginMode(40, 'R'), party: 'rep' },
@@ -22776,7 +22896,13 @@ document.addEventListener('DOMContentLoaded', function() {
       ];
       return `
         <div class="legend-scale-shell">
+          ${buildColorblindLegendNote()}
           ${buildLegendSpectrum(spectrum, 'margins')}
+          <div class="legend-scale-caption">
+            <span class="rep">Republican ${isColorblindModeActive() ? 'orange' : 'red'}</span>
+            <span>Even</span>
+            <span class="dem">Democratic blue</span>
+          </div>
           <div class="legend-tier-list" role="list">
             ${tiers.map(t => `
               <div class="legend-tier-row" role="listitem">
@@ -22792,6 +22918,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function buildWinnersLegendHTML() {
       return `
+        ${buildColorblindLegendNote()}
         <div class="legend-swatch-grid">
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForWinnerMode('D')};"></span><span>Democratic win</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForWinnerMode('R')};"></span><span>Republican win</span></div>
@@ -22802,6 +22929,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function buildFlipsLegendHTML() {
       return `
+        ${buildColorblindLegendNote()}
         <div class="legend-swatch-grid">
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForFlipMode('D')};"></span><span>Flip to Democratic</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForFlipMode('R')};"></span><span>Flip to Republican</span></div>
@@ -22822,6 +22950,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ];
       return `
         <div class="legend-scale-shell">
+          ${buildColorblindLegendNote()}
           ${buildLegendSpectrum(colors, 'shift')}
           <div class="legend-scale-caption">
             <span class="dem">Toward Democrats</span>
@@ -22926,8 +23055,8 @@ document.addEventListener('DOMContentLoaded', function() {
             ? `Shows the change in two-party margin from ${meta.fromYear} to ${meta.toYear || 'the current contest'}.`
             : 'Shows the change in two-party margin relative to the prior comparable election.';
         }
-        if (badge) badge.textContent = meta?.fromYear ? shiftRange : 'Shift';
-        if (footer) footer.textContent = 'Blue means movement toward Democrats; red means movement toward Republicans.';
+        if (badge) badge.textContent = `${meta?.fromYear ? shiftRange : 'Shift'}${colorblind ? ' · CB' : ''}`;
+        if (footer) footer.textContent = `Blue means movement toward Democrats; ${colorblind ? 'orange' : 'red'} means movement toward Republicans.`;
         content.innerHTML = buildShiftLegendHTML();
       } else if (mode === 'demographics') {
         if (header) header.textContent = 'Demographics';
@@ -22953,8 +23082,8 @@ document.addEventListener('DOMContentLoaded', function() {
         content.innerHTML = buildPopulationChangeLegendHTML();
       } else {
         if (header) header.textContent = 'Margin Categories';
-        if (subtitle) subtitle.textContent = 'Buckets by two-party margin (Rep% − Dem%). Red = Republican lead; blue = Democratic lead.';
-        if (badge) badge.textContent = 'Margins';
+        if (subtitle) subtitle.textContent = `Buckets by two-party margin (Rep% − Dem%). ${colorblind ? 'Orange' : 'Red'} = Republican lead; blue = Democratic lead.`;
+        if (badge) badge.textContent = colorblind ? 'Margins · CB' : 'Margins';
         if (footer) footer.textContent = 'Darker shades mean a larger lead. Ranges are absolute two-party margin (|Rep% − Dem%|).';
         content.dataset.marginsHtml = buildMarginsLegendHTML();
         content.innerHTML = content.dataset.marginsHtml;
@@ -24834,7 +24963,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const growthDynamic = getGrowthDynamic(latest?.rep_votes, latest?.dem_votes, previous?.rep_votes, previous?.dem_votes);
 	      const structuredMomentum = String(structured?.momentum || '').trim();
 	      const trendStructured = structuredMomentum || trend;
-	
+
 	      return {
 	        status,
 	        statusMain,
@@ -26187,6 +26316,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (smartInsightsEnabled) labels.push('Smart Insights');
       if (turnoutBivariateEnabled) labels.push('Turnout opacity');
       if (document.body.classList.contains('colorblind-mode')) labels.push('Colorblind');
+      if (!basemapVisible) labels.push('Basemap off');
       if (currentVizMode && currentVizMode !== 'margins') {
         labels.push(`Mode: ${getReadableModeLabel(currentVizMode)}`);
       }
@@ -28186,36 +28316,36 @@ document.addEventListener('DOMContentLoaded', function() {
         setMapView('counties');
         return;
       }
-      
+
       if (!map.getLayer('vtds-2000-fill')) {
-        map.addLayer({ 
-          id: 'vtds-2000-fill', 
-          type: 'fill', 
-          source: 'vtds-2000', 
-          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.3 } 
+        map.addLayer({
+          id: 'vtds-2000-fill',
+          type: 'fill',
+          source: 'vtds-2000',
+          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.3 }
         });
-        map.addLayer({ 
-          id: 'vtds-2000-stroke', 
-          type: 'line', 
-          source: 'vtds-2000', 
-          paint: { 'line-color': '#666', 'line-width': 0.5 } 
+        map.addLayer({
+          id: 'vtds-2000-stroke',
+          type: 'line',
+          source: 'vtds-2000',
+          paint: { 'line-color': '#666', 'line-width': 0.5 }
         });
-        
+
         // Add click handler for VTDs
         map.on('click', 'vtds-2000-fill', (e) => {
           if (e.features && e.features[0] && e.features[0].properties) {
             const vtdProps = e.features[0].properties;
             const vtdId = vtdProps.VTD || vtdProps.VTDST || vtdProps.NAME || 'Unknown';
-            
+
             // Show VTD details
             showVTDDetails(vtdId, vtdProps);
           }
         });
-        
+
         setStatus('2000 VTD layer loaded');
       }
     }
-    
+
     // Function to show VTD details (placeholder)
     function showVTDDetails(vtdId, vtdProps) {
       const detailsDiv = document.getElementById('area-details');
@@ -28238,7 +28368,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const legend = document.getElementById('legend');
       const legendContent = document.getElementById('legend-content');
       const minimizeBtn = document.getElementById('legend-minimize-btn');
-      
+
       if (legend.classList.contains('minimized')) {
         // Expand legend
         legend.classList.remove('minimized');
@@ -28869,7 +28999,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const controls = document.getElementById('main-controls');
       const controlsContent = document.getElementById('controls-content');
       const minimizeBtn = document.getElementById('controls-minimize-btn');
-      
+
       if (controls.classList.contains('minimized')) {
         // Expand controls
         controls.classList.remove('minimized');
@@ -29019,37 +29149,14 @@ document.addEventListener('DOMContentLoaded', function() {
       if (countyNameElement) setFocusNameWithTierBadge(countyNameElement, `${countyDisplay} County`, tierMeta);
       // Accessibility palette for winner color
       function cbColorForMargin(marginPct, winner) {
-        if (marginPct >= 40) {
-          return winner === 'Republican' ? '#cc5500' : '#004d99';
-        } else if (marginPct >= 30 && marginPct <= 39.99) {
-          return winner === 'Republican' ? '#ff6600' : '#0066cc';
-        } else if (marginPct >= 20 && marginPct <= 29.99) {
-          return winner === 'Republican' ? '#ff8833' : '#0080ff';
-        } else if (marginPct >= 10 && marginPct <= 19.99) {
-          return winner === 'Republican' ? '#ffaa55' : '#3399ff';
-        } else if (marginPct >= 5.51 && marginPct <= 9.99) {
-          return winner === 'Republican' ? '#ffcc77' : '#66b3ff';
-        } else if (marginPct >= 1 && marginPct <= 5.5) {
-          return winner === 'Republican' ? '#ffdd99' : '#99ccff';
-        } else if (marginPct >= 0.51 && marginPct <= 0.99) {
-          return winner === 'Republican' ? '#ffeecc' : '#b3d9ff';
-        } else {
-          return '#cccccc';
-        }
+        return accessibilityMarginColor(marginPct, winner === 'Republican' ? 'R' : 'D');
       }
       const isColorblind = document.body.classList.contains('colorblind-mode');
       // Accessibility palette for winner color (always orange/yellow for Republican in colorblind mode)
       let winnerColor = '#dc2626';
       if (winner === 'Republican') {
         if (isColorblind) {
-          if (marginPct >= 40) winnerColor = '#cc5500';
-          else if (marginPct >= 30) winnerColor = '#ff6600';
-          else if (marginPct >= 20) winnerColor = '#ff8833';
-          else if (marginPct >= 10) winnerColor = '#ffaa55';
-          else if (marginPct >= 5.5) winnerColor = '#ffcc77';
-          else if (marginPct >= 1) winnerColor = '#ffdd99';
-          else if (marginPct >= 0.5) winnerColor = '#ffeecc';
-          else winnerColor = '#cccccc';
+          winnerColor = accessibilityMarginColor(marginPct, 'R');
         }
       } else {
         winnerColor = isColorblind ? cbColorForMargin(marginPct, 'D') : '#2563eb';
@@ -29264,14 +29371,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // For colorblind mode, use the correct accessibility palette for Republican vote breakdown
       let repColor = '#dc2626';
       if (isColorblind) {
-        if (parseFloat(marginPct) >= 40) repColor = '#cc5500';
-        else if (parseFloat(marginPct) >= 30 && parseFloat(marginPct) <= 39.99) repColor = '#ff6600';
-        else if (parseFloat(marginPct) >= 20 && parseFloat(marginPct) <= 29.99) repColor = '#ff8833';
-        else if (parseFloat(marginPct) >= 10 && parseFloat(marginPct) <= 19.99) repColor = '#ffaa55';
-        else if (parseFloat(marginPct) >= 5.51 && parseFloat(marginPct) <= 9.99) repColor = '#ffcc77';
-        else if (parseFloat(marginPct) >= 1 && parseFloat(marginPct) <= 5.5) repColor = '#ffdd99';
-        else if (parseFloat(marginPct) >= 0.51 && parseFloat(marginPct) <= 0.99) repColor = '#ffeecc';
-        else repColor = '#cccccc';
+        repColor = accessibilityMarginColor(parseFloat(marginPct), 'R');
       } else {
         repColor = '#dc2626';
       }
@@ -29886,7 +29986,7 @@ document.addEventListener('DOMContentLoaded', function() {
           map.getCanvas().style.cursor = 'pointer';
           renderCountyHoverAtPoint(e);
         });
-        
+
         let hoverRaf = null;
         map.on('mousemove', 'county-fill', (e) => {
           if (isTouchInteractionMode()) return;
@@ -29896,7 +29996,7 @@ document.addEventListener('DOMContentLoaded', function() {
             hoverRaf = null;
           });
         });
-        
+
         map.on('mouseleave', 'county-fill', () => {
           map.getCanvas().style.cursor = '';
           hideHoverTooltip();
@@ -31560,7 +31660,7 @@ document.addEventListener('DOMContentLoaded', function() {
           filter: ['==', ['get', '_'], '__'],
           paint: DISTRICT_LINE_STYLE.congressional.hover
         });
-         
+
         // Add click handler for districts with full trends popup
         map.on('click', 'district-fill', async (e) => {
           if (e.features && e.features[0] && e.features[0].properties) {
@@ -31616,7 +31716,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
           }
         });
-        
+
         // Quick hover tooltip with basic info
         map.on('mouseenter', 'district-fill', (e) => {
           if (isTouchInteractionMode()) return;
@@ -31632,7 +31732,7 @@ document.addEventListener('DOMContentLoaded', function() {
             districtHoverRaf = null;
           });
         });
-        
+
         map.on('mouseleave', 'district-fill', () => {
           districtHoverRequestId++;
           map.getCanvas().style.cursor = '';
@@ -31679,7 +31779,7 @@ document.addEventListener('DOMContentLoaded', function() {
           filter: ['==', ['get', '_'], '__'],
           paint: DISTRICT_LINE_STYLE.state_house.hover
         });
-        
+
         // Add click handler for state house districts with full trends popup
         map.on('click', 'state-house-fill', async (e) => {
           if (e.features && e.features[0] && e.features[0].properties) {
@@ -31734,7 +31834,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
           }
         });
-        
+
         // Quick hover tooltip with basic info
         map.on('mouseenter', 'state-house-fill', (e) => {
           if (isTouchInteractionMode()) return;
@@ -31750,7 +31850,7 @@ document.addEventListener('DOMContentLoaded', function() {
             stateHouseHoverRaf = null;
           });
         });
-        
+
         map.on('mouseleave', 'state-house-fill', () => {
           districtHoverRequestId++;
           map.getCanvas().style.cursor = '';
@@ -31797,7 +31897,7 @@ document.addEventListener('DOMContentLoaded', function() {
           filter: ['==', ['get', '_'], '__'],
           paint: DISTRICT_LINE_STYLE.state_senate.hover
         });
-        
+
         // Add click handler for state senate districts with full trends popup
         map.on('click', 'state-senate-fill', async (e) => {
           if (e.features && e.features[0] && e.features[0].properties) {
@@ -31852,7 +31952,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
           }
         });
-        
+
         // Quick hover tooltip with basic info
         map.on('mouseenter', 'state-senate-fill', (e) => {
           if (isTouchInteractionMode()) return;
@@ -31868,7 +31968,7 @@ document.addEventListener('DOMContentLoaded', function() {
             stateSenateHoverRaf = null;
           });
         });
-        
+
         map.on('mouseleave', 'state-senate-fill', () => {
           districtHoverRequestId++;
           map.getCanvas().style.cursor = '';
@@ -32611,26 +32711,26 @@ document.addEventListener('DOMContentLoaded', function() {
       // NC governor elections align with presidential years (e.g., 2016, 2020, 2024).
       const governorYears = [2024, 2020, 2016, 2012, 2008];
       const trends = [];
-      
+
       if (isDistrict && districtNum) {
         // For congressional districts, use congressional data
         presidentialYears.forEach(year => {
-          const data = congressionalData.find(row => 
+          const data = congressionalData.find(row =>
             row.year == year && row.district == districtNum
           );
-          
+
           if (data && data.us_house_total > 0) {
             const demVotes = data.us_house_dem || 0;
             const repVotes = data.us_house_rep || 0;
             const totalVotes = data.us_house_total || 0;
-            
+
             if (totalVotes > 0) {
               const demPct = (demVotes / totalVotes) * 100;
               const repPct = (repVotes / totalVotes) * 100;
               const margin = demPct - repPct;
               const winner = margin > 0 ? 'D' : 'R';
               const marginAbs = marginPctDisplayValue(repVotes, demVotes, totalVotes);
-              
+
               trends.push({
                 year: year,
                 display: `${year}: ${winner}+${formatMarginPctForDisplay(marginAbs)}%`,
@@ -32643,25 +32743,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
       } else {
         // For counties, show both presidential and recent state house trends
-        
+
         // Presidential trends
         presidentialYears.forEach(year => {
-          const data = electionData.find(row => 
+          const data = electionData.find(row =>
             row.year == year && row.county === countyName
           );
-          
+
           if (data && data.president_total > 0) {
             const demVotes = data.president_dem || 0;
             const repVotes = data.president_rep || 0;
             const totalVotes = data.president_total || 0;
-            
+
             if (totalVotes > 0) {
               const demPct = (demVotes / totalVotes) * 100;
               const repPct = (repVotes / totalVotes) * 100;
               const margin = demPct - repPct;
               const winner = margin > 0 ? 'D' : 'R';
               const marginAbs = countyMarginPctDisplayValue(repVotes, demVotes, totalVotes);
-              
+
               // Get candidate names for recent years
               let candidateInfo = '';
               if (year === 2024) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
@@ -32669,7 +32769,7 @@ document.addEventListener('DOMContentLoaded', function() {
               else if (year === 2016) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
               else if (year === 2012) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
               else if (year === 2008) candidateInfo = margin > 0 ? getCandidateName(year, 'President of the United States', 'Democrat') : getCandidateName(year, 'President of the United States', 'Republican');
-              
+
               trends.push({
                 year: year,
                 display: `${year}: ${candidateInfo}+${formatCountyMarginPctForDisplay(marginAbs)}%`,
@@ -32679,7 +32779,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
           }
         });
-        
+
         // Add separator if we have presidential data
         if (trends.length > 0) {
           trends.push({
@@ -32689,11 +32789,11 @@ document.addEventListener('DOMContentLoaded', function() {
             type: 'separator'
           });
         }
-        
+
         // State House trends (recent years only)
         // Governor trends (recent years only)
         governorYears.forEach(year => {
-          const data = electionData.find(row => 
+          const data = electionData.find(row =>
             row.year == year && row.county === countyName
           );
           if (data && data.governor_total > 0) {
@@ -32716,22 +32816,22 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         });
         stateHouseYears.forEach(year => {
-          const data = electionData.find(row => 
+          const data = electionData.find(row =>
             row.year == year && row.county === countyName
           );
-          
+
           if (data && data.state_house_total > 0) {
             const demVotes = data.state_house_dem || 0;
             const repVotes = data.state_house_rep || 0;
             const totalVotes = data.state_house_total || 0;
-            
+
             if (totalVotes > 0) {
               const demPct = (demVotes / totalVotes) * 100;
               const repPct = (repVotes / totalVotes) * 100;
               const margin = demPct - repPct;
               const winner = margin > 0 ? 'D' : 'R';
               const marginAbs = countyMarginPctDisplayValue(repVotes, demVotes, totalVotes);
-              
+
               trends.push({
                 year: year,
                 display: `${year}: ${winner}+${formatCountyMarginPctForDisplay(marginAbs)}% (House)`,
@@ -32742,7 +32842,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         });
       }
-      
+
       return trends;
     }
 
@@ -32753,14 +32853,14 @@ document.addEventListener('DOMContentLoaded', function() {
           if (t.type === 'separator') {
             return `<div style="color: #999; font-style: italic; margin: 6px 0; border-top: 1px solid #444; padding-top: 6px;">${t.display}</div>`;
           }
-          
+
           const color = t.margin > 0 ? '#3b82f6' : '#ef4444'; // Blue for Dem, Red for Rep
           return `<div style="color: ${color};">${t.display}</div>`;
         }).join('');
       } else {
         trendsHtml = '<div style="color: #999;">No historical data</div>';
       }
-      
+
       return `
         <div class="tooltip-title">${title}</div>
         <div class="tooltip-trends">${trendsHtml}</div>
@@ -32806,7 +32906,7 @@ document.addEventListener('DOMContentLoaded', function() {
           clearHoverTooltipSuppression();
         }
       } catch (_) {}
-      
+
       tooltip.innerHTML = content;
       tooltip.style.display = 'block';
       tooltip.dataset.context = String(context || '');
@@ -32830,14 +32930,14 @@ document.addEventListener('DOMContentLoaded', function() {
           }, { passive: true });
         });
       } catch (_) {}
-       
+
       // Position tooltip near mouse but avoid edges
       const tooltipRect = tooltip.getBoundingClientRect();
       const padding = 15;
-      
+
       let left = x + padding;
       let top = y + padding;
-      
+
       // Adjust if tooltip would go off screen
       if (left + tooltipRect.width > window.innerWidth) {
         left = x - tooltipRect.width - padding;
@@ -32845,7 +32945,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (top + tooltipRect.height > window.innerHeight) {
         top = y - tooltipRect.height - padding;
       }
-      
+
       tooltip.style.left = left + 'px';
       tooltip.style.top = top + 'px';
     }
@@ -32973,20 +33073,20 @@ document.addEventListener('DOMContentLoaded', function() {
       const tooltip = document.getElementById('hover-tooltip');
       if (!tooltip || tooltip.style.display === 'none') return;
       if (tooltipPinned) return;
-      
+
       const tooltipRect = tooltip.getBoundingClientRect();
       const padding = 15;
-      
+
       let left = x + padding;
       let top = y + padding;
-      
+
       if (left + tooltipRect.width > window.innerWidth) {
         left = x - tooltipRect.width - padding;
       }
       if (top + tooltipRect.height > window.innerHeight) {
         top = y - tooltipRect.height - padding;
       }
-      
+
       tooltip.style.left = left + 'px';
       tooltip.style.top = top + 'px';
     }
@@ -32996,12 +33096,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const nameEl = document.getElementById('county-name');
       const subEl = document.getElementById('county-subhead');
       const contentEl = document.getElementById('county-info-content');
-      
+
       nameEl.textContent = `Congressional District ${districtNum}`;
       if (subEl) subEl.textContent = '';
       // Get district info from districtsInfo CSV
       const districtInfo = (districtsInfo || []).find(d => d.district == districtNum);
-      
+
       let demographicInfo = '';
       if (districtInfo) {
         demographicInfo = `
@@ -33014,28 +33114,28 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         `;
       }
-      
+
       // Get current contest results if available
       const contestValue = document.getElementById('contestSelect').value;
       let electionInfo = '';
-      
+
       if (contestValue && congressionalData) {
         const [contestType, year] = parseContestValue(contestValue);
         if (contestType === 'us_house') {
-          const result = congressionalData.find(row => 
+          const result = congressionalData.find(row =>
             row.year == year && row.district == districtNum
           );
-          
+
           if (result && result.us_house_total > 0) {
             const demVotes = result.us_house_dem || 0;
             const repVotes = result.us_house_rep || 0;
             const totalVotes = result.us_house_total || 0;
-            
+
             const demPct = totalVotes > 0 ? (demVotes / totalVotes) * 100 : 0;
             const repPct = totalVotes > 0 ? (repVotes / totalVotes) * 100 : 0;
             const marginPct = Math.abs(demPct - repPct);
             const winner = demPct > repPct ? 'Democratic' : 'Republican';
-            
+
             // Determine competitiveness
             let competitiveness;
             if (marginPct >= 40) {
@@ -33076,7 +33176,7 @@ document.addEventListener('DOMContentLoaded', function() {
               else if (competitiveness.includes('Lean')) compColor = '#93c5fd';
               else if (competitiveness.includes('Tilt')) compColor = '#dbeafe';
             }
-            
+
             electionInfo = `
               <div style="margin-bottom: 16px;">
                 <h5>Competitiveness</h5>
@@ -33098,7 +33198,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         }
       }
-      
+
       contentEl.innerHTML = demographicInfo + electionInfo;
       detailsDiv.style.display = 'block';
     }
@@ -33108,16 +33208,16 @@ document.addEventListener('DOMContentLoaded', function() {
       const nameEl = document.getElementById('county-name');
       const subEl = document.getElementById('county-subhead');
       const contentEl = document.getElementById('county-info-content');
-      
+
       const districtNumDisplay = String(districtNum).padStart(2, '0');
       const title = chamber === 'house' ? `State House District ${districtNumDisplay}` : `State Senate District ${districtNumDisplay}`;
       nameEl.textContent = title;
       if (subEl) subEl.textContent = '';
       // Get district info from appropriate CSV
-      const districtInfo = chamber === 'house' 
+      const districtInfo = chamber === 'house'
         ? stateHouseInfo?.find(d => d.district == districtNum)
         : stateSenateInfo?.find(d => d.district == districtNum);
-      
+
       let demographicInfo = '';
       if (districtInfo) {
         demographicInfo = `
@@ -33130,12 +33230,12 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         `;
       }
-      
+
       // Get current contest results if available
       const contestValue = document.getElementById('contestSelect').value;
       let electionInfo = '';
       const expectedType = chamber === 'house' ? 'state_house' : 'state_senate';
-      
+
       if (contestValue && electionData) {
         const [contestType, year] = parseContestValue(contestValue);
         if (contestType === expectedType) {
@@ -33144,13 +33244,13 @@ document.addEventListener('DOMContentLoaded', function() {
           electionInfo = `
             <div style="margin-bottom: 16px;">
               <h5>${year} ${chamber === 'house' ? 'State House' : 'State Senate'}</h5>
-              <p style="color: #666; font-style: italic;">District-level results require county-to-district mapping. 
+              <p style="color: #666; font-style: italic;">District-level results require county-to-district mapping.
               Click to see general trends for this contest type.</p>
             </div>
           `;
         }
       }
-      
+
       contentEl.innerHTML = demographicInfo + electionInfo;
       detailsDiv.style.display = 'block';
     }
@@ -33159,15 +33259,15 @@ document.addEventListener('DOMContentLoaded', function() {
       // For state legislative districts, we'll show recent election years
       const recentYears = [2024, 2022, 2020, 2018, 2016];
       const trends = [];
-      
+
       // This is simplified - in reality you'd need county-to-district mapping
       // For now, just show that data is available
       recentYears.forEach(year => {
         const contestType = chamber === 'house' ? 'state_house' : 'state_senate';
-        const hasData = electionData.some(row => 
+        const hasData = electionData.some(row =>
           row.year == year && row[`${contestType}_total`] > 0
         );
-        
+
         if (hasData) {
           trends.push({
             year: year,
@@ -33177,7 +33277,7 @@ document.addEventListener('DOMContentLoaded', function() {
           });
         }
       });
-      
+
       if (trends.length === 0) {
         trends.push({
           year: 0,
@@ -33186,7 +33286,7 @@ document.addEventListener('DOMContentLoaded', function() {
           type: 'info'
         });
       }
-      
+
       return trends;
     }
 
@@ -33531,21 +33631,21 @@ document.addEventListener('DOMContentLoaded', function() {
       const recent = electionData
         .filter(row => row.county === countyName && row.president_total > 0)
         .sort((a, b) => b.year - a.year)[0];
-      
+
       if (recent) {
         const demPct = (recent.president_dem / recent.president_total) * 100;
         const repPct = (recent.president_rep / recent.president_total) * 100;
         const margin = demPct - repPct;
         const winner = margin > 0 ? 'D' : 'R';
         const marginAbs = Math.abs(margin);
-        
+
         return `<div class="quick-tooltip">
           <strong>${countyName} County</strong><br>
           ${recent.year}: ${winner}+${toFixedForDisplay(marginAbs, 2)}%<br>
           <em>Click for full trends</em>
         </div>`;
       }
-      
+
       return `<div class="quick-tooltip">
         <strong>${countyName} County</strong><br>
         <em>Click for details</em>
@@ -33614,13 +33714,13 @@ document.addEventListener('DOMContentLoaded', function() {
       let recent = null;
       const scope = type === 'congressional' ? 'congressional' : (type === 'house' ? 'state_house' : 'state_senate');
       const desc = getDistrictDescription(scope, districtNum);
-      
+
       if (type === 'congressional') {
         displayName = `Congressional District ${districtNum}`;
         recent = congressionalData
           .filter(row => row.district == districtNum && row.us_house_total > 0)
           .sort((a, b) => b.year - a.year)[0];
-          
+
         if (recent) {
           const demVotes = Number(recent.us_house_dem || 0);
           const repVotes = Number(recent.us_house_rep || 0);
@@ -33628,7 +33728,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const signed = signedMarginPctFromVotes(demVotes, repVotes, totalVotes);
           const winner = signed > 0 ? 'R' : (signed < 0 ? 'D' : 'T');
           const marginAbs = Math.abs(signed);
-          
+
           return `<div class="quick-tooltip">
             <strong>${displayName}</strong><br>
             ${desc ? `<span style="color:#64748b;font-weight:700;">${desc}</span><br>` : ''}
@@ -33641,7 +33741,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (type === 'senate') {
         displayName = `State Senate District ${districtNum}`;
       }
-      
+
       return `<div class="quick-tooltip">
         <strong>${displayName}</strong><br>
         ${desc ? `<span style="color:#64748b;font-weight:700;">${desc}</span><br>` : ''}
@@ -33742,7 +33842,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         districtManifest = getActiveDistrictManifest();
         districtElectionDataJSON = null;
-        
+
         if (contestManifest.length > 0 || districtManifest.length > 0) {
           updateContestSelectForCurrentView();
         }
@@ -33755,7 +33855,7 @@ document.addEventListener('DOMContentLoaded', function() {
         districtElectionDataLoadFailed = false;
         districtManifestByLines = { '2022': [], '2024': [], '2026': [] };
         districtManifest = [];
-        
+
       }
 
       // Optional district resources: do not fail app initialization if absent
@@ -33972,6 +34072,8 @@ document.addEventListener('DOMContentLoaded', function() {
     async function init() {
       try {
         setStatus('Loading counties...');
+        captureBasemapLayers();
+        setBasemapVisible(basemapVisible, { persist: false, announce: false });
         if (CONFIG.tilesets?.enabled && CONFIG.tilesets?.sources?.counties?.url) {
           map.addSource('counties', { type: 'vector', url: CONFIG.tilesets.sources.counties.url });
         } else {
@@ -33987,6 +34089,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countyNameMap = buildCountyNameMapFromGeoJSON(counties);
         }
         addCountyLayers();
+        setBasemapVisible(basemapVisible, { persist: false, announce: false });
         try {
           const savedSmart = sessionStorage.getItem('smartInsightsEnabled') === '1';
           if (savedSmart) await setSmartInsightsEnabled(true, { persist: false });
@@ -34028,7 +34131,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (CONFIG.tilesets?.enabled && CONFIG.tilesets?.sources?.counties?.url && map.getZoom() < 8.05) {
           map.setZoom(8.05);
         }
-        
+
         // Setup visualization mode switcher
         setupVizModes();
         try { wireMobileOverlayOffsets(); } catch (_) {}
@@ -34099,15 +34202,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function accessibilityMarginColor(marginPct, winner) {
-      // Colorblind-friendly: blue/orange ramp.
-      if (marginPct >= 40) return winner === 'R' ? '#cc5500' : '#004d99';
-      if (marginPct >= 30) return winner === 'R' ? '#ff6600' : '#0066cc';
-      if (marginPct >= 20) return winner === 'R' ? '#ff8833' : '#0080ff';
-      if (marginPct >= 10) return winner === 'R' ? '#ffaa55' : '#3399ff';
-      if (marginPct >= 5.5) return winner === 'R' ? '#ffcc77' : '#66b3ff';
-      if (marginPct >= 1.0) return winner === 'R' ? '#ffdd99' : '#99ccff';
-      if (marginPct >= 0.5) return winner === 'R' ? '#ffeecc' : '#b3d9ff';
-      return '#cccccc';
+      // Color-blind-friendly blue/orange ramp with saturated competitive tiers.
+      const repRamp = ['#ffd29a', '#f6ad55', '#f58a2a', '#ed6a00', '#d65300', '#b33c00', '#8c2d04'];
+      const demRamp = ['#bae6fd', '#60a5fa', '#0ea5e9', '#0284c7', '#0369a1', '#075985', '#063f5c'];
+      const tier = marginPct >= 40 ? 6
+        : marginPct >= 30 ? 5
+          : marginPct >= 20 ? 4
+            : marginPct >= 10 ? 3
+              : marginPct >= 5.5 ? 2
+                : marginPct >= 1.0 ? 1
+                  : marginPct >= 0.5 ? 0
+                    : -1;
+      if (tier < 0) return '#cbd5e1';
+      return winner === 'R' ? repRamp[tier] : demRamp[tier];
     }
 
     function colorForMarginMode(marginPctAbs, winner) {
@@ -34117,17 +34224,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function colorForWinnerMode(winner) {
-      // winner: 'R' | 'D' | 'T'
       const cb = isColorblindModeActive();
-      if (winner === 'R') return cb ? '#d97706' : '#dc2626';
-      if (winner === 'D') return cb ? '#2563eb' : '#2563eb';
+      if (winner === 'R') return cb ? '#d65300' : '#dc2626';
+      if (winner === 'D') return cb ? '#0072b2' : '#2563eb';
       return '#9ca3af';
     }
 
     function colorForFlipMode(toWinner) {
-      // toWinner: 'R' | 'D' | 'T'
-      if (toWinner === 'R') return isColorblindModeActive() ? '#d97706' : '#dc2626';
-      if (toWinner === 'D') return '#2563eb';
+      if (toWinner === 'R') return isColorblindModeActive() ? '#d65300' : '#dc2626';
+      if (toWinner === 'D') return isColorblindModeActive() ? '#0072b2' : '#2563eb';
       return '#e2e8f0';
     }
 
@@ -34146,8 +34251,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const bin = a >= 15 ? 4 : a >= 10 ? 3 : a >= 5 ? 2 : 1;
       if (cb) {
         // Blue (D shift) vs orange (R shift).
-        if (dir === 'R') return ['#ffedd5', '#fdba74', '#f97316', '#c2410c'][bin - 1];
-        return ['#dbeafe', '#93c5fd', '#3b82f6', '#1d4ed8'][bin - 1];
+        if (dir === 'R') return ['#ffd29a', '#f58a2a', '#d65300', '#8c2d04'][bin - 1];
+        return ['#bae6fd', '#60a5fa', '#0284c7', '#063f5c'][bin - 1];
       }
       // Red vs blue diverging.
       if (dir === 'R') return ['#fee2e2', '#fca5a5', '#ef4444', '#991b1b'][bin - 1];
@@ -34625,7 +34730,7 @@ document.addEventListener('DOMContentLoaded', function() {
         voteCounterPinned = null;
         voteCounterHoverActive = false;
       }
-      
+
       // Split contest key properly - year is always the last part after final underscore
       const lastUnderscoreIndex = contestKey.lastIndexOf('_');
       const contestType = contestKey.substring(0, lastUnderscoreIndex);
@@ -34659,7 +34764,7 @@ document.addEventListener('DOMContentLoaded', function() {
           ensurePrecinctSourceLoaded().catch(err => console.warn('Precinct load failed:', err?.message || err));
         }
       } catch (_) {}
-      
+
       if (currentView === 'counties') {
         if (modeledDefForTiming) {
           await modeledPerf(`modeled.apply.counties:${modeledSigForTiming}`, async () => {
@@ -34756,9 +34861,9 @@ document.addEventListener('DOMContentLoaded', function() {
         ? await loadContestSlice(contestType, year)
         : await loadCountyContestSlice(contestType, year);
       if (staleCheck()) return;
-      
+
       debugLog(`Applying ${contestType} for ${year}:`, contestData.length, 'counties found');
-      
+
       if (contestData.length === 0) {
         return setStatus('No data found for this contest');
       }
@@ -35388,7 +35493,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       modeledSenateLatestInsights = modeledSenateInsights;
-      
+
       // Update statewide results display
       updateStatewideResults(contestType, year, statewidedemVotes, statewidrepVotes, statewidTotalVotes, {
         otherVotes: statewidotherVotes,
@@ -35401,7 +35506,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Keep a pinned precinct context synchronized when users switch contests.
       try { refreshPinnedPrecinctForContest(contestType, year); } catch (_) {}
       if (staleCheck()) return;
-      
+
       // Baseline vote counter (statewide) for this contest/view.
       setVoteCounterBaselineState(
         'Statewide',
@@ -35615,7 +35720,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       const prevYearKey = Number(vizPrevCache?.prevYear || 0) || 0;
-      const countyExprKey = `${aggCacheKey}|countyExpr|mode:${mode}|prev:${prevYearKey}`;
+      const paletteKey = isColorblindModeActive() ? 'colorblind' : 'standard';
+      const countyExprKey = `${aggCacheKey}|countyExpr|mode:${mode}|prev:${prevYearKey}|palette:${paletteKey}`;
       const cachedCountyExpr = countyColorExprCache.get(countyExprKey) || null;
       let countyFillColorByNorm = cachedCountyExpr?.countyFillColorByNorm || new Map();
       const expr = cachedCountyExpr?.expr || (() => {
@@ -35685,9 +35791,9 @@ document.addEventListener('DOMContentLoaded', function() {
           if (updated?.countyFillColorByNorm) countyFillColorByNorm = updated.countyFillColorByNorm;
         } catch (_) {}
       }
-      
+
       if (staleCheck()) return;
-      
+
       // Paint counties by default; when precinct overlay is enabled, reduce county opacity
       // so precinct fills/dots remain visually primary.
       if (map.getLayer('county-fill')) {
@@ -36131,10 +36237,10 @@ document.addEventListener('DOMContentLoaded', function() {
       if (hasSlice) {
         return applyStatewideContestToDistricts(contestType, year);
       }
-      
+
       // Filter congressional data for this year
       const contestData = (congressionalData || []).filter(row => row.year == year);
-      
+
       if (contestData.length === 0) {
         return setStatus('No congressional data found for this year');
       }
@@ -36147,7 +36253,7 @@ document.addEventListener('DOMContentLoaded', function() {
       currentDistrictTurnoutTotals = {};
       currentCountyTurnoutTotals = {};
       currentPrecinctTurnoutTotals = new Map();
-      
+
       contestData.forEach(row => {
         const district = row.district;
         const adjusted = applyScenarioShiftToVotes(
@@ -36160,9 +36266,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const demVotes = Number(adjusted.dem || 0);
         const repVotes = Number(adjusted.rep || 0);
         const totalVotes = Number(adjusted.total || 0);
-        
+
         if (totalVotes === 0) return;
-        
+
         const demPct = (demVotes / totalVotes) * 100;
         const repPct = (repVotes / totalVotes) * 100;
         const winner = repPct > demPct ? 'R' : 'D';
@@ -36183,7 +36289,7 @@ document.addEventListener('DOMContentLoaded', function() {
           color = colorForWinnerMode(winner);
         }
         currentDistrictTurnoutTotals[String(Number(district))] = totalVotes;
-        
+
         expr.push([
           '==',
           ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'district_id'], ['get', 'district']]],
@@ -36206,9 +36312,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return acc;
       }, { dem: 0, rep: 0, total: 0 });
       const totalOther = Math.max(0, totals.total - totals.dem - totals.rep);
-      
+
       expr.push('#e0e0e0'); // default color
-      
+
       map.setPaintProperty('district-fill', 'fill-color', expr);
       applyLayerOpacityTuning();
       setVoteCounterBaselineState('Statewide', `${formatContestLabel(contestType, year)}`, totals.dem, totals.rep, totalOther, { kind: 'statewide', contestType, year: Number(year) });
@@ -36679,7 +36785,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const color = colorForMarginMode(marginPct, winner);
 
       // Apply uniform color to all districts (showing statewide result)
-      const layerName = currentView === 'districts' ? 'district-fill' : 
+      const layerName = currentView === 'districts' ? 'district-fill' :
                        currentView === 'state_house' ? 'state-house-fill' : 'state-senate-fill';
 
       if (map.getLayer(layerName)) {
