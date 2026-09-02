@@ -10674,7 +10674,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-09-01-az-colorblind-legend-v3"></script>
+    <script src="./js/atlas-data.js?v=2026-09-02-az-original-dropdown-v1"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10714,8 +10714,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-01-az-colorblind-legend-v3';
-    const APP_BUILD_ID = '2026-09-01-az-colorblind-legend-v3';
+    const DATA_CACHE_BUSTER = '2026-09-02-az-original-dropdown-v1';
+    const APP_BUILD_ID = '2026-09-02-az-original-dropdown-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -33762,37 +33762,6 @@ document.addEventListener('DOMContentLoaded', function() {
       if (sel.dataset.deferredLoading) delete sel.dataset.deferredLoading;
     }
 
-    let earlyContestManifestPromise = null;
-
-    function preloadContestDropdown() {
-      if (contestManifest.length > 0) {
-        updateContestSelectForCurrentView();
-        setContestSelectDeferredLoading(false);
-        return Promise.resolve();
-      }
-      if (earlyContestManifestPromise) return earlyContestManifestPromise;
-      setContestSelectDeferredLoading(true);
-      earlyContestManifestPromise = loadJSON(`${CONFIG.paths.contests_dir}/manifest.json`)
-        .then(manifest => {
-          contestManifest = manifest?.files || [];
-          try { contestYearsByTypeCache.clear(); } catch (_) {}
-          Object.keys(PRESIDENT_OPEN_ELECTIONS_CSV).map(Number).forEach(y => {
-            const exists = contestManifest.some(e => e && e.contest_type === 'president' && Number(e.year) === Number(y));
-            if (!exists) contestManifest.push({ year: y, contest_type: 'president', file: `open_elections_csv_${y}.csv`, rows: 1 });
-          });
-          try { contestYearsByTypeCache.clear(); } catch (_) {}
-          electionData = [];
-          updateContestSelectForCurrentView();
-          setContestSelectDeferredLoading(false);
-        })
-        .catch(err => {
-          earlyContestManifestPromise = null;
-          setContestSelectDeferredLoading(false);
-          throw err;
-        });
-      return earlyContestManifestPromise;
-    }
-
     function syncCurrentViewLayersAfterHydration() {
       if (currentView === 'districts') {
         addDistrictLayers();
@@ -36834,8 +36803,6 @@ document.addEventListener('DOMContentLoaded', function() {
       setStatus(`Applied statewide contest: ${formatContestLabel(contestType, year)} (${demPct.toFixed(2)}% D, ${repPct.toFixed(2)}% R, ${otherPct.toFixed(2)}% O)`);
     }
 
-    // Populate the small contest index without waiting for Mapbox or window load.
-    preloadContestDropdown().catch(err => console.warn('Early contest index load failed:', err?.message || err));
     window.onload = init;
 </script>
 </body>
