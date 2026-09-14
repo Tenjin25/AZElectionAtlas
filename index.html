@@ -10721,8 +10721,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-14-az-cvap-districts-v2';
-    const APP_BUILD_ID = '2026-09-14-az-cvap-districts-v2';
+    const DATA_CACHE_BUSTER = '2026-09-14-plan-cvap-demographics-v5';
+    const APP_BUILD_ID = '2026-09-14-plan-cvap-demographics-v5';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -10774,7 +10774,7 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate: withBase('./Data/geometry/legislative_districts.geojson'),
         state_senate_2022: withBase('./Data/geometry/legislative_districts.geojson'),
         state_senate_2024: withBase('./Data/geometry/legislative_districts.geojson'),
-        county_demographics: null,
+        county_demographics: withBase('./Data/cvap_aggregates/county_2020__demographics_cvap24.json'),
         county_population_estimates: null,
         precinct_demographics: null,
         // CVAP aggregate files are optional and are not part of this deployment.
@@ -10787,9 +10787,9 @@ document.addEventListener('DOMContentLoaded', function() {
           state_senate_2022: withBase('./Data/cvap_aggregates/state_senate_2022_lines__cvap24.csv'),
           state_senate_2024: withBase('./Data/cvap_aggregates/state_senate_2024_lines__cvap24.csv')
         },
-        districts_info: withBase('./Data/crosswalks/block20_to_congressional.csv'),
-        state_house_info: withBase('./Data/crosswalks/block20_to_state_legislative.csv'),
-        state_senate_info: withBase('./Data/crosswalks/block20_to_state_legislative.csv'),
+        districts_info: withBase('./Data/cvap_aggregates/congressional_2022__demographics_cvap24.csv'),
+        state_house_info: withBase('./Data/cvap_aggregates/state_house_2022__demographics_cvap24.csv'),
+        state_senate_info: withBase('./Data/cvap_aggregates/state_senate_2022__demographics_cvap24.csv'),
         district_descriptions: null,
         contests_dir: withBase('./Data/contests'),
         reports_match_year_summary: null,
@@ -11930,6 +11930,7 @@ document.addEventListener('DOMContentLoaded', function() {
       state_house: { '2022': null, '2024': null, '2026': null },
       state_senate: { '2022': null, '2024': null, '2026': null }
     };
+    const cvapDistrictDemographicsByPlan = new Map();
     let cvapCountyTotalsLoadPromise = null;
     let cvapPrecinctTotalsLoadPromise = null;
     const cvapDistrictTotalsLoadPromises = new Map(); // key `${scope}|${linesYear}` -> Promise<void>
@@ -22110,7 +22111,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function cvapDistrictPathFor(scope, linesYear) {
       const y = normalizeDistrictLinesYear(linesYear);
       const paths = cvapAggPaths();
-      if (scope === 'congressional') return y === 2026 ? (paths.cd119_2024 || paths.cd118_2022) : (y === 2024 ? paths.cd119_2024 : paths.cd118_2022);
+      if (scope === 'congressional') {
+        if (typeof congressionalNeutralMode !== 'undefined' && congressionalNeutralMode && paths.congressional_neutral) return paths.congressional_neutral;
+        return y === 2026 ? (paths.congressional_2026 || paths.cd119_2024 || paths.cd118_2022) : (y === 2024 ? paths.cd119_2024 : paths.cd118_2022);
+      }
       if (scope === 'state_house') return y === 2026 ? (paths.state_house_2024 || paths.state_house_2022) : (y === 2024 ? paths.state_house_2024 : paths.state_house_2022);
       if (scope === 'state_senate') return y === 2026 ? (paths.state_senate_2024 || paths.state_senate_2022) : (y === 2024 ? paths.state_senate_2024 : paths.state_senate_2022);
       return '';
@@ -22120,8 +22124,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const s = (scope || '').toString().trim();
       if (!cvapDistrictTotalsByScopeYear[s]) return;
       const y = String(normalizeDistrictLinesYear(linesYear));
-      if (cvapDistrictTotalsByScopeYear[s][y] && cvapDistrictTotalsByScopeYear[s][y].size) return;
-      const key = `${s}|${y}`;
+      const planTag = (s === 'congressional' && typeof congressionalNeutralMode !== 'undefined' && congressionalNeutralMode) ? 'neutral' : 'enacted';
+      const key = `${s}|${y}|${planTag}`;
+      if (cvapDistrictTotalsByScopeYear[s][y] && cvapDistrictTotalsByScopeYear[s][y].size && cvapDistrictDemographicsByPlan.has(key)) return;
       if (cvapDistrictTotalsLoadPromises.has(key)) return cvapDistrictTotalsLoadPromises.get(key);
       const path = cvapDistrictPathFor(s, Number(y));
       if (!path) return;
@@ -22130,13 +22135,25 @@ document.addEventListener('DOMContentLoaded', function() {
           const txt = await loadCSV(path);
           const rows = parseCSV(txt);
           const byDistrict = new Map();
+          const byDemographics = new Map();
           (rows || []).forEach(r => {
             const dKey = coerceDistrictKey(r?.district);
             const cvap = cvapTotalFromAggRow(r);
             if (!dKey || !Number.isFinite(cvap)) return;
             byDistrict.set(dKey, cvap);
+            const share = field => Number.isFinite(Number(r?.[field])) && cvap > 0 ? (Number(r[field]) / cvap) * 100 : null;
+            const demo = {
+              district: dKey, total_population: cvap,
+              white_vap_pct: share('CVAP_WHT24'), black_vap_pct: share('CVAP_BLA24'),
+              hispanic_vap_pct: share('CVAP_HSP24'), native_vap_pct: share('CVAP_AMI24'),
+              asian_vap_pct: share('CVAP_ASI24'), pacific_vap_pct: share('CVAP_NHP24'),
+              multiracial_vap_pct: share('CVAP_2OM24')
+            };
+            if (demo.white_vap_pct !== null) byDemographics.set(dKey, demo);
           });
           cvapDistrictTotalsByScopeYear[s][y] = byDistrict;
+          const planTag = (s === 'congressional' && typeof congressionalNeutralMode !== 'undefined' && congressionalNeutralMode) ? 'neutral' : 'enacted';
+          cvapDistrictDemographicsByPlan.set(`${s}|${y}|${planTag}`, byDemographics);
           try { if (lastPointerPoint) queueHoverRefresh(); } catch (_) {}
         } catch (err) {
           cvapDistrictTotalsByScopeYear[s][y] = null;
@@ -33709,6 +33726,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function getDistrictDemographics(scope, districtNum) {
       try {
+        const y = String(normalizeDistrictLinesYear(currentDistrictLinesYear));
+        const planTag = (scope === 'congressional' && typeof congressionalNeutralMode !== 'undefined' && congressionalNeutralMode) ? 'neutral' : 'enacted';
+        const liveRow = cvapDistrictDemographicsByPlan.get(`${scope}|${y}|${planTag}`)?.get(coerceDistrictKey(districtNum));
+        if (liveRow) return liveRow;
         let source = null;
         if (scope === 'congressional') source = districtsInfo;
         else if (scope === 'state_house') source = stateHouseInfo;
