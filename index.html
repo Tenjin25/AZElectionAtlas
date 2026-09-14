@@ -209,13 +209,13 @@
   body.colorblind-mode .legend-spectrum.margins .legend-segment.legend-color:nth-child(n+9) {
     border-color: rgba(37, 99, 235, 0.75) !important;
   }
-  body.colorblind-mode .legend-spectrum.shift .legend-segment.legend-color:nth-child(-n+3) {
+  body.colorblind-mode .legend-spectrum.shift .legend-segment.legend-color:nth-child(-n+7) {
     border-color: rgba(37, 99, 235, 0.75) !important;
   }
-  body.colorblind-mode .legend-spectrum.shift .legend-segment.legend-color:nth-child(4) {
+  body.colorblind-mode .legend-spectrum.shift .legend-segment.legend-color:nth-child(8) {
     border-color: rgba(100, 116, 139, 0.6) !important;
   }
-  body.colorblind-mode .legend-spectrum.shift .legend-segment.legend-color:nth-child(n+5) {
+  body.colorblind-mode .legend-spectrum.shift .legend-segment.legend-color:nth-child(n+9) {
     border-color: rgba(217, 119, 6, 0.75) !important;
   }
   body.colorblind-mode .legend-swatch-card .legend-color {
@@ -7072,6 +7072,13 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
 
+  .legend-axis.shift.detailed {
+    grid-template-columns: repeat(15, minmax(0, 1fr));
+    gap: 1px;
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+
   .legend-axis span {
     text-align: center;
     line-height: 1.2;
@@ -10771,16 +10778,11 @@ document.addEventListener('DOMContentLoaded', function() {
         county_population_estimates: null,
         precinct_demographics: null,
         // CVAP aggregate files are optional and are not part of this deployment.
-        cvap_aggregates: {},
-        election: withBase('./Data/elections_aggregated.json'),
-        county_contests_dir: withBase('./Data/county_contests'),
-        district_election: null,
-        district_contests_dir: withBase('./Data/district_contests'),
-        district_contests_2020_2024_dir: withBase('./Data/district_contests'),
-        district_contests_dirs: {
-          '2022': withBase('./Data/district_contests'),
-          '2024': withBase('./Data/district_contests'),
-          '2026': withBase('./Data/district_contests')
+        cvap_aggregates: {
+          county_2020: withBase('./Data/cvap_aggregates/county_2020__cvap24.csv'),
+          cd119_2024: withBase('./Data/cvap_aggregates/cd119_2024_lines__cvap24.csv'),
+          state_house_2024: withBase('./Data/cvap_aggregates/state_house_2024_lines__cvap24.csv'),
+          state_senate_2024: withBase('./Data/cvap_aggregates/state_senate_2024_lines__cvap24.csv')
         },
         districts_info: withBase('./Data/crosswalks/block20_to_congressional.csv'),
         state_house_info: withBase('./Data/crosswalks/block20_to_state_legislative.csv'),
@@ -22940,13 +22942,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function buildShiftLegendHTML() {
       const colors = [
+        colorForShiftMode(-25),
+        colorForShiftMode(-20),
         colorForShiftMode(-15),
         colorForShiftMode(-10),
         colorForShiftMode(-5),
+        colorForShiftMode(-1),
+        colorForShiftMode(-0.5),
         colorForShiftMode(0),
+        colorForShiftMode(0.5),
+        colorForShiftMode(1),
         colorForShiftMode(5),
         colorForShiftMode(10),
-        colorForShiftMode(15)
+        colorForShiftMode(15),
+        colorForShiftMode(20),
+        colorForShiftMode(25)
       ];
       return `
         <div class="legend-scale-shell">
@@ -22957,14 +22967,22 @@ document.addEventListener('DOMContentLoaded', function() {
             <span>No change</span>
             <span class="rep">Toward Republicans</span>
           </div>
-          <div class="legend-axis shift">
-            <span class="dem">D +15</span>
+          <div class="legend-axis shift detailed">
+            <span class="dem">D +25</span>
+            <span class="dem">20</span>
+            <span class="dem">15</span>
             <span class="dem">D +10</span>
             <span class="dem">D +5</span>
+            <span class="dem">D +1</span>
+            <span class="dem">0.5</span>
             <span>0</span>
+            <span class="rep">0.5</span>
+            <span class="rep">R +1</span>
             <span class="rep">R +5</span>
             <span class="rep">R +10</span>
-            <span class="rep">R +15</span>
+            <span class="rep">15</span>
+            <span class="rep">20</span>
+            <span class="rep">R +25</span>
           </div>
         </div>
       `;
@@ -22973,13 +22991,20 @@ document.addEventListener('DOMContentLoaded', function() {
     function buildDemographicsLegendHTML() {
       return `
         <div class="legend-swatch-grid">
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(60, 20, 20)};"></span><span>White plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 60, 20)};"></span><span>Black plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 60)};"></span><span>Hispanic plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 20, 60)};"></span><span>Native plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 20, 20, 60)};"></span><span>Asian plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 20, 20, 20, 60, 20)};"></span><span>Pacific plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 20, 20, 20, 20, 60)};"></span><span>Multiracial plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(60, 20, 20)};"></span><span>White majority</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(40, 30, 30)};"></span><span>White plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 60, 20)};"></span><span>Black majority</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 40, 30)};"></span><span>Black plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 60)};"></span><span>Hispanic majority</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 30, 40)};"></span><span>Hispanic plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 15, 10, 60)};"></span><span>Native majority</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 15, 40)};"></span><span>Native plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 15, 10, 10, 60)};"></span><span>Asian majority</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 10, 10, 40)};"></span><span>Asian plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 60, 0)};"></span><span>Pacific majority</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 40, 15)};"></span><span>Pacific plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 0, 60)};"></span><span>Multiracial majority</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 15, 40)};"></span><span>Multiracial plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(35, 35, 30)};"></span><span>Near tie / mixed</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(null, null, null, null, null, null, null)};"></span><span>No demographic data</span></div>
         </div>
@@ -34247,16 +34272,17 @@ document.addEventListener('DOMContentLoaded', function() {
       const cb = isColorblindModeActive();
       const dir = s >= 0 ? 'R' : 'D';
       if (a < 0.5) return '#f8fafc';
-      // Bins tuned for readability; "strong" kicks in at 10.
-      const bin = a >= 15 ? 4 : a >= 10 ? 3 : a >= 5 ? 2 : 1;
+      // Preserve subtle movement while separating meaningful 1-5 point shifts
+      // and exceptional realignments that would otherwise collapse together.
+      const bin = a >= 25 ? 7 : a >= 20 ? 6 : a >= 15 ? 5 : a >= 10 ? 4 : a >= 5 ? 3 : a >= 1 ? 2 : 1;
       if (cb) {
         // Blue (D shift) vs orange (R shift).
-        if (dir === 'R') return ['#ffd29a', '#f58a2a', '#d65300', '#8c2d04'][bin - 1];
-        return ['#bae6fd', '#60a5fa', '#0284c7', '#063f5c'][bin - 1];
+        if (dir === 'R') return ['#ffedd5', '#fed7aa', '#fdba74', '#f58a2a', '#e66a00', '#b54708', '#7c2d12'][bin - 1];
+        return ['#e0f2fe', '#bae6fd', '#7dd3fc', '#38bdf8', '#0284c7', '#0072b2', '#063f5c'][bin - 1];
       }
       // Red vs blue diverging.
-      if (dir === 'R') return ['#fee2e2', '#fca5a5', '#ef4444', '#991b1b'][bin - 1];
-      return ['#dbeafe', '#93c5fd', '#3b82f6', '#1e3a8a'][bin - 1];
+      if (dir === 'R') return ['#fee2e2', '#fecaca', '#fca5a5', '#f87171', '#ef4444', '#dc2626', '#7f1d1d'][bin - 1];
+      return ['#dbeafe', '#bfdbfe', '#93c5fd', '#60a5fa', '#3b82f6', '#2563eb', '#1e3a8a'][bin - 1];
     }
 
     function colorForPopulationChangeMode(changePct) {
@@ -34294,38 +34320,38 @@ document.addEventListener('DOMContentLoaded', function() {
         { key: 'multiracial', value: numericOrNull(multiracialPct) }
       ].filter(entry => entry.value !== null);
 
-      if (!entries.length) return { key: 'unknown', pct: null };
+      if (!entries.length) return { key: 'unknown', pct: null, majority: false };
 
       entries.sort((a, b) => Number(b.value) - Number(a.value));
       const top = entries[0];
       const second = entries[1] || null;
       if (second && Math.abs(Number(top.value) - Number(second.value)) < 0.15) {
-        return { key: 'mixed', pct: Number(top.value) };
+        return { key: 'mixed', pct: Number(top.value), majority: false };
       }
-      return { key: top.key, pct: Number(top.value) };
+      return { key: top.key, pct: Number(top.value), majority: Number(top.value) >= 50 };
     }
 
     function colorForDemographicsMode(whitePct, blackPct, hispanicPct, nativePct = null, asianPct = null, pacificPct = null, multiracialPct = null) {
       const dom = classifyDemographicDominance(whitePct, blackPct, hispanicPct, nativePct, asianPct, pacificPct, multiracialPct);
       const cb = isColorblindModeActive();
       if (demographicsHighContrastEnabled) {
-        if (dom.key === 'white') return '#111827';
-        if (dom.key === 'black') return '#1d4ed8';
-        if (dom.key === 'hispanic') return cb ? '#d97706' : '#9a3412';
-        if (dom.key === 'native') return '#7e22ce';
-        if (dom.key === 'asian') return '#166534';
-        if (dom.key === 'pacific') return '#155e75';
-        if (dom.key === 'multiracial') return '#9d174d';
+        if (dom.key === 'white') return dom.majority ? '#111827' : '#64748b';
+        if (dom.key === 'black') return dom.majority ? '#1e40af' : '#60a5fa';
+        if (dom.key === 'hispanic') return dom.majority ? (cb ? '#b45309' : '#9a3412') : (cb ? '#fbbf24' : '#fb923c');
+        if (dom.key === 'native') return dom.majority ? '#6b21a8' : '#c084fc';
+        if (dom.key === 'asian') return dom.majority ? '#166534' : '#4ade80';
+        if (dom.key === 'pacific') return dom.majority ? '#155e75' : '#22d3ee';
+        if (dom.key === 'multiracial') return dom.majority ? '#9d174d' : '#f472b6';
         if (dom.key === 'mixed') return '#065f46';
         return '#475569';
       }
-      if (dom.key === 'white') return '#334155';
-      if (dom.key === 'black') return '#1d4ed8';
-      if (dom.key === 'hispanic') return '#c2410c';
-      if (dom.key === 'native') return '#9333ea';
-      if (dom.key === 'asian') return '#15803d';
-      if (dom.key === 'pacific') return '#0e7490';
-      if (dom.key === 'multiracial') return '#be185d';
+      if (dom.key === 'white') return dom.majority ? '#334155' : '#94a3b8';
+      if (dom.key === 'black') return dom.majority ? '#1d4ed8' : '#93c5fd';
+      if (dom.key === 'hispanic') return dom.majority ? '#c2410c' : '#fdba74';
+      if (dom.key === 'native') return dom.majority ? '#9333ea' : '#d8b4fe';
+      if (dom.key === 'asian') return dom.majority ? '#15803d' : '#86efac';
+      if (dom.key === 'pacific') return dom.majority ? '#0e7490' : '#67e8f9';
+      if (dom.key === 'multiracial') return dom.majority ? '#be185d' : '#f9a8d4';
       if (dom.key === 'mixed') return '#0f766e';
       return '#64748b';
     }
