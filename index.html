@@ -10721,8 +10721,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-14-majority-minority-v13';
-    const APP_BUILD_ID = '2026-09-14-majority-minority-v13';
+    const DATA_CACHE_BUSTER = '2026-09-14-majority-minority-cyan-v14';
+    const APP_BUILD_ID = '2026-09-14-majority-minority-cyan-v14';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -23048,19 +23048,18 @@ document.addEventListener('DOMContentLoaded', function() {
       return `
         <div class="legend-swatch-grid">
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(60, 20, 20)};"></span><span>White majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(40, 30, 30)};"></span><span>White plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 60, 20)};"></span><span>Black majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 40, 30)};"></span><span>Black plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 40, 30)};"></span><span>Majority-minority · Black plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 60)};"></span><span>Hispanic majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 30, 40)};"></span><span>Hispanic plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 30, 40)};"></span><span>Majority-minority · Hispanic plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 15, 10, 60)};"></span><span>Native majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 15, 40)};"></span><span>Native plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 15, 40)};"></span><span>Majority-minority · Native plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 15, 10, 10, 60)};"></span><span>Asian majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 10, 10, 40)};"></span><span>Asian plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 10, 10, 40)};"></span><span>Majority-minority · Asian plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 60, 0)};"></span><span>Pacific majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 40, 15)};"></span><span>Pacific plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 40, 15)};"></span><span>Majority-minority · Pacific plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 0, 60)};"></span><span>Multiracial majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 15, 40)};"></span><span>Multiracial plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 15, 40)};"></span><span>Majority-minority · Multiracial plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(40, 32, 14, 1, 12)};"></span><span>Majority-minority · White plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(35, 35, 30)};"></span><span>Near tie / mixed (gold)</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(null, null, null, null, null, null, null)};"></span><span>No demographic data</span></div>
@@ -34410,7 +34409,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (dom.key === 'asian') return dom.majority ? '#166534' : '#4ade80';
         if (dom.key === 'pacific') return dom.majority ? '#155e75' : '#22d3ee';
         if (dom.key === 'multiracial') return dom.majority ? '#9d174d' : '#f472b6';
-        if (dom.key === 'majority_minority') return '#115e59';
+        if (dom.key === 'majority_minority') return '#075985';
         if (dom.key === 'mixed') return '#854d0e';
         return '#475569';
       }
@@ -34421,7 +34420,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (dom.key === 'asian') return dom.majority ? '#15803d' : '#86efac';
       if (dom.key === 'pacific') return dom.majority ? '#0e7490' : '#67e8f9';
       if (dom.key === 'multiracial') return dom.majority ? '#be185d' : '#f9a8d4';
-      if (dom.key === 'majority_minority') return '#0f766e';
+      if (dom.key === 'majority_minority') return '#0891b2';
       if (dom.key === 'mixed') return '#a16207';
       return '#64748b';
     }
