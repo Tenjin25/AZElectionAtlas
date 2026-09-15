@@ -7035,7 +7035,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .legend-spectrum.shift {
-    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-columns: repeat(15, minmax(0, 1fr));
+  }
+
+  .legend-spectrum.population-change {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
   }
 
   .legend-segment.legend-color {
@@ -7079,6 +7083,13 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     letter-spacing: 0;
   }
 
+  .legend-axis.population-change {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+    gap: 1px;
+    font-size: 9px;
+    letter-spacing: 0;
+  }
+
   .legend-axis span {
     text-align: center;
     line-height: 1.2;
@@ -7104,6 +7115,15 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 8px;
+  }
+
+  .legend-scale-caption.population-change {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px;
+  }
+
+  .legend-scale-caption.population-change span:nth-child(3) {
+    text-align: center;
   }
 
   .legend-scale-caption span {
@@ -23073,36 +23093,57 @@ document.addEventListener('DOMContentLoaded', function() {
       const useAbs = String(populationChangeMetric || 'pct') === 'abs';
       const colors = useAbs
         ? [
+            colorForPopulationChangeAbsMode(-60000),
             colorForPopulationChangeAbsMode(-30000),
             colorForPopulationChangeAbsMode(-15000),
             colorForPopulationChangeAbsMode(-4000),
             colorForPopulationChangeAbsMode(0),
             colorForPopulationChangeAbsMode(4000),
             colorForPopulationChangeAbsMode(15000),
-            colorForPopulationChangeAbsMode(30000)
+            colorForPopulationChangeAbsMode(30000),
+            colorForPopulationChangeAbsMode(60000),
+            colorForPopulationChangeAbsMode(120000),
+            colorForPopulationChangeAbsMode(180000)
           ]
         : [
+            colorForPopulationChangeMode(-12),
             colorForPopulationChangeMode(-7),
             colorForPopulationChangeMode(-3),
             colorForPopulationChangeMode(-1),
             colorForPopulationChangeMode(0),
             colorForPopulationChangeMode(1),
             colorForPopulationChangeMode(3),
-            colorForPopulationChangeMode(7)
+            colorForPopulationChangeMode(7),
+            colorForPopulationChangeMode(12),
+            colorForPopulationChangeMode(22),
+            colorForPopulationChangeMode(32)
           ];
       return `
         <div class="legend-scale-shell">
-          ${buildLegendSpectrum(colors, 'shift')}
-          <div class="legend-scale-caption">
+          ${buildLegendSpectrum(colors, 'population-change')}
+          <div class="legend-scale-caption population-change">
             <span class="dem">Decline</span>
             <span>Near flat</span>
             <span class="rep">Growth</span>
+            <span class="rep">${useAbs ? 'Large gains' : 'Explosive growth'}</span>
           </div>
-          <div class="legend-axis shift">
+          <div class="legend-axis population-change">
             ${useAbs
-              ? '<span class="dem">-25k+</span><span class="dem">-10k</span><span class="dem">-2.5k</span><span>0</span><span>+2.5k</span><span class="rep">+10k</span><span class="rep">+25k+</span>'
-              : '<span class="dem">-5%+</span><span class="dem">-2%</span><span class="dem">-1%</span><span>0</span><span>+1%</span><span class="rep">+3%</span><span class="rep">+5%+</span>'
+              ? '<span class="dem">-50k+</span><span class="dem">-25k</span><span class="dem">-10k</span><span class="dem">-2.5k</span><span>Flat</span><span class="rep">+2.5k</span><span class="rep">+10k</span><span class="rep">+25k</span><span class="rep">+50k</span><span class="rep">+100k</span><span class="rep">+150k+</span>'
+              : '<span class="dem">-10%+</span><span class="dem">-5%</span><span class="dem">-2%</span><span class="dem">-0.5%</span><span>Flat</span><span class="rep">+1%</span><span class="rep">+2%</span><span class="rep">+5%</span><span class="rep">+10%</span><span class="rep">+20%</span><span class="rep">+30%+</span>'
             }
+          </div>
+          <div class="legend-tier-list population-tiers" role="list">
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-60000) : colorForPopulationChangeMode(-12)};"></span><span class="legend-tier-label">${useAbs ? 'Severe loss' : 'Severe decline'}</span><span class="legend-tier-range">${useAbs ? '≤−50k' : '≤−10%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-30000) : colorForPopulationChangeMode(-7)};"></span><span class="legend-tier-label">${useAbs ? 'Sharp loss' : 'Sharp decline'}</span><span class="legend-tier-range">${useAbs ? '−49.9k to −25k' : '−9.9 to −5%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-15000) : colorForPopulationChangeMode(-3)};"></span><span class="legend-tier-label">${useAbs ? 'Moderate loss' : 'Moderate decline'}</span><span class="legend-tier-range">${useAbs ? '−24.9k to −10k' : '−4.9 to −2%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-4000) : colorForPopulationChangeMode(-1)};"></span><span class="legend-tier-label">${useAbs ? 'Mild loss' : 'Mild decline'}</span><span class="legend-tier-range">${useAbs ? '−9.9k to −2.5k' : '−1.9 to −0.5%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(4000) : colorForPopulationChangeMode(1)};"></span><span class="legend-tier-label">${useAbs ? 'Modest gain' : 'Modest growth'}</span><span class="legend-tier-range">${useAbs ? '+2.5k–9.9k' : '+1–1.9%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(15000) : colorForPopulationChangeMode(3)};"></span><span class="legend-tier-label">${useAbs ? 'Steady gain' : 'Steady growth'}</span><span class="legend-tier-range">${useAbs ? '+10k–24.9k' : '+2–4.9%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(30000) : colorForPopulationChangeMode(7)};"></span><span class="legend-tier-label">${useAbs ? 'Substantial gain' : 'Strong growth'}</span><span class="legend-tier-range">${useAbs ? '+25k–49.9k' : '+5–9.9%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(60000) : colorForPopulationChangeMode(12)};"></span><span class="legend-tier-label">${useAbs ? 'Large gain' : 'Rapid growth'}</span><span class="legend-tier-range">${useAbs ? '+50k–99.9k' : '+10–19.9%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(120000) : colorForPopulationChangeMode(22)};"></span><span class="legend-tier-label">${useAbs ? 'Major gain' : 'Boom growth'}</span><span class="legend-tier-range">${useAbs ? '+100k–149.9k' : '+20–29.9%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(180000) : colorForPopulationChangeMode(32)};"></span><span class="legend-tier-label">${useAbs ? 'Exceptional gain' : 'Explosive growth'}</span><span class="legend-tier-range">${useAbs ? '+150k+' : '≥30%'}</span></div>
           </div>
         </div>
       `;
@@ -34353,25 +34394,33 @@ document.addEventListener('DOMContentLoaded', function() {
     function colorForPopulationChangeMode(changePct) {
       const v = Number(changePct);
       if (!Number.isFinite(v)) return '#e2e8f0';
+      if (v <= -10) return '#3f2818';
       if (v <= -5) return '#5a3b1f';
       if (v <= -2) return '#8c613c';
       if (v <= -0.5) return '#b08968';
       if (v < 1) return '#f8fafc';
       if (v < 2) return '#a9d6a5';
       if (v < 5) return '#52b788';
-      return '#1b7f4a';
+      if (v < 10) return '#1b7f4a';
+      if (v < 20) return '#146b42';
+      if (v < 30) return '#075c37';
+      return '#043b27';
     }
 
     function colorForPopulationChangeAbsMode(changeAbs) {
       const v = Number(changeAbs);
       if (!Number.isFinite(v)) return '#e2e8f0';
+      if (v <= -50000) return '#3f2818';
       if (v <= -25000) return '#5a3b1f';
       if (v <= -10000) return '#8c613c';
       if (v <= -2500) return '#b08968';
       if (v < 2500) return '#f8fafc';
       if (v < 10000) return '#a9d6a5';
       if (v < 25000) return '#52b788';
-      return '#1b7f4a';
+      if (v < 50000) return '#1b7f4a';
+      if (v < 100000) return '#146b42';
+      if (v < 150000) return '#075c37';
+      return '#043b27';
     }
 
     function classifyDemographicDominance(whitePct, blackPct, hispanicPct, nativePct = null, asianPct = null, pacificPct = null, multiracialPct = null) {
