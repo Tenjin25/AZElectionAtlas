@@ -10721,8 +10721,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-14-majority-minority-cyan-v14';
-    const APP_BUILD_ID = '2026-09-14-majority-minority-cyan-v14';
+    const DATA_CACHE_BUSTER = '2026-09-14-narrow-majority-v15';
+    const APP_BUILD_ID = '2026-09-14-narrow-majority-v15';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -23048,6 +23048,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return `
         <div class="legend-swatch-grid">
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(60, 20, 20)};"></span><span>White majority</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(52, 41, 7)};"></span><span>Narrow majority · strong second group</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 60, 20)};"></span><span>Black majority</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 40, 30)};"></span><span>Majority-minority · Black plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 60)};"></span><span>Hispanic majority</span></div>
@@ -34391,6 +34392,15 @@ document.addEventListener('DOMContentLoaded', function() {
       if (second && Math.abs(Number(top.value) - Number(second.value)) < 0.15) {
         return { key: 'mixed', pct: Number(top.value), majority: false };
       }
+      if (second && Number(top.value) >= 50 && Number(top.value) < 55 && Number(second.value) >= 35) {
+        return {
+          key: 'narrow_majority',
+          pct: Number(top.value),
+          majority: true,
+          primary: top.key,
+          secondary: second.key
+        };
+      }
       const white = entries.find(entry => entry.key === 'white');
       if (top.key === 'white' && white && Number(white.value) < 50) {
         return { key: 'majority_minority', pct: 100 - Number(white.value), majority: true };
@@ -34401,7 +34411,15 @@ document.addEventListener('DOMContentLoaded', function() {
     function colorForDemographicsMode(whitePct, blackPct, hispanicPct, nativePct = null, asianPct = null, pacificPct = null, multiracialPct = null) {
       const dom = classifyDemographicDominance(whitePct, blackPct, hispanicPct, nativePct, asianPct, pacificPct, multiracialPct);
       const cb = isColorblindModeActive();
+      const narrowMajorityColor = highContrast => {
+        const pair = [dom.primary, dom.secondary].filter(Boolean).sort().join('_');
+        const palette = highContrast
+          ? { black_white: '#394b7a', hispanic_white: '#8f4f3d', asian_white: '#356b5d', native_white: '#654b82', pacific_white: '#28687a', multiracial_white: '#7f3f61' }
+          : { black_white: '#6677a8', hispanic_white: '#b7795b', asian_white: '#4f8b78', native_white: '#8064a2', pacific_white: '#4f92a3', multiracial_white: '#a05a7a' };
+        return palette[pair] || (highContrast ? '#4b5563' : '#7c8797');
+      };
       if (demographicsHighContrastEnabled) {
+        if (dom.key === 'narrow_majority') return narrowMajorityColor(true);
         if (dom.key === 'white') return dom.majority ? '#111827' : '#64748b';
         if (dom.key === 'black') return dom.majority ? '#1e40af' : '#60a5fa';
         if (dom.key === 'hispanic') return dom.majority ? (cb ? '#b45309' : '#9a3412') : (cb ? '#fbbf24' : '#fb923c');
@@ -34413,6 +34431,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (dom.key === 'mixed') return '#854d0e';
         return '#475569';
       }
+      if (dom.key === 'narrow_majority') return narrowMajorityColor(false);
       if (dom.key === 'white') return dom.majority ? '#334155' : '#94a3b8';
       if (dom.key === 'black') return dom.majority ? '#1d4ed8' : '#93c5fd';
       if (dom.key === 'hispanic') return dom.majority ? '#c2410c' : '#fdba74';
