@@ -10721,8 +10721,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-14-county-demo-mode-v8';
-    const APP_BUILD_ID = '2026-09-14-county-demo-mode-v8';
+    const DATA_CACHE_BUSTER = '2026-09-14-majority-minority-v13';
+    const APP_BUILD_ID = '2026-09-14-majority-minority-v13';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -23061,7 +23061,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 40, 15)};"></span><span>Pacific plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 0, 60)};"></span><span>Multiracial majority</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 15, 40)};"></span><span>Multiracial plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(35, 35, 30)};"></span><span>Near tie / mixed</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(40, 32, 14, 1, 12)};"></span><span>Majority-minority · White plurality</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(35, 35, 30)};"></span><span>Near tie / mixed (gold)</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(null, null, null, null, null, null, null)};"></span><span>No demographic data</span></div>
         </div>
       `;
@@ -34391,6 +34392,10 @@ document.addEventListener('DOMContentLoaded', function() {
       if (second && Math.abs(Number(top.value) - Number(second.value)) < 0.15) {
         return { key: 'mixed', pct: Number(top.value), majority: false };
       }
+      const white = entries.find(entry => entry.key === 'white');
+      if (top.key === 'white' && white && Number(white.value) < 50) {
+        return { key: 'majority_minority', pct: 100 - Number(white.value), majority: true };
+      }
       return { key: top.key, pct: Number(top.value), majority: Number(top.value) >= 50 };
     }
 
@@ -34405,7 +34410,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (dom.key === 'asian') return dom.majority ? '#166534' : '#4ade80';
         if (dom.key === 'pacific') return dom.majority ? '#155e75' : '#22d3ee';
         if (dom.key === 'multiracial') return dom.majority ? '#9d174d' : '#f472b6';
-        if (dom.key === 'mixed') return '#065f46';
+        if (dom.key === 'majority_minority') return '#115e59';
+        if (dom.key === 'mixed') return '#854d0e';
         return '#475569';
       }
       if (dom.key === 'white') return dom.majority ? '#334155' : '#94a3b8';
@@ -34415,7 +34421,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (dom.key === 'asian') return dom.majority ? '#15803d' : '#86efac';
       if (dom.key === 'pacific') return dom.majority ? '#0e7490' : '#67e8f9';
       if (dom.key === 'multiracial') return dom.majority ? '#be185d' : '#f9a8d4';
-      if (dom.key === 'mixed') return '#0f766e';
+      if (dom.key === 'majority_minority') return '#0f766e';
+      if (dom.key === 'mixed') return '#a16207';
       return '#64748b';
     }
 
