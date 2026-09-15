@@ -10721,8 +10721,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-14-narrow-majority-v15';
-    const APP_BUILD_ID = '2026-09-14-narrow-majority-v15';
+    const DATA_CACHE_BUSTER = '2026-09-14-directional-narrow-majority-v16';
+        const APP_BUILD_ID = '2026-09-14-directional-narrow-majority-v16';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -23048,7 +23048,8 @@ document.addEventListener('DOMContentLoaded', function() {
       return `
         <div class="legend-swatch-grid">
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(60, 20, 20)};"></span><span>White majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(52, 41, 7)};"></span><span>Narrow majority · strong second group</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(52, 41, 7)};"></span><span>Narrow White majority · strong Black second</span></div>
+          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(41, 52, 7)};"></span><span>Narrow Black majority · strong White second</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 60, 20)};"></span><span>Black majority</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 40, 30)};"></span><span>Majority-minority · Black plurality</span></div>
           <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 60)};"></span><span>Hispanic majority</span></div>
@@ -34412,10 +34413,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const dom = classifyDemographicDominance(whitePct, blackPct, hispanicPct, nativePct, asianPct, pacificPct, multiracialPct);
       const cb = isColorblindModeActive();
       const narrowMajorityColor = highContrast => {
-        const pair = [dom.primary, dom.secondary].filter(Boolean).sort().join('_');
+        const pair = [dom.primary, dom.secondary].filter(Boolean).join('_');
         const palette = highContrast
-          ? { black_white: '#394b7a', hispanic_white: '#8f4f3d', asian_white: '#356b5d', native_white: '#654b82', pacific_white: '#28687a', multiracial_white: '#7f3f61' }
-          : { black_white: '#6677a8', hispanic_white: '#b7795b', asian_white: '#4f8b78', native_white: '#8064a2', pacific_white: '#4f92a3', multiracial_white: '#a05a7a' };
+          ? { white_black: '#4b587c', black_white: '#294a87', white_hispanic: '#8f5e4b', hispanic_white: '#9f3f26', white_asian: '#426b60', asian_white: '#236447', white_native: '#665477', native_white: '#5f287f', white_pacific: '#3d7080', pacific_white: '#17677a', white_multiracial: '#7d4d65', multiracial_white: '#85254f' }
+          : { white_black: '#6677a8', black_white: '#4169a1', white_hispanic: '#b7795b', hispanic_white: '#c65f3c', white_asian: '#4f8b78', asian_white: '#2f855a', white_native: '#8064a2', native_white: '#7e3fb2', white_pacific: '#4f92a3', pacific_white: '#23849a', white_multiracial: '#a05a7a', multiracial_white: '#b43d73' };
         return palette[pair] || (highContrast ? '#4b5563' : '#7c8797');
       };
       if (demographicsHighContrastEnabled) {
