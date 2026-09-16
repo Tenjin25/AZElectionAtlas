@@ -7039,7 +7039,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .legend-spectrum.population-change {
-    grid-template-columns: repeat(4, minmax(0, 1.5fr)) minmax(0, 1fr) repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(13, minmax(0, 1fr));
   }
 
   .legend-segment.legend-color {
@@ -7084,7 +7084,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .legend-axis.population-change {
-    grid-template-columns: repeat(4, minmax(0, 1.5fr)) minmax(0, 1fr) repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(13, minmax(0, 1fr));
     gap: 1px;
     font-size: 9px;
     letter-spacing: 0;
@@ -7124,6 +7124,16 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   .legend-scale-caption.population-change span:nth-child(3) {
     text-align: center;
+  }
+
+  .legend-scale-caption.population-change .dem,
+  .legend-axis.population-change .dem {
+    color: #7c4a25;
+  }
+
+  .legend-scale-caption.population-change .rep,
+  .legend-axis.population-change .rep {
+    color: #147a4b;
   }
 
   .legend-scale-caption span {
@@ -23107,6 +23117,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const useAbs = String(populationChangeMetric || 'pct') === 'abs';
       const colors = useAbs
         ? [
+            colorForPopulationChangeAbsMode(-180000),
+            colorForPopulationChangeAbsMode(-120000),
             colorForPopulationChangeAbsMode(-60000),
             colorForPopulationChangeAbsMode(-30000),
             colorForPopulationChangeAbsMode(-15000),
@@ -23120,6 +23132,8 @@ document.addEventListener('DOMContentLoaded', function() {
             colorForPopulationChangeAbsMode(180000)
           ]
         : [
+            colorForPopulationChangeMode(-32),
+            colorForPopulationChangeMode(-22),
             colorForPopulationChangeMode(-12),
             colorForPopulationChangeMode(-7),
             colorForPopulationChangeMode(-3),
@@ -23143,12 +23157,14 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
           <div class="legend-axis population-change">
             ${useAbs
-              ? '<span class="dem">-50k+</span><span class="dem">-25k</span><span class="dem">-10k</span><span class="dem">-2.5k</span><span>Flat</span><span class="rep">+2.5k</span><span class="rep">+10k</span><span class="rep">+25k</span><span class="rep">+50k</span><span class="rep">+100k</span><span class="rep">+150k+</span>'
-              : '<span class="dem">-10%+</span><span class="dem">-5%</span><span class="dem">-2%</span><span class="dem">-0.5%</span><span>Flat</span><span class="rep">+1%</span><span class="rep">+2%</span><span class="rep">+5%</span><span class="rep">+10%</span><span class="rep">+20%</span><span class="rep">+30%+</span>'
+              ? '<span class="dem">-150k+</span><span class="dem">-100k</span><span class="dem">-50k</span><span class="dem">-25k</span><span class="dem">-10k</span><span class="dem">-2.5k</span><span>Flat</span><span class="rep">+2.5k</span><span class="rep">+10k</span><span class="rep">+25k</span><span class="rep">+50k</span><span class="rep">+100k</span><span class="rep">+150k+</span>'
+              : '<span class="dem">-30%+</span><span class="dem">-20%</span><span class="dem">-10%</span><span class="dem">-5%</span><span class="dem">-2%</span><span class="dem">-0.5%</span><span>Flat</span><span class="rep">+1%</span><span class="rep">+2%</span><span class="rep">+5%</span><span class="rep">+10%</span><span class="rep">+20%</span><span class="rep">+30%+</span>'
             }
           </div>
           <div class="legend-tier-list population-tiers" role="list">
-            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-60000) : colorForPopulationChangeMode(-12)};"></span><span class="legend-tier-label">${useAbs ? 'Severe loss' : 'Severe decline'}</span><span class="legend-tier-range">${useAbs ? '≤−50k' : '≤−10%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-180000) : colorForPopulationChangeMode(-32)};"></span><span class="legend-tier-label">${useAbs ? 'Extreme loss' : 'Extreme decline'}</span><span class="legend-tier-range">${useAbs ? '≤−150k' : '≤−30%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-120000) : colorForPopulationChangeMode(-22)};"></span><span class="legend-tier-label">${useAbs ? 'Major loss' : 'Major decline'}</span><span class="legend-tier-range">${useAbs ? '−149.9k to −100k' : '−29.9 to −20%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-60000) : colorForPopulationChangeMode(-12)};"></span><span class="legend-tier-label">${useAbs ? 'Severe loss' : 'Severe decline'}</span><span class="legend-tier-range">${useAbs ? '−99.9k to −50k' : '−19.9 to −10%'}</span></div>
             <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-30000) : colorForPopulationChangeMode(-7)};"></span><span class="legend-tier-label">${useAbs ? 'Sharp loss' : 'Sharp decline'}</span><span class="legend-tier-range">${useAbs ? '−49.9k to −25k' : '−9.9 to −5%'}</span></div>
             <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-15000) : colorForPopulationChangeMode(-3)};"></span><span class="legend-tier-label">${useAbs ? 'Moderate loss' : 'Moderate decline'}</span><span class="legend-tier-range">${useAbs ? '−24.9k to −10k' : '−4.9 to −2%'}</span></div>
             <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(-4000) : colorForPopulationChangeMode(-1)};"></span><span class="legend-tier-label">${useAbs ? 'Mild loss' : 'Mild decline'}</span><span class="legend-tier-range">${useAbs ? '−9.9k to −2.5k' : '−1.9 to −0.5%'}</span></div>
@@ -34411,6 +34427,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function colorForPopulationChangeMode(changePct) {
       const v = Number(changePct);
       if (!Number.isFinite(v)) return '#e2e8f0';
+      if (v <= -30) return '#24150d';
+      if (v <= -20) return '#321e12';
       if (v <= -10) return '#3f2818';
       if (v <= -5) return '#5a3b1f';
       if (v <= -2) return '#8c613c';
@@ -34427,6 +34445,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function colorForPopulationChangeAbsMode(changeAbs) {
       const v = Number(changeAbs);
       if (!Number.isFinite(v)) return '#e2e8f0';
+      if (v <= -150000) return '#24150d';
+      if (v <= -100000) return '#321e12';
       if (v <= -50000) return '#3f2818';
       if (v <= -25000) return '#5a3b1f';
       if (v <= -10000) return '#8c613c';
