@@ -33915,15 +33915,25 @@ document.addEventListener('DOMContentLoaded', function() {
         ? getCvapDistrictTotal(scope, districtNum, currentDistrictLinesYear)
         : null;
       const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : Number(demoRow.total_population || 0);
-      const metricLabel = Number.isFinite(Number(cvap)) ? 'CVAP:' : 'Pop:';
-      const extras = buildDistrictExtraRaceInlineHTML(demoRow, 30);
-      return `<div style="margin-top:6px;padding-top:6px;border-top:1px solid rgba(255,255,255,0.15);font-size:12px;color:#cbd5e1;">` +
-        `<span style="font-weight:700;color:#e2e8f0;">${metricLabel}</span> ${Math.round(metricValue).toLocaleString()}` +
-        ` &nbsp;<span style="font-weight:700;color:#e2e8f0;">W:</span>${demoRow.white_vap_pct}%` +
-        ` <span style="font-weight:700;color:#e2e8f0;">B:</span>${demoRow.black_vap_pct}%` +
-        ` <span style="font-weight:700;color:#e2e8f0;">H:</span>${demoRow.hispanic_vap_pct}%` +
-        extras +
-        `</div>`;
+      const hasCvap = Number.isFinite(Number(cvap));
+      const races = buildRaceChipRowHTML(
+        demoRow.white_vap_pct,
+        demoRow.black_vap_pct,
+        demoRow.hispanic_vap_pct,
+        demoRow.native_vap_pct,
+        {
+          asianPct: demoRow.asian_vap_pct,
+          pacificPct: demoRow.pacific_vap_pct,
+          multiracialPct: demoRow.multiracial_vap_pct
+        }
+      );
+      return `
+        <div class="demo-hover-card">
+          <div class="demo-hover-metric">${hasCvap ? 'CVAP' : 'Population'}: ${Math.round(metricValue).toLocaleString()}</div>
+          ${races}
+          <div class="demo-hover-note">${hasCvap ? 'CVAP total; race/ethnicity shares reflect district VAP.' : 'Race/ethnicity shares reflect district VAP.'}</div>
+        </div>
+      `;
     }
 
     function getQuickDistrictInfo(districtNum, type) {
