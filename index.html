@@ -10751,7 +10751,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-14-directional-narrow-majority-v16';
+    const DATA_CACHE_BUSTER = '2026-09-16-county-cvap-mobile-v1';
         const APP_BUILD_ID = '2026-09-14-directional-narrow-majority-v16';
 
     function withCacheBuster(path) {
@@ -22286,25 +22286,26 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!demo) return '';
       const vap = numericOrZero(demo.vap_18plus);
       const countyNorm = normalizeCountyToken(countyNormRaw || demo.county || '');
-      const cvap = countyNorm ? getCvapCountyTotal(countyNorm) : null;
+      const cvapDirect = numericOrNull(demo.cvap_total);
+      const cvap = cvapDirect !== null ? cvapDirect : (countyNorm ? getCvapCountyTotal(countyNorm) : null);
       const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : vap;
       const metricLabel = Number.isFinite(Number(cvap)) ? 'CVAP (18+):' : 'VAP (18+):';
       const races = buildRaceChipRowHTML(
-        demo.white_pop_pct,
-        demo.black_pop_pct,
-        demo.hispanic_pop_pct,
-        demo.native_pop_pct,
+        demo.white_cvap_pct ?? demo.white_pop_pct,
+        demo.black_cvap_pct ?? demo.black_pop_pct,
+        demo.hispanic_cvap_pct ?? demo.hispanic_pop_pct,
+        demo.native_cvap_pct ?? demo.native_pop_pct,
         {
-          asianPct: demo.asian_pop_pct,
-          pacificPct: demo.pacific_pop_pct,
-          multiracialPct: demo.multiracial_pop_pct
+          asianPct: demo.asian_cvap_pct ?? demo.asian_pop_pct,
+          pacificPct: demo.pacific_cvap_pct ?? demo.pacific_pop_pct,
+          multiracialPct: demo.multiracial_cvap_pct ?? demo.multiracial_pop_pct
         }
       );
       return `
         <div class="demo-hover-card">
           <div class="demo-hover-metric">${metricLabel} ${Math.round(metricValue).toLocaleString()}</div>
           ${races}
-          <div class="demo-hover-note">${Number.isFinite(Number(cvap)) ? 'CVAP totals from ACS special tabulation (2020–2024). ' : ''}Race/ethnicity reflects total population (DP1), not VAP-by-race.</div>
+          <div class="demo-hover-note">${numericOrNull(demo.white_cvap_pct) !== null ? 'Race/ethnicity and totals are CVAP estimates from the 2020–2024 ACS special tabulation.' : 'Race/ethnicity reflects total population; the adult total is shown separately.'}</div>
         </div>
       `;
     }
@@ -29596,19 +29597,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const demo = countyDemographics?.counties?.[norm] || null;
     if (demo) {
       const demoRaceChips = buildRaceChipRowHTML(
-        demo.white_pop_pct,
-        demo.black_pop_pct,
-        demo.hispanic_pop_pct,
-        demo.native_pop_pct,
+        demo.white_cvap_pct ?? demo.white_pop_pct,
+        demo.black_cvap_pct ?? demo.black_pop_pct,
+        demo.hispanic_cvap_pct ?? demo.hispanic_pop_pct,
+        demo.native_cvap_pct ?? demo.native_pop_pct,
         {
-          asianPct: demo.asian_pop_pct,
-          pacificPct: demo.pacific_pop_pct,
-          multiracialPct: demo.multiracial_pop_pct
+          asianPct: demo.asian_cvap_pct ?? demo.asian_pop_pct,
+          pacificPct: demo.pacific_cvap_pct ?? demo.pacific_pop_pct,
+          multiracialPct: demo.multiracial_cvap_pct ?? demo.multiracial_pop_pct
         },
         { extraClass: 'sidebar-demo-race-row' }
       );
-      demoHtml += `<p class="sidebar-breakdown"><b>VAP (18+):</b> ${escapeHtml(Number(demo.vap_18plus || 0).toLocaleString())}</p>`;
-      demoHtml += `<p class="sidebar-margin-details" style="margin-top:6px;">Race/ethnicity shown is total population (DP1), not VAP-by-race.</p>`;
+      const countyCvap = numericOrNull(demo.cvap_total) ?? getCvapCountyTotal(norm);
+      const hasCountyCvap = numericOrNull(countyCvap) !== null && Number(countyCvap) > 0;
+      demoHtml += `<p class="sidebar-breakdown"><b>${hasCountyCvap ? 'CVAP' : 'VAP'} (18+):</b> ${escapeHtml(Number(hasCountyCvap ? countyCvap : (demo.vap_18plus || 0)).toLocaleString())}</p>`;
+      demoHtml += `<p class="sidebar-margin-details" style="margin-top:6px;">${numericOrNull(demo.white_cvap_pct) !== null ? 'Citizen voting-age population by race/ethnicity, 2020–2024 ACS CVAP.' : 'Race/ethnicity reflects total population; the adult total is shown separately.'}</p>`;
       if (demoRaceChips) demoHtml += demoRaceChips;
     }
   } catch (_) {}
