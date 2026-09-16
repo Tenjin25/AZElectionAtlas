@@ -22997,10 +22997,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function buildWinnersLegendHTML() {
       return `
         ${buildColorblindLegendNote()}
-        <div class="legend-swatch-grid">
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForWinnerMode('D')};"></span><span>Democratic win</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForWinnerMode('R')};"></span><span>Republican win</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForWinnerMode('T')}; border: 1px solid rgba(15,23,42,0.18);"></span><span>Tie or no data</span></div>
+        <div class="legend-tier-list" role="list">
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForWinnerMode('D')};"></span><span class="legend-tier-label dem">Democratic win</span><span class="legend-tier-range">D leads</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForWinnerMode('R')};"></span><span class="legend-tier-label rep">Republican win</span><span class="legend-tier-range">R leads</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForWinnerMode('T')}; border: 1px solid rgba(15,23,42,0.18);"></span><span class="legend-tier-label tie">Tie or no data</span><span class="legend-tier-range">Even / missing</span></div>
         </div>
       `;
     }
@@ -23008,15 +23008,32 @@ document.addEventListener('DOMContentLoaded', function() {
     function buildFlipsLegendHTML() {
       return `
         ${buildColorblindLegendNote()}
-        <div class="legend-swatch-grid">
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForFlipMode('D')};"></span><span>Flip to Democratic</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForFlipMode('R')};"></span><span>Flip to Republican</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForFlipMode('T')}; border: 1px solid rgba(15,23,42,0.18);"></span><span>No flip or no prior</span></div>
+        <div class="legend-tier-list" role="list">
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForFlipMode('D')};"></span><span class="legend-tier-label dem">Flip to Democratic</span><span class="legend-tier-range">R → D</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForFlipMode('R')};"></span><span class="legend-tier-label rep">Flip to Republican</span><span class="legend-tier-range">D → R</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForFlipMode('T')}; border: 1px solid rgba(15,23,42,0.18);"></span><span class="legend-tier-label tie">No flip or no prior</span><span class="legend-tier-range">Unchanged / missing</span></div>
         </div>
       `;
     }
 
     function buildShiftLegendHTML() {
+      const tiers = [
+        { label: 'Extreme Democratic shift', range: '25+ pts', value: -25, party: 'dem' },
+        { label: 'Major Democratic shift', range: '20–24.9 pts', value: -20, party: 'dem' },
+        { label: 'Very strong Democratic shift', range: '15–19.9 pts', value: -15, party: 'dem' },
+        { label: 'Strong Democratic shift', range: '10–14.9 pts', value: -10, party: 'dem' },
+        { label: 'Clear Democratic shift', range: '5–9.9 pts', value: -5, party: 'dem' },
+        { label: 'Moderate Democratic shift', range: '1–4.9 pts', value: -1, party: 'dem' },
+        { label: 'Slight Democratic shift', range: '0.5–0.9 pts', value: -0.5, party: 'dem' },
+        { label: 'No notable shift', range: 'Under 0.5 pts', value: 0, party: 'tie' },
+        { label: 'Slight Republican shift', range: '0.5–0.9 pts', value: 0.5, party: 'rep' },
+        { label: 'Moderate Republican shift', range: '1–4.9 pts', value: 1, party: 'rep' },
+        { label: 'Clear Republican shift', range: '5–9.9 pts', value: 5, party: 'rep' },
+        { label: 'Strong Republican shift', range: '10–14.9 pts', value: 10, party: 'rep' },
+        { label: 'Very strong Republican shift', range: '15–19.9 pts', value: 15, party: 'rep' },
+        { label: 'Major Republican shift', range: '20–24.9 pts', value: 20, party: 'rep' },
+        { label: 'Extreme Republican shift', range: '25+ pts', value: 25, party: 'rep' }
+      ];
       const colors = [
         colorForShiftMode(-25),
         colorForShiftMode(-20),
@@ -23043,22 +23060,14 @@ document.addEventListener('DOMContentLoaded', function() {
             <span>No change</span>
             <span class="rep">Toward Republicans</span>
           </div>
-          <div class="legend-axis shift detailed">
-            <span class="dem">D +25</span>
-            <span class="dem">20</span>
-            <span class="dem">15</span>
-            <span class="dem">D +10</span>
-            <span class="dem">D +5</span>
-            <span class="dem">D +1</span>
-            <span class="dem">0.5</span>
-            <span>0</span>
-            <span class="rep">0.5</span>
-            <span class="rep">R +1</span>
-            <span class="rep">R +5</span>
-            <span class="rep">R +10</span>
-            <span class="rep">15</span>
-            <span class="rep">20</span>
-            <span class="rep">R +25</span>
+          <div class="legend-tier-list" role="list">
+            ${tiers.map(t => `
+              <div class="legend-tier-row" role="listitem">
+                <span class="legend-color" style="background: ${colorForShiftMode(t.value)};${t.party === 'tie' ? ' border: 1px solid rgba(15,23,42,0.18);' : ''}"></span>
+                <span class="legend-tier-label ${t.party}">${t.label}</span>
+                <span class="legend-tier-range">${t.range}</span>
+              </div>
+            `).join('')}
           </div>
         </div>
       `;
@@ -23066,25 +23075,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function buildDemographicsLegendHTML() {
       return `
-        <div class="legend-swatch-grid">
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(60, 20, 20)};"></span><span>White majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(52, 41, 7)};"></span><span>Narrow White majority · strong Black second</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(41, 52, 7)};"></span><span>Narrow Black majority · strong White second</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 60, 20)};"></span><span>Black majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 40, 30)};"></span><span>Majority-minority · Black plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 60)};"></span><span>Hispanic majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 30, 40)};"></span><span>Majority-minority · Hispanic plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 15, 10, 60)};"></span><span>Native majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 15, 40)};"></span><span>Majority-minority · Native plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 15, 10, 10, 60)};"></span><span>Asian majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 10, 10, 40)};"></span><span>Majority-minority · Asian plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 60, 0)};"></span><span>Pacific majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 40, 15)};"></span><span>Majority-minority · Pacific plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 0, 60)};"></span><span>Multiracial majority</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 15, 40)};"></span><span>Majority-minority · Multiracial plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(40, 32, 14, 1, 12)};"></span><span>Majority-minority · White plurality</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(35, 35, 30)};"></span><span>Near tie / mixed (gold)</span></div>
-          <div class="legend-swatch-card"><span class="legend-color" style="background: ${colorForDemographicsMode(null, null, null, null, null, null, null)};"></span><span>No demographic data</span></div>
+        <div class="legend-tier-list" role="list">
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(60, 20, 20)};"></span><span class="legend-tier-label">White majority</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(52, 41, 7)};"></span><span class="legend-tier-label">Narrow White majority · strong Black second</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(41, 52, 7)};"></span><span class="legend-tier-label">Narrow Black majority · strong White second</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 60, 20)};"></span><span class="legend-tier-label">Black majority</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 40, 30)};"></span><span class="legend-tier-label">Majority-minority · Black plurality</span><span class="legend-tier-range">Largest, <50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 20, 60)};"></span><span class="legend-tier-label">Hispanic majority</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(30, 30, 40)};"></span><span class="legend-tier-label">Majority-minority · Hispanic plurality</span><span class="legend-tier-range">Largest, <50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 15, 10, 60)};"></span><span class="legend-tier-label">Native majority</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 15, 40)};"></span><span class="legend-tier-label">Majority-minority · Native plurality</span><span class="legend-tier-range">Largest, <50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 15, 10, 10, 60)};"></span><span class="legend-tier-label">Asian majority</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(20, 15, 10, 10, 40)};"></span><span class="legend-tier-label">Majority-minority · Asian plurality</span><span class="legend-tier-range">Largest, <50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 60, 0)};"></span><span class="legend-tier-label">Pacific majority</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 40, 15)};"></span><span class="legend-tier-label">Majority-minority · Pacific plurality</span><span class="legend-tier-range">Largest, <50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(10, 10, 10, 5, 5, 0, 60)};"></span><span class="legend-tier-label">Multiracial majority</span><span class="legend-tier-range">≥50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(15, 10, 10, 5, 5, 15, 40)};"></span><span class="legend-tier-label">Majority-minority · Multiracial plurality</span><span class="legend-tier-range">Largest, <50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(40, 32, 14, 1, 12)};"></span><span class="legend-tier-label">Majority-minority · White plurality</span><span class="legend-tier-range">Largest, <50%</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(35, 35, 30)};"></span><span class="legend-tier-label">Near tie / mixed (gold)</span><span class="legend-tier-range">Mixed</span></div>
+          <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${colorForDemographicsMode(null, null, null, null, null, null, null)};"></span><span class="legend-tier-label">No demographic data</span><span class="legend-tier-range">Unavailable</span></div>
         </div>
       `;
     }
@@ -23143,7 +23152,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(30000) : colorForPopulationChangeMode(7)};"></span><span class="legend-tier-label">${useAbs ? 'Substantial gain' : 'Strong growth'}</span><span class="legend-tier-range">${useAbs ? '+25k–49.9k' : '+5–9.9%'}</span></div>
             <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(60000) : colorForPopulationChangeMode(12)};"></span><span class="legend-tier-label">${useAbs ? 'Large gain' : 'Rapid growth'}</span><span class="legend-tier-range">${useAbs ? '+50k–99.9k' : '+10–19.9%'}</span></div>
             <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(120000) : colorForPopulationChangeMode(22)};"></span><span class="legend-tier-label">${useAbs ? 'Major gain' : 'Boom growth'}</span><span class="legend-tier-range">${useAbs ? '+100k–149.9k' : '+20–29.9%'}</span></div>
-            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(180000) : colorForPopulationChangeMode(32)};"></span><span class="legend-tier-label">${useAbs ? 'Exceptional gain' : 'Explosive growth'}</span><span class="legend-tier-range">${useAbs ? '+150k+' : '≥30%'}</span></div>
+            <div class="legend-tier-row" role="listitem"><span class="legend-color" style="background: ${useAbs ? colorForPopulationChangeAbsMode(180000) : colorForPopulationChangeMode(32)};"></span><span class="legend-tier-label">${useAbs ? 'Extreme gain' : 'Explosive growth'}</span><span class="legend-tier-range">${useAbs ? '+150k+' : '≥30%'}</span></div>
           </div>
         </div>
       `;
