@@ -14952,7 +14952,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const demPct = (d / total) * 100;
       const repPct = (r / total) * 100;
       const otherPct = (o / total) * 100;
-      const marginPct = marginPctValue(r, d, total);
+      const marginPct = competitivenessMarginValue(marginPctValue(r, d, total));
       const signedMarginPct = signedMarginPctFromVotes(d, r, total);
       const winnerParty = repPct > demPct ? 'rep' : (demPct > repPct ? 'dem' : 'tie');
       const winnerLabel = winnerParty === 'rep'
@@ -15021,7 +15021,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const demPct = (demVotes / totalVotes) * 100;
       const repPct = (repVotes / totalVotes) * 100;
       const otherPct = (otherVotes / totalVotes) * 100;
-      const marginPct = marginPctValue(repVotes, demVotes, totalVotes);
+      const marginPct = competitivenessMarginValue(marginPctValue(repVotes, demVotes, totalVotes));
       const isLincolnCountyEquivalentHouse = String(meta?.kind || '').toLowerCase() === 'district' && String(meta?.scope || '').toLowerCase() === 'state_house' && Number(meta?.districtNum) === 97;
       const isCountyContext = String(meta?.kind || '').toLowerCase() === 'county' || isLincolnCountyEquivalentHouse;
       const pctFormatter = isCountyContext ? formatPctForCountyCloseRace : formatPctForCloseRace;
@@ -21400,7 +21400,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const demPct = (demVotes / totalVotes) * 100;
         const repPct = (repVotes / totalVotes) * 100;
         const otherPct = (otherVotes / totalVotes) * 100;
-        const marginPct = marginPctValue(repVotes, demVotes, totalVotes);
+        const marginPct = competitivenessMarginValue(marginPctValue(repVotes, demVotes, totalVotes));
         const marginLabel = formatMarginPctForDisplay(marginPctDisplayValue(repVotes, demVotes, totalVotes));
         const winner = demPct > repPct ? 'Democratic' : 'Republican';
         let officeName = formatContestName(contestType, year);
@@ -21421,22 +21421,22 @@ document.addEventListener('DOMContentLoaded', function() {
         if (marginPct >= 40) {
           compLabel = winner === 'Republican' ? "Annihilation Republican (40%+)" : "Annihilation Democratic (40%+)";
           compColor = winner === 'Republican' ? '#7f1d1d' : '#1e3a8a';
-        } else if (marginPct >= 30 && marginPct <= 39.99) {
+        } else if (marginPct >= 30) {
           compLabel = winner === 'Republican' ? "Dominant Republican (30.00-39.99%)" : "Dominant Democratic (30.00-39.99%)";
           compColor = winner === 'Republican' ? '#7f1d1d' : '#1e3a8a';
-        } else if (marginPct >= 20 && marginPct <= 29.99) {
+        } else if (marginPct >= 20) {
           compLabel = winner === 'Republican' ? "Stronghold Republican (20.00-29.99%)" : "Stronghold Democratic (20.00-29.99%)";
           compColor = winner === 'Republican' ? '#dc2626' : '#2563eb';
-        } else if (marginPct >= 10 && marginPct <= 19.99) {
+        } else if (marginPct >= 10) {
           compLabel = winner === 'Republican' ? "Safe Republican (10.00-19.99%)" : "Safe Democratic (10.00-19.99%)";
           compColor = winner === 'Republican' ? '#dc2626' : '#3b82f6';
-        } else if (marginPct >= 5.50 && marginPct <= 9.99) {
-          compLabel = winner === 'Republican' ? "Likely Republican (5.50-9.99%)" : "Likely Democratic (5.51-9.99%)";
+        } else if (marginPct >= 5.50) {
+          compLabel = winner === 'Republican' ? "Likely Republican (5.50-9.99%)" : "Likely Democratic (5.50-9.99%)";
           compColor = winner === 'Republican' ? '#ef4444' : '#60a5fa';
-        } else if (marginPct >= 1 && marginPct <= 5.49) {
+        } else if (marginPct >= 1) {
           compLabel = winner === 'Republican' ? "Lean Republican (1.00-5.49%)" : "Lean Democratic (1.00-5.49%)";
           compColor = winner === 'Republican' ? '#f87171' : '#93c5fd';
-        } else if (marginPct >= 0.50 && marginPct <= 0.99) {
+        } else if (marginPct >= 0.50) {
           compLabel = winner === 'Republican' ? "Tilt Republican (0.50-0.99%)" : "Tilt Democratic (0.50-0.99%)";
           compColor = winner === 'Republican' ? '#fff1f2' : '#dbeafe';
         } else {
@@ -22585,6 +22585,11 @@ document.addEventListener('DOMContentLoaded', function() {
     function formatMarginPctForDisplay(marginPct) {
       return window.AtlasDisplay.formatMarginPctForDisplay(marginPct);
     }
+    function competitivenessMarginValue(marginPct) {
+      const pct = Math.abs(Number(marginPct) || 0);
+      // Classify the same rounded value shown to users at tier boundaries.
+      return roundForDisplay(pct, marginDisplayDigits(pct));
+    }
 
     function marginPctDisplayValue(repVotes, demVotes, totalVotes) {
       return window.AtlasDisplay.marginPctDisplayValue(repVotes, demVotes, totalVotes);
@@ -22868,6 +22873,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function compactCompetitivenessLabel(marginPct, party) {
+      marginPct = competitivenessMarginValue(marginPct);
       const side = party === 'rep' ? 'R' : (party === 'dem' ? 'D' : '');
       if (marginPct >= 40) return side ? `Annihilation ${side}` : 'Annihilation';
       if (marginPct >= 30) return side ? `Dominant ${side}` : 'Dominant';
@@ -22880,7 +22886,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function competitivenessTierMeta(marginPct, party) {
-      const pct = Math.abs(Number(marginPct) || 0);
+      const pct = competitivenessMarginValue(marginPct);
       const normalizedParty = party === 'rep' || party === 'R'
         ? 'rep'
         : (party === 'dem' || party === 'D' ? 'dem' : 'tie');
@@ -23341,7 +23347,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const demPct = (d / total) * 100;
       const repPct = (r / total) * 100;
       const otherPct = (o / total) * 100;
-      const marginPct = marginPctValue(r, d, total);
+      const marginPct = competitivenessMarginValue(marginPctValue(r, d, total));
       const winnerParty = repPct > demPct ? 'rep' : (demPct > repPct ? 'dem' : 'tie');
       const winnerLabel = winnerParty === 'rep'
         ? formatVoteCounterWinnerLabel(resolvedCandidates.repCandidate, 'R', 'Republican')
@@ -23639,7 +23645,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const demPct = (demVotes / totalVotes) * 100;
         const repPct = (repVotes / totalVotes) * 100;
         const otherPct = (otherVotes / totalVotes) * 100;
-        const marginPct = marginPctValue(repVotes, demVotes, totalVotes);
+        const marginPct = competitivenessMarginValue(marginPctValue(repVotes, demVotes, totalVotes));
         const marginLabel = formatMarginPctForDisplay(marginPctDisplayValue(repVotes, demVotes, totalVotes));
         const officeName = formatContestName(contestType, year);
         let demCandidate = (opts?.demCandidate || '').toString().trim() || getCandidateName(year, officeName, 'Democrat');
@@ -33353,17 +33359,17 @@ document.addEventListener('DOMContentLoaded', function() {
             let competitiveness;
             if (marginPct >= 40) {
               competitiveness = winner === 'Republican' ? 'Annihilation Republican' : 'Annihilation Democratic';
-            } else if (marginPct >= 30 && marginPct <= 39.99) {
+            } else if (marginPct >= 30) {
               competitiveness = winner === 'Republican' ? 'Dominant Republican' : 'Dominant Democratic';
-            } else if (marginPct >= 20 && marginPct <= 29.99) {
+            } else if (marginPct >= 20) {
               competitiveness = winner === 'Republican' ? 'Stronghold Republican' : 'Stronghold Democratic';
-            } else if (marginPct >= 10 && marginPct <= 19.99) {
+            } else if (marginPct >= 10) {
               competitiveness = winner === 'Republican' ? 'Safe Republican' : 'Safe Democratic';
-            } else if (marginPct >= 5.51 && marginPct <= 9.99) {
+            } else if (marginPct >= 5.5) {
               competitiveness = winner === 'Republican' ? 'Likely Republican' : 'Likely Democratic';
-            } else if (marginPct >= 1 && marginPct <= 5.5) {
+            } else if (marginPct >= 1) {
               competitiveness = winner === 'Republican' ? 'Lean Republican' : 'Lean Democratic';
-            } else if (marginPct >= 0.51 && marginPct <= 0.99) {
+            } else if (marginPct >= 0.5) {
               competitiveness = winner === 'Republican' ? 'Tilt Republican' : 'Tilt Democratic';
             } else {
               competitiveness = winner === 'Democratic' ? 'Tossup (Democratic Win)' : 'Tossup (Republican Win)';
@@ -34409,6 +34415,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function categoryColorForMargin(marginPct, winner) {
+      marginPct = competitivenessMarginValue(marginPct);
       // DRA-hybrid mid tiers; OG Stronghold + OG Dominant/Annihilation.
       // Safe sits clearly above Stronghold (wider mid→deep gap).
       if (marginPct >= 40) {
@@ -34435,6 +34442,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function accessibilityMarginColor(marginPct, winner) {
+      marginPct = competitivenessMarginValue(marginPct);
       // Color-blind-friendly blue/orange ramp with saturated competitive tiers.
       const repRamp = ['#ffd29a', '#f6ad55', '#f58a2a', '#ed6a00', '#d65300', '#b33c00', '#8c2d04'];
       const demRamp = ['#bae6fd', '#60a5fa', '#0ea5e9', '#0284c7', '#0369a1', '#075985', '#063f5c'];
