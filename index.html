@@ -10749,7 +10749,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <script src="./js/atlas-classification.js"></script>
     <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-09-02-az-original-dropdown-v1"></script>
+    $12026-09-30-margin-tier-rounding-v1"></script>
     <script src="./js/atlas-display.js"></script>
     <script src="./js/atlas-election.js"></script>
     <script src="./js/atlas-manifest.js"></script>
@@ -10789,7 +10789,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-16-county-cvap-mobile-v1';
+    const DATA_CACHE_BUSTER = '2026-09-30-margin-tier-rounding-v1';
         const APP_BUILD_ID = '2026-09-14-directional-narrow-majority-v16';
 
     function withCacheBuster(path) {
@@ -22587,8 +22587,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     function competitivenessMarginValue(marginPct) {
       const pct = Math.abs(Number(marginPct) || 0);
-      // Classify the same rounded value shown to users at tier boundaries.
-      return roundForDisplay(pct, marginDisplayDigits(pct));
+      // Classify the one-decimal margin shown in county-facing summaries.
+      return roundForDisplay(pct, 1);
     }
 
     function marginPctDisplayValue(repVotes, demVotes, totalVotes) {
