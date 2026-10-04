@@ -23676,7 +23676,9 @@ document.addEventListener('DOMContentLoaded', function() {
           compColor = winnerCall.party === 'rep' ? '#f87171' : '#93c5fd';
         } else if (marginPct >= 0.5) {
           compLabel = winnerCall.party === 'rep' ? 'Tilt Republican (0.50-0.99%)' : 'Tilt Democratic (0.50-0.99%)';
-          compColor = winnerCall.party === 'rep' ? '#fff1f2' : '#dbeafe';
+          // This color is used as text on the statewide rating pill. Keep it
+          // darker than the pale Tilt map fills so the label remains legible.
+          compColor = winnerCall.party === 'rep' ? '#be123c' : '#1d4ed8';
         } else {
           compLabel = winnerCall.party === 'dem' ? 'Tossup (Democratic Win - <0.50%)' : (winnerCall.party === 'rep' ? 'Tossup (Republican Win - <0.50%)' : 'Tossup');
           compColor = winnerCall.party === 'dem' ? '#2563eb' : (winnerCall.party === 'rep' ? '#dc2626' : '#64748b');
