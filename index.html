@@ -711,6 +711,15 @@ a:focus-visible {
   transition: opacity 0.15s ease;
 }
 
+.hover-tooltip.district-tooltip {
+  box-sizing: border-box;
+  width: 314px;
+  height: 345px;
+  max-width: calc(100vw - 30px);
+  max-height: calc(100vh - 30px);
+  overflow: auto;
+}
+
 .hover-tooltip .tooltip-vote-line {
   margin: 4px 0;
 }
@@ -10790,7 +10799,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
     const DATA_CACHE_BUSTER = '2026-09-30-margin-tier-rounding-v1';
-    const APP_BUILD_ID = '2026-10-04-compact-district-demographics-v1';
+    const APP_BUILD_ID = '2026-10-04-district-tooltip-size-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -22113,8 +22122,7 @@ document.addEventListener('DOMContentLoaded', function() {
       let options = maybeOptions;
       if (extraRacesOrOptions && typeof extraRacesOrOptions === 'object' && !Array.isArray(extraRacesOrOptions)) {
         const looksLikeOptions = Object.prototype.hasOwnProperty.call(extraRacesOrOptions, 'includeUnknownHispanic')
-          || Object.prototype.hasOwnProperty.call(extraRacesOrOptions, 'extraClass')
-          || Object.prototype.hasOwnProperty.call(extraRacesOrOptions, 'limit');
+          || Object.prototype.hasOwnProperty.call(extraRacesOrOptions, 'extraClass');
         if (looksLikeOptions) {
           options = extraRacesOrOptions;
         } else {
@@ -22125,7 +22133,7 @@ document.addEventListener('DOMContentLoaded', function() {
         extraRaces = { asianPct: extraRacesOrOptions };
       }
       options = (options && typeof options === 'object' && !Array.isArray(options)) ? options : {};
-      const { includeUnknownHispanic = false, extraClass = '', limit = null } = options;
+      const { includeUnknownHispanic = false, extraClass = '' } = options;
       const demographics = [];
       const w = numericOrNull(whitePct);
       const b = numericOrNull(blackPct);
@@ -22142,10 +22150,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (m !== null) demographics.push({ label: 'Multiracial', className: 'multiracial', value: m });
       if (h !== null) demographics.push({ label: 'Hispanic', className: 'hispanic', value: h });
       demographics.sort((left, right) => right.value - left.value);
-      const visibleDemographics = Number.isInteger(limit) && limit >= 0
-        ? demographics.slice(0, limit)
-        : demographics;
-      const chips = visibleDemographics.map(({ label, className, value }) =>
+      const chips = demographics.map(({ label, className, value }) =>
         `<span class="demo-race-chip ${className}">${label} ${value.toFixed(2)}%</span>`
       );
       if (h === null && includeUnknownHispanic) chips.push(`<span class="demo-race-chip unknown">Hispanic N/A</span>`);
@@ -33114,7 +33119,7 @@ document.addEventListener('DOMContentLoaded', function() {
       hoverTooltipSuppression.until = 0;
     }
 
-    function showHoverTooltip(x, y, content, { force = false, pinned = false, context = '', copyText = '' } = {}) {
+    function showHoverTooltip(x, y, content, { force = false, pinned = false, context = '', copyText = '', district = false } = {}) {
       const tooltip = document.getElementById('hover-tooltip');
       if (!tooltip) return;
       if (isTouchInteractionMode() && !force && !tooltipPinned) return;
@@ -33138,6 +33143,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       tooltip.innerHTML = content;
       tooltip.style.display = 'block';
+      const districtTooltip = !!district || /\b(?:Congressional|State House|State Senate) District\b/i.test(String(copyText || ''));
+      tooltip.classList.toggle('district-tooltip', districtTooltip);
       tooltip.dataset.context = String(context || '');
       tooltip.dataset.copyText = (copyText || '').toString();
       try { document.body.classList.toggle('hover-preview-active', !pinned); } catch (_) {}
@@ -33707,7 +33714,7 @@ document.addEventListener('DOMContentLoaded', function() {
             pacificPct: districtInfo.pacific_vap_pct,
             multiracialPct: districtInfo.multiracial_vap_pct
           },
-          { extraClass: 'sidebar-demo-race-row', limit: 3 }
+          { extraClass: 'sidebar-demo-race-row' }
         );
         demographicInfo = `
           <div style="margin-bottom: 12px;">
@@ -33803,7 +33810,7 @@ document.addEventListener('DOMContentLoaded', function() {
             pacificPct: infoRow.pacific_vap_pct,
             multiracialPct: infoRow.multiracial_vap_pct
           },
-          { extraClass: 'sidebar-demo-race-row', limit: 3 }
+          { extraClass: 'sidebar-demo-race-row' }
         );
         demographicInfo = `
           <div style="margin-bottom: 12px;">
