@@ -10790,7 +10790,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
     const DATA_CACHE_BUSTER = '2026-09-30-margin-tier-rounding-v1';
-    const APP_BUILD_ID = '2026-10-04-demographics-descending-v1';
+    const APP_BUILD_ID = '2026-10-04-compact-district-demographics-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -22113,7 +22113,8 @@ document.addEventListener('DOMContentLoaded', function() {
       let options = maybeOptions;
       if (extraRacesOrOptions && typeof extraRacesOrOptions === 'object' && !Array.isArray(extraRacesOrOptions)) {
         const looksLikeOptions = Object.prototype.hasOwnProperty.call(extraRacesOrOptions, 'includeUnknownHispanic')
-          || Object.prototype.hasOwnProperty.call(extraRacesOrOptions, 'extraClass');
+          || Object.prototype.hasOwnProperty.call(extraRacesOrOptions, 'extraClass')
+          || Object.prototype.hasOwnProperty.call(extraRacesOrOptions, 'limit');
         if (looksLikeOptions) {
           options = extraRacesOrOptions;
         } else {
@@ -22124,7 +22125,7 @@ document.addEventListener('DOMContentLoaded', function() {
         extraRaces = { asianPct: extraRacesOrOptions };
       }
       options = (options && typeof options === 'object' && !Array.isArray(options)) ? options : {};
-      const { includeUnknownHispanic = false, extraClass = '' } = options;
+      const { includeUnknownHispanic = false, extraClass = '', limit = null } = options;
       const demographics = [];
       const w = numericOrNull(whitePct);
       const b = numericOrNull(blackPct);
@@ -22141,7 +22142,10 @@ document.addEventListener('DOMContentLoaded', function() {
       if (m !== null) demographics.push({ label: 'Multiracial', className: 'multiracial', value: m });
       if (h !== null) demographics.push({ label: 'Hispanic', className: 'hispanic', value: h });
       demographics.sort((left, right) => right.value - left.value);
-      const chips = demographics.map(({ label, className, value }) =>
+      const visibleDemographics = Number.isInteger(limit) && limit >= 0
+        ? demographics.slice(0, limit)
+        : demographics;
+      const chips = visibleDemographics.map(({ label, className, value }) =>
         `<span class="demo-race-chip ${className}">${label} ${value.toFixed(2)}%</span>`
       );
       if (h === null && includeUnknownHispanic) chips.push(`<span class="demo-race-chip unknown">Hispanic N/A</span>`);
@@ -33693,16 +33697,24 @@ document.addEventListener('DOMContentLoaded', function() {
       let demographicInfo = '';
       const desc = getDistrictDescription('congressional', districtNum);
       if (districtInfo) {
-        const extraRaceLines = buildDistrictExtraRaceLinesHTML(districtInfo, 30);
+        const demoRaceChips = buildRaceChipRowHTML(
+          districtInfo.white_vap_pct,
+          districtInfo.black_vap_pct,
+          districtInfo.hispanic_vap_pct,
+          districtInfo.native_vap_pct,
+          {
+            asianPct: districtInfo.asian_vap_pct,
+            pacificPct: districtInfo.pacific_vap_pct,
+            multiracialPct: districtInfo.multiracial_vap_pct
+          },
+          { extraClass: 'sidebar-demo-race-row', limit: 3 }
+        );
         demographicInfo = `
           <div style="margin-bottom: 12px;">
             ${desc ? `<div style="margin:0 0 10px 0;color:#475569;font-weight:800;">${desc}</div>` : ''}
             <h5 style="margin:0 0 6px 0;">Demographics (VAP)</h5>
             <div style="font-size:14px;"><strong>${Number.isFinite(Number(cvapTotal)) ? 'CVAP (18+):' : 'Total Population:'}</strong> ${Math.round(Number.isFinite(Number(cvapTotal)) ? Number(cvapTotal) : Number(districtInfo.total_population || 0)).toLocaleString()}</div>
-            <div style="font-size:14px;"><strong>White:</strong> ${districtInfo.white_vap_pct}%</div>
-            <div style="font-size:14px;"><strong>Black:</strong> ${districtInfo.black_vap_pct}%</div>
-            <div style="font-size:14px;"><strong>Hispanic:</strong> ${districtInfo.hispanic_vap_pct}%</div>
-            ${extraRaceLines}
+            ${demoRaceChips}
           </div>
         `;
       } else if (desc) {
@@ -33781,16 +33793,24 @@ document.addEventListener('DOMContentLoaded', function() {
       let demographicInfo = '';
       const desc = getDistrictDescription(scope, districtNum);
       if (infoRow) {
-        const extraRaceLines = buildDistrictExtraRaceLinesHTML(infoRow, 30);
+        const demoRaceChips = buildRaceChipRowHTML(
+          infoRow.white_vap_pct,
+          infoRow.black_vap_pct,
+          infoRow.hispanic_vap_pct,
+          infoRow.native_vap_pct,
+          {
+            asianPct: infoRow.asian_vap_pct,
+            pacificPct: infoRow.pacific_vap_pct,
+            multiracialPct: infoRow.multiracial_vap_pct
+          },
+          { extraClass: 'sidebar-demo-race-row', limit: 3 }
+        );
         demographicInfo = `
           <div style="margin-bottom: 12px;">
             ${desc ? `<div style="margin:0 0 10px 0;color:#475569;font-weight:800;">${desc}</div>` : ''}
             <h5 style="margin:0 0 6px 0;">Demographics (VAP)</h5>
             <div style="font-size:14px;"><strong>${Number.isFinite(Number(cvapTotal)) ? 'CVAP (18+):' : 'Total Population:'}</strong> ${Math.round(Number.isFinite(Number(cvapTotal)) ? Number(cvapTotal) : Number(infoRow.total_population || 0)).toLocaleString()}</div>
-            <div style="font-size:14px;"><strong>White:</strong> ${infoRow.white_vap_pct}%</div>
-            <div style="font-size:14px;"><strong>Black:</strong> ${infoRow.black_vap_pct}%</div>
-            <div style="font-size:14px;"><strong>Hispanic:</strong> ${infoRow.hispanic_vap_pct}%</div>
-            ${extraRaceLines}
+            ${demoRaceChips}
           </div>
         `;
       } else if (desc) {
