@@ -1,5 +1,11 @@
 # Change history
 
+## 2026-10-06
+
+- Start atlas hydration as soon as the Mapbox map is ready, avoiding mobile delays caused by waiting for every window asset.
+- Preserve two-decimal margin precision for close results and competitiveness thresholds (for example, 0.45%).
+- Refresh the application build cache token; repair shared module loading where needed.
+
 ## March–October 2026
 
 **Last updated:** October 4, 2026
