@@ -10747,16 +10747,16 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </div>
 
-    <script src="./js/atlas-classification.js"></script>
-    <script src="./js/atlas-core.js"></script>
-    <script src="./js/atlas-data.js?v=2026-09-30-margin-tier-rounding-v1"></script>
-    <script src="./js/atlas-display.js"></script>
-    <script src="./js/atlas-election.js"></script>
-    <script src="./js/atlas-manifest.js"></script>
-    <script src="./js/atlas-regions.js"></script>
-    <script src="./js/atlas-trends.js"></script>
-    <script src="./js/atlas-turnout.js"></script>
-    <script src="./js/atlas-url-state.js"></script>
+    <script src="./js/atlas-classification.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-core.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-data.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-display.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-election.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-manifest.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-regions.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-trends.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-turnout.js?v=2026-10-06-mobile-contest-ready-v3"></script>
+    <script src="./js/atlas-url-state.js?v=2026-10-06-mobile-contest-ready-v3"></script>
     <script>
     // --- CONFIG ---
     const ATLAS_CREATOR_SIGNATURE = Object.freeze({
@@ -10789,8 +10789,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-30-margin-tier-rounding-v1';
-    const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v2';
+    const DATA_CACHE_BUSTER = '2026-10-06-mobile-contest-ready-v3';
+    const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v3';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -20993,7 +20993,11 @@ document.addEventListener('DOMContentLoaded', function() {
             continue;
           }
 
-          if (next.key) lastCompletedContestSelection = next.key;
+          if (next.key) {
+            lastCompletedContestSelection = next.key;
+            // Once results are ready, return the mobile map to an unobstructed state.
+            try { minimizeLegendOnMobile(); } catch (_) {}
+          }
           queueCountyDetailsRefresh();
           try {
             const lastUnderscoreIndex = next.key.lastIndexOf('_');

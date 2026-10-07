@@ -3,9 +3,10 @@
 ## 2026-10-06
 
 - Unlock the contest selector as soon as its manifest is ready instead of waiting for optional district geometry and demographic files.
+- Automatically collapse the mobile legend after selected election results finish loading.
 - Start atlas hydration as soon as the Mapbox map is ready, avoiding mobile delays caused by waiting for every window asset.
 - Preserve two-decimal margin precision for close results and competitiveness thresholds (for example, 0.45%).
-- Refresh the application build cache token; repair shared module loading where needed.
+- Refresh application and data cache tokens, plus shared-module asset tokens where present; repair shared module loading where needed.
 
 ## March–October 2026
 
