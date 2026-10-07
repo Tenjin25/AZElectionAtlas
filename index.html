@@ -10790,7 +10790,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
     const DATA_CACHE_BUSTER = '2026-09-30-margin-tier-rounding-v1';
-    const APP_BUILD_ID = '2026-10-06-mobile-startup-margin-precision-v1';
+    const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v2';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -34071,6 +34071,10 @@ document.addEventListener('DOMContentLoaded', function() {
         setStatus('Election data loaded');
         populateContestSelectFromElectionJSON(electionData);
       }
+
+      // The contest list is usable as soon as its manifest is ready. Do not keep
+      // mobile users locked out while optional geometry and demographic files load.
+      setContestSelectDeferredLoading(false);
 
       try {
         let loadedAnyDistrictManifest = false;

@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Unlock the contest selector as soon as its manifest is ready instead of waiting for optional district geometry and demographic files.
 - Start atlas hydration as soon as the Mapbox map is ready, avoiding mobile delays caused by waiting for every window asset.
 - Preserve two-decimal margin precision for close results and competitiveness thresholds (for example, 0.45%).
 - Refresh the application build cache token; repair shared module loading where needed.
