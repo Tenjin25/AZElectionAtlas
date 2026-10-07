@@ -10789,8 +10789,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-06-mobile-contest-ready-v3';
-    const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v3';
+    const DATA_CACHE_BUSTER = '2026-10-06-mobile-contest-ready-v4';
+    const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v4';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -34270,15 +34270,9 @@ document.addEventListener('DOMContentLoaded', function() {
           started = true;
           hydrateAtlasDataAndDistrictSources().then(resolve).catch(reject);
         };
-        const kickoff = () => {
-          if (typeof window.requestIdleCallback === 'function') {
-            window.requestIdleCallback(() => start(), { timeout: 2600 });
-          } else {
-            setTimeout(start, 360);
-          }
-        };
-        map.once('idle', kickoff);
-        setTimeout(kickoff, 1600);
+        // Fetch the small contest manifest immediately. Heavy optional resources
+        // remain asynchronous after the selector is populated and unlocked.
+        setTimeout(start, 0);
       });
     }
 
