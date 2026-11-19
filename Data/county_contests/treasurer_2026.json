@@ -1,0 +1,172 @@
+{
+  "year": 2026,
+  "contest_type": "treasurer",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 17555,
+      "rep_votes": 8840,
+      "other_votes": 62,
+      "total_votes": 26457,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": -8715,
+      "margin_pct": -32.9402,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 19529,
+      "rep_votes": 26127,
+      "other_votes": 63,
+      "total_votes": 45719,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 6598,
+      "margin_pct": 14.4316,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 36368,
+      "rep_votes": 17906,
+      "other_votes": 40,
+      "total_votes": 54314,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": -18462,
+      "margin_pct": -33.9912,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7003,
+      "rep_votes": 13532,
+      "other_votes": 25,
+      "total_votes": 20560,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 6529,
+      "margin_pct": 31.7558,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3138,
+      "rep_votes": 7060,
+      "other_votes": 24,
+      "total_votes": 10222,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 3922,
+      "margin_pct": 38.3682,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 827,
+      "rep_votes": 1195,
+      "other_votes": 3,
+      "total_votes": 2025,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 368,
+      "margin_pct": 18.1728,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1637,
+      "rep_votes": 3574,
+      "other_votes": 8,
+      "total_votes": 5219,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 1937,
+      "margin_pct": 37.1144,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 833620,
+      "rep_votes": 668223,
+      "other_votes": 1141,
+      "total_votes": 1502984,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": -165397,
+      "margin_pct": -11.0046,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 19645,
+      "rep_votes": 58263,
+      "other_votes": 77,
+      "total_votes": 77985,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 38618,
+      "margin_pct": 49.5198,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 18113,
+      "rep_votes": 20991,
+      "other_votes": 77,
+      "total_votes": 39181,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 2878,
+      "margin_pct": 7.3454,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 254018,
+      "rep_votes": 149196,
+      "other_votes": 395,
+      "total_votes": 403609,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": -104822,
+      "margin_pct": -25.9712,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 72476,
+      "rep_votes": 85526,
+      "other_votes": 198,
+      "total_votes": 158200,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 13050,
+      "margin_pct": 8.2491,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 9861,
+      "rep_votes": 4103,
+      "other_votes": 12,
+      "total_votes": 13976,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": -5758,
+      "margin_pct": -41.1992,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 42175,
+      "rep_votes": 75166,
+      "other_votes": 106,
+      "total_votes": 117447,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": 32991,
+      "margin_pct": 28.0901,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 24052,
+      "rep_votes": 23198,
+      "other_votes": 31,
+      "total_votes": 47281,
+      "dem_candidate": "Nick Mansour",
+      "rep_candidate": "Elijah Norton",
+      "margin": -854,
+      "margin_pct": -1.8062,
+      "winner": "DEM"
+    }
+  }
+}

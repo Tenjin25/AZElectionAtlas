@@ -10789,8 +10789,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-06-mobile-contest-ready-v4';
-    const APP_BUILD_ID = '2026-10-06-mobile-contest-ready-v4';
+    const DATA_CACHE_BUSTER = '2026-11-19-az-2026-results-v1';
+    const APP_BUILD_ID = '2026-11-19-az-2026-results-v1';
 
     function withCacheBuster(path) {
       return window.AtlasData.withCacheBuster(path, DATA_CACHE_BUSTER);
@@ -12983,7 +12983,7 @@ document.addEventListener('DOMContentLoaded', function() {
           seen.add(key);
           merged.push(entry);
         };
-        m2026.filter(e => (e?.scope || '').toString().trim() === 'congressional').forEach(add);
+        m2026.forEach(add);
         m2024.filter(e => {
           const s = (e?.scope || '').toString().trim();
           return s === 'state_house' || s === 'state_senate';

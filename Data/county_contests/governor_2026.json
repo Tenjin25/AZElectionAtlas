@@ -1,0 +1,172 @@
+{
+  "year": 2026,
+  "contest_type": "governor",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 18164,
+      "rep_votes": 7833,
+      "other_votes": 846,
+      "total_votes": 26843,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": -10331,
+      "margin_pct": -38.4868,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 21005,
+      "rep_votes": 24197,
+      "other_votes": 1158,
+      "total_votes": 46360,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 3192,
+      "margin_pct": 6.8852,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 37569,
+      "rep_votes": 16462,
+      "other_votes": 1498,
+      "total_votes": 55529,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": -21107,
+      "margin_pct": -38.0108,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 7620,
+      "rep_votes": 12786,
+      "other_votes": 478,
+      "total_votes": 20884,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 5166,
+      "margin_pct": 24.7366,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3504,
+      "rep_votes": 6651,
+      "other_votes": 240,
+      "total_votes": 10395,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 3147,
+      "margin_pct": 30.2742,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 884,
+      "rep_votes": 1116,
+      "other_votes": 67,
+      "total_votes": 2067,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 232,
+      "margin_pct": 11.224,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1758,
+      "rep_votes": 3392,
+      "other_votes": 127,
+      "total_votes": 5277,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 1634,
+      "margin_pct": 30.9646,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 881998,
+      "rep_votes": 630966,
+      "other_votes": 26549,
+      "total_votes": 1539513,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": -251032,
+      "margin_pct": -16.3059,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 21355,
+      "rep_votes": 56034,
+      "other_votes": 1669,
+      "total_votes": 79058,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 34679,
+      "margin_pct": 43.8653,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 19138,
+      "rep_votes": 19724,
+      "other_votes": 1109,
+      "total_votes": 39971,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 586,
+      "margin_pct": 1.4661,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 264440,
+      "rep_votes": 136914,
+      "other_votes": 8831,
+      "total_votes": 410185,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": -127526,
+      "margin_pct": -31.0899,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 76211,
+      "rep_votes": 80729,
+      "other_votes": 3387,
+      "total_votes": 160327,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 4518,
+      "margin_pct": 2.818,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 9993,
+      "rep_votes": 3731,
+      "other_votes": 337,
+      "total_votes": 14061,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": -6262,
+      "margin_pct": -44.5345,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 46024,
+      "rep_votes": 72354,
+      "other_votes": 2301,
+      "total_votes": 120679,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": 26330,
+      "margin_pct": 21.8182,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 25161,
+      "rep_votes": 21504,
+      "other_votes": 1333,
+      "total_votes": 47998,
+      "dem_candidate": "Katie Hobbs",
+      "rep_candidate": "Andy Biggs",
+      "margin": -3657,
+      "margin_pct": -7.6191,
+      "winner": "DEM"
+    }
+  }
+}

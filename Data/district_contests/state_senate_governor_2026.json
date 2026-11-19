@@ -1,0 +1,339 @@
+{
+  "year": 2026,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 46471,
+        "rep_votes": 71782,
+        "other_votes": 2312,
+        "total_votes": 120565,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 25311,
+        "margin_pct": 20.9937,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 45157,
+        "rep_votes": 32250,
+        "other_votes": 1560,
+        "total_votes": 78967,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -12907,
+        "margin_pct": -16.3448,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 56224,
+        "rep_votes": 74428,
+        "other_votes": 1250,
+        "total_votes": 131902,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 18204,
+        "margin_pct": 13.8012,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 65943,
+        "rep_votes": 52237,
+        "other_votes": 1307,
+        "total_votes": 119487,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -13706,
+        "margin_pct": -11.4707,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 62389,
+        "rep_votes": 17532,
+        "other_votes": 1384,
+        "total_votes": 81305,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -44857,
+        "margin_pct": -55.1713,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 57339,
+        "rep_votes": 20208,
+        "other_votes": 2497,
+        "total_votes": 80044,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -37131,
+        "margin_pct": -46.3882,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 41543,
+        "rep_votes": 57125,
+        "other_votes": 2191,
+        "total_votes": 100859,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 15582,
+        "margin_pct": 15.4493,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 47179,
+        "rep_votes": 18462,
+        "other_votes": 1249,
+        "total_votes": 66890,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -28717,
+        "margin_pct": -42.9317,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 38477,
+        "rep_votes": 21884,
+        "other_votes": 1486,
+        "total_votes": 61847,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -16593,
+        "margin_pct": -26.8291,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 42533,
+        "rep_votes": 44861,
+        "other_votes": 1691,
+        "total_votes": 89085,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 2328,
+        "margin_pct": 2.6132,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 46127,
+        "rep_votes": 9765,
+        "other_votes": 1299,
+        "total_votes": 57191,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -36362,
+        "margin_pct": -63.5799,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 64136,
+        "rep_votes": 31336,
+        "other_votes": 1683,
+        "total_votes": 97155,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -32800,
+        "margin_pct": -33.7605,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 53670,
+        "rep_votes": 37752,
+        "other_votes": 1305,
+        "total_votes": 92727,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -15918,
+        "margin_pct": -17.1665,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 48364,
+        "rep_votes": 46063,
+        "other_votes": 1505,
+        "total_votes": 95932,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -2301,
+        "margin_pct": -2.3986,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 45913,
+        "rep_votes": 56884,
+        "other_votes": 1879,
+        "total_votes": 104676,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 10971,
+        "margin_pct": 10.4809,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 44901,
+        "rep_votes": 36076,
+        "other_votes": 1941,
+        "total_votes": 82918,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -8825,
+        "margin_pct": -10.643,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 72503,
+        "rep_votes": 57761,
+        "other_votes": 2167,
+        "total_votes": 132431,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -14742,
+        "margin_pct": -11.1318,
+        "winner": "DEM"
+      },
+      "18": {
+        "dem_votes": 73759,
+        "rep_votes": 32518,
+        "other_votes": 2017,
+        "total_votes": 108294,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -41241,
+        "margin_pct": -38.0824,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 42740,
+        "rep_votes": 48648,
+        "other_votes": 2068,
+        "total_votes": 93456,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 5908,
+        "margin_pct": 6.3217,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 50198,
+        "rep_votes": 10721,
+        "other_votes": 1754,
+        "total_votes": 62673,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -39477,
+        "margin_pct": -62.9888,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 46976,
+        "rep_votes": 18980,
+        "other_votes": 1994,
+        "total_votes": 67950,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -27996,
+        "margin_pct": -41.2009,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 40116,
+        "rep_votes": 11384,
+        "other_votes": 1242,
+        "total_votes": 52742,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -28732,
+        "margin_pct": -54.4765,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 38358,
+        "rep_votes": 20292,
+        "other_votes": 1650,
+        "total_votes": 60300,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -18066,
+        "margin_pct": -29.9602,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 29511,
+        "rep_votes": 8886,
+        "other_votes": 1062,
+        "total_votes": 39459,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -20625,
+        "margin_pct": -52.2694,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 41617,
+        "rep_votes": 47739,
+        "other_votes": 1729,
+        "total_votes": 91085,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 6122,
+        "margin_pct": 6.7212,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 28411,
+        "rep_votes": 7232,
+        "other_votes": 907,
+        "total_votes": 36550,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -21179,
+        "margin_pct": -57.9453,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 41599,
+        "rep_votes": 32982,
+        "other_votes": 1684,
+        "total_votes": 76265,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -8617,
+        "margin_pct": -11.2988,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 51778,
+        "rep_votes": 61163,
+        "other_votes": 1693,
+        "total_votes": 114634,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 9385,
+        "margin_pct": 8.1869,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 46570,
+        "rep_votes": 44437,
+        "other_votes": 1576,
+        "total_votes": 92583,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": -2133,
+        "margin_pct": -2.3039,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 24322,
+        "rep_votes": 63005,
+        "other_votes": 1848,
+        "total_votes": 89175,
+        "dem_candidate": "Katie Hobbs",
+        "rep_candidate": "Andy Biggs",
+        "margin": 38683,
+        "margin_pct": 43.3787,
+        "winner": "REP"
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "year": 2026,
+  "scope": "congressional",
+  "contest_type": "superintendent",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 176437,
+        "rep_votes": 167351,
+        "other_votes": 302,
+        "total_votes": 344090,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -9086,
+        "margin_pct": -2.6406,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 153616,
+        "rep_votes": 170597,
+        "other_votes": 449,
+        "total_votes": 324662,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 16981,
+        "margin_pct": 5.2304,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 127091,
+        "rep_votes": 28828,
+        "other_votes": 214,
+        "total_votes": 156133,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -98263,
+        "margin_pct": -62.9354,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 150705,
+        "rep_votes": 100215,
+        "other_votes": 291,
+        "total_votes": 251211,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -50490,
+        "margin_pct": -20.0986,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 147901,
+        "rep_votes": 172263,
+        "other_votes": 325,
+        "total_votes": 320489,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 24362,
+        "margin_pct": 7.6015,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 189438,
+        "rep_votes": 164242,
+        "other_votes": 505,
+        "total_votes": 354185,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -25196,
+        "margin_pct": -7.1138,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 145770,
+        "rep_votes": 58566,
+        "other_votes": 257,
+        "total_votes": 204593,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": -87204,
+        "margin_pct": -42.6232,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 135492,
+        "rep_votes": 150980,
+        "other_votes": 312,
+        "total_votes": 286784,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 15488,
+        "margin_pct": 5.4006,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 119683,
+        "rep_votes": 167278,
+        "other_votes": 330,
+        "total_votes": 287291,
+        "dem_candidate": "Teresa Leyba Ruiz",
+        "rep_candidate": "Kimberly Yee",
+        "margin": 47595,
+        "margin_pct": 16.5668,
+        "winner": "REP"
+      }
+    }
+  }
+}

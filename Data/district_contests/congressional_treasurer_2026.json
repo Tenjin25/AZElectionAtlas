@@ -1,0 +1,108 @@
+{
+  "year": 2026,
+  "scope": "congressional",
+  "contest_type": "treasurer",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 181541,
+        "rep_votes": 163010,
+        "other_votes": 273,
+        "total_votes": 344824,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": -18531,
+        "margin_pct": -5.374,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 153579,
+        "rep_votes": 169367,
+        "other_votes": 405,
+        "total_votes": 323351,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": 15788,
+        "margin_pct": 4.8826,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 127961,
+        "rep_votes": 27748,
+        "other_votes": 133,
+        "total_votes": 155842,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": -100213,
+        "margin_pct": -64.3042,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 152628,
+        "rep_votes": 98065,
+        "other_votes": 203,
+        "total_votes": 250896,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": -54563,
+        "margin_pct": -21.7473,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 149642,
+        "rep_votes": 169513,
+        "other_votes": 241,
+        "total_votes": 319396,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": 19871,
+        "margin_pct": 6.2214,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 191908,
+        "rep_votes": 161557,
+        "other_votes": 353,
+        "total_votes": 353818,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": -30351,
+        "margin_pct": -8.5781,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 145577,
+        "rep_votes": 58160,
+        "other_votes": 217,
+        "total_votes": 203954,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": -87417,
+        "margin_pct": -42.8611,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 137050,
+        "rep_votes": 148873,
+        "other_votes": 206,
+        "total_votes": 286129,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": 11823,
+        "margin_pct": 4.1321,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 120131,
+        "rep_votes": 166607,
+        "other_votes": 231,
+        "total_votes": 286969,
+        "dem_candidate": "Nick Mansour",
+        "rep_candidate": "Elijah Norton",
+        "margin": 46476,
+        "margin_pct": 16.1955,
+        "winner": "REP"
+      }
+    }
+  }
+}

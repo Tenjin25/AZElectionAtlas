@@ -321,6 +321,41 @@
       "file": "president_2024.json",
       "rows": 15,
       "scope": "county"
+    },
+    {
+      "year": 2026,
+      "contest_type": "governor",
+      "file": "governor_2026.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2026,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2026.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2026,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2026.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2026,
+      "contest_type": "treasurer",
+      "file": "treasurer_2026.json",
+      "rows": 15,
+      "scope": "county"
+    },
+    {
+      "year": 2026,
+      "contest_type": "superintendent",
+      "file": "superintendent_2026.json",
+      "rows": 15,
+      "scope": "county"
     }
   ]
 }

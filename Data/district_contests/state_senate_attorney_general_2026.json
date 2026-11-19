@@ -1,0 +1,339 @@
+{
+  "year": 2026,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 45568,
+        "rep_votes": 72809,
+        "other_votes": 91,
+        "total_votes": 118468,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 27241,
+        "margin_pct": 22.9944,
+        "winner": "REP"
+      },
+      "2": {
+        "dem_votes": 44810,
+        "rep_votes": 33113,
+        "other_votes": 49,
+        "total_votes": 77972,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -11697,
+        "margin_pct": -15.0015,
+        "winner": "DEM"
+      },
+      "3": {
+        "dem_votes": 53780,
+        "rep_votes": 75529,
+        "other_votes": 90,
+        "total_votes": 129399,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 21749,
+        "margin_pct": 16.8077,
+        "winner": "REP"
+      },
+      "4": {
+        "dem_votes": 63914,
+        "rep_votes": 53636,
+        "other_votes": 56,
+        "total_votes": 117606,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -10278,
+        "margin_pct": -8.7394,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 61867,
+        "rep_votes": 18525,
+        "other_votes": 61,
+        "total_votes": 80453,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -43342,
+        "margin_pct": -53.8724,
+        "winner": "DEM"
+      },
+      "6": {
+        "dem_votes": 57008,
+        "rep_votes": 22082,
+        "other_votes": 107,
+        "total_votes": 79197,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -34926,
+        "margin_pct": -44.1002,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 40797,
+        "rep_votes": 58967,
+        "other_votes": 70,
+        "total_votes": 99834,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 18170,
+        "margin_pct": 18.2002,
+        "winner": "REP"
+      },
+      "8": {
+        "dem_votes": 46568,
+        "rep_votes": 19192,
+        "other_votes": 57,
+        "total_votes": 65817,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -27376,
+        "margin_pct": -41.5941,
+        "winner": "DEM"
+      },
+      "9": {
+        "dem_votes": 37877,
+        "rep_votes": 22877,
+        "other_votes": 49,
+        "total_votes": 60803,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -15000,
+        "margin_pct": -24.6698,
+        "winner": "DEM"
+      },
+      "10": {
+        "dem_votes": 41301,
+        "rep_votes": 46447,
+        "other_votes": 80,
+        "total_votes": 87828,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 5146,
+        "margin_pct": 5.8592,
+        "winner": "REP"
+      },
+      "11": {
+        "dem_votes": 46111,
+        "rep_votes": 10336,
+        "other_votes": 28,
+        "total_votes": 56475,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -35775,
+        "margin_pct": -63.3466,
+        "winner": "DEM"
+      },
+      "12": {
+        "dem_votes": 63164,
+        "rep_votes": 32478,
+        "other_votes": 54,
+        "total_votes": 95696,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -30686,
+        "margin_pct": -32.0661,
+        "winner": "DEM"
+      },
+      "13": {
+        "dem_votes": 52518,
+        "rep_votes": 38814,
+        "other_votes": 51,
+        "total_votes": 91383,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -13704,
+        "margin_pct": -14.9962,
+        "winner": "DEM"
+      },
+      "14": {
+        "dem_votes": 47413,
+        "rep_votes": 47216,
+        "other_votes": 70,
+        "total_votes": 94699,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -197,
+        "margin_pct": -0.208,
+        "winner": "DEM"
+      },
+      "15": {
+        "dem_votes": 45179,
+        "rep_votes": 58539,
+        "other_votes": 76,
+        "total_votes": 103794,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 13360,
+        "margin_pct": 12.8716,
+        "winner": "REP"
+      },
+      "16": {
+        "dem_votes": 44897,
+        "rep_votes": 37476,
+        "other_votes": 72,
+        "total_votes": 82445,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -7421,
+        "margin_pct": -9.0012,
+        "winner": "DEM"
+      },
+      "17": {
+        "dem_votes": 70669,
+        "rep_votes": 60285,
+        "other_votes": 101,
+        "total_votes": 131055,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -10384,
+        "margin_pct": -7.9234,
+        "winner": "DEM"
+      },
+      "18": {
+        "dem_votes": 72388,
+        "rep_votes": 34366,
+        "other_votes": 98,
+        "total_votes": 106852,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -38022,
+        "margin_pct": -35.5838,
+        "winner": "DEM"
+      },
+      "19": {
+        "dem_votes": 41747,
+        "rep_votes": 50800,
+        "other_votes": 99,
+        "total_votes": 92646,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 9053,
+        "margin_pct": 9.7716,
+        "winner": "REP"
+      },
+      "20": {
+        "dem_votes": 50516,
+        "rep_votes": 11561,
+        "other_votes": 48,
+        "total_votes": 62125,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -38955,
+        "margin_pct": -62.7042,
+        "winner": "DEM"
+      },
+      "21": {
+        "dem_votes": 47219,
+        "rep_votes": 20133,
+        "other_votes": 87,
+        "total_votes": 67439,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -27086,
+        "margin_pct": -40.1637,
+        "winner": "DEM"
+      },
+      "22": {
+        "dem_votes": 40382,
+        "rep_votes": 12034,
+        "other_votes": 38,
+        "total_votes": 52454,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -28348,
+        "margin_pct": -54.0435,
+        "winner": "DEM"
+      },
+      "23": {
+        "dem_votes": 38305,
+        "rep_votes": 21392,
+        "other_votes": 48,
+        "total_votes": 59745,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -16913,
+        "margin_pct": -28.3086,
+        "winner": "DEM"
+      },
+      "24": {
+        "dem_votes": 29711,
+        "rep_votes": 9418,
+        "other_votes": 39,
+        "total_votes": 39168,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -20293,
+        "margin_pct": -51.8102,
+        "winner": "DEM"
+      },
+      "25": {
+        "dem_votes": 40855,
+        "rep_votes": 49274,
+        "other_votes": 49,
+        "total_votes": 90178,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 8419,
+        "margin_pct": 9.336,
+        "winner": "REP"
+      },
+      "26": {
+        "dem_votes": 28467,
+        "rep_votes": 7719,
+        "other_votes": 35,
+        "total_votes": 36221,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -20748,
+        "margin_pct": -57.2817,
+        "winner": "DEM"
+      },
+      "27": {
+        "dem_votes": 41348,
+        "rep_votes": 34241,
+        "other_votes": 37,
+        "total_votes": 75626,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -7107,
+        "margin_pct": -9.3976,
+        "winner": "DEM"
+      },
+      "28": {
+        "dem_votes": 50316,
+        "rep_votes": 62725,
+        "other_votes": 67,
+        "total_votes": 113108,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 12409,
+        "margin_pct": 10.9709,
+        "winner": "REP"
+      },
+      "29": {
+        "dem_votes": 45873,
+        "rep_votes": 45793,
+        "other_votes": 57,
+        "total_votes": 91723,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": -80,
+        "margin_pct": -0.0872,
+        "winner": "DEM"
+      },
+      "30": {
+        "dem_votes": 23674,
+        "rep_votes": 64660,
+        "other_votes": 59,
+        "total_votes": 88393,
+        "dem_candidate": "Kris Mayes",
+        "rep_candidate": "Warren Petersen",
+        "margin": 40986,
+        "margin_pct": 46.3679,
+        "winner": "REP"
+      }
+    }
+  }
+}

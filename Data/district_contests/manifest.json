@@ -755,6 +755,132 @@
       "file": "state_senate_president_2008.json",
       "rows": 30,
       "scope": "state_senate"
+    },
+    {
+      "year": 2026,
+      "contest_type": "governor",
+      "file": "congressional_governor_2026.json",
+      "rows": 9,
+      "scope": "congressional"
+    },
+    {
+      "year": 2026,
+      "contest_type": "governor",
+      "file": "state_house_governor_2026.json",
+      "rows": 30,
+      "scope": "state_house"
+    },
+    {
+      "year": 2026,
+      "contest_type": "governor",
+      "file": "state_senate_governor_2026.json",
+      "rows": 30,
+      "scope": "state_senate"
+    },
+    {
+      "year": 2026,
+      "contest_type": "secretary_of_state",
+      "file": "congressional_secretary_of_state_2026.json",
+      "rows": 9,
+      "scope": "congressional"
+    },
+    {
+      "year": 2026,
+      "contest_type": "secretary_of_state",
+      "file": "state_house_secretary_of_state_2026.json",
+      "rows": 30,
+      "scope": "state_house"
+    },
+    {
+      "year": 2026,
+      "contest_type": "secretary_of_state",
+      "file": "state_senate_secretary_of_state_2026.json",
+      "rows": 30,
+      "scope": "state_senate"
+    },
+    {
+      "year": 2026,
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2026.json",
+      "rows": 9,
+      "scope": "congressional"
+    },
+    {
+      "year": 2026,
+      "contest_type": "attorney_general",
+      "file": "state_house_attorney_general_2026.json",
+      "rows": 30,
+      "scope": "state_house"
+    },
+    {
+      "year": 2026,
+      "contest_type": "attorney_general",
+      "file": "state_senate_attorney_general_2026.json",
+      "rows": 30,
+      "scope": "state_senate"
+    },
+    {
+      "year": 2026,
+      "contest_type": "treasurer",
+      "file": "congressional_treasurer_2026.json",
+      "rows": 9,
+      "scope": "congressional"
+    },
+    {
+      "year": 2026,
+      "contest_type": "treasurer",
+      "file": "state_house_treasurer_2026.json",
+      "rows": 30,
+      "scope": "state_house"
+    },
+    {
+      "year": 2026,
+      "contest_type": "treasurer",
+      "file": "state_senate_treasurer_2026.json",
+      "rows": 30,
+      "scope": "state_senate"
+    },
+    {
+      "year": 2026,
+      "contest_type": "superintendent",
+      "file": "congressional_superintendent_2026.json",
+      "rows": 9,
+      "scope": "congressional"
+    },
+    {
+      "year": 2026,
+      "contest_type": "superintendent",
+      "file": "state_house_superintendent_2026.json",
+      "rows": 30,
+      "scope": "state_house"
+    },
+    {
+      "year": 2026,
+      "contest_type": "superintendent",
+      "file": "state_senate_superintendent_2026.json",
+      "rows": 30,
+      "scope": "state_senate"
+    },
+    {
+      "year": 2026,
+      "contest_type": "us_house",
+      "file": "congressional_us_house_2026.json",
+      "rows": 9,
+      "scope": "congressional"
+    },
+    {
+      "year": 2026,
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2026.json",
+      "rows": 30,
+      "scope": "state_senate"
+    },
+    {
+      "year": 2026,
+      "contest_type": "state_house",
+      "file": "state_house_state_house_2026.json",
+      "rows": 30,
+      "scope": "state_house"
     }
   ]
 }

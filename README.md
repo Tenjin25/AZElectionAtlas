@@ -76,3 +76,11 @@ Shift retains its 15-step diverging spectrum and separates Democratic and Republ
 ## Change history
 
 See [CHANGELOG.md](CHANGELOG.md) for dated interface and data updates.
+
+## 2026 general election county and district results
+
+The county and district manifests include the unofficial November 19, 2026 Arizona general election export. County slices cover Governor, Secretary of State, Attorney General, Treasurer, and Superintendent of Public Instruction. District slices also cover U.S. House, State Senate, and State House. These JSON files use the same layouts as the historical contest slices.
+
+The source export assigns each reported precinct to one congressional and one legislative district. The aggregation script validates precinct, county, statewide, and district totals before the publishing script writes the slices. The 2026 precinct layer is deferred until current polygons are verified across all counties. Governor candidate labels show only the governor's name.
+
+To regenerate, download the [Arizona election export](https://app.enhancedvoting.com/cdn/results/Arizona/export-110326GeneralElection.json) to `Data/export-110326GeneralElection.json`, then run `python scripts/aggregate_2026_preview.py --source Data/export-110326GeneralElection.json` and `python scripts/publish_2026_atlas_slices.py`. The raw snapshot and preview JSON are local inputs; the published atlas loads the county and district slices.

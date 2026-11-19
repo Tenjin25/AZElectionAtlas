@@ -1,0 +1,108 @@
+{
+  "year": 2026,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 185813,
+        "rep_votes": 161118,
+        "other_votes": 7972,
+        "total_votes": 354903,
+        "dem_candidate": "Amish Shah",
+        "rep_candidate": "Thomas \"Jay\" Feely IV",
+        "margin": -24695,
+        "margin_pct": -6.9582,
+        "winner": "DEM"
+      },
+      "2": {
+        "dem_votes": 160084,
+        "rep_votes": 163530,
+        "other_votes": 6243,
+        "total_votes": 329857,
+        "dem_candidate": "Jonathan Nez",
+        "rep_candidate": "Eli Crane",
+        "margin": 3446,
+        "margin_pct": 1.0447,
+        "winner": "REP"
+      },
+      "3": {
+        "dem_votes": 130716,
+        "rep_votes": 0,
+        "other_votes": 20156,
+        "total_votes": 150872,
+        "dem_candidate": "Yassamin Ansari",
+        "rep_candidate": "",
+        "margin": -130716,
+        "margin_pct": -86.6403,
+        "winner": "DEM"
+      },
+      "4": {
+        "dem_votes": 159251,
+        "rep_votes": 89811,
+        "other_votes": 6549,
+        "total_votes": 255611,
+        "dem_candidate": "Greg Stanton",
+        "rep_candidate": "Zuhdi Jasser",
+        "margin": -69440,
+        "margin_pct": -27.1663,
+        "winner": "DEM"
+      },
+      "5": {
+        "dem_votes": 157036,
+        "rep_votes": 167969,
+        "other_votes": 569,
+        "total_votes": 325574,
+        "dem_candidate": "Elizabeth Lee",
+        "rep_candidate": "Mark Lamb",
+        "margin": 10933,
+        "margin_pct": 3.3581,
+        "winner": "REP"
+      },
+      "6": {
+        "dem_votes": 190058,
+        "rep_votes": 160972,
+        "other_votes": 8194,
+        "total_votes": 359224,
+        "dem_candidate": "JoAnna Mendoza",
+        "rep_candidate": "Juan Ciscomani",
+        "margin": -29086,
+        "margin_pct": -8.0969,
+        "winner": "DEM"
+      },
+      "7": {
+        "dem_votes": 148177,
+        "rep_votes": 57712,
+        "other_votes": 374,
+        "total_votes": 206263,
+        "dem_candidate": "Adelita Grijalva",
+        "rep_candidate": "Daniel Francis Butierez Sr.",
+        "margin": -90465,
+        "margin_pct": -43.8591,
+        "winner": "DEM"
+      },
+      "8": {
+        "dem_votes": 140203,
+        "rep_votes": 147023,
+        "other_votes": 601,
+        "total_votes": 287827,
+        "dem_candidate": "Bernadette Greene-Placentia",
+        "rep_candidate": "Abraham \"Abe\" Hamadeh",
+        "margin": 6820,
+        "margin_pct": 2.3695,
+        "winner": "REP"
+      },
+      "9": {
+        "dem_votes": 123129,
+        "rep_votes": 166469,
+        "other_votes": 389,
+        "total_votes": 289987,
+        "dem_candidate": "Danielle \"Dani\" Sterbinsky",
+        "rep_candidate": "Paul Gosar",
+        "margin": 43340,
+        "margin_pct": 14.9455,
+        "winner": "REP"
+      }
+    }
+  }
+}

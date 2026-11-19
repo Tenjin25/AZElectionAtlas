@@ -1,0 +1,172 @@
+{
+  "year": 2026,
+  "contest_type": "superintendent",
+  "scope": "county",
+  "county_totals": {
+    "Apache": {
+      "dem_votes": 17691,
+      "rep_votes": 8756,
+      "other_votes": 67,
+      "total_votes": 26514,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -8935,
+      "margin_pct": -33.6992,
+      "winner": "DEM"
+    },
+    "Cochise": {
+      "dem_votes": 19406,
+      "rep_votes": 26282,
+      "other_votes": 86,
+      "total_votes": 45774,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 6876,
+      "margin_pct": 15.0216,
+      "winner": "REP"
+    },
+    "Coconino": {
+      "dem_votes": 36297,
+      "rep_votes": 18335,
+      "other_votes": 57,
+      "total_votes": 54689,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -17962,
+      "margin_pct": -32.8439,
+      "winner": "DEM"
+    },
+    "Gila": {
+      "dem_votes": 6992,
+      "rep_votes": 13640,
+      "other_votes": 25,
+      "total_votes": 20657,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 6648,
+      "margin_pct": 32.1828,
+      "winner": "REP"
+    },
+    "Graham": {
+      "dem_votes": 3234,
+      "rep_votes": 7087,
+      "other_votes": 18,
+      "total_votes": 10339,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 3853,
+      "margin_pct": 37.2667,
+      "winner": "REP"
+    },
+    "Greenlee": {
+      "dem_votes": 867,
+      "rep_votes": 1174,
+      "other_votes": 2,
+      "total_votes": 2043,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 307,
+      "margin_pct": 15.0269,
+      "winner": "REP"
+    },
+    "La Paz": {
+      "dem_votes": 1624,
+      "rep_votes": 3577,
+      "other_votes": 13,
+      "total_votes": 5214,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 1953,
+      "margin_pct": 37.4568,
+      "winner": "REP"
+    },
+    "Maricopa": {
+      "dem_votes": 822333,
+      "rep_votes": 680943,
+      "other_votes": 1589,
+      "total_votes": 1504865,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -141390,
+      "margin_pct": -9.3955,
+      "winner": "DEM"
+    },
+    "Mohave": {
+      "dem_votes": 19669,
+      "rep_votes": 58245,
+      "other_votes": 98,
+      "total_votes": 78012,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 38576,
+      "margin_pct": 49.4488,
+      "winner": "REP"
+    },
+    "Navajo": {
+      "dem_votes": 18221,
+      "rep_votes": 21048,
+      "other_votes": 81,
+      "total_votes": 39350,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 2827,
+      "margin_pct": 7.1842,
+      "winner": "REP"
+    },
+    "Pima": {
+      "dem_votes": 251294,
+      "rep_votes": 152061,
+      "other_votes": 546,
+      "total_votes": 403901,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -99233,
+      "margin_pct": -24.5686,
+      "winner": "DEM"
+    },
+    "Pinal": {
+      "dem_votes": 72140,
+      "rep_votes": 86487,
+      "other_votes": 223,
+      "total_votes": 158850,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 14347,
+      "margin_pct": 9.0318,
+      "winner": "REP"
+    },
+    "Santa Cruz": {
+      "dem_votes": 9939,
+      "rep_votes": 4007,
+      "other_votes": 11,
+      "total_votes": 13957,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -5932,
+      "margin_pct": -42.502,
+      "winner": "DEM"
+    },
+    "Yavapai": {
+      "dem_votes": 42078,
+      "rep_votes": 75605,
+      "other_votes": 120,
+      "total_votes": 117803,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": 33527,
+      "margin_pct": 28.4602,
+      "winner": "REP"
+    },
+    "Yuma": {
+      "dem_votes": 24348,
+      "rep_votes": 23073,
+      "other_votes": 49,
+      "total_votes": 47470,
+      "dem_candidate": "Teresa Leyba Ruiz",
+      "rep_candidate": "Kimberly Yee",
+      "margin": -1275,
+      "margin_pct": -2.6859,
+      "winner": "DEM"
+    }
+  }
+}
